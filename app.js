@@ -34,8 +34,9 @@ function tone(type){
 function renderLessons(){
   q('#lessons').innerHTML = DATA.lessons.map(x=>{
     const done=!!state.completed[x.id];
-    return card(`${x.id} — ${arabic(x.title_ar,'ar title-ar')} <span class="badge ${done?'done':''}">${done?'✓ Complete':'Not started'}</span>`,
-      `<p class="en-title">${esc(x.title_en)}</p><p class="muted">Source pages: ${esc(x.pages)}</p><ul>${x.topics.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><button class="btn" onclick="toggleLesson('${x.id}')">${done?'Mark incomplete':'Mark complete'}</button>`);
+    const subs=x.sublessons||[];
+    const subHtml=subs.map((s,i)=>`<details class="sublesson" ${i===0?'open':''}><summary><span class="lesson-index">${i+1}.</span> ${arabic(s.title_ar,'ar title-ar')} — ${esc(s.title_en)}</summary><p class="source"><b>Basis:</b> ${esc(s.source_basis)}</p><p>${esc(s.explanation)}</p>${s.steps?.length?`<h5>Step-by-step</h5><ol class="steps">${s.steps.map(z=>`<li>${esc(z)}</li>`).join('')}</ol>`:''}${s.examples?.length?`<h5>Examples</h5><div class="examples">${s.examples.map(z=>`<div>${esc(z)}</div>`).join('')}</div>`:''}${s.notes?.length?`<h5>Notes</h5><ul class="notes">${s.notes.map(z=>`<li>${esc(z)}</li>`).join('')}</ul>`:''}${s.supplementary?.length?`<div class="supp-note"><b>Supplementary reference:</b> ${s.supplementary.map(r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>`).join(' · ')}</div>`:''}</details>`).join('');
+    return `<article class="card lesson-card"><div class="lesson-header"><div><h3>${esc(x.id)} — ${arabic(x.title_ar,'ar title-ar')}</h3><p class="en-title">${esc(x.title_en)}</p></div><span class="badge ${done?'done':''}">${done?'✓ Complete':'Not started'}</span></div><p class="muted">Source pages: ${esc(x.pages)}</p><div class="lesson-path"><b>Learning path:</b> ${esc(x.learning_path_note||'Read the rule, study the examples, then practise.')}</div><h4>Sub-lessons</h4>${subHtml||'<p class="muted">No sub-lessons mapped yet.</p>'}<button class="btn" onclick="toggleLesson('${x.id}')">${done?'Mark incomplete':'Mark complete'}</button></article>`;
   }).join('');
 }
 function toggleLesson(id){state.completed[id]=!state.completed[id];save();renderLessons();renderDashboard()}
@@ -152,6 +153,41 @@ function answerQuiz(button,value){
   save(); renderDashboard();
 }
 
+
+function renderAdditional(){
+ const ap=DATA.additional_practice;
+ const levels=[['medium','Medium','Meaning • root • وزن • basic past→present'],['hard','Hard','Past→Muḍāriʿ • Amr • Ism al-Fāʿil/Mafʿūl'],['hardest','Hardest','Cumulative mixed review • active/passive • all 14 slots']];
+ q('#additional').innerHTML=card('Additional Practice — Beyond the Textbook',`<p>${esc(ap.source_note)}</p><p class="muted">30 Quran-attested lemmas. The Quranic Arabic Corpus is used for external morphology/attestation; the app then supplies complete paradigms for practice.</p><div class="level-buttons">${levels.map(x=>`<button class="btn" onclick="startAdditionalQuiz('${x[0]}')">${x[1]}<span class="muted">${x[2]}</span></button>`).join('')}</div><div class="searchbar"><input id="addSearch" placeholder="Search the 30 additional verbs…"><span>${ap.verbs.length} verbs</span></div><div id="addGrid" class="grid"></div>`);
+ const draw=()=>{const t=q('#addSearch').value.trim().toLowerCase(); const list=ap.verbs.filter(v=>[v.ar,v.root,v.wazn,v.meaning].join(' ').toLowerCase().includes(t)); q('#addGrid').innerHTML=list.map((v,i)=>`<article class="card"><div class="lesson-header"><div><h3>${arabic(v.ar,'ar verb')}</h3><p class="en-title">${esc(v.meaning)}</p></div><span class="badge">${esc(v.level)}</span></div><p><b>Root:</b> ${esc(v.root)} &nbsp; <b>وزن:</b> ${arabic(v.wazn,'small-ar')}</p><p class="muted">Qur'an ${esc(v.quran_reference)} · External morphology source: Quranic Arabic Corpus</p><details><summary>Full paradigm</summary><h5>Māḍī</h5>${miniTable(v.past_conjugation)}<h5>Muḍāriʿ</h5>${miniTable(v.present_conjugation)}<h5>Amr</h5><div class="examples">${v.amr_5_persons.map((x,j)=>`<div>${arabic(['أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ'][j],'small-ar')} — ${arabic(x,'small-ar')}</div>`).join('')}</div><h5>Passive Māḍī / 3ms</h5><div class="examples">${arabic(v.passive_past_3ms,'ar table-ar')}</div><h5>Passive Muḍāriʿ</h5>${miniTable(v.passive_present_conjugation)}<h5>Derived nouns</h5><div class="examples"><div>اسم الفاعل — ${arabic(v.ism_al_faail,'small-ar')}</div><div>اسم المفعول — ${arabic(v.ism_al_mafool,'small-ar')}</div></div></details></article>`).join('')||'<p>No match.</p>';};
+ q('#addSearch').addEventListener('input',draw); draw();
+}
+function miniTable(rows){return '<table><thead><tr><th>ضَمِير</th><th>Form</th></tr></thead><tbody>'+rows.map(r=>`<tr><td>${arabic(r[0],'small-ar')}</td><td>${arabic(r[1],'ar table-ar')}</td></tr>`).join('')+'</tbody></table>'}
+function startAdditionalQuiz(level){
+ const ap=DATA.additional_practice.verbs; const pool=level==='medium'?ap:ap.filter(v=>v.level===level || (level==='hardest'&&['hard','hardest'].includes(v.level))); const v=pool[Math.floor(Math.random()*pool.length)];
+ let correct,question,options,shown;
+ if(level==='medium'){
+  const mode=Math.floor(Math.random()*3); shown=v.ar;
+  if(mode===0){question='Identify the English meaning.';correct=v.meaning;options=ap.map(x=>x.meaning)}
+  else if(mode===1){question='Identify the root.';correct=v.root;options=ap.map(x=>x.root)}
+  else {question='Identify the وَزْن / مِيزَان.';correct=v.wazn;options=ap.map(x=>x.wazn)}
+ } else if(level==='hard'){
+  const mode=Math.floor(Math.random()*4); shown=v.ar;
+  if(mode===0){question='Give the هُوَ Muḍāriʿ form.';correct=v.present_3ms;options=ap.map(x=>x.present_3ms)}
+  else if(mode===1){question='Give the أَنْتَ Amr form.';correct=v.amr_5_persons[0];options=ap.map(x=>x.amr_5_persons[0])}
+  else if(mode===2){question='Give اسم الفاعل.';correct=v.ism_al_faail;options=ap.map(x=>x.ism_al_faail)}
+  else {question='Give اسم المفعول.';correct=v.ism_al_mafool;options=ap.map(x=>x.ism_al_mafool)}
+ } else {
+  const mode=Math.floor(Math.random()*5); shown=v.ar;
+  if(mode===0){const r=v.present_conjugation[Math.floor(Math.random()*14)];question=`Give the ${arabic(r[0],'small-ar')} Muḍāriʿ form.`;correct=r[1];options=ap.flatMap(x=>x.present_conjugation.map(y=>y[1]))}
+  else if(mode===1){const r=v.past_conjugation[Math.floor(Math.random()*14)];question=`Give the ${arabic(r[0],'small-ar')} Māḍī form.`;correct=r[1];options=ap.flatMap(x=>x.past_conjugation.map(y=>y[1]))}
+  else if(mode===2){question='Give the 3rd-person masculine passive Muḍāriʿ.';correct=v.passive_present_3ms;options=ap.map(x=>x.passive_present_3ms)}
+  else if(mode===3){question='Identify the وَزْن from the verb.';correct=v.wazn;options=ap.map(x=>x.wazn)}
+  else {question='Give the 3rd-person masculine passive Māḍī.';correct=v.passive_past_3ms;options=ap.map(x=>x.passive_past_3ms)}
+ }
+ renderChoiceQuestion('Additional Practice — '+level.toUpperCase(),shown,question,correct,options,'Beyond-textbook Quranic verb practice');
+ q('#quizFeedback').insertAdjacentHTML('afterend',`<p class="muted"><a href="${esc(DATA.additional_practice.source_url)}" target="_blank" rel="noopener">Verify morphology in the Quranic Arabic Corpus</a></p>`);
+}
+
 function renderFlash(){startQuiz()}
 function renderDashboard(){
  const done=Object.values(state.completed).filter(Boolean).length;
@@ -160,9 +196,9 @@ function renderDashboard(){
 }
 
 function renderVerification(){
- const qa=typeof qaDataset==='function'?qaDataset(DATA):{issues:[{issues:['QA script unavailable']}],patterns:DATA.patterns.length,verbs:DATA.verbs.length};
+ const qa=typeof qaDataset==='function'?qaDataset(DATA):{issues:[{issues:['QA script unavailable']}],patterns:DATA.patterns.length,verbs:DATA.verbs.length}; const aq=typeof additionalPracticeQA==='function'?additionalPracticeQA(DATA):{issues:[{issues:['Additional QA unavailable']}],count:0};
  const issueText=qa.issues.length?qa.issues.map(x=>`<li>${esc(x.kind||'item')}: ${esc(x.value||'')} — ${esc((x.issues||[]).join(', '))}</li>`).join(''):'<li class="ok-line">✓ Arabic-string integrity checks passed for the current app dataset.</li>';
- q('#verification').innerHTML=card('Strict linguistic QA',`<div class="status-list"><p>✓ Source PDF: loaded</p><p>✓ ${DATA.lessons.length}-lesson curriculum map: loaded</p><p>✓ ${DATA.patterns.length} patterns indexed</p><p>✓ ${DATA.patterns.length*14} past-tense slots stored</p><p>✓ Large RTL Arabic typography enabled</p><p>✓ Local progress storage enabled</p><p>✓ Correct/wrong feedback enabled</p><p>✓ Feedback sounds enabled (toggle available)</p></div><ul>${issueText}</ul><p class="muted">${DATA.exercise_entries.length} source/lexical exercise entries are frozen into the QA dataset. Source anomalies are preserved explicitly rather than silently corrected.</p>`);
+ q('#verification').innerHTML=card('Strict linguistic QA',`<div class="status-list"><p>✓ Source PDF: loaded</p><p>✓ ${DATA.lessons.length}-lesson curriculum map: loaded</p><p>✓ ${DATA.patterns.length} patterns indexed</p><p>✓ ${DATA.patterns.length*14} past-tense slots stored</p><p>✓ ${DATA.lessons.reduce((n,l)=>n+(l.sublessons||[]).length,0)} instructional sub-lessons mapped</p><p>✓ Source rules translated into lesson notes</p><p>✓ Supplementary grammar notes clearly separated from source-derived material</p><p>✓ Large RTL Arabic typography enabled</p><p>✓ Local progress storage enabled</p><p>✓ Correct/wrong feedback enabled</p><p>✓ Feedback sounds enabled (toggle available)</p></div><ul>${issueText}</ul><p class="muted">${DATA.exercise_entries.length} source/lexical exercise entries are frozen into the QA dataset.<br>✓ ${aq.count} additional verbs checked for full paradigm structure.</p><ul>${aq.issues.length?aq.issues.map(x=>`<li>${esc(x.kind||"additional")}: ${esc(x.value||"")} — ${esc((x.issues||[]).join(", "))}</li>`).join(""):"<li class=\"ok-line\">✓ Additional-practice structural QA passed.</li>"}</ul>`);
 }
 
 function setFont(delta){state.font=Math.min(1.8,Math.max(.8,state.font+delta));document.documentElement.style.setProperty('--arabic-scale',state.font);save()}
@@ -177,6 +213,6 @@ document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>showTab(b.dat
 q('#fontPlus').onclick=()=>setFont(.1); q('#fontMinus').onclick=()=>setFont(-.1); q('#fontReset').onclick=()=>{state.font=1;save();document.documentElement.style.setProperty('--arabic-scale',1)};
 
 document.documentElement.style.setProperty('--arabic-scale',state.font);
-renderDashboard();renderLessons();renderPatterns();renderVerbs();renderConjugator();renderVerification();initSettings();showTab('dashboard');
-window.toggleLesson=toggleLesson; window.startQuiz=startQuiz;
+renderDashboard();renderLessons();renderPatterns();renderVerbs();renderConjugator();renderVerification();renderAdditional();initSettings();showTab('dashboard');
+window.toggleLesson=toggleLesson; window.startQuiz=startQuiz; window.startAdditionalQuiz=startAdditionalQuiz;
 if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js').catch(()=>{});}

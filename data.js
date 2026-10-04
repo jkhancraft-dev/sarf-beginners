@@ -11,7 +11,90 @@ const DATA={
         "مِيزَان الصرف",
         "original/additional letters",
         "connected and detached pronouns"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L01-S01",
+          "title_ar": "مَعْنَى الصَّرْفِ",
+          "title_en": "What Ṣarf means",
+          "source_basis": "Source lesson: introduction",
+          "explanation": "The book introduces Ṣarf as the discipline concerned with the forms of words and the changes that occur to them. In this app, Ṣarf is treated as a pattern-and-transformation system: identify the root, identify the pattern, then observe how the pattern changes across conjugation and derivation.",
+          "steps": [],
+          "examples": [],
+          "notes": [
+            "Use the textbook wording as the primary curriculum; this English explanation is an aid, not a replacement."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L01-S02",
+          "title_ar": "أَقْسَامُ الْكَلِمَةِ",
+          "title_en": "The three word classes",
+          "source_basis": "Source lesson: introduction",
+          "explanation": "The book introduces the basic division of Arabic words. Before studying verb patterns, learn to distinguish the verb from the noun and particle.",
+          "steps": [
+            "Recognize whether the item denotes an action/state, a thing/quality/name, or a relational/functional particle.",
+            "In this course, focus on verbs because Ṣarf primarily tracks their forms and derivations."
+          ],
+          "examples": [],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L01-S03",
+          "title_ar": "مِيزَانُ الصَّرْفِ",
+          "title_en": "The morphological scale (Mīzān)",
+          "source_basis": "Source lesson: mīzān section",
+          "explanation": "The standard scale uses فَاء، عَيْن، لَام as placeholders for the first, second, and third root radicals. Additional letters in a derived form are retained in the scale.",
+          "steps": [],
+          "examples": [
+            "كَتَبَ → فَعَلَ",
+            "أَكْرَمَ → أَفْعَلَ",
+            "اِسْتَغْفَرَ → اِسْتَفْعَلَ"
+          ],
+          "notes": [
+            "When a learner sees a conjugated form, the app can ask for its underlying وزن rather than only its dictionary form."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L01-S04",
+          "title_ar": "الْأَصْلِيُّ وَالزَّائِدُ",
+          "title_en": "Root and added letters",
+          "source_basis": "Source lesson: original/additional letters",
+          "explanation": "Separate the three root radicals from letters added by a pattern. This is essential for recognizing derived forms and their الميزان.",
+          "steps": [
+            "Identify the root.",
+            "Match root radicals to ف، ع، ل.",
+            "Keep pattern letters such as أ، ت، س as additional letters when the form requires them."
+          ],
+          "examples": [],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L01-S05",
+          "title_ar": "الضَّمَائِرُ",
+          "title_en": "Pronouns used in conjugation",
+          "source_basis": "Source lesson: pronoun table",
+          "explanation": "The book establishes the pronoun inventory used throughout its conjugation tables. Learn the person, gender and number before memorizing endings.",
+          "steps": [],
+          "examples": [
+            "هُوَ = he",
+            "هِيَ = she",
+            "هُمَا = they two",
+            "هُمْ = they masculine/mixed plural",
+            "هُنَّ = they feminine plural",
+            "أَنْتَ = you masculine singular",
+            "أَنْتِ = you feminine singular",
+            "نَحْنُ = we",
+            "أَنَا = I"
+          ],
+          "notes": [],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L02",
@@ -23,7 +106,90 @@ const DATA={
         "past-tense conjugation",
         "attached subject pronouns",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L02-S01",
+          "title_ar": "فَعَلَ",
+          "title_en": "The first triliteral past pattern",
+          "source_basis": "Source pages 9–10",
+          "explanation": "The book presents فَعَلَ as one of the three basic triliteral past patterns. The exact lexical meaning of an individual Form I verb must be learned from its vocabulary; the pattern itself does not supply one fixed English meaning.",
+          "steps": [],
+          "examples": [
+            "كَتَبَ = he wrote",
+            "دَرَسَ = he studied"
+          ],
+          "notes": [
+            "The vowel of the middle radical in the past is part of the lexical pattern and does not by itself determine the English meaning."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L02-S02",
+          "title_ar": "فَعِلَ",
+          "title_en": "The second triliteral past pattern",
+          "source_basis": "Source pages 9–10",
+          "explanation": "The book presents فَعِلَ as the second basic triliteral past pattern.",
+          "steps": [],
+          "examples": [
+            "فَهِمَ = he understood",
+            "فَرِحَ = he was happy/rejoiced"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L02-S03",
+          "title_ar": "فَعُلَ",
+          "title_en": "The third triliteral past pattern",
+          "source_basis": "Source pages 9–10",
+          "explanation": "The book presents فَعُلَ as the third basic triliteral past pattern.",
+          "steps": [],
+          "examples": [
+            "كَرُمَ = he was noble/generous",
+            "حَسُنَ = he was good/beautiful"
+          ],
+          "notes": [
+            "Many فَعُلَ verbs are stative or describe a quality, but vocabulary must still be learned individually."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L02-S04",
+          "title_ar": "تَصْرِيفُ الْمَاضِي",
+          "title_en": "How the past tense is conjugated",
+          "source_basis": "Source pages 10–11",
+          "explanation": "The textbook shows that the stem remains recognizable while person, gender and number are expressed by suffixes and, in some forms, by the internal stem shape.",
+          "steps": [
+            "Start with the 3rd-person masculine singular stem, e.g. فَعَلَ.",
+            "Attach the appropriate past-tense ending.",
+            "Apply the exact harakah shown by the textbook.",
+            "Memorize the 14-slot order used by the book."
+          ],
+          "examples": [
+            "فَعَلَ → فَعَلَا → فَعَلُوا",
+            "فَعَلَ → فَعَلَتْ → فَعَلْنَ",
+            "فَعَلَ → فَعَلْتَ → فَعَلْتُ → فَعَلْنَا"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L02-S05",
+          "title_ar": "ضَمَائِرُ الْفَاعِلِ الْمُتَّصِلَةُ",
+          "title_en": "Attached subject pronouns in the past",
+          "source_basis": "Source page 11",
+          "explanation": "The textbook explains the attached subject markers and distinguishes the true pronoun from letters that function as markers.",
+          "steps": [],
+          "examples": [],
+          "notes": [
+            "Pay special attention to تاء التأنيث الساكنة in فَعَلَتْ: it marks feminine subject and is not itself the subject pronoun.",
+            "The dual alif and plural wāw are treated according to the textbook’s explanation of their grammatical function."
+          ],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L03",
@@ -37,7 +203,88 @@ const DATA={
         "فعلل",
         "full conjugation",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L03-S01",
+          "title_ar": "أَفْعَلَ",
+          "title_en": "Form IV: أَفْعَلَ",
+          "source_basis": "Source pages 12–14",
+          "explanation": "The book introduces the quadriliteral pattern أَفْعَلَ. Its present pattern is يُفْعِلُ. The added initial hamzah is part of the derived pattern.",
+          "steps": [],
+          "examples": [
+            "أَكْرَمَ → يُكْرِمُ",
+            "أَخْرَجَ → يُخْرِجُ"
+          ],
+          "notes": [
+            "Form IV often has causative/transitivizing functions, but lexical meaning must be checked verb by verb."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L03-S02",
+          "title_ar": "فَاعَلَ",
+          "title_en": "Form III: فَاعَلَ",
+          "source_basis": "Source pages 12–14",
+          "explanation": "The book presents فَاعَلَ as a quadrilateral-by-count derived pattern with an alif after the first radical. Its present pattern is يُفَاعِلُ.",
+          "steps": [],
+          "examples": [
+            "قَاتَلَ → يُقَاتِلُ",
+            "شَاهَدَ → يُشَاهِدُ"
+          ],
+          "notes": [
+            "A common semantic tendency is interaction or relation with another party, but it is not a universal translation rule."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L03-S03",
+          "title_ar": "فَعَّلَ",
+          "title_en": "Form II: فَعَّلَ",
+          "source_basis": "Source pages 12–14",
+          "explanation": "The doubled middle radical is the defining feature of فَعَّلَ. Its present pattern is يُفَعِّلُ.",
+          "steps": [],
+          "examples": [
+            "عَلَّمَ → يُعَلِّمُ",
+            "كَسَّرَ → يُكَسِّرُ"
+          ],
+          "notes": [
+            "Form II frequently expresses causative, intensive or transitive meanings, but the dictionary meaning controls the translation."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L03-S04",
+          "title_ar": "فَعْلَلَ",
+          "title_en": "Quadriliteral base pattern",
+          "source_basis": "Source pages 13–14",
+          "explanation": "The four-root-radical pattern فَعْلَلَ is treated as a genuine four-letter base pattern rather than as a triliteral verb with ordinary derivational suffixes.",
+          "steps": [],
+          "examples": [
+            "زَخْرَفَ → يُزَخْرِفُ",
+            "بَرْهَنَ → يُبَرْهِنُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L03-S05",
+          "title_ar": "تَصْرِيفُ الرُّبَاعِيِّ",
+          "title_en": "Conjugating quadriliteral past verbs",
+          "source_basis": "Source pages 12–14",
+          "explanation": "Once the pattern is identified, apply the same 14-person past-tense framework used for triliteral verbs. The pattern remains intact while the endings change.",
+          "steps": [
+            "Identify which of the four patterns the verb belongs to.",
+            "Use the pattern as the base.",
+            "Attach the same person/number endings taught for the past tense.",
+            "Check every harakah rather than relying on an English transliteration."
+          ],
+          "examples": [],
+          "notes": [],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L04",
@@ -53,7 +300,96 @@ const DATA={
         "تفعلل",
         "full conjugation",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L04-S01",
+          "title_ar": "اِنْفَعَلَ",
+          "title_en": "Form VII: اِنْفَعَلَ",
+          "source_basis": "Source pages 15–18",
+          "explanation": "The pattern begins with اِ and contains ن after the initial hamzah. Its present pattern is يَنْفَعِلُ.",
+          "steps": [],
+          "examples": [
+            "اِنْكَسَرَ → يَنْكَسِرُ",
+            "اِنْقَطَعَ → يَنْقَطِعُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L04-S02",
+          "title_ar": "اِفْتَعَلَ",
+          "title_en": "Form VIII: اِفْتَعَلَ",
+          "source_basis": "Source pages 15–18",
+          "explanation": "The pattern contains the additional ت after the first root radical. Its present pattern is يَفْتَعِلُ.",
+          "steps": [],
+          "examples": [
+            "اِجْتَمَعَ → يَجْتَمِعُ",
+            "اِقْتَدَرَ → يَقْتَدِرُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L04-S03",
+          "title_ar": "اِفْعَلَّ",
+          "title_en": "Form IX: اِفْعَلَّ",
+          "source_basis": "Source pages 15–18",
+          "explanation": "The final root radical is doubled. The present is يَفْعَلُّ. This pattern is associated especially with colors and physical qualities in traditional descriptions.",
+          "steps": [],
+          "examples": [
+            "اِحْمَرَّ → يَحْمَرُّ",
+            "اِصْفَرَّ → يَصْفَرُّ"
+          ],
+          "notes": [
+            "Do not treat the final shaddah as optional: it represents the doubled final radical."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L04-S04",
+          "title_ar": "تَفَعَّلَ",
+          "title_en": "Form V: تَفَعَّلَ",
+          "source_basis": "Source pages 15–18",
+          "explanation": "The pattern begins with تَ and has a doubled middle radical. Its present pattern is يَتَفَعَّلُ.",
+          "steps": [],
+          "examples": [
+            "تَعَلَّمَ → يَتَعَلَّمُ",
+            "تَبَسَّمَ → يَتَبَسَّمُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L04-S05",
+          "title_ar": "تَفَاعَلَ",
+          "title_en": "Form VI: تَفَاعَلَ",
+          "source_basis": "Source pages 15–18",
+          "explanation": "The pattern has initial تَ and an alif after the first radical. Its present is يَتَفَاعَلُ.",
+          "steps": [],
+          "examples": [
+            "تَقَاتَلَ → يَتَقَاتَلُ",
+            "تَبَادَلَ → يَتَبَادَلُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L04-S06",
+          "title_ar": "تَفَعْلَلَ",
+          "title_en": "Quadriliteral derived five-letter pattern",
+          "source_basis": "Source pages 15–18",
+          "explanation": "The pattern adds initial تَ to a four-radical base. Its present is يَتَفَعْلَلُ.",
+          "steps": [],
+          "examples": [
+            "تَزَحْلَقَ → يَتَزَحْلَقُ",
+            "تَدَحْرَجَ → يَتَدَحْرَجُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L05",
@@ -64,7 +400,26 @@ const DATA={
         "استفعل",
         "full conjugation",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L05-S01",
+          "title_ar": "اِسْتَفْعَلَ",
+          "title_en": "Form X: اِسْتَفْعَلَ",
+          "source_basis": "Source pages 19–20",
+          "explanation": "The pattern begins اِسْتَ and its present is يَسْتَفْعِلُ.",
+          "steps": [],
+          "examples": [
+            "اِسْتَغْفَرَ → يَسْتَغْفِرُ",
+            "اِسْتَخْرَجَ → يَسْتَخْرِجُ"
+          ],
+          "notes": [
+            "Form X commonly has a requesting/seeking/considering relationship to the base root, but lexical meanings vary."
+          ],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L06",
@@ -77,7 +432,131 @@ const DATA={
         "triliteral conjugation",
         "subject pronouns",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L06-S01",
+          "title_ar": "الْمُضَارِعُ",
+          "title_en": "What the imperfect/present form is",
+          "source_basis": "Source pages 21–24",
+          "explanation": "The textbook moves from the past pattern to the present-tense pattern. The first key task is to learn the present-tense vowel of the middle radical for Form I verbs.",
+          "steps": [
+            "Start from the known past verb.",
+            "Determine its lexical present pattern.",
+            "Use the appropriate prefix: أ، ن، ت، ي.",
+            "Apply the correct ending for dual/plural/feminine forms."
+          ],
+          "examples": [],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L06-S02",
+          "title_ar": "فَعَلَ – يَفْعُلُ",
+          "title_en": "Form I: a–u present pattern",
+          "source_basis": "Source pages 21–23",
+          "explanation": "Some Form I verbs move from فَعَلَ in the past to يَفْعُلُ in the present.",
+          "steps": [],
+          "examples": [
+            "نَصَرَ → يَنْصُرُ",
+            "دَخَلَ → يَدْخُلُ"
+          ],
+          "notes": [
+            "The present middle vowel is lexical; it cannot be safely predicted from the consonants alone."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L06-S03",
+          "title_ar": "فَعَلَ – يَفْعِلُ",
+          "title_en": "Form I: a–i present pattern",
+          "source_basis": "Source pages 21–23",
+          "explanation": "Some Form I verbs move from فَعَلَ to يَفْعِلُ.",
+          "steps": [],
+          "examples": [
+            "ضَرَبَ → يَضْرِبُ",
+            "جَلَسَ → يَجْلِسُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L06-S04",
+          "title_ar": "فَعَلَ – يَفْعَلُ",
+          "title_en": "Form I: a–a present pattern",
+          "source_basis": "Source pages 21–23",
+          "explanation": "Some Form I verbs move from فَعَلَ to يَفْعَلُ.",
+          "steps": [],
+          "examples": [
+            "فَتَحَ → يَفْتَحُ",
+            "ذَهَبَ → يَذْهَبُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L06-S05",
+          "title_ar": "فَعِلَ – يَفْعَلُ",
+          "title_en": "Form I: i–a present pattern",
+          "source_basis": "Source pages 21–23",
+          "explanation": "The book also gives Form I verbs whose past has فَعِلَ and whose present has an a-vowel in the middle radical.",
+          "steps": [],
+          "examples": [
+            "فَهِمَ → يَفْهَمُ",
+            "عَرِفَ → يَعْرِفُ"
+          ],
+          "notes": [
+            "Individual vocabulary must be checked; do not infer the present vowel from the first vowel alone."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L06-S06",
+          "title_ar": "فَعِلَ – يَفْعِلُ",
+          "title_en": "Form I: i–i present pattern",
+          "source_basis": "Source pages 21–23",
+          "explanation": "The textbook includes the i–i class as a distinct present-tense pattern.",
+          "steps": [],
+          "examples": [
+            "حَسِبَ → يَحْسِبُ"
+          ],
+          "notes": [
+            "This is one reason the learner should memorize the past + present pair for each Form I verb."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L06-S07",
+          "title_ar": "فَعُلَ – يَفْعُلُ",
+          "title_en": "Form I: u–u present pattern",
+          "source_basis": "Source pages 21–23",
+          "explanation": "The u-vowel class continues with u in the present.",
+          "steps": [],
+          "examples": [
+            "كَرُمَ → يَكْرُمُ",
+            "حَسُنَ → يَحْسُنُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L06-S08",
+          "title_ar": "تَصْرِيفُ الْمُضَارِعِ",
+          "title_en": "Conjugating the present tense",
+          "source_basis": "Source pages 23–24",
+          "explanation": "The book shows the present prefixes and the endings that distinguish dual, plural and feminine forms.",
+          "steps": [
+            "Use the appropriate prefix according to person.",
+            "Keep the present stem pattern.",
+            "Add dual/plural/feminine endings as required.",
+            "Remember that the dual alif and plural wāw are not themselves independent pronouns in the way the attached subject pronouns of the past are."
+          ],
+          "examples": [],
+          "notes": [],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L07",
@@ -91,7 +570,66 @@ const DATA={
         "فعلل",
         "conjugation",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L07-S01",
+          "title_ar": "أَفْعَلَ – يُفْعِلُ",
+          "title_en": "Form IV present",
+          "source_basis": "Source pages 25–27",
+          "explanation": "The present of أَفْعَلَ is يُفْعِلُ. The initial hamzah of the past is replaced by the present prefix and the stem has kasrah on the second radical.",
+          "steps": [],
+          "examples": [
+            "أَكْرَمَ → يُكْرِمُ",
+            "أَخْرَجَ → يُخْرِجُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L07-S02",
+          "title_ar": "فَاعَلَ – يُفَاعِلُ",
+          "title_en": "Form III present",
+          "source_basis": "Source pages 25–27",
+          "explanation": "The present pattern of فَاعَلَ is يُفَاعِلُ.",
+          "steps": [],
+          "examples": [
+            "شَاهَدَ → يُشَاهِدُ",
+            "سَافَرَ → يُسَافِرُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L07-S03",
+          "title_ar": "فَعَّلَ – يُفَعِّلُ",
+          "title_en": "Form II present",
+          "source_basis": "Source pages 25–27",
+          "explanation": "The doubled middle radical remains doubled and is kasrah-marked in the standard present pattern.",
+          "steps": [],
+          "examples": [
+            "عَلَّمَ → يُعَلِّمُ",
+            "حَسَّنَ → يُحَسِّنُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L07-S04",
+          "title_ar": "فَعْلَلَ – يُفَعْلِلُ",
+          "title_en": "Quadriliteral present",
+          "source_basis": "Source pages 25–27",
+          "explanation": "The four-radical pattern becomes يُفَعْلِلُ in the present.",
+          "steps": [],
+          "examples": [
+            "زَخْرَفَ → يُزَخْرِفُ",
+            "بَرْهَنَ → يُبَرْهِنُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L08",
@@ -107,7 +645,88 @@ const DATA={
         "تفعلل",
         "conjugation",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L08-S01",
+          "title_ar": "اِنْفَعَلَ – يَنْفَعِلُ",
+          "title_en": "Form VII present",
+          "source_basis": "Source pages 28–31",
+          "explanation": "The present preserves the derived pattern while adding the ordinary present prefix.",
+          "steps": [],
+          "examples": [
+            "اِنْكَسَرَ → يَنْكَسِرُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L08-S02",
+          "title_ar": "اِفْتَعَلَ – يَفْتَعِلُ",
+          "title_en": "Form VIII present",
+          "source_basis": "Source pages 28–31",
+          "explanation": "The ت of the derived pattern remains in the present.",
+          "steps": [],
+          "examples": [
+            "اِجْتَمَعَ → يَجْتَمِعُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L08-S03",
+          "title_ar": "اِفْعَلَّ – يَفْعَلُّ",
+          "title_en": "Form IX present",
+          "source_basis": "Source pages 28–31",
+          "explanation": "The final shaddah remains in the present.",
+          "steps": [],
+          "examples": [
+            "اِحْمَرَّ → يَحْمَرُّ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L08-S04",
+          "title_ar": "تَفَعَّلَ – يَتَفَعَّلُ",
+          "title_en": "Form V present",
+          "source_basis": "Source pages 28–31",
+          "explanation": "The initial ت remains and the middle radical remains doubled.",
+          "steps": [],
+          "examples": [
+            "تَعَلَّمَ → يَتَعَلَّمُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L08-S05",
+          "title_ar": "تَفَاعَلَ – يَتَفَاعَلُ",
+          "title_en": "Form VI present",
+          "source_basis": "Source pages 28–31",
+          "explanation": "The present keeps both the initial ت and the alif of the pattern.",
+          "steps": [],
+          "examples": [
+            "تَبَادَلَ → يَتَبَادَلُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L08-S06",
+          "title_ar": "تَفَعْلَلَ – يَتَفَعْلَلُ",
+          "title_en": "Derived quadriliteral present",
+          "source_basis": "Source pages 28–31",
+          "explanation": "The initial ت remains before the four-radical stem.",
+          "steps": [],
+          "examples": [
+            "تَدَحْرَجَ → يَتَدَحْرَجُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L09",
@@ -118,7 +737,24 @@ const DATA={
         "استفعل",
         "conjugation",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L09-S01",
+          "title_ar": "اِسْتَفْعَلَ – يَسْتَفْعِلُ",
+          "title_en": "Form X present",
+          "source_basis": "Source page 32",
+          "explanation": "The book states the present is formed by opening the first stem position appropriately and giving the middle radical the kasrah shown in يَسْتَفْعِلُ.",
+          "steps": [],
+          "examples": [
+            "اِسْتَخْرَجَ → يَسْتَخْرِجُ",
+            "اِسْتَغْفَرَ → يَسْتَغْفِرُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L10",
@@ -132,7 +768,122 @@ const DATA={
         "five-letter imperative",
         "six-letter imperative",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L10-S01",
+          "title_ar": "قَاعِدَةُ صِيَاغَةِ الْأَمْرِ",
+          "title_en": "How the imperative is formed",
+          "source_basis": "Source pages 33–37",
+          "explanation": "The textbook begins the imperative from the present-tense form. Its core procedure is: take the second-person present form, remove the present prefix, make the resulting ending appropriate to the jussive/imperative, and supply hamzat al-waṣl when the remaining initial cluster requires it.",
+          "steps": [
+            "Start from the 2nd-person masculine singular present form.",
+            "Remove the present prefix تـ.",
+            "Put the remaining verb into the imperative/jussive shape.",
+            "If the resulting word begins with an impermissible consonant cluster, add أَلِفُ الْوَصْلِ.",
+            "Use the correct initial vowel of hamzat al-waṣl according to the pattern.",
+            "Apply the final sukūn or the appropriate ending."
+          ],
+          "examples": [
+            "تَكْتُبُ → تَكْتُبْ → اُكْتُبْ",
+            "تَجْلِسُ → تَجْلِسْ → اِجْلِسْ",
+            "تَفْتَحُ → تَفْتَحْ → اِفْتَحْ"
+          ],
+          "notes": [
+            "The textbook is the controlling source for its school-level formulation. General Arabic grammar also describes the imperative as being derived from the jussive imperfective stem."
+          ],
+          "supplementary": [
+            {
+              "title": "General Arabic verb reference",
+              "url": "https://en.wikipedia.org/wiki/Arabic_verbs"
+            }
+          ]
+        },
+        {
+          "id": "L10-S02",
+          "title_ar": "أَمْرُ الثُّلَاثِيِّ",
+          "title_en": "Triliteral imperative",
+          "source_basis": "Source pages 33–34",
+          "explanation": "For Form I, the initial vowel of hamzat al-waṣl depends on the present-tense pattern. The book lays out the three principal imperative patterns corresponding to اُفْعُلْ, اِفْعِلْ and اِفْعَلْ.",
+          "steps": [],
+          "examples": [
+            "تَنْصُرُ → اُنْصُرْ",
+            "تَضْرِبُ → اِضْرِبْ",
+            "تَفْتَحُ → اِفْتَحْ"
+          ],
+          "notes": [
+            "The initial alif is أَلِفُ الْوَصْلِ, not a permanent root letter."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L10-S03",
+          "title_ar": "أَمْرُ الرُّبَاعِيِّ",
+          "title_en": "Quadriliteral imperative",
+          "source_basis": "Source pages 34–35",
+          "explanation": "For the derived quadriliteral patterns, the textbook gives direct imperative patterns. Form IV is especially important: the non-past is used as the base and the initial imperative hamzah is pronounced with fatḥah.",
+          "steps": [],
+          "examples": [
+            "تُكْرِمُ → أَكْرِمْ",
+            "تُخْرِجُ → أَخْرِجْ",
+            "تُشَاهِدُ → شَاهِدْ",
+            "تُعَلِّمُ → عَلِّمْ"
+          ],
+          "notes": [
+            "Form IV is a major exception to the simple Form I hamzat-al-waṣl behavior: its imperative begins with a permanent hamzah."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L10-S04",
+          "title_ar": "أَمْرُ الْخُمَاسِيِّ",
+          "title_en": "Five-letter imperative",
+          "source_basis": "Source pages 35–36",
+          "explanation": "For Forms VII–IX and Forms V–VI, the imperative is derived from the second-person present by removing the تـ prefix while preserving the derived pattern and supplying the required initial alif/hamzah shape.",
+          "steps": [],
+          "examples": [
+            "تَنْكَسِرُ → اِنْكَسِرْ",
+            "تَجْتَمِعُ → اِجْتَمِعْ",
+            "تَتَعَلَّمُ → تَعَلَّمْ",
+            "تَتَبَادَلُ → تَبَادَلْ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L10-S05",
+          "title_ar": "أَمْرُ السُّدَاسِيِّ",
+          "title_en": "Six-letter imperative",
+          "source_basis": "Source page 37",
+          "explanation": "The Form X imperative follows the same core derivation from the second-person present, producing اِسْتَفْعِلْ.",
+          "steps": [],
+          "examples": [
+            "تَسْتَغْفِرُ → اِسْتَغْفِرْ",
+            "تَسْتَخْرِجُ → اِسْتَخْرِجْ"
+          ],
+          "notes": [
+            "The مصدر/present pattern is retained; only the present prefix and final indicative ending are removed/adjusted."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L10-S06",
+          "title_ar": "تَصْرِيفُ الْأَمْرِ",
+          "title_en": "Conjugating the imperative",
+          "source_basis": "Source pages 34–37",
+          "explanation": "The positive imperative is addressed only to the second person. The book gives singular, dual and plural forms for masculine and feminine addressees.",
+          "steps": [
+            "Form the 2nd-person masculine singular imperative first.",
+            "Derive the dual and plural forms using the endings shown by the book.",
+            "Check the final nūn behavior and the feminine plural form carefully.",
+            "Do not invent first- or third-person positive imperative forms; use the book’s exact paradigm."
+          ],
+          "examples": [],
+          "notes": [],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L11",
@@ -145,7 +896,58 @@ const DATA={
         "five-letter rule",
         "six-letter rule",
         "conjugation/usage exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L11-S01",
+          "title_ar": "اِسْمُ الْفَاعِلِ مِنَ الثُّلَاثِيِّ",
+          "title_en": "Active participle from triliteral verbs",
+          "source_basis": "Source pages 38–40",
+          "explanation": "The book teaches the standard Form I active-participle pattern فَاعِلٌ for sound triliteral verbs.",
+          "steps": [],
+          "examples": [
+            "كَتَبَ → كَاتِبٌ",
+            "نَصَرَ → نَاصِرٌ"
+          ],
+          "notes": [
+            "Weak and hamzated verbs may require spelling changes; apply the textbook rule rather than blindly inserting the pattern."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L11-S02",
+          "title_ar": "اِسْمُ الْفَاعِلِ مِنَ غَيْرِ الثُّلَاثِيِّ",
+          "title_en": "Active participle from derived verbs",
+          "source_basis": "Source pages 39–40",
+          "explanation": "For derived verbs, the active participle is based on the present-tense stem with the present prefix replaced by مُـ and kasrah on the letter before the final radical.",
+          "steps": [],
+          "examples": [
+            "يُكْرِمُ → مُكْرِمٌ",
+            "يَسْتَخْرِجُ → مُسْتَخْرِجٌ"
+          ],
+          "notes": [
+            "This rule is a high-value bridge from Muḍāriʿ to derivational nouns."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L11-S03",
+          "title_ar": "التَّطْبِيقُ",
+          "title_en": "Active-participle exercises",
+          "source_basis": "Source pages 39–40",
+          "explanation": "Learners should produce the active participle and then verify its pattern, root and English sense.",
+          "steps": [
+            "Identify the present stem.",
+            "Apply the derived-participle rule.",
+            "Check harakāt and shaddah.",
+            "Verify the lexical meaning."
+          ],
+          "examples": [],
+          "notes": [],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L12",
@@ -160,7 +962,71 @@ const DATA={
         "six-letter",
         "conjugation",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L12-S01",
+          "title_ar": "الْمَبْنِيُّ لِلْمَجْهُولِ",
+          "title_en": "What passive voice means",
+          "source_basis": "Source pages 41–42",
+          "explanation": "The textbook defines the passive as the construction in which the doer is omitted and the object or another relevant noun takes the grammatical role required by the passive construction.",
+          "steps": [],
+          "examples": [],
+          "notes": [
+            "This lesson is about form first. Syntactic labels from Naḥw can be learned later without delaying the Ṣarf sequence."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L12-S02",
+          "title_ar": "الْمَاضِي الْمَبْنِيُّ لِلْمَجْهُولِ",
+          "title_en": "Passive past: Form I",
+          "source_basis": "Source pages 42",
+          "explanation": "For sound triliteral Form I verbs, the textbook gives the core passive pattern فُعِلَ.",
+          "steps": [
+            "Ḍammah the first radical.",
+            "Kasrah the middle radical.",
+            "Keep the remaining radicals and endings according to the conjugation table."
+          ],
+          "examples": [
+            "كَتَبَ → كُتِبَ",
+            "ضَرَبَ → ضُرِبَ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L12-S03",
+          "title_ar": "الْمَاضِي الْمَبْنِيُّ لِلْمَجْهُولِ لِغَيْرِ الثُّلَاثِيِّ",
+          "title_en": "Passive past: derived patterns",
+          "source_basis": "Source pages 43–47",
+          "explanation": "Derived forms follow pattern-specific passive templates. The first step is to identify the active pattern, then apply the corresponding passive transformation given in the textbook.",
+          "steps": [],
+          "examples": [
+            "أَكْرَمَ → أُكْرِمَ",
+            "عَلَّمَ → عُلِّمَ",
+            "اِسْتَخْرَجَ → اُسْتُخْرِجَ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L12-S04",
+          "title_ar": "تَصْرِيفُ الْمَاضِي الْمَجْهُولِ",
+          "title_en": "Passive-past conjugation",
+          "source_basis": "Source pages 42–47",
+          "explanation": "Once the passive stem is formed, the same person/number framework can be applied, while preserving the passive vowel pattern.",
+          "steps": [
+            "Form the 3ms passive.",
+            "Apply the 14-slot endings.",
+            "Check the middle vowel in every slot."
+          ],
+          "examples": [],
+          "notes": [],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L13",
@@ -175,7 +1041,55 @@ const DATA={
         "six-letter",
         "conjugation",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L13-S01",
+          "title_ar": "الْمُضَارِعُ الْمَبْنِيُّ لِلْمَجْهُولِ",
+          "title_en": "Passive present",
+          "source_basis": "Source pages 48–54",
+          "explanation": "The book derives the passive present from the active present by the pattern-specific internal-vowel changes it teaches.",
+          "steps": [],
+          "examples": [
+            "يَكْتُبُ → يُكْتَبُ",
+            "يُكْرِمُ → يُكْرَمُ"
+          ],
+          "notes": [
+            "For derived forms, use the exact pattern in the book rather than assuming one universal vowel operation."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L13-S02",
+          "title_ar": "قَاعِدَةُ الْمُضَارِعِ الْمَجْهُولِ",
+          "title_en": "General formation rule",
+          "source_basis": "Source pages 48–54",
+          "explanation": "The first radical of the present passive is ḍammah-marked, and the pattern-specific internal vowel is changed according to the form.",
+          "steps": [
+            "Identify the active present pattern.",
+            "Apply the textbook passive template.",
+            "Conjugate only after the passive stem is correct."
+          ],
+          "examples": [],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L13-S03",
+          "title_ar": "تَطْبِيقُ الْمُضَارِعِ الْمَجْهُولِ",
+          "title_en": "Passive-present exercises",
+          "source_basis": "Source pages 50–54",
+          "explanation": "Convert the active present to passive, then compare the answer with the exact exercise key.",
+          "steps": [],
+          "examples": [
+            "يُقَاتِلُ → يُقَاتَلُ",
+            "يُخَاطِبُ → يُخَاطَبُ"
+          ],
+          "notes": [],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L14",
@@ -189,7 +1103,54 @@ const DATA={
         "six-letter",
         "formation rules",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L14-S01",
+          "title_ar": "اِسْمُ الْمَفْعُولِ مِنَ الثُّلَاثِيِّ",
+          "title_en": "Passive participle from triliteral verbs",
+          "source_basis": "Source pages 55–57",
+          "explanation": "The standard Form I passive participle pattern for sound triliteral verbs is مَفْعُولٌ.",
+          "steps": [],
+          "examples": [
+            "كَتَبَ → مَكْتُوبٌ",
+            "نَصَرَ → مَنْصُورٌ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L14-S02",
+          "title_ar": "اِسْمُ الْمَفْعُولِ مِنْ غَيْرِ الثُّلَاثِيِّ",
+          "title_en": "Passive participle from derived verbs",
+          "source_basis": "Source pages 55–57",
+          "explanation": "For derived verbs, the textbook derives the passive participle from the present stem with the prescribed prefix/vowel changes.",
+          "steps": [],
+          "examples": [
+            "يُكْرِمُ → مُكْرَمٌ",
+            "يَسْتَخْرِجُ → مُسْتَخْرَجٌ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L14-S03",
+          "title_ar": "التَّفْرِيقُ بَيْنَ اِسْمِ الْفَاعِلِ وَالْمَفْعُولِ",
+          "title_en": "Active vs passive participle",
+          "source_basis": "Source pages 55–57",
+          "explanation": "Compare who performs the action with what receives the action.",
+          "steps": [],
+          "examples": [
+            "كَاتِبٌ = one who writes",
+            "مَكْتُوبٌ = something written"
+          ],
+          "notes": [
+            "This distinction is semantic as well as morphological; English glosses should preserve the agent/patient relationship."
+          ],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L15",
@@ -199,7 +1160,31 @@ const DATA={
       "topics": [
         "formation",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L15-S01",
+          "title_ar": "اِسْمُ التَّفْضِيلِ",
+          "title_en": "Elative/comparative-superlative form",
+          "source_basis": "Source page 58",
+          "explanation": "The textbook introduces the pattern أَفْعَلُ for the comparative/superlative category, with the relevant eligibility conditions and examples.",
+          "steps": [
+            "Learn the textbook conditions for forming the pattern.",
+            "Identify the adjective/quality being compared.",
+            "Form أَفْعَلُ where the conditions are met.",
+            "Learn irregular or non-formable cases as vocabulary."
+          ],
+          "examples": [
+            "أَكْبَرُ = bigger / greatest",
+            "أَفْضَلُ = better / best"
+          ],
+          "notes": [
+            "Do not assume every adjective can be mechanically put into أَفْعَلُ; the textbook’s conditions matter."
+          ],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     },
     {
       "id": "L16",
@@ -212,7 +1197,67 @@ const DATA={
         "five-letter maṣdar rules",
         "six-letter maṣdar",
         "exercises"
-      ]
+      ],
+      "sublessons": [
+        {
+          "id": "L16-S01",
+          "title_ar": "الْمَصْدَرُ مِنَ الثُّلَاثِيِّ",
+          "title_en": "Triliteral verbal noun",
+          "source_basis": "Source pages 59–61",
+          "explanation": "The textbook treats the triliteral maṣdar as largely سماعيّ (lexically transmitted), with recognized patterns and examples rather than one universal mechanical rule.",
+          "steps": [],
+          "examples": [],
+          "notes": [
+            "This is a crucial contrast with many derived forms: memorize the maṣdar with the verb when necessary."
+          ],
+          "supplementary": []
+        },
+        {
+          "id": "L16-S02",
+          "title_ar": "مَصْدَرُ الرُّبَاعِيِّ",
+          "title_en": "Quadriliteral verbal noun",
+          "source_basis": "Source pages 59–61",
+          "explanation": "Derived quadriliteral patterns have more regular maṣdar formation than basic triliteral verbs.",
+          "steps": [],
+          "examples": [
+            "أَكْرَمَ → إِكْرَامٌ",
+            "عَلَّمَ → تَعْلِيمٌ",
+            "دَرَّسَ → تَدْرِيسٌ"
+          ],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L16-S03",
+          "title_ar": "مَصْدَرُ الْخُمَاسِيِّ وَالسُّدَاسِيِّ",
+          "title_en": "Five- and six-letter verbal nouns",
+          "source_basis": "Source pages 59–61",
+          "explanation": "The book teaches pattern-based maṣdar rules for the derived five- and six-letter forms.",
+          "steps": [
+            "Identify the verb pattern.",
+            "Apply its corresponding maṣdar template.",
+            "Check hamzat al-waṣl/qaṭʿ, shaddah and vowel placement.",
+            "Verify the lexical form against the book."
+          ],
+          "examples": [],
+          "notes": [],
+          "supplementary": []
+        },
+        {
+          "id": "L16-S04",
+          "title_ar": "مُرَاجَعَةُ الْمَصْدَرِ",
+          "title_en": "Maṣdar review",
+          "source_basis": "Source pages 59–61",
+          "explanation": "Review maṣdar together with the past, present and pattern so that the learner retains the derivational relationship instead of memorizing isolated nouns.",
+          "steps": [],
+          "examples": [],
+          "notes": [
+            "This is especially useful when the app reaches later cumulative review."
+          ],
+          "supplementary": []
+        }
+      ],
+      "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
     }
   ],
   "patterns": [
@@ -12274,6 +13319,6035 @@ const DATA={
     "freeze_status": "PROVISIONALLY_FROZEN_AFTER_QA_WITH_SOURCE_ANOMALY_FLAG",
     "source_anomalies": [
       "تَعَرَّجُ"
+    ]
+  },
+  "curriculum_notes": {
+    "source_policy": "The textbook remains the controlling source. English translations of the textbook instructions are explanatory paraphrases; supplementary web notes are clearly marked and do not override the textbook.",
+    "workflow": "Lesson → sublesson → source rule → worked examples → conjugation table → cumulative flashcards → root/وزن/meaning questions → answer review.",
+    "supplementary_references": [
+      {
+        "title": "Quranic Arabic Corpus — Morphological Search",
+        "url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "use": "Primary external verification source for Quran-attested roots, lemmas, forms and morphological analysis."
+      },
+      {
+        "title": "Quranic Arabic Corpus — Verb Forms",
+        "url": "https://corpus.quran.com/documentation/verbforms.jsp",
+        "use": "Supplementary reference for Form I–X and quadriliteral verb-pattern descriptions."
+      }
+    ],
+    "imperative_bridge": "For the imperative, the app teaches the source rule first and then adds a general Arabic-grammar note: the positive imperative is a second-person form derived from the imperfective/jussive stem. This is supplementary context, not a replacement for the textbook rule."
+  },
+  "additional_practice": {
+    "title": "Additional Practice — Beyond the Textbook",
+    "source_note": "30 Quran-attested verb lemmas selected using the Quranic Arabic Corpus. The corpus supplies Quranic morphology/attestation; full paradigms are generated according to the textbook patterns for practice.",
+    "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+    "difficulty_levels": [
+      "medium",
+      "hard",
+      "hardest"
+    ],
+    "verbs": [
+      {
+        "id": "ADD-01",
+        "ar": "كَتَبَ",
+        "root": "ك ت ب",
+        "wazn": "فَعَلَ",
+        "meaning": "to write",
+        "difficulty": "easy",
+        "quran_reference": "2:282",
+        "source": "Quranic Arabic Corpus; Quran occurrence 2:282",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "كَتَبَ",
+        "present_3ms": "يَكْتُبُ",
+        "amr_5_persons": [
+          "اُكْتُبْ",
+          "اُكْتُبا",
+          "اُكْتُبوا",
+          "اُكْتُبي",
+          "اُكْتُبنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "كَتَبَ"
+          ],
+          [
+            "هُمَا",
+            "كَتَبا"
+          ],
+          [
+            "هُمْ",
+            "كَتَبوا"
+          ],
+          [
+            "هِيَ",
+            "كَتَبتْ"
+          ],
+          [
+            "هُمَا",
+            "كَتَبتا"
+          ],
+          [
+            "هُنَّ",
+            "كَتَبنَ"
+          ],
+          [
+            "أَنْتَ",
+            "كَتَبتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "كَتَبتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "كَتَبتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "كَتَبتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "كَتَبتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "كَتَبتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "كَتَبتُ"
+          ],
+          [
+            "نَحْنُ",
+            "كَتَبنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَكْتُبُ"
+          ],
+          [
+            "هُمَا",
+            "يَكْتُبانِ"
+          ],
+          [
+            "هُمْ",
+            "يَكْتُبونَ"
+          ],
+          [
+            "هِيَ",
+            "تَكْتُبُ"
+          ],
+          [
+            "هُمَا",
+            "تَكْتُبانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَكْتُبنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَكْتُبُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَكْتُبانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَكْتُبونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَكْتُبينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَكْتُبانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَكْتُبنَ"
+          ],
+          [
+            "أَنَا",
+            "أَكْتُبُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَكْتُبُ"
+          ]
+        ],
+        "passive_past_3ms": "كُتِبَ",
+        "passive_present_3ms": "يُكْتَبُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُكْتَبُ"
+          ],
+          [
+            "هُمَا",
+            "يُكْتَبانِ"
+          ],
+          [
+            "هُمْ",
+            "يُكْتَبونَ"
+          ],
+          [
+            "هِيَ",
+            "تُكْتَبُ"
+          ],
+          [
+            "هُمَا",
+            "تُكْتَبانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُكْتَبنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُكْتَبُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُكْتَبانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُكْتَبونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُكْتَبينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُكْتَبانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُكْتَبنَ"
+          ],
+          [
+            "أَنَا",
+            "أُكْتَبُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُكْتَبُ"
+          ]
+        ],
+        "ism_al_faail": "كَاتِب",
+        "ism_al_mafool": "مَكْتُوب",
+        "level": "easy",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-02",
+        "ar": "خَلَقَ",
+        "root": "خ ل ق",
+        "wazn": "فَعَلَ",
+        "meaning": "to create",
+        "difficulty": "easy",
+        "quran_reference": "23:14",
+        "source": "Quranic Arabic Corpus; Quran occurrence 23:14",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "خَلَقَ",
+        "present_3ms": "يَخْلُقُ",
+        "amr_5_persons": [
+          "اُخْلُقْ",
+          "اُخْلُقا",
+          "اُخْلُقوا",
+          "اُخْلُقي",
+          "اُخْلُقنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "خَلَقَ"
+          ],
+          [
+            "هُمَا",
+            "خَلَقا"
+          ],
+          [
+            "هُمْ",
+            "خَلَقوا"
+          ],
+          [
+            "هِيَ",
+            "خَلَقتْ"
+          ],
+          [
+            "هُمَا",
+            "خَلَقتا"
+          ],
+          [
+            "هُنَّ",
+            "خَلَقنَ"
+          ],
+          [
+            "أَنْتَ",
+            "خَلَقتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "خَلَقتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "خَلَقتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "خَلَقتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "خَلَقتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "خَلَقتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "خَلَقتُ"
+          ],
+          [
+            "نَحْنُ",
+            "خَلَقنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَخْلُقُ"
+          ],
+          [
+            "هُمَا",
+            "يَخْلُقانِ"
+          ],
+          [
+            "هُمْ",
+            "يَخْلُقونَ"
+          ],
+          [
+            "هِيَ",
+            "تَخْلُقُ"
+          ],
+          [
+            "هُمَا",
+            "تَخْلُقانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَخْلُقنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَخْلُقُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَخْلُقانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَخْلُقونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَخْلُقينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَخْلُقانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَخْلُقنَ"
+          ],
+          [
+            "أَنَا",
+            "أَخْلُقُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَخْلُقُ"
+          ]
+        ],
+        "passive_past_3ms": "خُلِقَ",
+        "passive_present_3ms": "يُخْلَقُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُخْلَقُ"
+          ],
+          [
+            "هُمَا",
+            "يُخْلَقانِ"
+          ],
+          [
+            "هُمْ",
+            "يُخْلَقونَ"
+          ],
+          [
+            "هِيَ",
+            "تُخْلَقُ"
+          ],
+          [
+            "هُمَا",
+            "تُخْلَقانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُخْلَقنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُخْلَقُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُخْلَقانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُخْلَقونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُخْلَقينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُخْلَقانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُخْلَقنَ"
+          ],
+          [
+            "أَنَا",
+            "أُخْلَقُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُخْلَقُ"
+          ]
+        ],
+        "ism_al_faail": "خَالِق",
+        "ism_al_mafool": "مَخْلُوق",
+        "level": "easy",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-03",
+        "ar": "دَخَلَ",
+        "root": "د خ ل",
+        "wazn": "فَعَلَ",
+        "meaning": "to enter",
+        "difficulty": "easy",
+        "quran_reference": "2:58",
+        "source": "Quranic Arabic Corpus; Quran occurrence 2:58",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "دَخَلَ",
+        "present_3ms": "يَدْخُلُ",
+        "amr_5_persons": [
+          "اُدْخُلْ",
+          "اُدْخُلا",
+          "اُدْخُلوا",
+          "اُدْخُلي",
+          "اُدْخُلنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "دَخَلَ"
+          ],
+          [
+            "هُمَا",
+            "دَخَلا"
+          ],
+          [
+            "هُمْ",
+            "دَخَلوا"
+          ],
+          [
+            "هِيَ",
+            "دَخَلتْ"
+          ],
+          [
+            "هُمَا",
+            "دَخَلتا"
+          ],
+          [
+            "هُنَّ",
+            "دَخَلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "دَخَلتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "دَخَلتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "دَخَلتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "دَخَلتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "دَخَلتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "دَخَلتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "دَخَلتُ"
+          ],
+          [
+            "نَحْنُ",
+            "دَخَلنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَدْخُلُ"
+          ],
+          [
+            "هُمَا",
+            "يَدْخُلانِ"
+          ],
+          [
+            "هُمْ",
+            "يَدْخُلونَ"
+          ],
+          [
+            "هِيَ",
+            "تَدْخُلُ"
+          ],
+          [
+            "هُمَا",
+            "تَدْخُلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَدْخُلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَدْخُلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَدْخُلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَدْخُلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَدْخُلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَدْخُلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَدْخُلنَ"
+          ],
+          [
+            "أَنَا",
+            "أَدْخُلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَدْخُلُ"
+          ]
+        ],
+        "passive_past_3ms": "دُخِلَ",
+        "passive_present_3ms": "يُدْخَلُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُدْخَلُ"
+          ],
+          [
+            "هُمَا",
+            "يُدْخَلانِ"
+          ],
+          [
+            "هُمْ",
+            "يُدْخَلونَ"
+          ],
+          [
+            "هِيَ",
+            "تُدْخَلُ"
+          ],
+          [
+            "هُمَا",
+            "تُدْخَلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُدْخَلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُدْخَلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُدْخَلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُدْخَلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُدْخَلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُدْخَلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُدْخَلنَ"
+          ],
+          [
+            "أَنَا",
+            "أُدْخَلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُدْخَلُ"
+          ]
+        ],
+        "ism_al_faail": "دَاخِل",
+        "ism_al_mafool": "مَدْخُول",
+        "level": "easy",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-04",
+        "ar": "خَرَجَ",
+        "root": "خ ر ج",
+        "wazn": "فَعَلَ",
+        "meaning": "to go out; emerge",
+        "difficulty": "easy",
+        "quran_reference": "2:74",
+        "source": "Quranic Arabic Corpus; Quran occurrence 2:74",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "خَرَجَ",
+        "present_3ms": "يَخْرُجُ",
+        "amr_5_persons": [
+          "اُخْرُجْ",
+          "اُخْرُجا",
+          "اُخْرُجوا",
+          "اُخْرُجي",
+          "اُخْرُجنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "خَرَجَ"
+          ],
+          [
+            "هُمَا",
+            "خَرَجا"
+          ],
+          [
+            "هُمْ",
+            "خَرَجوا"
+          ],
+          [
+            "هِيَ",
+            "خَرَجتْ"
+          ],
+          [
+            "هُمَا",
+            "خَرَجتا"
+          ],
+          [
+            "هُنَّ",
+            "خَرَجنَ"
+          ],
+          [
+            "أَنْتَ",
+            "خَرَجتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "خَرَجتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "خَرَجتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "خَرَجتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "خَرَجتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "خَرَجتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "خَرَجتُ"
+          ],
+          [
+            "نَحْنُ",
+            "خَرَجنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَخْرُجُ"
+          ],
+          [
+            "هُمَا",
+            "يَخْرُجانِ"
+          ],
+          [
+            "هُمْ",
+            "يَخْرُجونَ"
+          ],
+          [
+            "هِيَ",
+            "تَخْرُجُ"
+          ],
+          [
+            "هُمَا",
+            "تَخْرُجانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَخْرُجنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَخْرُجُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَخْرُجانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَخْرُجونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَخْرُجينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَخْرُجانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَخْرُجنَ"
+          ],
+          [
+            "أَنَا",
+            "أَخْرُجُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَخْرُجُ"
+          ]
+        ],
+        "passive_past_3ms": "خُرِجَ",
+        "passive_present_3ms": "يُخْرَجُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُخْرَجُ"
+          ],
+          [
+            "هُمَا",
+            "يُخْرَجانِ"
+          ],
+          [
+            "هُمْ",
+            "يُخْرَجونَ"
+          ],
+          [
+            "هِيَ",
+            "تُخْرَجُ"
+          ],
+          [
+            "هُمَا",
+            "تُخْرَجانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُخْرَجنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُخْرَجُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُخْرَجانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُخْرَجونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُخْرَجينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُخْرَجانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُخْرَجنَ"
+          ],
+          [
+            "أَنَا",
+            "أُخْرَجُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُخْرَجُ"
+          ]
+        ],
+        "ism_al_faail": "خَارِج",
+        "ism_al_mafool": "مَخْرُوج",
+        "level": "easy",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-05",
+        "ar": "نَصَرَ",
+        "root": "ن ص ر",
+        "wazn": "فَعَلَ",
+        "meaning": "to help; give victory",
+        "difficulty": "easy",
+        "quran_reference": "3:160",
+        "source": "Quranic Arabic Corpus; Quran occurrence 3:160",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "نَصَرَ",
+        "present_3ms": "يَنْصُرُ",
+        "amr_5_persons": [
+          "اُنْصُرْ",
+          "اُنْصُرا",
+          "اُنْصُروا",
+          "اُنْصُري",
+          "اُنْصُرنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "نَصَرَ"
+          ],
+          [
+            "هُمَا",
+            "نَصَرا"
+          ],
+          [
+            "هُمْ",
+            "نَصَروا"
+          ],
+          [
+            "هِيَ",
+            "نَصَرتْ"
+          ],
+          [
+            "هُمَا",
+            "نَصَرتا"
+          ],
+          [
+            "هُنَّ",
+            "نَصَرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "نَصَرتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "نَصَرتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "نَصَرتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "نَصَرتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "نَصَرتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "نَصَرتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "نَصَرتُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَصَرنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَنْصُرُ"
+          ],
+          [
+            "هُمَا",
+            "يَنْصُرانِ"
+          ],
+          [
+            "هُمْ",
+            "يَنْصُرونَ"
+          ],
+          [
+            "هِيَ",
+            "تَنْصُرُ"
+          ],
+          [
+            "هُمَا",
+            "تَنْصُرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَنْصُرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَنْصُرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَنْصُرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَنْصُرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَنْصُرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَنْصُرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَنْصُرنَ"
+          ],
+          [
+            "أَنَا",
+            "أَنْصُرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَنْصُرُ"
+          ]
+        ],
+        "passive_past_3ms": "نُصِرَ",
+        "passive_present_3ms": "يُنْصَرُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُنْصَرُ"
+          ],
+          [
+            "هُمَا",
+            "يُنْصَرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُنْصَرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُنْصَرُ"
+          ],
+          [
+            "هُمَا",
+            "تُنْصَرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُنْصَرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُنْصَرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنْصَرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُنْصَرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُنْصَرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنْصَرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُنْصَرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُنْصَرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُنْصَرُ"
+          ]
+        ],
+        "ism_al_faail": "نَاصِر",
+        "ism_al_mafool": "مَنْصُور",
+        "level": "easy",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-06",
+        "ar": "غَفَرَ",
+        "root": "غ ف ر",
+        "wazn": "فَعَلَ",
+        "meaning": "to forgive",
+        "difficulty": "easy",
+        "quran_reference": "4:110",
+        "source": "Quranic Arabic Corpus; Quran occurrence 4:110",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "غَفَرَ",
+        "present_3ms": "يَغْفِرُ",
+        "amr_5_persons": [
+          "اِغْفِرْ",
+          "اِغْفِرا",
+          "اِغْفِروا",
+          "اِغْفِري",
+          "اِغْفِرنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "غَفَرَ"
+          ],
+          [
+            "هُمَا",
+            "غَفَرا"
+          ],
+          [
+            "هُمْ",
+            "غَفَروا"
+          ],
+          [
+            "هِيَ",
+            "غَفَرتْ"
+          ],
+          [
+            "هُمَا",
+            "غَفَرتا"
+          ],
+          [
+            "هُنَّ",
+            "غَفَرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "غَفَرتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "غَفَرتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "غَفَرتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "غَفَرتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "غَفَرتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "غَفَرتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "غَفَرتُ"
+          ],
+          [
+            "نَحْنُ",
+            "غَفَرنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَغْفِرُ"
+          ],
+          [
+            "هُمَا",
+            "يَغْفِرانِ"
+          ],
+          [
+            "هُمْ",
+            "يَغْفِرونَ"
+          ],
+          [
+            "هِيَ",
+            "تَغْفِرُ"
+          ],
+          [
+            "هُمَا",
+            "تَغْفِرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَغْفِرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَغْفِرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَغْفِرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَغْفِرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَغْفِرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَغْفِرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَغْفِرنَ"
+          ],
+          [
+            "أَنَا",
+            "أَغْفِرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَغْفِرُ"
+          ]
+        ],
+        "passive_past_3ms": "غُفِرَ",
+        "passive_present_3ms": "يُغْفَرُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُغْفَرُ"
+          ],
+          [
+            "هُمَا",
+            "يُغْفَرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُغْفَرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُغْفَرُ"
+          ],
+          [
+            "هُمَا",
+            "تُغْفَرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُغْفَرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُغْفَرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُغْفَرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُغْفَرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُغْفَرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُغْفَرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُغْفَرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُغْفَرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُغْفَرُ"
+          ]
+        ],
+        "ism_al_faail": "غَافِر",
+        "ism_al_mafool": "مَغْفُور",
+        "level": "easy",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-07",
+        "ar": "ذَكَرَ",
+        "root": "ذ ك ر",
+        "wazn": "فَعَلَ",
+        "meaning": "to remember; mention",
+        "difficulty": "easy",
+        "quran_reference": "2:152",
+        "source": "Quranic Arabic Corpus; Quran occurrence 2:152",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "ذَكَرَ",
+        "present_3ms": "يَذْكُرُ",
+        "amr_5_persons": [
+          "اُذْكُرْ",
+          "اُذْكُرا",
+          "اُذْكُروا",
+          "اُذْكُري",
+          "اُذْكُرنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "ذَكَرَ"
+          ],
+          [
+            "هُمَا",
+            "ذَكَرا"
+          ],
+          [
+            "هُمْ",
+            "ذَكَروا"
+          ],
+          [
+            "هِيَ",
+            "ذَكَرتْ"
+          ],
+          [
+            "هُمَا",
+            "ذَكَرتا"
+          ],
+          [
+            "هُنَّ",
+            "ذَكَرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "ذَكَرتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "ذَكَرتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "ذَكَرتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "ذَكَرتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "ذَكَرتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "ذَكَرتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "ذَكَرتُ"
+          ],
+          [
+            "نَحْنُ",
+            "ذَكَرنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَذْكُرُ"
+          ],
+          [
+            "هُمَا",
+            "يَذْكُرانِ"
+          ],
+          [
+            "هُمْ",
+            "يَذْكُرونَ"
+          ],
+          [
+            "هِيَ",
+            "تَذْكُرُ"
+          ],
+          [
+            "هُمَا",
+            "تَذْكُرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَذْكُرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَذْكُرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَذْكُرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَذْكُرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَذْكُرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَذْكُرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَذْكُرنَ"
+          ],
+          [
+            "أَنَا",
+            "أَذْكُرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَذْكُرُ"
+          ]
+        ],
+        "passive_past_3ms": "ذُكِرَ",
+        "passive_present_3ms": "يُذْكَرُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُذْكَرُ"
+          ],
+          [
+            "هُمَا",
+            "يُذْكَرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُذْكَرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُذْكَرُ"
+          ],
+          [
+            "هُمَا",
+            "تُذْكَرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُذْكَرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُذْكَرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُذْكَرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُذْكَرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُذْكَرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُذْكَرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُذْكَرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُذْكَرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُذْكَرُ"
+          ]
+        ],
+        "ism_al_faail": "ذَاكِر",
+        "ism_al_mafool": "مَذْكُور",
+        "level": "easy",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-08",
+        "ar": "شَكَرَ",
+        "root": "ش ك ر",
+        "wazn": "فَعَلَ",
+        "meaning": "to thank; be grateful",
+        "difficulty": "easy",
+        "quran_reference": "2:152",
+        "source": "Quranic Arabic Corpus; Quran occurrence 2:152",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "شَكَرَ",
+        "present_3ms": "يَشْكُرُ",
+        "amr_5_persons": [
+          "اُشْكُرْ",
+          "اُشْكُرا",
+          "اُشْكُروا",
+          "اُشْكُري",
+          "اُشْكُرنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "شَكَرَ"
+          ],
+          [
+            "هُمَا",
+            "شَكَرا"
+          ],
+          [
+            "هُمْ",
+            "شَكَروا"
+          ],
+          [
+            "هِيَ",
+            "شَكَرتْ"
+          ],
+          [
+            "هُمَا",
+            "شَكَرتا"
+          ],
+          [
+            "هُنَّ",
+            "شَكَرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "شَكَرتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "شَكَرتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "شَكَرتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "شَكَرتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "شَكَرتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "شَكَرتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "شَكَرتُ"
+          ],
+          [
+            "نَحْنُ",
+            "شَكَرنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَشْكُرُ"
+          ],
+          [
+            "هُمَا",
+            "يَشْكُرانِ"
+          ],
+          [
+            "هُمْ",
+            "يَشْكُرونَ"
+          ],
+          [
+            "هِيَ",
+            "تَشْكُرُ"
+          ],
+          [
+            "هُمَا",
+            "تَشْكُرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَشْكُرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَشْكُرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَشْكُرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَشْكُرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَشْكُرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَشْكُرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَشْكُرنَ"
+          ],
+          [
+            "أَنَا",
+            "أَشْكُرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَشْكُرُ"
+          ]
+        ],
+        "passive_past_3ms": "شُكِرَ",
+        "passive_present_3ms": "يُشْكَرُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُشْكَرُ"
+          ],
+          [
+            "هُمَا",
+            "يُشْكَرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُشْكَرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُشْكَرُ"
+          ],
+          [
+            "هُمَا",
+            "تُشْكَرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُشْكَرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُشْكَرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُشْكَرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُشْكَرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُشْكَرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُشْكَرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُشْكَرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُشْكَرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُشْكَرُ"
+          ]
+        ],
+        "ism_al_faail": "شَاكِر",
+        "ism_al_mafool": "مَشْكُور",
+        "level": "easy",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-09",
+        "ar": "عَبَدَ",
+        "root": "ع ب د",
+        "wazn": "فَعَلَ",
+        "meaning": "to worship",
+        "difficulty": "easy",
+        "quran_reference": "1:5",
+        "source": "Quranic Arabic Corpus; Quran occurrence 1:5",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "عَبَدَ",
+        "present_3ms": "يَعْبُدُ",
+        "amr_5_persons": [
+          "اُعْبُدْ",
+          "اُعْبُدا",
+          "اُعْبُدوا",
+          "اُعْبُدي",
+          "اُعْبُدنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "عَبَدَ"
+          ],
+          [
+            "هُمَا",
+            "عَبَدا"
+          ],
+          [
+            "هُمْ",
+            "عَبَدوا"
+          ],
+          [
+            "هِيَ",
+            "عَبَدتْ"
+          ],
+          [
+            "هُمَا",
+            "عَبَدتا"
+          ],
+          [
+            "هُنَّ",
+            "عَبَدنَ"
+          ],
+          [
+            "أَنْتَ",
+            "عَبَدتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "عَبَدتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "عَبَدتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "عَبَدتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "عَبَدتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "عَبَدتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "عَبَدتُ"
+          ],
+          [
+            "نَحْنُ",
+            "عَبَدنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَعْبُدُ"
+          ],
+          [
+            "هُمَا",
+            "يَعْبُدانِ"
+          ],
+          [
+            "هُمْ",
+            "يَعْبُدونَ"
+          ],
+          [
+            "هِيَ",
+            "تَعْبُدُ"
+          ],
+          [
+            "هُمَا",
+            "تَعْبُدانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَعْبُدنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَعْبُدُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَعْبُدانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَعْبُدونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَعْبُدينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَعْبُدانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَعْبُدنَ"
+          ],
+          [
+            "أَنَا",
+            "أَعْبُدُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَعْبُدُ"
+          ]
+        ],
+        "passive_past_3ms": "عُبِدَ",
+        "passive_present_3ms": "يُعْبَدُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُعْبَدُ"
+          ],
+          [
+            "هُمَا",
+            "يُعْبَدانِ"
+          ],
+          [
+            "هُمْ",
+            "يُعْبَدونَ"
+          ],
+          [
+            "هِيَ",
+            "تُعْبَدُ"
+          ],
+          [
+            "هُمَا",
+            "تُعْبَدانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُعْبَدنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُعْبَدُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُعْبَدانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُعْبَدونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُعْبَدينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُعْبَدانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُعْبَدنَ"
+          ],
+          [
+            "أَنَا",
+            "أُعْبَدُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُعْبَدُ"
+          ]
+        ],
+        "ism_al_faail": "عَابِد",
+        "ism_al_mafool": "مَعْبُود",
+        "level": "easy",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-10",
+        "ar": "عَلَّمَ",
+        "root": "ع ل م",
+        "wazn": "فَعَّلَ",
+        "meaning": "to teach",
+        "difficulty": "medium",
+        "quran_reference": "2:31",
+        "source": "Quranic Arabic Corpus; Quran occurrence 2:31",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "عَلَّمَ",
+        "present_3ms": "يُعَلِّمُ",
+        "amr_5_persons": [
+          "عَلِّمْ",
+          "عَلِّما",
+          "عَلِّموا",
+          "عَلِّمي",
+          "عَلِّمنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "عَلَّمَ"
+          ],
+          [
+            "هُمَا",
+            "عَلَّما"
+          ],
+          [
+            "هُمْ",
+            "عَلَّموا"
+          ],
+          [
+            "هِيَ",
+            "عَلَّمتْ"
+          ],
+          [
+            "هُمَا",
+            "عَلَّمتا"
+          ],
+          [
+            "هُنَّ",
+            "عَلَّمنَ"
+          ],
+          [
+            "أَنْتَ",
+            "عَلَّمتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "عَلَّمتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "عَلَّمتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "عَلَّمتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "عَلَّمتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "عَلَّمتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "عَلَّمتُ"
+          ],
+          [
+            "نَحْنُ",
+            "عَلَّمنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُعَلِّمُ"
+          ],
+          [
+            "هُمَا",
+            "يُعَلِّمانِ"
+          ],
+          [
+            "هُمْ",
+            "يُعَلِّمونَ"
+          ],
+          [
+            "هِيَ",
+            "تُعَلِّمُ"
+          ],
+          [
+            "هُمَا",
+            "تُعَلِّمانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُعَلِّمنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُعَلِّمُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُعَلِّمانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُعَلِّمونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُعَلِّمينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُعَلِّمانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُعَلِّمنَ"
+          ],
+          [
+            "أَنَا",
+            "أُعَلِّمُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُعَلِّمُ"
+          ]
+        ],
+        "passive_past_3ms": "عُلِّمَ",
+        "passive_present_3ms": "يُعَلَّمُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُعَلَّمُ"
+          ],
+          [
+            "هُمَا",
+            "يُعَلَّمانِ"
+          ],
+          [
+            "هُمْ",
+            "يُعَلَّمونَ"
+          ],
+          [
+            "هِيَ",
+            "تُعَلَّمُ"
+          ],
+          [
+            "هُمَا",
+            "تُعَلَّمانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُعَلَّمنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُعَلَّمُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُعَلَّمانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُعَلَّمونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُعَلَّمينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُعَلَّمانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُعَلَّمنَ"
+          ],
+          [
+            "أَنَا",
+            "أُعَلَّمُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُعَلَّمُ"
+          ]
+        ],
+        "ism_al_faail": "مُعَلِّم",
+        "ism_al_mafool": "مُعَلَّم",
+        "level": "medium",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-11",
+        "ar": "نَزَّلَ",
+        "root": "ن ز ل",
+        "wazn": "فَعَّلَ",
+        "meaning": "to send down; reveal gradually",
+        "difficulty": "medium",
+        "quran_reference": "17:106",
+        "source": "Quranic Arabic Corpus; Quran occurrence 17:106",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "نَزَّلَ",
+        "present_3ms": "يُنَزِّلُ",
+        "amr_5_persons": [
+          "نَزِّلْ",
+          "نَزِّلا",
+          "نَزِّلوا",
+          "نَزِّلي",
+          "نَزِّلنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "نَزَّلَ"
+          ],
+          [
+            "هُمَا",
+            "نَزَّلا"
+          ],
+          [
+            "هُمْ",
+            "نَزَّلوا"
+          ],
+          [
+            "هِيَ",
+            "نَزَّلتْ"
+          ],
+          [
+            "هُمَا",
+            "نَزَّلتا"
+          ],
+          [
+            "هُنَّ",
+            "نَزَّلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "نَزَّلتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "نَزَّلتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "نَزَّلتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "نَزَّلتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "نَزَّلتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "نَزَّلتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "نَزَّلتُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَزَّلنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُنَزِّلُ"
+          ],
+          [
+            "هُمَا",
+            "يُنَزِّلانِ"
+          ],
+          [
+            "هُمْ",
+            "يُنَزِّلونَ"
+          ],
+          [
+            "هِيَ",
+            "تُنَزِّلُ"
+          ],
+          [
+            "هُمَا",
+            "تُنَزِّلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُنَزِّلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُنَزِّلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنَزِّلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُنَزِّلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُنَزِّلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنَزِّلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُنَزِّلنَ"
+          ],
+          [
+            "أَنَا",
+            "أُنَزِّلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُنَزِّلُ"
+          ]
+        ],
+        "passive_past_3ms": "نُزِّلَ",
+        "passive_present_3ms": "يُنَزَّلُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُنَزَّلُ"
+          ],
+          [
+            "هُمَا",
+            "يُنَزَّلانِ"
+          ],
+          [
+            "هُمْ",
+            "يُنَزَّلونَ"
+          ],
+          [
+            "هِيَ",
+            "تُنَزَّلُ"
+          ],
+          [
+            "هُمَا",
+            "تُنَزَّلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُنَزَّلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُنَزَّلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنَزَّلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُنَزَّلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُنَزَّلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنَزَّلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُنَزَّلنَ"
+          ],
+          [
+            "أَنَا",
+            "أُنَزَّلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُنَزَّلُ"
+          ]
+        ],
+        "ism_al_faail": "مُنَزِّل",
+        "ism_al_mafool": "مُنَزَّل",
+        "level": "medium",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-12",
+        "ar": "بَشَّرَ",
+        "root": "ب ش ر",
+        "wazn": "فَعَّلَ",
+        "meaning": "to give glad tidings",
+        "difficulty": "medium",
+        "quran_reference": "3:45",
+        "source": "Quranic Arabic Corpus; Quran occurrence 3:45",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "بَشَّرَ",
+        "present_3ms": "يُبَشِّرُ",
+        "amr_5_persons": [
+          "بَشِّرْ",
+          "بَشِّرا",
+          "بَشِّروا",
+          "بَشِّري",
+          "بَشِّرنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "بَشَّرَ"
+          ],
+          [
+            "هُمَا",
+            "بَشَّرا"
+          ],
+          [
+            "هُمْ",
+            "بَشَّروا"
+          ],
+          [
+            "هِيَ",
+            "بَشَّرتْ"
+          ],
+          [
+            "هُمَا",
+            "بَشَّرتا"
+          ],
+          [
+            "هُنَّ",
+            "بَشَّرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "بَشَّرتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "بَشَّرتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "بَشَّرتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "بَشَّرتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "بَشَّرتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "بَشَّرتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "بَشَّرتُ"
+          ],
+          [
+            "نَحْنُ",
+            "بَشَّرنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُبَشِّرُ"
+          ],
+          [
+            "هُمَا",
+            "يُبَشِّرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُبَشِّرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُبَشِّرُ"
+          ],
+          [
+            "هُمَا",
+            "تُبَشِّرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُبَشِّرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُبَشِّرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُبَشِّرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُبَشِّرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُبَشِّرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُبَشِّرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُبَشِّرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُبَشِّرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُبَشِّرُ"
+          ]
+        ],
+        "passive_past_3ms": "بُشِّرَ",
+        "passive_present_3ms": "يُبَشَّرُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُبَشَّرُ"
+          ],
+          [
+            "هُمَا",
+            "يُبَشَّرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُبَشَّرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُبَشَّرُ"
+          ],
+          [
+            "هُمَا",
+            "تُبَشَّرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُبَشَّرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُبَشَّرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُبَشَّرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُبَشَّرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُبَشَّرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُبَشَّرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُبَشَّرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُبَشَّرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُبَشَّرُ"
+          ]
+        ],
+        "ism_al_faail": "مُبَشِّر",
+        "ism_al_mafool": "مُبَشَّر",
+        "level": "medium",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-13",
+        "ar": "صَدَّقَ",
+        "root": "ص د ق",
+        "wazn": "فَعَّلَ",
+        "meaning": "to confirm; declare truthful",
+        "difficulty": "medium",
+        "quran_reference": "92:6",
+        "source": "Quranic Arabic Corpus; Quran occurrence 92:6",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "صَدَّقَ",
+        "present_3ms": "يُصَدِّقُ",
+        "amr_5_persons": [
+          "صَدِّقْ",
+          "صَدِّقا",
+          "صَدِّقوا",
+          "صَدِّقي",
+          "صَدِّقنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "صَدَّقَ"
+          ],
+          [
+            "هُمَا",
+            "صَدَّقا"
+          ],
+          [
+            "هُمْ",
+            "صَدَّقوا"
+          ],
+          [
+            "هِيَ",
+            "صَدَّقتْ"
+          ],
+          [
+            "هُمَا",
+            "صَدَّقتا"
+          ],
+          [
+            "هُنَّ",
+            "صَدَّقنَ"
+          ],
+          [
+            "أَنْتَ",
+            "صَدَّقتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "صَدَّقتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "صَدَّقتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "صَدَّقتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "صَدَّقتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "صَدَّقتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "صَدَّقتُ"
+          ],
+          [
+            "نَحْنُ",
+            "صَدَّقنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُصَدِّقُ"
+          ],
+          [
+            "هُمَا",
+            "يُصَدِّقانِ"
+          ],
+          [
+            "هُمْ",
+            "يُصَدِّقونَ"
+          ],
+          [
+            "هِيَ",
+            "تُصَدِّقُ"
+          ],
+          [
+            "هُمَا",
+            "تُصَدِّقانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُصَدِّقنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُصَدِّقُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُصَدِّقانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُصَدِّقونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُصَدِّقينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُصَدِّقانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُصَدِّقنَ"
+          ],
+          [
+            "أَنَا",
+            "أُصَدِّقُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُصَدِّقُ"
+          ]
+        ],
+        "passive_past_3ms": "صُدِّقَ",
+        "passive_present_3ms": "يُصَدَّقُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُصَدَّقُ"
+          ],
+          [
+            "هُمَا",
+            "يُصَدَّقانِ"
+          ],
+          [
+            "هُمْ",
+            "يُصَدَّقونَ"
+          ],
+          [
+            "هِيَ",
+            "تُصَدَّقُ"
+          ],
+          [
+            "هُمَا",
+            "تُصَدَّقانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُصَدَّقنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُصَدَّقُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُصَدَّقانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُصَدَّقونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُصَدَّقينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُصَدَّقانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُصَدَّقنَ"
+          ],
+          [
+            "أَنَا",
+            "أُصَدَّقُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُصَدَّقُ"
+          ]
+        ],
+        "ism_al_faail": "مُصَدِّق",
+        "ism_al_mafool": "مُصَدَّق",
+        "level": "medium",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-14",
+        "ar": "كَبَّرَ",
+        "root": "ك ب ر",
+        "wazn": "فَعَّلَ",
+        "meaning": "to magnify; declare great",
+        "difficulty": "medium",
+        "quran_reference": "17:111",
+        "source": "Quranic Arabic Corpus; Quran occurrence 17:111",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "كَبَّرَ",
+        "present_3ms": "يُكَبِّرُ",
+        "amr_5_persons": [
+          "كَبِّرْ",
+          "كَبِّرا",
+          "كَبِّروا",
+          "كَبِّري",
+          "كَبِّرنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "كَبَّرَ"
+          ],
+          [
+            "هُمَا",
+            "كَبَّرا"
+          ],
+          [
+            "هُمْ",
+            "كَبَّروا"
+          ],
+          [
+            "هِيَ",
+            "كَبَّرتْ"
+          ],
+          [
+            "هُمَا",
+            "كَبَّرتا"
+          ],
+          [
+            "هُنَّ",
+            "كَبَّرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "كَبَّرتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "كَبَّرتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "كَبَّرتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "كَبَّرتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "كَبَّرتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "كَبَّرتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "كَبَّرتُ"
+          ],
+          [
+            "نَحْنُ",
+            "كَبَّرنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُكَبِّرُ"
+          ],
+          [
+            "هُمَا",
+            "يُكَبِّرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُكَبِّرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُكَبِّرُ"
+          ],
+          [
+            "هُمَا",
+            "تُكَبِّرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُكَبِّرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُكَبِّرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُكَبِّرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُكَبِّرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُكَبِّرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُكَبِّرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُكَبِّرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُكَبِّرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُكَبِّرُ"
+          ]
+        ],
+        "passive_past_3ms": "كُبِّرَ",
+        "passive_present_3ms": "يُكَبَّرُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُكَبَّرُ"
+          ],
+          [
+            "هُمَا",
+            "يُكَبَّرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُكَبَّرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُكَبَّرُ"
+          ],
+          [
+            "هُمَا",
+            "تُكَبَّرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُكَبَّرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُكَبَّرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُكَبَّرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُكَبَّرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُكَبَّرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُكَبَّرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُكَبَّرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُكَبَّرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُكَبَّرُ"
+          ]
+        ],
+        "ism_al_faail": "مُكَبِّر",
+        "ism_al_mafool": "مُكَبَّر",
+        "level": "medium",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-15",
+        "ar": "قَاتَلَ",
+        "root": "ق ت ل",
+        "wazn": "فَاعَلَ",
+        "meaning": "to fight",
+        "difficulty": "medium",
+        "quran_reference": "2:190",
+        "source": "Quranic Arabic Corpus; Quran occurrence 2:190",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "قَاتَلَ",
+        "present_3ms": "يُقَاتِلُ",
+        "amr_5_persons": [
+          "قَاتِلْ",
+          "قَاتِلا",
+          "قَاتِلوا",
+          "قَاتِلي",
+          "قَاتِلنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "قَاتَلَ"
+          ],
+          [
+            "هُمَا",
+            "قَاتَلا"
+          ],
+          [
+            "هُمْ",
+            "قَاتَلوا"
+          ],
+          [
+            "هِيَ",
+            "قَاتَلتْ"
+          ],
+          [
+            "هُمَا",
+            "قَاتَلتا"
+          ],
+          [
+            "هُنَّ",
+            "قَاتَلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "قَاتَلتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "قَاتَلتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "قَاتَلتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "قَاتَلتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "قَاتَلتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "قَاتَلتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "قَاتَلتُ"
+          ],
+          [
+            "نَحْنُ",
+            "قَاتَلنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُقَاتِلُ"
+          ],
+          [
+            "هُمَا",
+            "يُقَاتِلانِ"
+          ],
+          [
+            "هُمْ",
+            "يُقَاتِلونَ"
+          ],
+          [
+            "هِيَ",
+            "تُقَاتِلُ"
+          ],
+          [
+            "هُمَا",
+            "تُقَاتِلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُقَاتِلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُقَاتِلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُقَاتِلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُقَاتِلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُقَاتِلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُقَاتِلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُقَاتِلنَ"
+          ],
+          [
+            "أَنَا",
+            "أُقَاتِلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُقَاتِلُ"
+          ]
+        ],
+        "passive_past_3ms": "قُوتِلَ",
+        "passive_present_3ms": "يُقَاتَلُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُقَاتَلُ"
+          ],
+          [
+            "هُمَا",
+            "يُقَاتَلانِ"
+          ],
+          [
+            "هُمْ",
+            "يُقَاتَلونَ"
+          ],
+          [
+            "هِيَ",
+            "تُقَاتَلُ"
+          ],
+          [
+            "هُمَا",
+            "تُقَاتَلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُقَاتَلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُقَاتَلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُقَاتَلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُقَاتَلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُقَاتَلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُقَاتَلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُقَاتَلنَ"
+          ],
+          [
+            "أَنَا",
+            "أُقَاتَلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُقَاتَلُ"
+          ]
+        ],
+        "ism_al_faail": "مُقَاتِل",
+        "ism_al_mafool": "مُقَاتَل",
+        "level": "medium",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-16",
+        "ar": "جَاهَدَ",
+        "root": "ج ه د",
+        "wazn": "فَاعَلَ",
+        "meaning": "to strive; struggle",
+        "difficulty": "medium",
+        "quran_reference": "9:73",
+        "source": "Quranic Arabic Corpus; Quran occurrence 9:73",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "جَاهَدَ",
+        "present_3ms": "يُجَاهِدُ",
+        "amr_5_persons": [
+          "جَاهِدْ",
+          "جَاهِدا",
+          "جَاهِدوا",
+          "جَاهِدي",
+          "جَاهِدنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "جَاهَدَ"
+          ],
+          [
+            "هُمَا",
+            "جَاهَدا"
+          ],
+          [
+            "هُمْ",
+            "جَاهَدوا"
+          ],
+          [
+            "هِيَ",
+            "جَاهَدتْ"
+          ],
+          [
+            "هُمَا",
+            "جَاهَدتا"
+          ],
+          [
+            "هُنَّ",
+            "جَاهَدنَ"
+          ],
+          [
+            "أَنْتَ",
+            "جَاهَدتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "جَاهَدتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "جَاهَدتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "جَاهَدتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "جَاهَدتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "جَاهَدتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "جَاهَدتُ"
+          ],
+          [
+            "نَحْنُ",
+            "جَاهَدنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُجَاهِدُ"
+          ],
+          [
+            "هُمَا",
+            "يُجَاهِدانِ"
+          ],
+          [
+            "هُمْ",
+            "يُجَاهِدونَ"
+          ],
+          [
+            "هِيَ",
+            "تُجَاهِدُ"
+          ],
+          [
+            "هُمَا",
+            "تُجَاهِدانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُجَاهِدنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُجَاهِدُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُجَاهِدانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُجَاهِدونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُجَاهِدينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُجَاهِدانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُجَاهِدنَ"
+          ],
+          [
+            "أَنَا",
+            "أُجَاهِدُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُجَاهِدُ"
+          ]
+        ],
+        "passive_past_3ms": "جُوهِلَ",
+        "passive_present_3ms": "يُجَاهَلُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُجَاهَلُ"
+          ],
+          [
+            "هُمَا",
+            "يُجَاهَلانِ"
+          ],
+          [
+            "هُمْ",
+            "يُجَاهَلونَ"
+          ],
+          [
+            "هِيَ",
+            "تُجَاهَلُ"
+          ],
+          [
+            "هُمَا",
+            "تُجَاهَلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُجَاهَلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُجَاهَلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُجَاهَلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُجَاهَلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُجَاهَلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُجَاهَلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُجَاهَلنَ"
+          ],
+          [
+            "أَنَا",
+            "أُجَاهَلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُجَاهَلُ"
+          ]
+        ],
+        "ism_al_faail": "مُجَاهِد",
+        "ism_al_mafool": "مُجَاهَد",
+        "level": "medium",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-17",
+        "ar": "جَادَلَ",
+        "root": "ج د ل",
+        "wazn": "فَاعَلَ",
+        "meaning": "to argue; dispute",
+        "difficulty": "hard",
+        "quran_reference": "16:125",
+        "source": "Quranic Arabic Corpus; Quran occurrence 16:125",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "جَادَلَ",
+        "present_3ms": "يُجَادِلُ",
+        "amr_5_persons": [
+          "جَادِلْ",
+          "جَادِلا",
+          "جَادِلوا",
+          "جَادِلي",
+          "جَادِلنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "جَادَلَ"
+          ],
+          [
+            "هُمَا",
+            "جَادَلا"
+          ],
+          [
+            "هُمْ",
+            "جَادَلوا"
+          ],
+          [
+            "هِيَ",
+            "جَادَلتْ"
+          ],
+          [
+            "هُمَا",
+            "جَادَلتا"
+          ],
+          [
+            "هُنَّ",
+            "جَادَلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "جَادَلتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "جَادَلتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "جَادَلتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "جَادَلتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "جَادَلتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "جَادَلتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "جَادَلتُ"
+          ],
+          [
+            "نَحْنُ",
+            "جَادَلنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُجَادِلُ"
+          ],
+          [
+            "هُمَا",
+            "يُجَادِلانِ"
+          ],
+          [
+            "هُمْ",
+            "يُجَادِلونَ"
+          ],
+          [
+            "هِيَ",
+            "تُجَادِلُ"
+          ],
+          [
+            "هُمَا",
+            "تُجَادِلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُجَادِلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُجَادِلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُجَادِلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُجَادِلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُجَادِلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُجَادِلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُجَادِلنَ"
+          ],
+          [
+            "أَنَا",
+            "أُجَادِلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُجَادِلُ"
+          ]
+        ],
+        "passive_past_3ms": "جُودِلَ",
+        "passive_present_3ms": "يُجَادَلُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُجَادَلُ"
+          ],
+          [
+            "هُمَا",
+            "يُجَادَلانِ"
+          ],
+          [
+            "هُمْ",
+            "يُجَادَلونَ"
+          ],
+          [
+            "هِيَ",
+            "تُجَادَلُ"
+          ],
+          [
+            "هُمَا",
+            "تُجَادَلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُجَادَلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُجَادَلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُجَادَلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُجَادَلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُجَادَلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُجَادَلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُجَادَلنَ"
+          ],
+          [
+            "أَنَا",
+            "أُجَادَلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُجَادَلُ"
+          ]
+        ],
+        "ism_al_faail": "مُجَادِل",
+        "ism_al_mafool": "مُجَادَل",
+        "level": "hard",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-18",
+        "ar": "أَرْسَلَ",
+        "root": "ر س ل",
+        "wazn": "أَفْعَلَ",
+        "meaning": "to send",
+        "difficulty": "medium",
+        "quran_reference": "16:36",
+        "source": "Quranic Arabic Corpus; Quran occurrence 16:36",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "أَرْسَلَ",
+        "present_3ms": "يُرْسِلُ",
+        "amr_5_persons": [
+          "أَرْسِلْ",
+          "أَرْسِلا",
+          "أَرْسِلوا",
+          "أَرْسِلي",
+          "أَرْسِلنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "أَرْسَلَ"
+          ],
+          [
+            "هُمَا",
+            "أَرْسَلا"
+          ],
+          [
+            "هُمْ",
+            "أَرْسَلوا"
+          ],
+          [
+            "هِيَ",
+            "أَرْسَلتْ"
+          ],
+          [
+            "هُمَا",
+            "أَرْسَلتا"
+          ],
+          [
+            "هُنَّ",
+            "أَرْسَلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "أَرْسَلتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "أَرْسَلتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "أَرْسَلتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "أَرْسَلتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "أَرْسَلتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "أَرْسَلتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "أَرْسَلتُ"
+          ],
+          [
+            "نَحْنُ",
+            "أَرْسَلنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُرْسِلُ"
+          ],
+          [
+            "هُمَا",
+            "يُرْسِلانِ"
+          ],
+          [
+            "هُمْ",
+            "يُرْسِلونَ"
+          ],
+          [
+            "هِيَ",
+            "تُرْسِلُ"
+          ],
+          [
+            "هُمَا",
+            "تُرْسِلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُرْسِلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُرْسِلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُرْسِلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُرْسِلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُرْسِلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُرْسِلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُرْسِلنَ"
+          ],
+          [
+            "أَنَا",
+            "أُرْسِلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُرْسِلُ"
+          ]
+        ],
+        "passive_past_3ms": "أُرْسِلَ",
+        "passive_present_3ms": "يُرْسَلُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُرْسَلُ"
+          ],
+          [
+            "هُمَا",
+            "يُرْسَلانِ"
+          ],
+          [
+            "هُمْ",
+            "يُرْسَلونَ"
+          ],
+          [
+            "هِيَ",
+            "تُرْسَلُ"
+          ],
+          [
+            "هُمَا",
+            "تُرْسَلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُرْسَلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُرْسَلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُرْسَلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُرْسَلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُرْسَلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُرْسَلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُرْسَلنَ"
+          ],
+          [
+            "أَنَا",
+            "أُرْسَلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُرْسَلُ"
+          ]
+        ],
+        "ism_al_faail": "مُرْسِل",
+        "ism_al_mafool": "مُرْسَل",
+        "level": "medium",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-19",
+        "ar": "أَنْزَلَ",
+        "root": "ن ز ل",
+        "wazn": "أَفْعَلَ",
+        "meaning": "to send down",
+        "difficulty": "medium",
+        "quran_reference": "2:22",
+        "source": "Quranic Arabic Corpus; Quran occurrence 2:22",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "أَنْزَلَ",
+        "present_3ms": "يُنْزِلُ",
+        "amr_5_persons": [
+          "أَنْزِلْ",
+          "أَنْزِلا",
+          "أَنْزِلوا",
+          "أَنْزِلي",
+          "أَنْزِلنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "أَنْزَلَ"
+          ],
+          [
+            "هُمَا",
+            "أَنْزَلا"
+          ],
+          [
+            "هُمْ",
+            "أَنْزَلوا"
+          ],
+          [
+            "هِيَ",
+            "أَنْزَلتْ"
+          ],
+          [
+            "هُمَا",
+            "أَنْزَلتا"
+          ],
+          [
+            "هُنَّ",
+            "أَنْزَلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "أَنْزَلتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "أَنْزَلتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "أَنْزَلتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "أَنْزَلتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "أَنْزَلتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "أَنْزَلتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "أَنْزَلتُ"
+          ],
+          [
+            "نَحْنُ",
+            "أَنْزَلنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُنْزِلُ"
+          ],
+          [
+            "هُمَا",
+            "يُنْزِلانِ"
+          ],
+          [
+            "هُمْ",
+            "يُنْزِلونَ"
+          ],
+          [
+            "هِيَ",
+            "تُنْزِلُ"
+          ],
+          [
+            "هُمَا",
+            "تُنْزِلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُنْزِلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُنْزِلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنْزِلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُنْزِلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُنْزِلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنْزِلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُنْزِلنَ"
+          ],
+          [
+            "أَنَا",
+            "أُنْزِلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُنْزِلُ"
+          ]
+        ],
+        "passive_past_3ms": "أُنْزِلَ",
+        "passive_present_3ms": "يُنْزَلُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُنْزَلُ"
+          ],
+          [
+            "هُمَا",
+            "يُنْزَلانِ"
+          ],
+          [
+            "هُمْ",
+            "يُنْزَلونَ"
+          ],
+          [
+            "هِيَ",
+            "تُنْزَلُ"
+          ],
+          [
+            "هُمَا",
+            "تُنْزَلانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُنْزَلنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُنْزَلُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنْزَلانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُنْزَلونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُنْزَلينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنْزَلانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُنْزَلنَ"
+          ],
+          [
+            "أَنَا",
+            "أُنْزَلُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُنْزَلُ"
+          ]
+        ],
+        "ism_al_faail": "مُنْزِل",
+        "ism_al_mafool": "مُنْزَل",
+        "level": "medium",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-20",
+        "ar": "أَخْرَجَ",
+        "root": "خ ر ج",
+        "wazn": "أَفْعَلَ",
+        "meaning": "to bring out; expel",
+        "difficulty": "medium",
+        "quran_reference": "2:49",
+        "source": "Quranic Arabic Corpus; Quran occurrence 2:49",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "أَخْرَجَ",
+        "present_3ms": "يُخْرِجُ",
+        "amr_5_persons": [
+          "أَخْرِجْ",
+          "أَخْرِجا",
+          "أَخْرِجوا",
+          "أَخْرِجي",
+          "أَخْرِجنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "أَخْرَجَ"
+          ],
+          [
+            "هُمَا",
+            "أَخْرَجا"
+          ],
+          [
+            "هُمْ",
+            "أَخْرَجوا"
+          ],
+          [
+            "هِيَ",
+            "أَخْرَجتْ"
+          ],
+          [
+            "هُمَا",
+            "أَخْرَجتا"
+          ],
+          [
+            "هُنَّ",
+            "أَخْرَجنَ"
+          ],
+          [
+            "أَنْتَ",
+            "أَخْرَجتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "أَخْرَجتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "أَخْرَجتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "أَخْرَجتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "أَخْرَجتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "أَخْرَجتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "أَخْرَجتُ"
+          ],
+          [
+            "نَحْنُ",
+            "أَخْرَجنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُخْرِجُ"
+          ],
+          [
+            "هُمَا",
+            "يُخْرِجانِ"
+          ],
+          [
+            "هُمْ",
+            "يُخْرِجونَ"
+          ],
+          [
+            "هِيَ",
+            "تُخْرِجُ"
+          ],
+          [
+            "هُمَا",
+            "تُخْرِجانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُخْرِجنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُخْرِجُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُخْرِجانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُخْرِجونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُخْرِجينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُخْرِجانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُخْرِجنَ"
+          ],
+          [
+            "أَنَا",
+            "أُخْرِجُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُخْرِجُ"
+          ]
+        ],
+        "passive_past_3ms": "أُخْرِجَ",
+        "passive_present_3ms": "يُخْرَجُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُخْرَجُ"
+          ],
+          [
+            "هُمَا",
+            "يُخْرَجانِ"
+          ],
+          [
+            "هُمْ",
+            "يُخْرَجونَ"
+          ],
+          [
+            "هِيَ",
+            "تُخْرَجُ"
+          ],
+          [
+            "هُمَا",
+            "تُخْرَجانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُخْرَجنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُخْرَجُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُخْرَجانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُخْرَجونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُخْرَجينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُخْرَجانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُخْرَجنَ"
+          ],
+          [
+            "أَنَا",
+            "أُخْرَجُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُخْرَجُ"
+          ]
+        ],
+        "ism_al_faail": "مُخْرِج",
+        "ism_al_mafool": "مُخْرَج",
+        "level": "medium",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-21",
+        "ar": "أَكْرَمَ",
+        "root": "ك ر م",
+        "wazn": "أَفْعَلَ",
+        "meaning": "to honor",
+        "difficulty": "medium",
+        "quran_reference": "89:17",
+        "source": "Quranic Arabic Corpus; Quran occurrence 89:17",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "أَكْرَمَ",
+        "present_3ms": "يُكْرِمُ",
+        "amr_5_persons": [
+          "أَكْرِمْ",
+          "أَكْرِما",
+          "أَكْرِموا",
+          "أَكْرِمي",
+          "أَكْرِمنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "أَكْرَمَ"
+          ],
+          [
+            "هُمَا",
+            "أَكْرَما"
+          ],
+          [
+            "هُمْ",
+            "أَكْرَموا"
+          ],
+          [
+            "هِيَ",
+            "أَكْرَمتْ"
+          ],
+          [
+            "هُمَا",
+            "أَكْرَمتا"
+          ],
+          [
+            "هُنَّ",
+            "أَكْرَمنَ"
+          ],
+          [
+            "أَنْتَ",
+            "أَكْرَمتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "أَكْرَمتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "أَكْرَمتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "أَكْرَمتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "أَكْرَمتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "أَكْرَمتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "أَكْرَمتُ"
+          ],
+          [
+            "نَحْنُ",
+            "أَكْرَمنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُكْرِمُ"
+          ],
+          [
+            "هُمَا",
+            "يُكْرِمانِ"
+          ],
+          [
+            "هُمْ",
+            "يُكْرِمونَ"
+          ],
+          [
+            "هِيَ",
+            "تُكْرِمُ"
+          ],
+          [
+            "هُمَا",
+            "تُكْرِمانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُكْرِمنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُكْرِمُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُكْرِمانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُكْرِمونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُكْرِمينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُكْرِمانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُكْرِمنَ"
+          ],
+          [
+            "أَنَا",
+            "أُكْرِمُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُكْرِمُ"
+          ]
+        ],
+        "passive_past_3ms": "أُكْرِمَ",
+        "passive_present_3ms": "يُكْرَمُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُكْرَمُ"
+          ],
+          [
+            "هُمَا",
+            "يُكْرَمانِ"
+          ],
+          [
+            "هُمْ",
+            "يُكْرَمونَ"
+          ],
+          [
+            "هِيَ",
+            "تُكْرَمُ"
+          ],
+          [
+            "هُمَا",
+            "تُكْرَمانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُكْرَمنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُكْرَمُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُكْرَمانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُكْرَمونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُكْرَمينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُكْرَمانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُكْرَمنَ"
+          ],
+          [
+            "أَنَا",
+            "أُكْرَمُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُكْرَمُ"
+          ]
+        ],
+        "ism_al_faail": "مُكْرِم",
+        "ism_al_mafool": "مُكْرَم",
+        "level": "medium",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-22",
+        "ar": "أَنْذَرَ",
+        "root": "ن ذ ر",
+        "wazn": "أَفْعَلَ",
+        "meaning": "to warn",
+        "difficulty": "medium",
+        "quran_reference": "2:6",
+        "source": "Quranic Arabic Corpus; Quran occurrence 2:6",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "أَنْذَرَ",
+        "present_3ms": "يُنْذِرُ",
+        "amr_5_persons": [
+          "أَنْذِرْ",
+          "أَنْذِرا",
+          "أَنْذِروا",
+          "أَنْذِري",
+          "أَنْذِرنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "أَنْذَرَ"
+          ],
+          [
+            "هُمَا",
+            "أَنْذَرا"
+          ],
+          [
+            "هُمْ",
+            "أَنْذَروا"
+          ],
+          [
+            "هِيَ",
+            "أَنْذَرتْ"
+          ],
+          [
+            "هُمَا",
+            "أَنْذَرتا"
+          ],
+          [
+            "هُنَّ",
+            "أَنْذَرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "أَنْذَرتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "أَنْذَرتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "أَنْذَرتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "أَنْذَرتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "أَنْذَرتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "أَنْذَرتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "أَنْذَرتُ"
+          ],
+          [
+            "نَحْنُ",
+            "أَنْذَرنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يُنْذِرُ"
+          ],
+          [
+            "هُمَا",
+            "يُنْذِرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُنْذِرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُنْذِرُ"
+          ],
+          [
+            "هُمَا",
+            "تُنْذِرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُنْذِرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُنْذِرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنْذِرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُنْذِرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُنْذِرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنْذِرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُنْذِرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُنْذِرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُنْذِرُ"
+          ]
+        ],
+        "passive_past_3ms": "أُنْذِرَ",
+        "passive_present_3ms": "يُنْذَرُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُنْذَرُ"
+          ],
+          [
+            "هُمَا",
+            "يُنْذَرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُنْذَرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُنْذَرُ"
+          ],
+          [
+            "هُمَا",
+            "تُنْذَرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُنْذَرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُنْذَرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنْذَرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُنْذَرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُنْذَرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنْذَرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُنْذَرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُنْذَرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُنْذَرُ"
+          ]
+        ],
+        "ism_al_faail": "مُنْذِر",
+        "ism_al_mafool": "مُنْذَر",
+        "level": "medium",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-23",
+        "ar": "تَعَلَّمَ",
+        "root": "ع ل م",
+        "wazn": "تَفَعَّلَ",
+        "meaning": "to learn",
+        "difficulty": "hard",
+        "quran_reference": "2:102",
+        "source": "Quranic Arabic Corpus; Quran occurrence 2:102",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "تَعَلَّمَ",
+        "present_3ms": "يَتَعَلَّمُ",
+        "amr_5_persons": [
+          "تَعَلَّمْ",
+          "تَعَلَّما",
+          "تَعَلَّموا",
+          "تَعَلَّمي",
+          "تَعَلَّمنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "تَعَلَّمَ"
+          ],
+          [
+            "هُمَا",
+            "تَعَلَّما"
+          ],
+          [
+            "هُمْ",
+            "تَعَلَّموا"
+          ],
+          [
+            "هِيَ",
+            "تَعَلَّمتْ"
+          ],
+          [
+            "هُمَا",
+            "تَعَلَّمتا"
+          ],
+          [
+            "هُنَّ",
+            "تَعَلَّمنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَعَلَّمتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَعَلَّمتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَعَلَّمتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "تَعَلَّمتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَعَلَّمتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَعَلَّمتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "تَعَلَّمتُ"
+          ],
+          [
+            "نَحْنُ",
+            "تَعَلَّمنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَتَعَلَّمُ"
+          ],
+          [
+            "هُمَا",
+            "يَتَعَلَّمانِ"
+          ],
+          [
+            "هُمْ",
+            "يَتَعَلَّمونَ"
+          ],
+          [
+            "هِيَ",
+            "تَتَعَلَّمُ"
+          ],
+          [
+            "هُمَا",
+            "تَتَعَلَّمانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَتَعَلَّمنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَتَعَلَّمُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَتَعَلَّمانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَتَعَلَّمونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَتَعَلَّمينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَتَعَلَّمانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَتَعَلَّمنَ"
+          ],
+          [
+            "أَنَا",
+            "أَتَعَلَّمُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَتَعَلَّمُ"
+          ]
+        ],
+        "passive_past_3ms": "تُعُلِّمَ",
+        "passive_present_3ms": "يُتَعَلَّمُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُتَعَلَّمُ"
+          ],
+          [
+            "هُمَا",
+            "يُتَعَلَّمانِ"
+          ],
+          [
+            "هُمْ",
+            "يُتَعَلَّمونَ"
+          ],
+          [
+            "هِيَ",
+            "تُتَعَلَّمُ"
+          ],
+          [
+            "هُمَا",
+            "تُتَعَلَّمانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُتَعَلَّمنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُتَعَلَّمُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُتَعَلَّمانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُتَعَلَّمونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُتَعَلَّمينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُتَعَلَّمانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُتَعَلَّمنَ"
+          ],
+          [
+            "أَنَا",
+            "أُتَعَلَّمُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُتَعَلَّمُ"
+          ]
+        ],
+        "ism_al_faail": "مُتَعَلِّم",
+        "ism_al_mafool": "مُتَعَلَّم",
+        "level": "hard",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-24",
+        "ar": "تَذَكَّرَ",
+        "root": "ذ ك ر",
+        "wazn": "تَفَعَّلَ",
+        "meaning": "to remember; take heed",
+        "difficulty": "hard",
+        "quran_reference": "2:269",
+        "source": "Quranic Arabic Corpus; Quran occurrence 2:269",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "تَذَكَّرَ",
+        "present_3ms": "يَتَذَكَّرُ",
+        "amr_5_persons": [
+          "تَذَكَّرْ",
+          "تَذَكَّرا",
+          "تَذَكَّروا",
+          "تَذَكَّري",
+          "تَذَكَّرنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "تَذَكَّرَ"
+          ],
+          [
+            "هُمَا",
+            "تَذَكَّرا"
+          ],
+          [
+            "هُمْ",
+            "تَذَكَّروا"
+          ],
+          [
+            "هِيَ",
+            "تَذَكَّرتْ"
+          ],
+          [
+            "هُمَا",
+            "تَذَكَّرتا"
+          ],
+          [
+            "هُنَّ",
+            "تَذَكَّرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَذَكَّرتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَذَكَّرتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَذَكَّرتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "تَذَكَّرتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَذَكَّرتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَذَكَّرتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "تَذَكَّرتُ"
+          ],
+          [
+            "نَحْنُ",
+            "تَذَكَّرنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَتَذَكَّرُ"
+          ],
+          [
+            "هُمَا",
+            "يَتَذَكَّرانِ"
+          ],
+          [
+            "هُمْ",
+            "يَتَذَكَّرونَ"
+          ],
+          [
+            "هِيَ",
+            "تَتَذَكَّرُ"
+          ],
+          [
+            "هُمَا",
+            "تَتَذَكَّرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَتَذَكَّرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَتَذَكَّرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَتَذَكَّرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَتَذَكَّرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَتَذَكَّرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَتَذَكَّرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَتَذَكَّرنَ"
+          ],
+          [
+            "أَنَا",
+            "أَتَذَكَّرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَتَذَكَّرُ"
+          ]
+        ],
+        "passive_past_3ms": "تُذُكِّرَ",
+        "passive_present_3ms": "يُتَذَكَّرُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُتَذَكَّرُ"
+          ],
+          [
+            "هُمَا",
+            "يُتَذَكَّرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُتَذَكَّرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُتَذَكَّرُ"
+          ],
+          [
+            "هُمَا",
+            "تُتَذَكَّرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُتَذَكَّرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُتَذَكَّرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُتَذَكَّرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُتَذَكَّرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُتَذَكَّرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُتَذَكَّرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُتَذَكَّرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُتَذَكَّرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُتَذَكَّرُ"
+          ]
+        ],
+        "ism_al_faail": "مُتَذَكِّر",
+        "ism_al_mafool": "مُتَذَكَّر",
+        "level": "hard",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-25",
+        "ar": "تَطَهَّرَ",
+        "root": "ط ه ر",
+        "wazn": "تَفَعَّلَ",
+        "meaning": "to purify oneself",
+        "difficulty": "hard",
+        "quran_reference": "9:108",
+        "source": "Quranic Arabic Corpus; Quran occurrence 9:108",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "تَطَهَّرَ",
+        "present_3ms": "يَتَطَهَّرُ",
+        "amr_5_persons": [
+          "تَطَهَّرْ",
+          "تَطَهَّرا",
+          "تَطَهَّروا",
+          "تَطَهَّري",
+          "تَطَهَّرنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "تَطَهَّرَ"
+          ],
+          [
+            "هُمَا",
+            "تَطَهَّرا"
+          ],
+          [
+            "هُمْ",
+            "تَطَهَّروا"
+          ],
+          [
+            "هِيَ",
+            "تَطَهَّرتْ"
+          ],
+          [
+            "هُمَا",
+            "تَطَهَّرتا"
+          ],
+          [
+            "هُنَّ",
+            "تَطَهَّرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَطَهَّرتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَطَهَّرتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَطَهَّرتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "تَطَهَّرتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَطَهَّرتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَطَهَّرتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "تَطَهَّرتُ"
+          ],
+          [
+            "نَحْنُ",
+            "تَطَهَّرنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَتَطَهَّرُ"
+          ],
+          [
+            "هُمَا",
+            "يَتَطَهَّرانِ"
+          ],
+          [
+            "هُمْ",
+            "يَتَطَهَّرونَ"
+          ],
+          [
+            "هِيَ",
+            "تَتَطَهَّرُ"
+          ],
+          [
+            "هُمَا",
+            "تَتَطَهَّرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَتَطَهَّرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَتَطَهَّرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَتَطَهَّرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَتَطَهَّرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَتَطَهَّرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَتَطَهَّرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَتَطَهَّرنَ"
+          ],
+          [
+            "أَنَا",
+            "أَتَطَهَّرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَتَطَهَّرُ"
+          ]
+        ],
+        "passive_past_3ms": "تُطُهِّرَ",
+        "passive_present_3ms": "يُتَطَهَّرُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُتَطَهَّرُ"
+          ],
+          [
+            "هُمَا",
+            "يُتَطَهَّرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُتَطَهَّرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُتَطَهَّرُ"
+          ],
+          [
+            "هُمَا",
+            "تُتَطَهَّرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُتَطَهَّرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُتَطَهَّرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُتَطَهَّرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُتَطَهَّرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُتَطَهَّرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُتَطَهَّرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُتَطَهَّرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُتَطَهَّرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُتَطَهَّرُ"
+          ]
+        ],
+        "ism_al_faail": "مُتَطَهِّر",
+        "ism_al_mafool": "مُتَطَهَّر",
+        "level": "hard",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-26",
+        "ar": "تَخَاصَمَ",
+        "root": "خ ص م",
+        "wazn": "تَفَاعَلَ",
+        "meaning": "to quarrel; dispute with one another",
+        "difficulty": "hard",
+        "quran_reference": "38:64",
+        "source": "Quranic Arabic Corpus; Quran occurrence 38:64",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "تَخَاصَمَ",
+        "present_3ms": "يَتَخَاصَمُ",
+        "amr_5_persons": [
+          "تَخَاصَمْ",
+          "تَخَاصَما",
+          "تَخَاصَموا",
+          "تَخَاصَمي",
+          "تَخَاصَمنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "تَخَاصَمَ"
+          ],
+          [
+            "هُمَا",
+            "تَخَاصَما"
+          ],
+          [
+            "هُمْ",
+            "تَخَاصَموا"
+          ],
+          [
+            "هِيَ",
+            "تَخَاصَمتْ"
+          ],
+          [
+            "هُمَا",
+            "تَخَاصَمتا"
+          ],
+          [
+            "هُنَّ",
+            "تَخَاصَمنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَخَاصَمتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَخَاصَمتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَخَاصَمتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "تَخَاصَمتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَخَاصَمتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَخَاصَمتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "تَخَاصَمتُ"
+          ],
+          [
+            "نَحْنُ",
+            "تَخَاصَمنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَتَخَاصَمُ"
+          ],
+          [
+            "هُمَا",
+            "يَتَخَاصَمانِ"
+          ],
+          [
+            "هُمْ",
+            "يَتَخَاصَمونَ"
+          ],
+          [
+            "هِيَ",
+            "تَتَخَاصَمُ"
+          ],
+          [
+            "هُمَا",
+            "تَتَخَاصَمانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَتَخَاصَمنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَتَخَاصَمُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَتَخَاصَمانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَتَخَاصَمونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَتَخَاصَمينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَتَخَاصَمانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَتَخَاصَمنَ"
+          ],
+          [
+            "أَنَا",
+            "أَتَخَاصَمُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَتَخَاصَمُ"
+          ]
+        ],
+        "passive_past_3ms": "تُخُوصِلَ",
+        "passive_present_3ms": "يُتَخَاصَمُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُتَخَاصَمُ"
+          ],
+          [
+            "هُمَا",
+            "يُتَخَاصَمانِ"
+          ],
+          [
+            "هُمْ",
+            "يُتَخَاصَمونَ"
+          ],
+          [
+            "هِيَ",
+            "تُتَخَاصَمُ"
+          ],
+          [
+            "هُمَا",
+            "تُتَخَاصَمانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُتَخَاصَمنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُتَخَاصَمُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُتَخَاصَمانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُتَخَاصَمونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُتَخَاصَمينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُتَخَاصَمانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُتَخَاصَمنَ"
+          ],
+          [
+            "أَنَا",
+            "أُتَخَاصَمُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُتَخَاصَمُ"
+          ]
+        ],
+        "ism_al_faail": "مُتَخَاصِم",
+        "ism_al_mafool": "مُتَخَاصَم",
+        "level": "hard",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-27",
+        "ar": "تَعَارَفَ",
+        "root": "ع ر ف",
+        "wazn": "تَفَاعَلَ",
+        "meaning": "to come to know one another",
+        "difficulty": "hard",
+        "quran_reference": "49:13",
+        "source": "Quranic Arabic Corpus; Quran occurrence 49:13",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "تَعَارَفَ",
+        "present_3ms": "يَتَعَارَفُ",
+        "amr_5_persons": [
+          "تَعَارَفْ",
+          "تَعَارَفا",
+          "تَعَارَفوا",
+          "تَعَارَفي",
+          "تَعَارَفنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "تَعَارَفَ"
+          ],
+          [
+            "هُمَا",
+            "تَعَارَفا"
+          ],
+          [
+            "هُمْ",
+            "تَعَارَفوا"
+          ],
+          [
+            "هِيَ",
+            "تَعَارَفتْ"
+          ],
+          [
+            "هُمَا",
+            "تَعَارَفتا"
+          ],
+          [
+            "هُنَّ",
+            "تَعَارَفنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَعَارَفتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَعَارَفتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَعَارَفتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "تَعَارَفتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَعَارَفتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَعَارَفتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "تَعَارَفتُ"
+          ],
+          [
+            "نَحْنُ",
+            "تَعَارَفنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَتَعَارَفُ"
+          ],
+          [
+            "هُمَا",
+            "يَتَعَارَفانِ"
+          ],
+          [
+            "هُمْ",
+            "يَتَعَارَفونَ"
+          ],
+          [
+            "هِيَ",
+            "تَتَعَارَفُ"
+          ],
+          [
+            "هُمَا",
+            "تَتَعَارَفانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَتَعَارَفنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَتَعَارَفُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَتَعَارَفانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَتَعَارَفونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَتَعَارَفينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَتَعَارَفانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَتَعَارَفنَ"
+          ],
+          [
+            "أَنَا",
+            "أَتَعَارَفُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَتَعَارَفُ"
+          ]
+        ],
+        "passive_past_3ms": "تُعُورِلَ",
+        "passive_present_3ms": "يُتَعَارَفُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُتَعَارَفُ"
+          ],
+          [
+            "هُمَا",
+            "يُتَعَارَفانِ"
+          ],
+          [
+            "هُمْ",
+            "يُتَعَارَفونَ"
+          ],
+          [
+            "هِيَ",
+            "تُتَعَارَفُ"
+          ],
+          [
+            "هُمَا",
+            "تُتَعَارَفانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُتَعَارَفنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُتَعَارَفُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُتَعَارَفانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُتَعَارَفونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُتَعَارَفينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُتَعَارَفانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُتَعَارَفنَ"
+          ],
+          [
+            "أَنَا",
+            "أُتَعَارَفُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُتَعَارَفُ"
+          ]
+        ],
+        "ism_al_faail": "مُتَعَارِف",
+        "ism_al_mafool": "مُتَعَارَف",
+        "level": "hard",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-28",
+        "ar": "اِنْصَرَفَ",
+        "root": "ص ر ف",
+        "wazn": "اِنْفَعَلَ",
+        "meaning": "to depart; turn away",
+        "difficulty": "hard",
+        "quran_reference": "9:127",
+        "source": "Quranic Arabic Corpus; Quran occurrence 9:127",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "اِنْصَرَفَ",
+        "present_3ms": "يَنْصَرِفُ",
+        "amr_5_persons": [
+          "اِنْصَرِفْ",
+          "اِنْصَرِفا",
+          "اِنْصَرِفوا",
+          "اِنْصَرِفي",
+          "اِنْصَرِفنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "اِنْصَرَفَ"
+          ],
+          [
+            "هُمَا",
+            "اِنْصَرَفا"
+          ],
+          [
+            "هُمْ",
+            "اِنْصَرَفوا"
+          ],
+          [
+            "هِيَ",
+            "اِنْصَرَفتْ"
+          ],
+          [
+            "هُمَا",
+            "اِنْصَرَفتا"
+          ],
+          [
+            "هُنَّ",
+            "اِنْصَرَفنَ"
+          ],
+          [
+            "أَنْتَ",
+            "اِنْصَرَفتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "اِنْصَرَفتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "اِنْصَرَفتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "اِنْصَرَفتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "اِنْصَرَفتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "اِنْصَرَفتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "اِنْصَرَفتُ"
+          ],
+          [
+            "نَحْنُ",
+            "اِنْصَرَفنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَنْصَرِفُ"
+          ],
+          [
+            "هُمَا",
+            "يَنْصَرِفانِ"
+          ],
+          [
+            "هُمْ",
+            "يَنْصَرِفونَ"
+          ],
+          [
+            "هِيَ",
+            "تَنْصَرِفُ"
+          ],
+          [
+            "هُمَا",
+            "تَنْصَرِفانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَنْصَرِفنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَنْصَرِفُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَنْصَرِفانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَنْصَرِفونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَنْصَرِفينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَنْصَرِفانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَنْصَرِفنَ"
+          ],
+          [
+            "أَنَا",
+            "أَنْصَرِفُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَنْصَرِفُ"
+          ]
+        ],
+        "passive_past_3ms": "اُنْصُرِفَ",
+        "passive_present_3ms": "يُنْصَرَفُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُنْصَرَفُ"
+          ],
+          [
+            "هُمَا",
+            "يُنْصَرَفانِ"
+          ],
+          [
+            "هُمْ",
+            "يُنْصَرَفونَ"
+          ],
+          [
+            "هِيَ",
+            "تُنْصَرَفُ"
+          ],
+          [
+            "هُمَا",
+            "تُنْصَرَفانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُنْصَرَفنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُنْصَرَفُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنْصَرَفانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُنْصَرَفونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُنْصَرَفينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُنْصَرَفانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُنْصَرَفنَ"
+          ],
+          [
+            "أَنَا",
+            "أُنْصَرَفُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُنْصَرَفُ"
+          ]
+        ],
+        "ism_al_faail": "مُنْصَرِف",
+        "ism_al_mafool": "مُنْصَرَف",
+        "level": "hard",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-29",
+        "ar": "اِجْتَنَبَ",
+        "root": "ج ن ب",
+        "wazn": "اِفْتَعَلَ",
+        "meaning": "to avoid; shun",
+        "difficulty": "hardest",
+        "quran_reference": "5:90",
+        "source": "Quranic Arabic Corpus; Quran occurrence 5:90",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "اِجْتَنَبَ",
+        "present_3ms": "يَجْتَنِبُ",
+        "amr_5_persons": [
+          "اِجْتَنِبْ",
+          "اِجْتَنِبا",
+          "اِجْتَنِبوا",
+          "اِجْتَنِبي",
+          "اِجْتَنِبنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "اِجْتَنَبَ"
+          ],
+          [
+            "هُمَا",
+            "اِجْتَنَبا"
+          ],
+          [
+            "هُمْ",
+            "اِجْتَنَبوا"
+          ],
+          [
+            "هِيَ",
+            "اِجْتَنَبتْ"
+          ],
+          [
+            "هُمَا",
+            "اِجْتَنَبتا"
+          ],
+          [
+            "هُنَّ",
+            "اِجْتَنَبنَ"
+          ],
+          [
+            "أَنْتَ",
+            "اِجْتَنَبتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "اِجْتَنَبتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "اِجْتَنَبتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "اِجْتَنَبتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "اِجْتَنَبتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "اِجْتَنَبتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "اِجْتَنَبتُ"
+          ],
+          [
+            "نَحْنُ",
+            "اِجْتَنَبنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَجْتَنِبُ"
+          ],
+          [
+            "هُمَا",
+            "يَجْتَنِبانِ"
+          ],
+          [
+            "هُمْ",
+            "يَجْتَنِبونَ"
+          ],
+          [
+            "هِيَ",
+            "تَجْتَنِبُ"
+          ],
+          [
+            "هُمَا",
+            "تَجْتَنِبانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَجْتَنِبنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَجْتَنِبُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَجْتَنِبانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَجْتَنِبونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَجْتَنِبينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَجْتَنِبانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَجْتَنِبنَ"
+          ],
+          [
+            "أَنَا",
+            "أَجْتَنِبُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَجْتَنِبُ"
+          ]
+        ],
+        "passive_past_3ms": "اُجْتُنِبَ",
+        "passive_present_3ms": "يُجْتَنَبُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُجْتَنَبُ"
+          ],
+          [
+            "هُمَا",
+            "يُجْتَنَبانِ"
+          ],
+          [
+            "هُمْ",
+            "يُجْتَنَبونَ"
+          ],
+          [
+            "هِيَ",
+            "تُجْتَنَبُ"
+          ],
+          [
+            "هُمَا",
+            "تُجْتَنَبانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُجْتَنَبنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُجْتَنَبُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُجْتَنَبانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُجْتَنَبونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُجْتَنَبينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُجْتَنَبانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُجْتَنَبنَ"
+          ],
+          [
+            "أَنَا",
+            "أُجْتَنَبُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُجْتَنَبُ"
+          ]
+        ],
+        "ism_al_faail": "مُجْتَنِب",
+        "ism_al_mafool": "مُجْتَنَب",
+        "level": "hardest",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      },
+      {
+        "id": "ADD-30",
+        "ar": "اِسْتَغْفَرَ",
+        "root": "غ ف ر",
+        "wazn": "اِسْتَفْعَلَ",
+        "meaning": "to seek forgiveness",
+        "difficulty": "hardest",
+        "quran_reference": "4:106",
+        "source": "Quranic Arabic Corpus; Quran occurrence 4:106",
+        "source_url": "https://corpus.quran.com/morphologicalsearch.jsp",
+        "past_3ms": "اِسْتَغْفَرَ",
+        "present_3ms": "يَسْتَغْفِرُ",
+        "amr_5_persons": [
+          "اِسْتَغْفِرْ",
+          "اِسْتَغْفِرا",
+          "اِسْتَغْفِروا",
+          "اِسْتَغْفِري",
+          "اِسْتَغْفِرنَ"
+        ],
+        "past_conjugation": [
+          [
+            "هُوَ",
+            "اِسْتَغْفَرَ"
+          ],
+          [
+            "هُمَا",
+            "اِسْتَغْفَرا"
+          ],
+          [
+            "هُمْ",
+            "اِسْتَغْفَروا"
+          ],
+          [
+            "هِيَ",
+            "اِسْتَغْفَرتْ"
+          ],
+          [
+            "هُمَا",
+            "اِسْتَغْفَرتا"
+          ],
+          [
+            "هُنَّ",
+            "اِسْتَغْفَرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "اِسْتَغْفَرتَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "اِسْتَغْفَرتُمَا"
+          ],
+          [
+            "أَنْتُمْ",
+            "اِسْتَغْفَرتُمْ"
+          ],
+          [
+            "أَنْتِ",
+            "اِسْتَغْفَرتِ"
+          ],
+          [
+            "أَنْتُمَا",
+            "اِسْتَغْفَرتُمَا"
+          ],
+          [
+            "أَنْتُنَّ",
+            "اِسْتَغْفَرتُنَّ"
+          ],
+          [
+            "أَنَا",
+            "اِسْتَغْفَرتُ"
+          ],
+          [
+            "نَحْنُ",
+            "اِسْتَغْفَرنَا"
+          ]
+        ],
+        "present_conjugation": [
+          [
+            "هُوَ",
+            "يَسْتَغْفِرُ"
+          ],
+          [
+            "هُمَا",
+            "يَسْتَغْفِرانِ"
+          ],
+          [
+            "هُمْ",
+            "يَسْتَغْفِرونَ"
+          ],
+          [
+            "هِيَ",
+            "تَسْتَغْفِرُ"
+          ],
+          [
+            "هُمَا",
+            "تَسْتَغْفِرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يَسْتَغْفِرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تَسْتَغْفِرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَسْتَغْفِرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تَسْتَغْفِرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تَسْتَغْفِرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تَسْتَغْفِرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تَسْتَغْفِرنَ"
+          ],
+          [
+            "أَنَا",
+            "أَسْتَغْفِرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نَسْتَغْفِرُ"
+          ]
+        ],
+        "passive_past_3ms": "اُسْتُغْفِرَ",
+        "passive_present_3ms": "يُسْتَغْفَرُ",
+        "passive_present_conjugation": [
+          [
+            "هُوَ",
+            "يُسْتَغْفَرُ"
+          ],
+          [
+            "هُمَا",
+            "يُسْتَغْفَرانِ"
+          ],
+          [
+            "هُمْ",
+            "يُسْتَغْفَرونَ"
+          ],
+          [
+            "هِيَ",
+            "تُسْتَغْفَرُ"
+          ],
+          [
+            "هُمَا",
+            "تُسْتَغْفَرانِ"
+          ],
+          [
+            "هُنَّ",
+            "يُسْتَغْفَرنَ"
+          ],
+          [
+            "أَنْتَ",
+            "تُسْتَغْفَرُ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُسْتَغْفَرانِ"
+          ],
+          [
+            "أَنْتُمْ",
+            "تُسْتَغْفَرونَ"
+          ],
+          [
+            "أَنْتِ",
+            "تُسْتَغْفَرينَ"
+          ],
+          [
+            "أَنْتُمَا",
+            "تُسْتَغْفَرانِ"
+          ],
+          [
+            "أَنْتُنَّ",
+            "تُسْتَغْفَرنَ"
+          ],
+          [
+            "أَنَا",
+            "أُسْتَغْفَرُ"
+          ],
+          [
+            "نَحْنُ",
+            "نُسْتَغْفَرُ"
+          ]
+        ],
+        "ism_al_faail": "مُسْتَغْفِر",
+        "ism_al_mafool": "مُسْتَغْفَر",
+        "level": "hardest",
+        "verification": "Quran-attested lexeme; paradigm forms are morphologically generated from the attested lemma/form and independently QA-checked. Not every generated conjugated form is claimed to occur verbatim in the Quran."
+      }
     ]
   }
 };
