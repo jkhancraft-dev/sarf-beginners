@@ -35,7 +35,7 @@ function renderLessons(){
   q('#lessons').innerHTML = DATA.lessons.map(x=>{
     const done=!!state.completed[x.id];
     const subs=x.sublessons||[];
-    const subHtml=subs.map((s,i)=>`<details class="sublesson" ${i===0?'open':''}><summary><span class="lesson-index">${i+1}.</span> ${arabic(s.title_ar,'ar title-ar')} — ${esc(s.title_en)}</summary><p class="source"><b>Basis:</b> ${esc(s.source_basis)}</p><p>${esc(s.explanation)}</p>${s.steps?.length?`<h5>Step-by-step</h5><ol class="steps">${s.steps.map(z=>`<li>${esc(z)}</li>`).join('')}</ol>`:''}${s.examples?.length?`<h5>Examples</h5><div class="examples">${s.examples.map(z=>`<div>${esc(z)}</div>`).join('')}</div>`:''}${s.notes?.length?`<h5>Notes</h5><ul class="notes">${s.notes.map(z=>`<li>${esc(z)}</li>`).join('')}</ul>`:''}${s.supplementary?.length?`<div class="supp-note"><b>Supplementary reference:</b> ${s.supplementary.map(r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>`).join(' · ')}</div>`:''}</details>`).join('');
+    const subHtml=subs.map((s,i)=>`<details class="sublesson" ${i===0?'open':''}><summary><span class="lesson-index">${i+1}.</span> ${arabic(s.title_ar,'ar title-ar')} — ${esc(s.title_en)}</summary><p class="source"><b>Basis:</b> ${esc(s.source_basis)}</p><p>${esc(s.explanation)}</p>${s.rule_en?`<div class="rule-box"><h5>${esc(s.rule_title||'Rule')}</h5><p>${esc(s.rule_en)}</p></div>`:''}${s.steps?.length?`<h5>Step-by-step</h5><ol class="steps">${s.steps.map(z=>`<li>${esc(z)}</li>`).join('')}</ol>`:''}${s.examples?.length?`<h5>Examples</h5><div class="examples">${s.examples.map(z=>`<div>${esc(z)}</div>`).join('')}</div>`:''}${s.notes?.length?`<h5>Notes</h5><ul class="notes">${s.notes.map(z=>`<li>${esc(z)}</li>`).join('')}</ul>`:''}${s.supplementary?.length?`<div class="supp-note"><b>Supplementary reference:</b> ${s.supplementary.map(r=>`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>`).join(' · ')}</div>`:''}</details>`).join('');
     return `<article class="card lesson-card"><div class="lesson-header"><div><h3>${esc(x.id)} — ${arabic(x.title_ar,'ar title-ar')}</h3><p class="en-title">${esc(x.title_en)}</p></div><span class="badge ${done?'done':''}">${done?'✓ Complete':'Not started'}</span></div><p class="muted">Source pages: ${esc(x.pages)}</p><div class="lesson-path"><b>Learning path:</b> ${esc(x.learning_path_note||'Read the rule, study the examples, then practise.')}</div><h4>Sub-lessons</h4>${subHtml||'<p class="muted">No sub-lessons mapped yet.</p>'}<button class="btn" onclick="toggleLesson('${x.id}')">${done?'Mark incomplete':'Mark complete'}</button></article>`;
   }).join('');
 }
@@ -71,7 +71,9 @@ const modes=[
   {id:'root',q:'Identify the root',get:v=>v.root},
   {id:'wazn',q:'Identify the وَزْن / مِيزَان',get:v=>v.wazn},
   {id:'meaning',q:'Identify the English meaning',get:v=>v.meaning},
-  {id:'lesson',q:'Which source page contains this entry?',get:v=>String(v.source_page||'')}
+  {id:'present',q:'Give the هُوَ Muḍāriʿ form',get:v=>v.present_3ms},
+  {id:'faail',q:'Give اسم الفاعل',get:v=>v.ism_al_faail},
+  {id:'mafool',q:'Give اسم المفعول',get:v=>v.ism_al_mafool},
 ];
 let quiz=null;
 function shuffle(a){return [...a].sort(()=>Math.random()-.5)}
@@ -163,31 +165,33 @@ function renderAdditional(){
 }
 function miniTable(rows){return '<table><thead><tr><th>ضَمِير</th><th>Form</th></tr></thead><tbody>'+rows.map(r=>`<tr><td>${arabic(r[0],'small-ar')}</td><td>${arabic(r[1],'ar table-ar')}</td></tr>`).join('')+'</tbody></table>'}
 function startAdditionalQuiz(level){
- const ap=DATA.additional_practice.verbs; const pool=level==='medium'?ap:ap.filter(v=>v.level===level || (level==='hardest'&&['hard','hardest'].includes(v.level))); const v=pool[Math.floor(Math.random()*pool.length)];
- let correct,question,options,shown;
- if(level==='medium'){
-  const mode=Math.floor(Math.random()*3); shown=v.ar;
-  if(mode===0){question='Identify the English meaning.';correct=v.meaning;options=ap.map(x=>x.meaning)}
-  else if(mode===1){question='Identify the root.';correct=v.root;options=ap.map(x=>x.root)}
-  else {question='Identify the وَزْن / مِيزَان.';correct=v.wazn;options=ap.map(x=>x.wazn)}
- } else if(level==='hard'){
-  const mode=Math.floor(Math.random()*4); shown=v.ar;
-  if(mode===0){question='Give the هُوَ Muḍāriʿ form.';correct=v.present_3ms;options=ap.map(x=>x.present_3ms)}
-  else if(mode===1){question='Give the أَنْتَ Amr form.';correct=v.amr_5_persons[0];options=ap.map(x=>x.amr_5_persons[0])}
-  else if(mode===2){question='Give اسم الفاعل.';correct=v.ism_al_faail;options=ap.map(x=>x.ism_al_faail)}
-  else {question='Give اسم المفعول.';correct=v.ism_al_mafool;options=ap.map(x=>x.ism_al_mafool)}
- } else {
-  const mode=Math.floor(Math.random()*5); shown=v.ar;
-  if(mode===0){const r=v.present_conjugation[Math.floor(Math.random()*14)];question=`Give the ${arabic(r[0],'small-ar')} Muḍāriʿ form.`;correct=r[1];options=ap.flatMap(x=>x.present_conjugation.map(y=>y[1]))}
-  else if(mode===1){const r=v.past_conjugation[Math.floor(Math.random()*14)];question=`Give the ${arabic(r[0],'small-ar')} Māḍī form.`;correct=r[1];options=ap.flatMap(x=>x.past_conjugation.map(y=>y[1]))}
-  else if(mode===2){question='Give the 3rd-person masculine passive Muḍāriʿ.';correct=v.passive_present_3ms;options=ap.map(x=>x.passive_present_3ms)}
-  else if(mode===3){question='Identify the وَزْن from the verb.';correct=v.wazn;options=ap.map(x=>x.wazn)}
-  else {question='Give the 3rd-person masculine passive Māḍī.';correct=v.passive_past_3ms;options=ap.map(x=>x.passive_past_3ms)}
- }
- renderChoiceQuestion('Additional Practice — '+level.toUpperCase(),shown,question,correct,options,'Beyond-textbook Quranic verb practice');
- q('#quizFeedback').insertAdjacentHTML('afterend',`<p class="muted"><a href="${esc(DATA.additional_practice.source_url)}" target="_blank" rel="noopener">Verify morphology in the Quranic Arabic Corpus</a></p>`);
+ const ap=DATA.additional_practice.verbs;
+ const pool=level==='medium'?ap:level==='hard'?ap.filter(v=>['medium','hard'].includes(v.level)):ap;
+ const v=pool[Math.floor(Math.random()*pool.length)];
+ let correct,question,options,shown=v.ar;
+ const modesByLevel={
+  medium:['meaning','root','wazn','present','past'],
+  hard:['present','amr','faail','mafool','passive_present','passive_past','wazn'],
+  hardest:['past14','present14','amr','passive_present14','passive_past','faail','mafool','wazn','root']
+ };
+ const mode=modesByLevel[level][Math.floor(Math.random()*modesByLevel[level].length)];
+ const same=(getter)=>ap.map(x=>getter(x)).filter(Boolean);
+ if(mode==='meaning'){question='Identify the English meaning.';correct=v.meaning;options=same(x=>x.meaning)}
+ else if(mode==='root'){question='Identify the root.';correct=v.root;options=same(x=>x.root)}
+ else if(mode==='wazn'){question='Which وَزْن / مِيزَان does this verb belong to?';correct=v.wazn;options=same(x=>x.wazn)}
+ else if(mode==='past'){question='Give the هُوَ Māḍī form.';correct=v.past_conjugation?.[0]?.[1]||v.ar;options=same(x=>x.past_conjugation?.[0]?.[1])}
+ else if(mode==='present'){question='Give the هُوَ Muḍāriʿ form.';correct=v.present_3ms;options=same(x=>x.present_3ms)}
+  else if(mode==='faail'){question='Give اسم الفاعل.';correct=v.ism_al_faail;options=same(x=>x.ism_al_faail)}
+ else if(mode==='mafool'){question='Give اسم المفعول.';correct=v.ism_al_mafool;options=same(x=>x.ism_al_mafool)}
+ else if(mode==='passive_present'){question='Give the هُوَ passive Muḍāriʿ form.';correct=v.passive_present_3ms;options=same(x=>x.passive_present_3ms)}
+ else if(mode==='passive_past'){question='Give the هُوَ passive Māḍī form.';correct=v.passive_past_3ms;options=same(x=>x.passive_past_3ms)}
+ else if(mode==='past14'){const r=v.past_conjugation[Math.floor(Math.random()*v.past_conjugation.length)];question=`Give the ${arabic(r[0],'small-ar')} Māḍī form.`;correct=r[1];options=ap.flatMap(x=>x.past_conjugation.map(y=>y[1]))}
+ else if(mode==='present14'){const r=v.present_conjugation[Math.floor(Math.random()*v.present_conjugation.length)];question=`Give the ${arabic(r[0],'small-ar')} Muḍāriʿ form.`;correct=r[1];options=ap.flatMap(x=>x.present_conjugation.map(y=>y[1]))}
+ else if(mode==='amr'){const r=v.amr_5_persons[Math.floor(Math.random()*v.amr_5_persons.length)];question='Give the corresponding فِعْلُ الأَمْر form.';correct=r;options=ap.flatMap(x=>x.amr_5_persons||[])}
+ else if(mode==='passive_present14'){const r=v.passive_present_conjugation[Math.floor(Math.random()*v.passive_present_conjugation.length)];question=`Give the ${arabic(r[0],'small-ar')} passive Muḍāriʿ form.`;correct=r[1];options=ap.flatMap(x=>x.passive_present_conjugation.map(y=>y[1]))}
+ renderChoiceQuestion('Additional Practice — '+level.toUpperCase(),shown,question,correct,options,'Beyond-textbook morphology practice');
+ q('#quizFeedback').insertAdjacentHTML('afterend',`<p class="muted"><a href="${esc(DATA.additional_practice.source_url)}" target="_blank" rel="noopener">Verify source morphology in the Quranic Arabic Corpus</a></p>`);
 }
-
 function renderFlash(){startQuiz()}
 function renderDashboard(){
  const done=Object.values(state.completed).filter(Boolean).length;

@@ -22,9 +22,12 @@ const DATA={
           "steps": [],
           "examples": [],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "Use the textbook wording as the primary curriculum; this English explanation is an aid, not a replacement."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Definition of Ṣarf",
+          "rule_en": "The book begins by defining Ṣarf linguistically and technically. In this course, use Ṣarf to study changes in the forms of words and the patterns used to recognize those changes."
         },
         {
           "id": "L01-S02",
@@ -37,8 +40,12 @@ const DATA={
             "In this course, focus on verbs because Ṣarf primarily tracks their forms and derivations."
           ],
           "examples": [],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Word-class rule",
+          "rule_en": "Before applying Ṣarf rules, identify whether the item is a verb, noun, or particle. The conjugation work in this course is primarily concerned with verbs."
         },
         {
           "id": "L01-S03",
@@ -53,9 +60,12 @@ const DATA={
             "اِسْتَغْفَرَ → اِسْتَفْعَلَ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "When a learner sees a conjugated form, the app can ask for its underlying وزن rather than only its dictionary form."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Mīzān rule",
+          "rule_en": "Place the first, second, and third root radicals against ف، ع، ل. Preserve added letters and their positions in the derived pattern."
         },
         {
           "id": "L01-S04",
@@ -69,8 +79,12 @@ const DATA={
             "Keep pattern letters such as أ، ت، س as additional letters when the form requires them."
           ],
           "examples": [],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Root-letter rule",
+          "rule_en": "Separate the original root radicals from letters added by the pattern. The root carries the lexical base; the pattern supplies the morphological structure."
         },
         {
           "id": "L01-S05",
@@ -90,8 +104,12 @@ const DATA={
             "نَحْنُ = we",
             "أَنَا = I"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Pronoun rule",
+          "rule_en": "The 14-place conjugation framework corresponds to the standard person, gender, and number distinctions used throughout the book. Learn the pronoun sequence before memorizing tables."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -120,9 +138,12 @@ const DATA={
             "دَرَسَ = he studied"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "The vowel of the middle radical in the past is part of the lexical pattern and does not by itself determine the English meaning."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Form I past pattern",
+          "rule_en": "Form I triliteral past is represented by فَعَلَ. Its vowel pattern is part of the lexical form and must be learned with the verb."
         },
         {
           "id": "L02-S02",
@@ -135,8 +156,12 @@ const DATA={
             "فَهِمَ = he understood",
             "فَرِحَ = he was happy/rejoiced"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form I past pattern",
+          "rule_en": "Form I triliteral past is represented by فَعِلَ. The kasrah on the middle radical distinguishes this pattern."
         },
         {
           "id": "L02-S03",
@@ -150,9 +175,12 @@ const DATA={
             "حَسُنَ = he was good/beautiful"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "Many فَعُلَ verbs are stative or describe a quality, but vocabulary must still be learned individually."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Form I past pattern",
+          "rule_en": "Form I triliteral past is represented by فَعُلَ. The ḍammah on the middle radical distinguishes this pattern."
         },
         {
           "id": "L02-S04",
@@ -171,8 +199,12 @@ const DATA={
             "فَعَلَ → فَعَلَتْ → فَعَلْنَ",
             "فَعَلَ → فَعَلْتَ → فَعَلْتُ → فَعَلْنَا"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Māḍī conjugation rule",
+          "rule_en": "Start with the 3rd-person masculine singular form, then attach the appropriate subject endings shown in the book. The stem vowels remain those of the selected pattern."
         },
         {
           "id": "L02-S05",
@@ -183,10 +215,13 @@ const DATA={
           "steps": [],
           "examples": [],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "Pay special attention to تاء التأنيث الساكنة in فَعَلَتْ: it marks feminine subject and is not itself the subject pronoun.",
             "The dual alif and plural wāw are treated according to the textbook’s explanation of their grammatical function."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Attached-pronoun rule",
+          "rule_en": "In the past tense, person/number/gender are expressed through attached endings. Memorize each ending as part of the complete conjugation rather than treating it as an isolated suffix."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -217,9 +252,17 @@ const DATA={
             "أَخْرَجَ → يُخْرِجُ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "Form IV often has causative/transitivizing functions, but lexical meaning must be checked verb by verb."
           ],
-          "supplementary": []
+          "supplementary": [
+            {
+              "title": "Supplementary: Arabic verb forms (external reference)",
+              "url": "https://www.arabic.desert-sky.net/g_vforms.html"
+            }
+          ],
+          "rule_title": "Form IV past rule",
+          "rule_en": "أَفْعَلَ is built with the prefix أَ and sukūn on the first root radical: أَفْعَلَ."
         },
         {
           "id": "L03-S02",
@@ -233,9 +276,12 @@ const DATA={
             "شَاهَدَ → يُشَاهِدُ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "A common semantic tendency is interaction or relation with another party, but it is not a universal translation rule."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Form III past rule",
+          "rule_en": "فَاعَلَ contains an alif after the first root radical: فَاعَلَ."
         },
         {
           "id": "L03-S03",
@@ -249,9 +295,12 @@ const DATA={
             "كَسَّرَ → يُكَسِّرُ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "Form II frequently expresses causative, intensive or transitive meanings, but the dictionary meaning controls the translation."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Form II past rule",
+          "rule_en": "فَعَّلَ doubles the second root radical with shaddah: فَعَّلَ."
         },
         {
           "id": "L03-S04",
@@ -264,8 +313,12 @@ const DATA={
             "زَخْرَفَ → يُزَخْرِفُ",
             "بَرْهَنَ → يُبَرْهِنُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Quadriliteral rule",
+          "rule_en": "A true four-radical root is represented by فَعْلَلَ. Its four root consonants occupy ف، ع، ل، ل."
         },
         {
           "id": "L03-S05",
@@ -280,8 +333,12 @@ const DATA={
             "Check every harakah rather than relying on an English transliteration."
           ],
           "examples": [],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Quadriliteral Māḍī conjugation rule",
+          "rule_en": "Conjugate the four-radical past stem using the same person/number framework, preserving the four-radical pattern and applying the required endings."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -313,8 +370,12 @@ const DATA={
             "اِنْكَسَرَ → يَنْكَسِرُ",
             "اِنْقَطَعَ → يَنْقَطِعُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form VII past rule",
+          "rule_en": "اِنْفَعَلَ begins with اِنْ and places sukūn after the initial nūn: اِنْفَعَلَ."
         },
         {
           "id": "L04-S02",
@@ -327,8 +388,12 @@ const DATA={
             "اِجْتَمَعَ → يَجْتَمِعُ",
             "اِقْتَدَرَ → يَقْتَدِرُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form VIII past rule",
+          "rule_en": "اِفْتَعَلَ begins with اِ and inserts ت after the first root radical: اِفْتَعَلَ."
         },
         {
           "id": "L04-S03",
@@ -342,9 +407,12 @@ const DATA={
             "اِصْفَرَّ → يَصْفَرُّ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "Do not treat the final shaddah as optional: it represents the doubled final radical."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Form IX past rule",
+          "rule_en": "اِفْعَلَّ has the Form VIII-like opening and a doubled final radical: اِفْعَلَّ."
         },
         {
           "id": "L04-S04",
@@ -357,8 +425,12 @@ const DATA={
             "تَعَلَّمَ → يَتَعَلَّمُ",
             "تَبَسَّمَ → يَتَبَسَّمُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form V past rule",
+          "rule_en": "تَفَعَّلَ adds تـ to Form II and retains the doubled second radical."
         },
         {
           "id": "L04-S05",
@@ -371,8 +443,12 @@ const DATA={
             "تَقَاتَلَ → يَتَقَاتَلُ",
             "تَبَادَلَ → يَتَبَادَلُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form VI past rule",
+          "rule_en": "تَفَاعَلَ adds تـ to Form III and retains the alif after the first radical."
         },
         {
           "id": "L04-S06",
@@ -385,8 +461,12 @@ const DATA={
             "تَزَحْلَقَ → يَتَزَحْلَقُ",
             "تَدَحْرَجَ → يَتَدَحْرَجُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Derived quadriliteral past rule",
+          "rule_en": "The book treats the derived five-letter quadriliteral pattern as تَفَعْلَلَ: تـ followed by the four-radical stem."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -414,9 +494,12 @@ const DATA={
             "اِسْتَخْرَجَ → يَسْتَخْرِجُ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "Form X commonly has a requesting/seeking/considering relationship to the base root, but lexical meanings vary."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Form X past rule",
+          "rule_en": "اِسْتَفْعَلَ begins with اِسْتَـ and has sukūn on the first root radical: اِسْتَفْعَلَ."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -447,8 +530,17 @@ const DATA={
             "Apply the correct ending for dual/plural/feminine forms."
           ],
           "examples": [],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [
+            {
+              "title": "Supplementary: Arabic verb forms (external reference)",
+              "url": "https://www.arabic.desert-sky.net/g_vforms.html"
+            }
+          ],
+          "rule_title": "Muḍāriʿ formation rule",
+          "rule_en": "For the present/imperfect, identify the verb pattern first, then use one of the four prefixes أ، ن، ت، ي. For Form I, the middle vowel is lexical and belongs to the verb; for derived forms, the pattern supplies the vowel."
         },
         {
           "id": "L06-S02",
@@ -462,9 +554,12 @@ const DATA={
             "دَخَلَ → يَدْخُلُ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "The present middle vowel is lexical; it cannot be safely predicted from the consonants alone."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Form I a–u rule",
+          "rule_en": "فَعَلَ → يَفْعُلُ. The middle radical of the Muḍāriʿ carries ḍammah."
         },
         {
           "id": "L06-S03",
@@ -477,8 +572,12 @@ const DATA={
             "ضَرَبَ → يَضْرِبُ",
             "جَلَسَ → يَجْلِسُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form I a–i rule",
+          "rule_en": "فَعَلَ → يَفْعِلُ. The middle radical of the Muḍāriʿ carries kasrah."
         },
         {
           "id": "L06-S04",
@@ -491,8 +590,12 @@ const DATA={
             "فَتَحَ → يَفْتَحُ",
             "ذَهَبَ → يَذْهَبُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form I a–a rule",
+          "rule_en": "فَعَلَ → يَفْعَلُ. The middle radical of the Muḍāriʿ carries fatḥah."
         },
         {
           "id": "L06-S05",
@@ -506,9 +609,12 @@ const DATA={
             "عَرِفَ → يَعْرِفُ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "Individual vocabulary must be checked; do not infer the present vowel from the first vowel alone."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Form I i–a rule",
+          "rule_en": "فَعِلَ → يَفْعَلُ in this class. The present middle vowel must be learned with the lexical verb."
         },
         {
           "id": "L06-S06",
@@ -521,9 +627,12 @@ const DATA={
             "حَسِبَ → يَحْسِبُ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "This is one reason the learner should memorize the past + present pair for each Form I verb."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Form I i–i rule",
+          "rule_en": "فَعِلَ → يَفْعِلُ in this class. Do not infer the vowel solely from the past form; memorize the past-present pair."
         },
         {
           "id": "L06-S07",
@@ -536,8 +645,12 @@ const DATA={
             "كَرُمَ → يَكْرُمُ",
             "حَسُنَ → يَحْسُنُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form I u–u rule",
+          "rule_en": "فَعُلَ → يَفْعُلُ. The middle radical remains on ḍammah."
         },
         {
           "id": "L06-S08",
@@ -552,8 +665,12 @@ const DATA={
             "Remember that the dual alif and plural wāw are not themselves independent pronouns in the way the attached subject pronouns of the past are."
           ],
           "examples": [],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Muḍāriʿ conjugation rule",
+          "rule_en": "Choose the correct prefix أ/ن/ت/ي, preserve the pattern, then apply the endings for dual, plural, and feminine forms. The 14-place order is the same learning framework used throughout the book."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -583,8 +700,12 @@ const DATA={
             "أَكْرَمَ → يُكْرِمُ",
             "أَخْرَجَ → يُخْرِجُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form IV Muḍāriʿ rule",
+          "rule_en": "أَفْعَلَ → يُفْعِلُ. The present prefix replaces the initial past hamzah and the middle radical takes kasrah."
         },
         {
           "id": "L07-S02",
@@ -597,8 +718,12 @@ const DATA={
             "شَاهَدَ → يُشَاهِدُ",
             "سَافَرَ → يُسَافِرُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form III Muḍāriʿ rule",
+          "rule_en": "فَاعَلَ → يُفَاعِلُ. The alif of the pattern is retained."
         },
         {
           "id": "L07-S03",
@@ -611,8 +736,12 @@ const DATA={
             "عَلَّمَ → يُعَلِّمُ",
             "حَسَّنَ → يُحَسِّنُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form II Muḍāriʿ rule",
+          "rule_en": "فَعَّلَ → يُفَعِّلُ. The middle radical remains doubled and carries kasrah."
         },
         {
           "id": "L07-S04",
@@ -625,8 +754,12 @@ const DATA={
             "زَخْرَفَ → يُزَخْرِفُ",
             "بَرْهَنَ → يُبَرْهِنُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Quadriliteral Muḍāriʿ rule",
+          "rule_en": "فَعْلَلَ → يُفَعْلِلُ. Add the ordinary present prefix and use kasrah on the third radical of the four-radical stem as shown by the pattern."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -657,8 +790,12 @@ const DATA={
           "examples": [
             "اِنْكَسَرَ → يَنْكَسِرُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form VII Muḍāriʿ rule",
+          "rule_en": "اِنْفَعَلَ → يَنْفَعِلُ. The initial derived material remains after the present prefix."
         },
         {
           "id": "L08-S02",
@@ -670,8 +807,12 @@ const DATA={
           "examples": [
             "اِجْتَمَعَ → يَجْتَمِعُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form VIII Muḍāriʿ rule",
+          "rule_en": "اِفْتَعَلَ → يَفْتَعِلُ. The inserted ت remains in the present pattern."
         },
         {
           "id": "L08-S03",
@@ -683,8 +824,12 @@ const DATA={
           "examples": [
             "اِحْمَرَّ → يَحْمَرُّ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form IX Muḍāriʿ rule",
+          "rule_en": "اِفْعَلَّ → يَفْعَلُّ. The final shaddah remains."
         },
         {
           "id": "L08-S04",
@@ -696,8 +841,12 @@ const DATA={
           "examples": [
             "تَعَلَّمَ → يَتَعَلَّمُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form V Muḍāriʿ rule",
+          "rule_en": "تَفَعَّلَ → يَتَفَعَّلُ. The initial ت and doubled middle radical remain."
         },
         {
           "id": "L08-S05",
@@ -709,8 +858,12 @@ const DATA={
           "examples": [
             "تَبَادَلَ → يَتَبَادَلُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form VI Muḍāriʿ rule",
+          "rule_en": "تَفَاعَلَ → يَتَفَاعَلُ. The initial ت and the pattern alif remain."
         },
         {
           "id": "L08-S06",
@@ -722,8 +875,12 @@ const DATA={
           "examples": [
             "تَدَحْرَجَ → يَتَدَحْرَجُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Derived quadriliteral Muḍāriʿ rule",
+          "rule_en": "تَفَعْلَلَ → يَتَفَعْلَلُ. The initial ت remains as part of the derived pattern."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -750,8 +907,12 @@ const DATA={
             "اِسْتَخْرَجَ → يَسْتَخْرِجُ",
             "اِسْتَغْفَرَ → يَسْتَغْفِرُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Form X Muḍāriʿ rule",
+          "rule_en": "اِسْتَفْعَلَ → يَسْتَفْعِلُ. Replace the past initial alif with the present prefix and give the middle radical kasrah."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -790,14 +951,21 @@ const DATA={
             "تَفْتَحُ → تَفْتَحْ → اِفْتَحْ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "The textbook is the controlling source for its school-level formulation. General Arabic grammar also describes the imperative as being derived from the jussive imperfective stem."
           ],
           "supplementary": [
             {
               "title": "General Arabic verb reference",
               "url": "https://en.wikipedia.org/wiki/Arabic_verbs"
+            },
+            {
+              "title": "Supplementary: Arabic verb forms (external reference)",
+              "url": "https://www.arabic.desert-sky.net/g_vforms.html"
             }
-          ]
+          ],
+          "rule_title": "Imperative formation rule",
+          "rule_en": "Start with the 2nd-person Muḍāriʿ. Make it jussive, remove the present prefix تـ, and if the resulting form begins with a consonant cluster, add hamzat al-waṣl. In the Form I patterns taught here, hamzat al-waṣl is pronounced with ḍammah when the Muḍāriʿ middle radical has ḍammah, and with kasrah in the other two basic cases."
         },
         {
           "id": "L10-S02",
@@ -812,9 +980,12 @@ const DATA={
             "تَفْتَحُ → اِفْتَحْ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "The initial alif is أَلِفُ الْوَصْلِ, not a permanent root letter."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Triliteral imperative rule",
+          "rule_en": "From the 2ms Muḍāriʿ, remove تـ and the jussive ending. Then use اُفْعُلْ for the u-vowel class, اِفْعِلْ for the i-vowel class, and اِفْعَلْ for the a-vowel class."
         },
         {
           "id": "L10-S03",
@@ -830,9 +1001,12 @@ const DATA={
             "تُعَلِّمُ → عَلِّمْ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "Form IV is a major exception to the simple Form I hamzat-al-waṣl behavior: its imperative begins with a permanent hamzah."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Quadriliteral imperative rule",
+          "rule_en": "Derived quadriliteral imperatives are pattern-specific. Form IV is أَفْعِلْ; Forms III and II are فَاعِلْ and فَعِّلْ respectively. These begin without the Form I hamzat-al-waṣl procedure."
         },
         {
           "id": "L10-S04",
@@ -847,8 +1021,12 @@ const DATA={
             "تَتَعَلَّمُ → تَعَلَّمْ",
             "تَتَبَادَلُ → تَبَادَلْ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Five-letter imperative rule",
+          "rule_en": "Derive the imperative from the 2ms Muḍāriʿ. Remove the present prefix and retain the derived pattern; where the form begins with a cluster, use the required initial hamzat al-waṣl."
         },
         {
           "id": "L10-S05",
@@ -862,9 +1040,12 @@ const DATA={
             "تَسْتَخْرِجُ → اِسْتَخْرِجْ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "The مصدر/present pattern is retained; only the present prefix and final indicative ending are removed/adjusted."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Six-letter imperative rule",
+          "rule_en": "اِسْتَفْعَلَ → يَسْتَفْعِلُ → اِسْتَفْعِلْ. Remove the present prefix and indicative ending, then supply the initial hamzat al-waṣl."
         },
         {
           "id": "L10-S06",
@@ -879,8 +1060,12 @@ const DATA={
             "Do not invent first- or third-person positive imperative forms; use the book’s exact paradigm."
           ],
           "examples": [],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Imperative conjugation rule",
+          "rule_en": "The positive imperative is addressed only to the second person. Build أَنْتَ first, then derive أَنْتُمَا، أَنْتُمْ، أَنْتِ، أَنْتُنَّ using the endings shown in the book."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -910,9 +1095,12 @@ const DATA={
             "نَصَرَ → نَاصِرٌ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "Weak and hamzated verbs may require spelling changes; apply the textbook rule rather than blindly inserting the pattern."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Active-participle rule: Form I",
+          "rule_en": "For a sound triliteral verb, the active participle is normally فَاعِلٌ: the first radical takes fatḥah, an alif follows it, and the middle radical takes kasrah."
         },
         {
           "id": "L11-S02",
@@ -926,9 +1114,17 @@ const DATA={
             "يَسْتَخْرِجُ → مُسْتَخْرِجٌ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "This rule is a high-value bridge from Muḍāriʿ to derivational nouns."
           ],
-          "supplementary": []
+          "supplementary": [
+            {
+              "title": "Supplementary: Arabic verb forms (external reference)",
+              "url": "https://www.arabic.desert-sky.net/g_vforms.html"
+            }
+          ],
+          "rule_title": "Active-participle rule: derived verbs",
+          "rule_en": "For derived forms, derive the active participle from the Muḍāriʿ pattern using the pattern-specific prefix/vowel transformation taught by the book."
         },
         {
           "id": "L11-S03",
@@ -943,8 +1139,12 @@ const DATA={
             "Verify the lexical meaning."
           ],
           "examples": [],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Active-participle exercise rule",
+          "rule_en": "Identify the verb pattern first, apply the corresponding active-participle template, then check the resulting form against the complete paradigm."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -973,9 +1173,12 @@ const DATA={
           "steps": [],
           "examples": [],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "This lesson is about form first. Syntactic labels from Naḥw can be learned later without delaying the Ṣarf sequence."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Passive-voice rule",
+          "rule_en": "The passive omits the doer in the verbal form. Ṣarf first teaches the internal vowel pattern; syntactic discussion can be studied separately."
         },
         {
           "id": "L12-S02",
@@ -992,8 +1195,12 @@ const DATA={
             "كَتَبَ → كُتِبَ",
             "ضَرَبَ → ضُرِبَ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Passive Māḍī Form I rule",
+          "rule_en": "For the sound triliteral passive past, use فُعِلَ: ḍammah on the first radical and kasrah on the middle radical."
         },
         {
           "id": "L12-S03",
@@ -1007,8 +1214,12 @@ const DATA={
             "عَلَّمَ → عُلِّمَ",
             "اِسْتَخْرَجَ → اُسْتُخْرِجَ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Passive Māḍī derived-form rule",
+          "rule_en": "Identify the active derived pattern and apply its passive template. Do not use the Form I rule mechanically for every derived form."
         },
         {
           "id": "L12-S04",
@@ -1022,8 +1233,12 @@ const DATA={
             "Check the middle vowel in every slot."
           ],
           "examples": [],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Passive Māḍī conjugation rule",
+          "rule_en": "After forming the passive 3ms, conjugate through the same 14-person framework while preserving the passive stem vowels and applying the required endings."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -1055,9 +1270,12 @@ const DATA={
             "يُكْرِمُ → يُكْرَمُ"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "For derived forms, use the exact pattern in the book rather than assuming one universal vowel operation."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Passive Muḍāriʿ rule",
+          "rule_en": "The passive Muḍāriʿ is formed from the active Muḍāriʿ using the pattern-specific passive vowel template taught in the book. For sound Form I, the basic pattern is يُفْعَلُ."
         },
         {
           "id": "L13-S02",
@@ -1071,8 +1289,12 @@ const DATA={
             "Conjugate only after the passive stem is correct."
           ],
           "examples": [],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "General passive-present rule",
+          "rule_en": "First identify the active present pattern. Then apply the book’s passive template, normally beginning with ḍammah and placing fatḥah on the pre-final radical in the standard sound pattern."
         },
         {
           "id": "L13-S03",
@@ -1085,8 +1307,12 @@ const DATA={
             "يُقَاتِلُ → يُقَاتَلُ",
             "يُخَاطِبُ → يُخَاطَبُ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Passive-present exercise rule",
+          "rule_en": "Convert the active present stem to the passive pattern first; only then perform the 14-slot conjugation. This prevents carrying active vowels into the passive table."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -1116,8 +1342,12 @@ const DATA={
             "كَتَبَ → مَكْتُوبٌ",
             "نَصَرَ → مَنْصُورٌ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Passive-participle rule: Form I",
+          "rule_en": "For a sound triliteral verb, the passive participle follows مَفْعُولٌ."
         },
         {
           "id": "L14-S02",
@@ -1130,8 +1360,17 @@ const DATA={
             "يُكْرِمُ → مُكْرَمٌ",
             "يَسْتَخْرِجُ → مُسْتَخْرَجٌ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [
+            {
+              "title": "Supplementary: Arabic verb forms (external reference)",
+              "url": "https://www.arabic.desert-sky.net/g_vforms.html"
+            }
+          ],
+          "rule_title": "Passive-participle rule: derived verbs",
+          "rule_en": "For derived verbs, begin from the Muḍāriʿ stem and apply the pattern-specific prefix/vowel changes taught in the book to form the passive participle."
         },
         {
           "id": "L14-S03",
@@ -1145,9 +1384,12 @@ const DATA={
             "مَكْتُوبٌ = something written"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "This distinction is semantic as well as morphological; English glosses should preserve the agent/patient relationship."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Active vs passive participle rule",
+          "rule_en": "اسم الفاعل names the performer of the action; اسم المفعول names the entity affected by the action. Learn the two forms together to avoid reversing their meanings."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -1179,9 +1421,12 @@ const DATA={
             "أَفْضَلُ = better / best"
           ],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "Do not assume every adjective can be mechanically put into أَفْعَلُ; the textbook’s conditions matter."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Elative rule",
+          "rule_en": "The book introduces اسم التفضيل as a derived form with conditions and a standard pattern. Learn the conditions first, then apply the pattern to eligible verbs."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -1208,9 +1453,12 @@ const DATA={
           "steps": [],
           "examples": [],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "This is a crucial contrast with many derived forms: memorize the maṣdar with the verb when necessary."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Form I maṣdar rule",
+          "rule_en": "The verbal noun of Form I is not governed by one single universal template. Learn each maṣdar with the verb and use the book’s examples and lexical patterns."
         },
         {
           "id": "L16-S02",
@@ -1224,8 +1472,12 @@ const DATA={
             "عَلَّمَ → تَعْلِيمٌ",
             "دَرَّسَ → تَدْرِيسٌ"
           ],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Quadriliteral maṣdar rule",
+          "rule_en": "Derived quadriliteral maṣdars follow the pattern-specific templates taught in the book; identify the verb pattern before generating the maṣdar."
         },
         {
           "id": "L16-S03",
@@ -1240,8 +1492,12 @@ const DATA={
             "Verify the lexical form against the book."
           ],
           "examples": [],
-          "notes": [],
-          "supplementary": []
+          "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
+          ],
+          "supplementary": [],
+          "rule_title": "Five-/six-letter maṣdar rule",
+          "rule_en": "For Forms V–X and related derived patterns, the maṣdar follows a predictable pattern based on the verb form. Learn the corresponding template rather than treating it as Form I."
         },
         {
           "id": "L16-S04",
@@ -1252,9 +1508,12 @@ const DATA={
           "steps": [],
           "examples": [],
           "notes": [
+            "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
             "This is especially useful when the app reaches later cumulative review."
           ],
-          "supplementary": []
+          "supplementary": [],
+          "rule_title": "Maṣdar review rule",
+          "rule_en": "When reviewing a maṣdar, identify the source verb, its وزن, and the applicable maṣdar template before giving the final form."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
