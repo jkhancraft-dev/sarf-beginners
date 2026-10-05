@@ -1,4 +1,4 @@
-const CACHE='sarf-curriculum-v7-conjugator-difficulty';
+const CACHE='sarf-curriculum-v8-patterns-meaning-groups';
 const ASSETS=['./','./index.html','./style.css','./app.js','./data.js','./qa.js','./qa_additional.js','./manifest.json','./icons/icon-192.png','./icons/icon-512.png','./assets/preface/page-02.jpg','./assets/preface/page-03.jpg','./assets/preface/page-04.jpg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));

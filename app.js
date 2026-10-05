@@ -11,6 +11,7 @@ state.streak = state.streak || 0;
 state.fullAccess = state.fullAccess === true;
 state.openLesson = state.openLesson || null;
 state.openSublesson = state.openSublesson || null;
+state.meaningGroupsLearned = state.meaningGroupsLearned || {};
 
 function save(){localStorage.setItem('sarfState',JSON.stringify(state));}
 function arabic(t, cls='ar'){return `<span dir="rtl" lang="ar" class="${cls}">${esc(t)}</span>`}
@@ -70,52 +71,89 @@ function renderLessons(){
   }
   root.innerHTML=`<div class="section-intro card"><div class="eyebrow">BOOK SEQUENCE</div><h2>Lessons</h2><p>Open one lesson at a time. Each lesson contains clickable sub-lessons. Complete them in order; practice expands only as you learn.</p></div><div class="lesson-list">${DATA.lessons.map((x,i)=>{const done=lessonComplete(x.id), unlocked=allPriorLessonsComplete(x.id);return `<button class="lesson-tile ${done?'completed':''} ${unlocked?'':'locked'}" ${unlocked?'':'disabled'} onclick="openLesson('${x.id}')"><span class="tile-number">${i+1}</span><span class="tile-main"><strong>${esc(x.title_en)}</strong><span>${arabic(x.title_ar,'small-ar')}</span><small>Pages ${esc(x.pages)} · ${(x.sublessons||[]).length} sub-lessons</small></span><span class="tile-status">${done?'✓ Complete':unlocked?'Open →':'🔒 Locked'}</span></button>`}).join('')}</div>`;
 }
+function patternFormHTML(pat, label){
+  const recs=uniqueVerbRecords(allVerbRecords().filter(v=>normalizeArabic(v.wazn||'')===normalizeArabic(pat[0])));
+  const opts=recs.slice(0,20).map((v,i)=>`<option value="${i}">${esc(v.ar)} — ${esc(v.meaning||'')}</option>`).join('');
+  const id='pat_'+Math.random().toString(36).slice(2,9);
+  const body=`<div class="pattern-tool" id="${id}"><div class="pattern-tool-controls"><select class="pattern-verb"><option value="">Choose a verified example verb…</option>${opts}</select><select class="pattern-what"><option value="everything">Everything available</option><option value="past">Māḍī</option><option value="present">Muḍāriʿ</option><option value="amr">Amr</option><option value="faail">Ism al-Fāʿil</option><option value="mafool">Ism al-Mafʿūl</option><option value="passive_past">Passive Māḍī</option><option value="passive_present">Passive Muḍāriʿ</option><option value="masdar">Maṣdar</option></select></div><div class="pattern-result muted">Choose a verified example verb, then choose the Ṣarf type.</div></div>`;
+  setTimeout(()=>{
+    const root=q('#'+id); if(!root) return;
+    const render=()=>{const idx=root.querySelector('.pattern-verb').value, kind=root.querySelector('.pattern-what').value, v=recs[Number(idx)]; const out=root.querySelector('.pattern-result'); if(!v){out.innerHTML='<span class="muted">Choose a verified example verb, then choose the Ṣarf type.</span>';return;} out.innerHTML=renderSelectedParadigm(v,kind);};
+    root.querySelector('.pattern-verb').addEventListener('change',render); root.querySelector('.pattern-what').addEventListener('change',render);
+  },0);
+  return body;
+}
 function renderPatterns(){
   const groups=[
-    ['Form I — three-letter verb',['فَعَلَ','فَعِلَ','فَعُلَ'],'Three basic three-letter past patterns.'],
-    ['Derived three-letter forms — Forms II–IV',['فَعَّلَ','فَاعَلَ','أَفْعَلَ'],'The verb gains additional letters/pattern features while the underlying root remains identifiable.'],
-    ['Derived five-letter forms — Forms V–VI',['تَفَعَّلَ','تَفَاعَلَ'],'Five-letter patterns built from the derived three-letter patterns.'],
-    ['Derived five-letter forms — Forms VII–IX',['اِنْفَعَلَ','اِفْتَعَلَ','اِفْعَلَّ'],'Five-letter patterns with their characteristic prefixes and changes.'],
-    ['Six-letter form — Form X',['اِسْتَفْعَلَ'],'The six-letter pattern introduced in the textbook.'],
-    ['Four-letter verbs',['فَعْلَلَ','تَفَعْلَلَ'],'A true four-letter base and its derived five-letter pattern.']
+    ['Form I — Three-Letter Verb',['فَعَلَ','فَعِلَ','فَعُلَ'],'The three basic three-letter past patterns.'],
+    ['Form II–IV — Derived Three-Letter Verbs',['فَعَّلَ','فَاعَلَ','أَفْعَلَ'],'Forms II, III and IV.'],
+    ['Form V–VI — Five-Letter Derived Verbs',['تَفَعَّلَ','تَفَاعَلَ'],'Forms V and VI.'],
+    ['Form VII–IX — Five-Letter Derived Verbs',['اِنْفَعَلَ','اِفْتَعَلَ','اِفْعَلَّ'],'Forms VII, VIII and IX.'],
+    ['Form X — Six-Letter Derived Verb',['اِسْتَفْعَلَ'],'Form X.'],
+    ['Four-Letter Patterns',['فَعْلَلَ','تَفَعْلَلَ'],'The four-letter base pattern and its derived form.']
   ];
-  q('#patterns').innerHTML=`<div class="section-intro card"><div class="eyebrow">PATTERN MAP</div><h2>Verb Forms at a Glance</h2><p>Use this page as a simple map: first see whether a verb is three, four, five, or six letters; then learn the traditional form number and pattern.</p></div>${groups.map(g=>`<article class="card"><h3>${esc(g[0])}</h3><p class="muted">${esc(g[2])}</p><div class="grid">${g[1].map(pat=>{const p=DATA.patterns.find(x=>x[0]===pat);return p?card(arabic(p[0],'ar pattern'),`<p>${esc(p[1])}</p><p class="muted">${esc(p[2])}</p>`):''}).join('')}</div></article>`).join('')}`;
+  q('#patterns').innerHTML=`<div class="section-intro card"><div class="eyebrow">PATTERN MAP</div><h2>Verb Patterns & Forms</h2><p>Open a pattern, choose a verified example verb, then choose Māḍī, Muḍāriʿ, Amr, Ism al-Fāʿil, Ism al-Mafʿūl, passive forms, Maṣdar, or Everything available. The app never invents a lexical meaning for a different form.</p></div>${groups.map(g=>`<article class="card"><h3>${esc(g[0])}</h3><p class="muted">${esc(g[2])}</p><div class="grid">${g[1].map(pat=>{const p=DATA.patterns.find(x=>x[0]===pat);return p?`<article class="card pattern-card"><div class="lesson-header"><div>${arabic(p[0],'ar pattern')}<p>${esc(p[1])}</p></div><span class="badge">${esc(p[2])}</span></div>${patternFormHTML(p, g[0])}</article>`:''}).join('')}</div></article>`).join('')}`;
 }
 
 function learningEntries(){return [...(DATA.verbs||[]),...(DATA.exercise_entries||[])];}
-
-function normalizeArabic(s){
-  return String(s||'').normalize('NFD').replace(/[\u064B-\u065F\u0670\u06D6-\u06ED]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').trim();
+function normalizeArabic(s){return String(s||'').normalize('NFD').replace(/[\u064B-\u065F\u0670\u06D6-\u06ED]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/[\sـ]/g,'').trim();}
+function allVerbRecords(){return [...(DATA.verbs||[]),...(DATA.exercise_entries||[]),...(DATA.additional_practice?.verbs||[])];}
+function mergeValues(a,b){
+  if(a==null || a==='') return b;
+  if(b==null || b==='') return a;
+  if(Array.isArray(a)&&Array.isArray(b)) return b.length>a.length?b:a;
+  if(typeof a==='object'&&typeof b==='object'&&!Array.isArray(a)&&!Array.isArray(b)){const o={...a};Object.keys(b).forEach(k=>o[k]=mergeValues(o[k],b[k]));return o;}
+  return a;
 }
-function allVerbRecords(){
-  return [...(DATA.verbs||[]),...(DATA.exercise_entries||[]),...(DATA.additional_practice?.verbs||[])];
+function mergeVerbRecords(records){
+  const out={}; records.forEach(v=>{Object.keys(v||{}).forEach(k=>out[k]=mergeValues(out[k],v[k]));});
+  return out;
+}
+function uniqueVerbRecords(records){
+  const map=new Map(); records.forEach(v=>{if(!v||!v.ar)return; const key=normalizeArabic(v.ar)||normalizeArabic(v.past_3ms)||normalizeArabic(v.root||''); if(!key)return; if(!map.has(key))map.set(key,v); else map.set(key,mergeVerbRecords([map.get(key),v]));}); return [...map.values()];
 }
 function findVerbRecord(input){
-  const n=normalizeArabic(input);
-  if(!n) return null;
-  return allVerbRecords().find(v=>normalizeArabic(v.ar)===n) || allVerbRecords().find(v=>normalizeArabic(v.past_3ms)===n) || allVerbRecords().find(v=>normalizeArabic(v.present_3ms)===n) || null;
+  const n=normalizeArabic(input); if(!n)return null;
+  const records=uniqueVerbRecords(allVerbRecords());
+  return records.find(v=>normalizeArabic(v.ar)===n)
+    || records.find(v=>normalizeArabic(v.past_3ms)===n)
+    || records.find(v=>normalizeArabic(v.present_3ms)===n)
+    || records.find(v=>normalizeArabic(v.root)===n)
+    || records.find(v=>normalizeArabic(v.meaning)===n)
+    || null;
 }
-function fullParadigmHTML(v){
+function miniParadigm(v,kind){
+  const amr=v.amr_5_persons||v.expected_answers?.amr_5_persons||[];
+  const pp=v.passive_past_conjugation||v.expected_answers?.passive_past_conjugation||[];
+  const pp3=v.passive_past_3ms||v.expected_answers?.passive_past_3ms;
+  const fa=v.ism_al_faail||v.expected_answers?.ism_al_faail;
+  const ma=v.ism_al_mafool||v.expected_answers?.ism_al_mafool;
+  const mas=v.expected_answers?.masdar||v.masdar;
   const rows=(title,arr)=>arr?.length?`<h4>${title}</h4>${miniTable(arr)}`:'';
-  const amr=v.amr_5_persons||v.expected_answers?.amr_5_persons;
-  return `<details class="verb-paradigm"><summary>View complete Ṣarf</summary>
-    ${rows('Māḍī',v.past_conjugation)}
-    ${rows('Muḍāriʿ',v.present_conjugation)}
-    ${amr?.length?`<h4>Amr</h4><div class="examples">${amr.map((x,i)=>`<div>${arabic(['أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ'][i],'small-ar')} — ${arabic(x,'small-ar')}</div>`).join('')}</div>`:''}
-    ${v.passive_past_3ms||v.expected_answers?.passive_past_3ms?`<h4>Passive Māḍī</h4><div class="examples">${arabic(v.passive_past_3ms||v.expected_answers.passive_past_3ms,'table-ar')}</div>`:''}
-    ${rows('Passive Muḍāriʿ',v.passive_present_conjugation)}
-    ${v.ism_al_faail||v.expected_answers?.ism_al_faail?`<h4>Derived forms</h4><div class="examples"><div>اسم الفاعل — ${arabic(v.ism_al_faail||v.expected_answers.ism_al_faail,'small-ar')}</div>${(v.ism_al_mafool||v.expected_answers?.ism_al_mafool)?`<div>اسم المفعول — ${arabic(v.ism_al_mafool||v.expected_answers.ism_al_mafool,'small-ar')}</div>`:''}${(v.expected_answers?.masdar)?`<div>المصدر — ${arabic(v.expected_answers.masdar,'small-ar')}</div>`:''}</div>`:''}
-  </details>`;
+  if(kind==='past') return rows('Māḍī',v.past_conjugation);
+  if(kind==='present') return rows('Muḍāriʿ',v.present_conjugation);
+  if(kind==='amr') return amr.length?`<h4>Amr</h4><div class="examples">${amr.map((x,i)=>`<div>${arabic(['أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ'][i],'small-ar')} — ${arabic(x,'small-ar')}</div>`).join('')}</div>`:'';
+  if(kind==='faail') return fa?`<h4>Ism al-Fāʿil</h4><div class="examples">${arabic(fa,'small-ar')}</div>`:'';
+  if(kind==='mafool') return ma?`<h4>Ism al-Mafʿūl</h4><div class="examples">${arabic(ma,'small-ar')}</div>`:'';
+  if(kind==='passive_past') return pp.length?rows('Passive Māḍī',pp):(pp3?`<h4>Passive Māḍī</h4><div class="examples">${arabic(pp3,'table-ar')}</div>`:'');
+  if(kind==='passive_present') return rows('Passive Muḍāriʿ',v.passive_present_conjugation);
+  if(kind==='masdar') return mas?`<h4>Maṣdar</h4><div class="examples">${arabic(mas,'small-ar')}</div>`:'';
+  if(kind==='wazn') return `<h4>Mīzān / وزن</h4><div class="examples">${arabic(v.wazn||'—','pattern')}</div>`;
+  return rows('Māḍī',v.past_conjugation)+rows('Muḍāriʿ',v.present_conjugation)+(amr.length?miniParadigm(v,'amr'):'')+(pp.length?rows('Passive Māḍī',pp):(pp3?`<h4>Passive Māḍī</h4><div class="examples">${arabic(pp3,'table-ar')}</div>`:''))+rows('Passive Muḍāriʿ',v.passive_present_conjugation)+(fa?`<h4>Ism al-Fāʿil</h4><div class="examples">${arabic(fa,'small-ar')}</div>`:'')+(ma?`<h4>Ism al-Mafʿūl</h4><div class="examples">${arabic(ma,'small-ar')}</div>`:'')+(mas?`<h4>Maṣdar</h4><div class="examples">${arabic(mas,'small-ar')}</div>`:'');
 }
+function renderSelectedParadigm(v,kind){return `<div class="selected-paradigm"><div class="lesson-header"><div>${arabic(v.ar,'ar verb')}<p>${esc(v.meaning||'')}</p></div><span class="badge">${esc(v.wazn||'')}</span></div><p><b>Root:</b> ${esc(v.root||'—')}</p>${miniParadigm(v,kind)||'<p class="muted">No verified paradigm of this type is stored for this verb.</p>'}</div>`;}
+function fullParadigmHTML(v){return `<details class="verb-paradigm"><summary>View complete Ṣarf</summary>${renderSelectedParadigm(v,'everything')}</details>`;}
+function meaningGroups(){
+  const entries=uniqueVerbRecords(learningEntries()).filter(v=>v.ar&&v.meaning);
+  const groups=[]; for(let i=0;i<entries.length;i+=30) groups.push(entries.slice(i,i+30));
+  return groups.map((items,i)=>({id:i,label:'Group '+String.fromCharCode(65+i),items}));
+}
+function markMeaningGroupLearned(id){state.meaningGroupsLearned[id]=true;save();renderVerbs();renderAdditional();}
 function renderVerbs(){
-  const entries=learningEntries();
-  q('#verbs').innerHTML = `<div class="section-intro card"><div class="eyebrow">VERB DIRECTORY</div><h2>Textbook Verbs</h2><p>Tap any entry to open its complete available Ṣarf reference. The list is separate from Additional Practice.</p></div><div class="searchbar"><input id="verbSearch" placeholder="Search Arabic, root, meaning or وزن…"><span>${entries.length} verified entries</span></div><div id="verbGrid" class="grid"></div>`;
-  const draw=()=>{
-    const term=q('#verbSearch').value.trim().toLowerCase();
-    const list=entries.filter(v=>[v.ar,v.root,v.wazn,v.meaning].join(' ').toLowerCase().includes(term));
-    q('#verbGrid').innerHTML=list.map(v=>card(arabic(v.ar,'ar verb'),`<p><b>Root:</b> ${esc(v.root||'—')}</p><p><b>وزن:</b> ${v.wazn?arabic(v.wazn,'small-ar'):'—'}</p><p>${esc(v.meaning||'')}</p><p class="muted">Source page: ${esc(v.source_page||v.source||v.lesson||'')}</p>${v.source_anomaly?`<p class="muted"><b>Source note:</b> ${esc(v.source_anomaly)}</p>`:''}${fullParadigmHTML(v)}`)).join('') || '<p>No match.</p>';
-  };
-  q('#verbSearch').addEventListener('input',draw); draw();
+  const entries=uniqueVerbRecords(learningEntries()); const groups=meaningGroups();
+  q('#verbs').innerHTML=`<div class="section-intro card"><div class="eyebrow">VERB DIRECTORY</div><h2>Textbook Verbs</h2><p>Learn the meanings and complete Ṣarf of the textbook verbs here. Verbs are grouped into 30-verb learning groups. Completing a group's meaning study unlocks its meaning tests in More Practice.</p></div><div class="card"><h3>Meaning Learning Groups</h3><div class="grid">${groups.map(g=>`<article class="card group-card"><div class="lesson-header"><div><h4>${g.label}</h4><p class="muted">${g.items.length} verbs</p></div><span class="badge ${state.meaningGroupsLearned[g.id]?'done':''}">${state.meaningGroupsLearned[g.id]?'✓ Learned':'Not learned'}</span></div><details><summary>Study ${g.label}</summary><div class="group-verb-list">${g.items.map((v,i)=>`<div class="group-verb-row"><span>${i+1}.</span>${arabic(v.ar,'small-ar')}<span class="en-title">${esc(v.meaning)}</span></div>`).join('')}</div></details><button class="btn" onclick="markMeaningGroupLearned('${g.id}')">${state.meaningGroupsLearned[g.id]?'✓ Group learned':'Mark meanings learned'}</button></article>`).join('')}</div></div><div class="searchbar"><input id="verbSearch" placeholder="Search Arabic, root, meaning or وزن…"><button class="btn" id="verbSearchBtn">Search</button><span>${entries.length} unique verified entries</span></div><div id="verbGrid" class="grid"></div>`;
+  const draw=()=>{const term=q('#verbSearch').value.trim(); const n=normalizeArabic(term).toLowerCase(); const list=entries.filter(v=>!term || normalizeArabic(v.ar).toLowerCase().includes(n)||normalizeArabic(v.root).toLowerCase().includes(n)||String(v.meaning||'').toLowerCase().includes(term.toLowerCase())||normalizeArabic(v.wazn).toLowerCase().includes(n)); q('#verbGrid').innerHTML=list.map(v=>card(arabic(v.ar,'ar verb'),`<p><b>Root:</b> ${esc(v.root||'—')}</p><p><b>وزن:</b> ${v.wazn?arabic(v.wazn,'small-ar'):'—'}</p><p>${esc(v.meaning||'')}</p><p class="muted">Source page: ${esc(v.source_page||v.source||v.lesson||'')}</p>${v.source_anomaly?`<p class="muted"><b>Source note:</b> ${esc(v.source_anomaly)}</p>`:''}${fullParadigmHTML(v)}`)).join('') || '<p>No match.</p>';};
+  q('#verbSearch').addEventListener('input',draw); q('#verbSearchBtn').onclick=draw; q('#verbSearch').addEventListener('keydown',e=>{if(e.key==='Enter')draw()}); draw();
 }
 
 function conjugationRows(v,kind){
@@ -125,28 +163,9 @@ function conjugationRows(v,kind){
   return [];
 }
 function renderConjugator(){
-  q('#conjugator').innerHTML=card('Ṣarf Conjugator',`<p class="muted">Enter a verb from the verified app index. Then choose the form you want to inspect. The app does not invent an unverified conjugation for an unknown word.</p><div class="conj-controls"><input id="conjInput" placeholder="Enter a verb, e.g. كَتَبَ" inputmode="text" autocomplete="off"><select id="conjWhat"><option value="everything">Everything available</option><option value="past">Māḍī</option><option value="present">Muḍāriʿ</option><option value="amr">Amr</option><option value="faail">Ism al-Fāʿil</option><option value="mafool">Ism al-Mafʿūl</option><option value="passive_past">Passive Māḍī</option><option value="passive_present">Passive Muḍāriʿ</option><option value="masdar">Maṣdar</option><option value="wazn">Mīzān / وزن</option></select><button class="btn" id="runConj">Show</button></div><div class="conj-hint">Examples: كَتَبَ → Muḍāriʿ, Amr, Ism al-Fāʿil, or Everything.</div><div id="conjResult"></div>`);
-  const run=()=>{
-    const input=q('#conjInput').value.trim(), kind=q('#conjWhat').value, v=findVerbRecord(input), out=q('#conjResult');
-    if(!v){out.innerHTML='<div class="empty-state"><h3>Verb not found in the verified index</h3><p>Try the fully vocalized verb or choose a verb from the Verbs directory. No unverified form will be guessed.</p></div>';return;}
-    const amr=v.amr_5_persons||v.expected_answers?.amr_5_persons||[];
-    const pp=v.passive_past_3ms||v.expected_answers?.passive_past_3ms;
-    const p3=v.passive_present_3ms||v.expected_answers?.passive_present_3ms;
-    let body=`<div class="card"><div class="lesson-header"><div><h3>${arabic(v.ar,'ar verb')}</h3><p>${esc(v.meaning||'')}</p></div><span class="badge">${v.wazn?esc(v.wazn):'verified entry'}</span></div><p><b>Root:</b> ${esc(v.root||'—')}</p>`;
-    const table=(title,rows)=>rows?.length?`<h4>${title}</h4>${miniTable(rows)}`:'';
-    if(kind==='everything') body+=table('Māḍī',v.past_conjugation)+table('Muḍāriʿ',v.present_conjugation)+(amr.length?`<h4>Amr</h4><div class="examples">${amr.map((x,i)=>`<div>${arabic(['أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ'][i],'small-ar')} — ${arabic(x,'small-ar')}</div>`).join('')}</div>`:'')+(pp?`<h4>Passive Māḍī</h4><div class="examples">${arabic(pp,'table-ar')}</div>`:'')+table('Passive Muḍāriʿ',v.passive_present_conjugation)+(v.ism_al_faail?`<h4>Ism al-Fāʿil</h4><div class="examples">${arabic(v.ism_al_faail,'small-ar')}</div>`:'')+(v.ism_al_mafool?`<h4>Ism al-Mafʿūl</h4><div class="examples">${arabic(v.ism_al_mafool,'small-ar')}</div>`:'')+(v.expected_answers?.masdar?`<h4>Maṣdar</h4><div class="examples">${arabic(v.expected_answers.masdar,'small-ar')}</div>`:'');
-    else if(kind==='past') body+=table('Māḍī',v.past_conjugation||DATA.past_conjugations?.[v.wazn]);
-    else if(kind==='present') body+=table('Muḍāriʿ',v.present_conjugation);
-    else if(kind==='amr') body+=amr.length?`<h4>Amr</h4><div class="examples">${amr.map((x,i)=>`<div>${arabic(['أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ'][i],'small-ar')} — ${arabic(x,'small-ar')}</div>`).join('')}</div>`:'<p class="muted">No verified Amr paradigm is stored for this entry.</p>';
-    else if(kind==='faail') body+=v.ism_al_faail?`<h4>Ism al-Fāʿil</h4><div class="examples">${arabic(v.ism_al_faail,'small-ar')}</div>`:'<p class="muted">No verified Ism al-Fāʿil stored.</p>';
-    else if(kind==='mafool') body+=v.ism_al_mafool?`<h4>Ism al-Mafʿūl</h4><div class="examples">${arabic(v.ism_al_mafool,'small-ar')}</div>`:'<p class="muted">No verified Ism al-Mafʿūl stored.</p>';
-    else if(kind==='passive_past') body+=pp?`<h4>Passive Māḍī — هُوَ</h4><div class="examples">${arabic(pp,'table-ar')}</div>`:'<p class="muted">No verified passive Māḍī form stored.</p>';
-    else if(kind==='passive_present') body+=table('Passive Muḍāriʿ',v.passive_present_conjugation);
-    else if(kind==='masdar') body+=v.expected_answers?.masdar?`<h4>Maṣdar</h4><div class="examples">${arabic(v.expected_answers.masdar,'small-ar')}</div>`:'<p class="muted">No verified Maṣdar stored.</p>';
-    else if(kind==='wazn') body+=`<h4>Mīzān / وزن</h4><div class="examples">${arabic(v.wazn||'—','pattern')}</div>`;
-    body+='</div>'; out.innerHTML=body;
-  };
-  q('#runConj').onclick=run; q('#conjInput').addEventListener('keydown',e=>{if(e.key==='Enter')run()}); q('#conjWhat').addEventListener('change',run);
+  q('#conjugator').innerHTML=card('Ṣarf Conjugator',`<p class="muted">Enter a verified verb, root, or fully vocalized form. The search resolves duplicate source records and uses the richest verified paradigm available.</p><div class="conj-controls"><input id="conjInput" placeholder="Enter verb or root, e.g. كَتَبَ or ك ت ب" inputmode="text" autocomplete="off"><select id="conjWhat"><option value="everything">Everything available</option><option value="past">Māḍī</option><option value="present">Muḍāriʿ</option><option value="amr">Amr</option><option value="faail">Ism al-Fāʿil</option><option value="mafool">Ism al-Mafʿūl</option><option value="passive_past">Passive Māḍī</option><option value="passive_present">Passive Muḍāriʿ</option><option value="masdar">Maṣdar</option><option value="wazn">Mīzān / وزن</option></select><button class="btn" id="runConj">Search & Show</button></div><div class="conj-hint">Press Enter or Search & Show. Search accepts Arabic with or without harakat and can match a root.</div><div id="conjResult"></div>`);
+  const run=()=>{const input=q('#conjInput').value.trim(),kind=q('#conjWhat').value,out=q('#conjResult');const v=findVerbRecord(input);if(!v){out.innerHTML='<div class="empty-state"><h3>Verb not found</h3><p>Try كَتَبَ, كتب, or ك ت ب. Choose a verified entry from the Verbs directory if needed.</p></div>';return;}out.innerHTML=`<div class="card">${renderSelectedParadigm(v,kind)}</div>`;};
+  q('#runConj').onclick=run; q('#conjInput').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();run()}}); q('#conjWhat').addEventListener('change',run);
 }
 
 const modes=[
@@ -289,24 +308,23 @@ function entryUnlocked(v,c){
 }
 
 let additionalQuiz=null;
-function renderAdditionalQuestion(title, shown, questionText, correct, pool, meta){
+function renderAdditionalQuestion(title,shown,questionText,correct,pool,meta){
   const options=makeOptions(correct,pool); additionalQuiz={correct,answered:false};
-  q('#additional').innerHTML=card('Additional Practice — '+title,`<div class="unlock-panel"><div><strong>🔓 Unlock All Questions</strong><p class="muted">${state.fullAccess?'Full additional-verb bank is unlocked.':'Normal mode follows your completed textbook lessons.'}</p></div><button class="btn ${state.fullAccess?'secondary-btn':''}" onclick="toggleFullAccess();renderAdditional()">${state.fullAccess?'✓ Full bank enabled':'Unlock all questions'}</button></div><div class="quiz-meta"><span>${esc(meta)}</span><span>Score ${state.correct} / ${state.correct+state.wrong}</span></div><div class="question-word">${arabic(shown,'ar quiz-word')}</div><p class="question">${questionText}</p><div class="options" id="additionalOptions">${options.map((o,i)=>`<button class="option" data-i="${i}">${arabic(o,'small-ar')}<span class="mark" aria-hidden="true"></span></button>`).join('')}</div><div id="additionalFeedback" class="quiz-feedback" aria-live="polite"></div><button class="btn next-btn" id="additionalNext">Next question</button><button class="btn secondary-btn" id="backAdditional">← Back to Additional Practice</button>`);
-  q('#additionalNext').onclick=()=>startAdditionalQuiz(title.toLowerCase());
-  q('#backAdditional').onclick=renderAdditional;
-  q('#additionalOptions').querySelectorAll('.option').forEach((b,i)=>b.onclick=()=>answerAdditional(b,options[i]));
+  q('#additional').innerHTML=card('More Practice — '+title,`<div class="quiz-meta"><span>${esc(meta)}</span><span>Score ${state.correct} / ${state.correct+state.wrong}</span></div><div class="question-word">${arabic(shown,'ar quiz-word')}</div><p class="question">${questionText}</p><div class="options" id="additionalOptions">${options.map((o,i)=>`<button class="option" data-i="${i}">${arabic(o,'small-ar')}<span class="mark" aria-hidden="true"></span></button>`).join('')}</div><div id="additionalFeedback" class="quiz-feedback" aria-live="polite"></div><button class="btn next-btn" id="additionalNext">Next question</button><button class="btn secondary-btn" id="backAdditional">← Back to More Practice</button>`);
+  q('#additionalNext').onclick=()=>startAdditionalQuiz(title.toLowerCase()); q('#backAdditional').onclick=renderAdditional; q('#additionalOptions').querySelectorAll('.option').forEach((b,i)=>b.onclick=()=>answerAdditional(b,options[i]));
 }
-function answerAdditional(button,value){
-  if(!additionalQuiz||additionalQuiz.answered)return; additionalQuiz.answered=true;
-  q('#additionalOptions').querySelectorAll('.option').forEach(b=>b.disabled=true);
-  if(value===additionalQuiz.correct){button.classList.add('correct');button.querySelector('.mark').textContent='✓';q('#additionalFeedback').innerHTML='<span class="feedback-correct">Correct</span>';state.correct++;state.streak++;tone('correct');}
-  else {button.classList.add('wrong');button.querySelector('.mark').textContent='×';const right=[...q('#additionalOptions').querySelectorAll('.option')].find(b=>b.textContent.includes(additionalQuiz.correct));if(right){right.classList.add('correct');right.querySelector('.mark').textContent='✓';}q('#additionalFeedback').innerHTML=`<span class="feedback-wrong">Not quite.</span> ${arabic(additionalQuiz.correct,'small-ar')}`;state.wrong++;state.streak=0;tone('wrong');}
-  save();renderDashboard();
+function renderMeaningQuestion(group,level){
+  const items=group.items; if(!items.length){renderAdditional();return;}
+  const v=items[Math.floor(Math.random()*items.length)]; let question,correct,pool,shown;
+  if(level==='easy'){shown=v.ar;question=`What is the English meaning of this verb?`;correct=v.meaning;pool=items.map(x=>x.meaning);}
+  else if(level==='medium'){shown=v.ar;question=`Choose the most precise English meaning of this verb.`;correct=v.meaning;pool=items.map(x=>x.meaning);}
+  else {shown=v.meaning;question=`Which Arabic verb has this meaning?`;correct=v.ar;pool=items.map(x=>x.ar);}
+  renderAdditionalQuestion(`${group.label} Meaning Test — ${level[0].toUpperCase()+level.slice(1)}`,shown,question,correct,pool,`Meaning Test • ${group.label} • ${level.toUpperCase()} • ${items.length} verbs`);
 }
+function startMeaningTest(groupId,level){const g=meaningGroups().find(x=>x.id===groupId);if(!g)return;if(!state.fullAccess&&!state.meaningGroupsLearned[groupId]){renderAdditional();return;}renderMeaningQuestion(g,level);}
 function renderAdditional(){
- const ap=DATA.additional_practice; const gate=state.fullAccess?'Full additional-verb bank is ON.':'Normal mode follows your completed lessons.';
- const levels=[['easy','Easy','Meaning • root • وزن • direct forms'],['medium','Medium','Random conjugation slot • pronoun • conversion'],['hard','Hard','Random verb + random pronoun + hidden conjugation slot']];
- q('#additional').innerHTML=card('Additional Practice — Beyond the Textbook',`<p>${esc(ap.source_note)}</p><div class="unlock-panel"><div><strong>🔓 Unlock All Questions</strong><p class="muted">${esc(gate)}</p></div><button class="btn ${state.fullAccess?'secondary-btn':''}" onclick="toggleFullAccess()">${state.fullAccess?'✓ Full bank enabled':'Unlock all questions'}</button></div><div class="level-buttons">${levels.map(x=>`<button class="btn level-btn" onclick="startAdditionalQuiz('${x[0]}')"><strong>${x[1]}</strong><span class="muted">${x[2]}</span></button>`).join('')}</div><p class="muted">Each level uses a separate question bank. Levels do not mix.</p><div class="searchbar"><input id="addSearch" placeholder="Search additional verbs…"><span>${ap.verbs.length} verbs</span></div><div id="addGrid" class="grid"></div>`);
+ const ap=DATA.additional_practice; const gate=state.fullAccess?'Full additional-verb bank is ON.':'Normal mode follows your completed lesson progress.'; const levels=[['easy','Easy','Direct recognition and learned forms'],['medium','Medium','Random conjugation slot and pronoun'],['hard','Hard','Random verb, pronoun and hidden slot']]; const groups=meaningGroups();
+ q('#additional').innerHTML=card('More Practice — Beyond the Textbook',`<p>${esc(ap.source_note)}</p><div class="unlock-panel"><div><strong>🔓 Unlock All Questions</strong><p class="muted">${esc(gate)}</p></div><button class="btn ${state.fullAccess?'secondary-btn':''}" onclick="toggleFullAccess()">${state.fullAccess?'✓ Full bank enabled':'Unlock all questions'}</button></div><div class="card meaning-test-panel"><div class="eyebrow">VERB MEANING TEST</div><h3>Test meanings by learning group</h3><p class="muted">Study the meanings in the Verbs section first. Group A, then Group B, then Group C and so on. Each test clearly shows the group being tested.</p><div class="grid meaning-groups">${groups.map(g=>`<article class="card"><div class="lesson-header"><div><h4>${g.label}</h4><p class="muted">${g.items.length} verbs</p></div><span class="badge ${state.meaningGroupsLearned[g.id]?'done':''}">${state.meaningGroupsLearned[g.id]?'✓ Learned':'🔒 Locked'}</span></div><div class="level-buttons"><button class="btn level-btn" ${(!state.fullAccess&&!state.meaningGroupsLearned[g.id])?'disabled':''} onclick="startMeaningTest('${g.id}','easy')">🧠 Easy meaning test</button><button class="btn level-btn" ${(!state.fullAccess&&!state.meaningGroupsLearned[g.id])?'disabled':''} onclick="startMeaningTest('${g.id}','medium')">🧠 Medium meaning test</button><button class="btn level-btn" ${(!state.fullAccess&&!state.meaningGroupsLearned[g.id])?'disabled':''} onclick="startMeaningTest('${g.id}','hard')">🧠 Hard meaning test</button></div></article>`).join('')}</div></div><h3>Qur'anic Verb Practice</h3><div class="level-buttons">${levels.map(x=>`<button class="btn level-btn" onclick="startAdditionalQuiz('${x[0]}')"><strong>${x[1]}</strong><span class="muted">${x[2]}</span></button>`).join('')}</div><p class="muted">The Qur'anic-verb question bank and the meaning-group tests are separate. Difficulty levels do not mix.</p><div class="searchbar"><input id="addSearch" placeholder="Search additional verbs…"><span>${ap.verbs.length} verbs</span></div><div id="addGrid" class="grid"></div>`);
  const draw=()=>{const t=q('#addSearch').value.trim().toLowerCase();const list=ap.verbs.filter(v=>[v.ar,v.root,v.wazn,v.meaning].join(' ').toLowerCase().includes(t));q('#addGrid').innerHTML=list.map(v=>`<article class="card"><div class="lesson-header"><div><h3>${arabic(v.ar,'ar verb')}</h3><p class="en-title">${esc(v.meaning)}</p></div><span class="badge">${esc(v.difficulty||'')}</span></div><p><b>Root:</b> ${esc(v.root)} &nbsp; <b>وزن:</b> ${arabic(v.wazn,'small-ar')}</p><p class="muted">Qur'anic reference: ${esc(v.quran_reference||'')}</p></article>`).join('')||'<p>No match.</p>';};
  q('#addSearch').addEventListener('input',draw);draw();
 }
@@ -314,43 +332,24 @@ function additionalEligible(){return state.fullAccess?DATA.additional_practice.v
 function startAdditionalQuiz(level){
  const eligible=additionalEligible(); if(!eligible.length){renderAdditional();return;}
  const v=eligible[Math.floor(Math.random()*eligible.length)]; const c=learnedCapabilities(); let correct,question,pool;
- const same=getter=>eligible.map(getter).filter(Boolean);
- const pronPast=['هُوَ','هُمَا','هُمْ','هِيَ','هُنَّ','أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ','أَنَا','نَحْنُ'];
- const pronAmr=['أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ'];
+ const same=getter=>eligible.map(getter).filter(Boolean); const pronAmr=['أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ'];
  if(level==='easy'){
-   const choices=[['meaning','Identify the English meaning.',v.meaning,x=>x.meaning],['root','Identify the root.',v.root,x=>x.root],['wazn','Which وَزْن / مِيزَان does this verb belong to?',v.wazn,x=>x.wazn]];
-   if(c.present) choices.push(['present','Give the هُوَ Muḍāriʿ form.',v.present_3ms,x=>x.present_3ms]);
-   if(c.faail) choices.push(['faail','Give اسم الفاعل.',v.ism_al_faail,x=>x.ism_al_faail]);
-   if(c.mafool) choices.push(['mafool','Give اسم المفعول.',v.ism_al_mafool,x=>x.ism_al_mafool]);
+   const choices=[['root','Identify the root.',v.root,x=>x.root],['wazn','Which وَزْن / مِيزَان does this verb belong to?',v.wazn,x=>x.wazn]];
+   if(c.present&&v.present_3ms) choices.push(['present','Give the هُوَ Muḍāriʿ form.',v.present_3ms,x=>x.present_3ms]);
+   if(c.faail&&v.ism_al_faail) choices.push(['faail','Give اسم الفاعل.',v.ism_al_faail,x=>x.ism_al_faail]);
+   if(c.mafool&&v.ism_al_mafool) choices.push(['mafool','Give اسم المفعول.',v.ism_al_mafool,x=>x.ism_al_mafool]);
    const m=choices[Math.floor(Math.random()*choices.length)];question=m[1];correct=m[2];pool=same(m[3]);
  } else {
-   const families=[];
-   if(v.past_conjugation?.length && c.past) families.push(['past_conjugation','Māḍī']);
-   if(v.present_conjugation?.length && c.present) families.push(['present_conjugation','Muḍāriʿ']);
-   if(v.amr_5_persons?.length && c.amr) families.push(['amr_5_persons','Amr']);
-   if(level==='hard'){
-     if(v.passive_present_conjugation?.length && c.passivePresent) families.push(['passive_present_conjugation','passive Muḍāriʿ']);
-     if(v.passive_past_3ms && c.passivePast) families.push(['passive_past_3ms','passive Māḍī']);
-   }
-   if(!families.length){question='Identify the English meaning.';correct=v.meaning;pool=same(x=>x.meaning);}
-   else {
-     const f=families[Math.floor(Math.random()*families.length)];
-     if(f[0]==='amr_5_persons'){
-       const i=Math.floor(Math.random()*5);correct=v.amr_5_persons[i];question=`${level==='hard'?'Hard: ':''}Give the ${arabic(pronAmr[i],'small-ar')} Amr form.`;pool=eligible.flatMap(x=>x.amr_5_persons||[]);
-     } else if(f[0].endsWith('_3ms')){
-       correct=v[f[0]];question=`${level==='hard'?'Hard: ':''}Give the هُوَ ${f[1]} form.`;pool=eligible.map(x=>x[f[0]]).filter(Boolean);
-     } else {
-       const rows=v[f[0]];const i=Math.floor(Math.random()*rows.length);correct=rows[i][1];question=`${level==='hard'?'Hard: ':''}Give the ${arabic(rows[i][0],'small-ar')} ${f[1]} form.`;pool=eligible.flatMap(x=>(x[f[0]]||[]).map(r=>r[1]));
-     }
-   }
+   const families=[]; if(v.past_conjugation?.length&&c.past)families.push(['past_conjugation','Māḍī']); if(v.present_conjugation?.length&&c.present)families.push(['present_conjugation','Muḍāriʿ']); if(v.amr_5_persons?.length&&c.amr)families.push(['amr_5_persons','Amr']); if(level==='hard'){if(v.passive_present_conjugation?.length&&c.passivePresent)families.push(['passive_present_conjugation','passive Muḍāriʿ']);if(v.passive_past_3ms&&c.passivePast)families.push(['passive_past_3ms','passive Māḍī']);}
+   if(!families.length){question='Identify the root.';correct=v.root;pool=same(x=>x.root);} else {const f=families[Math.floor(Math.random()*families.length)]; if(f[0]==='amr_5_persons'){const i=Math.floor(Math.random()*5);correct=v.amr_5_persons[i];question=`Give the ${arabic(pronAmr[i],'small-ar')} Amr form.`;pool=eligible.flatMap(x=>x.amr_5_persons||[]);} else if(f[0].endsWith('_3ms')){correct=v[f[0]];question=`Give the هُوَ ${f[1]} form.`;pool=eligible.map(x=>x[f[0]]).filter(Boolean);} else {const rows=v[f[0]];const i=Math.floor(Math.random()*rows.length);correct=rows[i][1];question=`Give the ${arabic(rows[i][0],'small-ar')} ${f[1]} form.`;pool=eligible.flatMap(x=>(x[f[0]]||[]).map(r=>r[1]));}}
  }
- renderAdditionalQuestion(level.toUpperCase(),v.ar,question,correct,pool,`Additional Practice • ${level.toUpperCase()} • ${eligible.length} eligible verbs`);
+ renderAdditionalQuestion(level.toUpperCase(),v.ar,question,correct,pool,`Qur'anic Verb Practice • ${level.toUpperCase()} • ${eligible.length} eligible verbs`);
 }
 
 function toggleFullAccess(){state.fullAccess=!state.fullAccess;save();renderAdditional();}
 function renderFlash(){startQuiz()}
 function renderAbout(){
- q('#about').innerHTML=`<div class="about-wrap"><article class="card"><div class="eyebrow">ABOUT THIS COURSE</div><h2>الصَّرْفُ لِلْمُبْتَدِئِينَ</h2><p class="about-author" dir="rtl" lang="ar">إعداد: أبو عبد الرحمن نواس بن محمد أنوي الهندي السيلاني</p><p>This app is based on the main Ṣarf textbook uploaded for this project. The book's own sequence, explanations, examples, exercises, and terminology remain the source basis of the curriculum.</p><div class="about-meta"><p><b>Book:</b> الصرف للمبتدئين</p><p><b>Author:</b> أبو عبد الرحمن نواس الهندي السيلاني</p></div></article><article class="card"><h3>مقدمة المؤلف — النص العربي الأصلي</h3><p class="muted">The author's introduction and preface are preserved below in their original Arabic form, as requested. The app does not replace the author's words with an English translation.</p><div class="preface-pages"><figure><img src="./assets/preface/page-02.jpg" alt="صفحة المقدمة الأصلية 2"><figcaption>المقدمة — الصفحة 2</figcaption></figure><figure><img src="./assets/preface/page-03.jpg" alt="صفحة المقدمة الأصلية 3"><figcaption>المقدمة — الصفحة 3</figcaption></figure><figure><img src="./assets/preface/page-04.jpg" alt="صفحة المقدمة الأصلية 4"><figcaption>المقدمة — الصفحة 4</figcaption></figure></div></article><article class="card creator-card"><h3>App created and designed by</h3><p class="creator-name">Abu Saaarah Jaffar</p><p class="muted">Project app creator and designer.</p></article></div>`;
+ q('#about').innerHTML=`<div class="about-wrap"><article class="card"><div class="eyebrow">ABOUT THIS COURSE</div><h2>الصَّرْفُ لِلْمُبْتَدِئِينَ</h2><p class="about-author" dir="rtl" lang="ar">إعداد: أبو عبد الرحمن نواس بن محمد أنوي الهندي السيلاني</p><p>This app is based on the main Ṣarf textbook uploaded for this project. The book's own sequence, explanations, examples, exercises, and terminology remain the source basis of the curriculum.</p><div class="about-meta"><p><b>Book:</b> الصرف للمبتدئين</p><p><b>Author:</b> أبو عبد الرحمن نواس الهندي السيلاني</p></div></article><article class="card"><h3>مقدمة المؤلف — النص العربي الأصلي</h3><p class="muted">The author's introduction and preface are preserved below in their original Arabic form, as requested. The app does not replace the author's words with an English translation.</p><div class="preface-pages"><figure><img src="./assets/preface/page-02.jpg" alt="صفحة المقدمة الأصلية 2"><figcaption>المقدمة — الصفحة 2</figcaption></figure><figure><img src="./assets/preface/page-03.jpg" alt="صفحة المقدمة الأصلية 3"><figcaption>المقدمة — الصفحة 3</figcaption></figure><figure><img src="./assets/preface/page-04.jpg" alt="صفحة المقدمة الأصلية 4"><figcaption>المقدمة — الصفحة 4</figcaption></figure></div></article><article class="card creator-card"><h3>App created and designed by</h3><p class="creator-name">Abu Saraah Jaffar</p><p class="muted">Project app creator and designer.</p></article></div>`;
 }
 function renderDashboard(){
  const done=Object.values(state.completed).filter(Boolean).length;
@@ -377,5 +376,5 @@ q('#fontPlus').onclick=()=>setFont(.1); q('#fontMinus').onclick=()=>setFont(-.1)
 
 document.documentElement.style.setProperty('--arabic-scale',state.font);
 renderDashboard();renderLessons();renderPatterns();renderVerbs();renderConjugator();renderVerification();renderAdditional();renderAbout();initSettings();showTab('dashboard');
-window.startQuiz=startQuiz; window.startAdditionalQuiz=startAdditionalQuiz; window.openLesson=openLesson; window.openSublesson=openSublesson; window.closeLesson=closeLesson; window.markSublessonDone=markSublessonDone; window.toggleFullAccess=toggleFullAccess; window.answerAdditional=answerAdditional;
+window.startQuiz=startQuiz; window.startAdditionalQuiz=startAdditionalQuiz; window.openLesson=openLesson; window.openSublesson=openSublesson; window.closeLesson=closeLesson; window.markSublessonDone=markSublessonDone; window.toggleFullAccess=toggleFullAccess; window.answerAdditional=answerAdditional; window.startMeaningTest=startMeaningTest; window.markMeaningGroupLearned=markMeaningGroupLearned;
 if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js').catch(()=>{});}
