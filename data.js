@@ -3,8 +3,12 @@ const DATA={
     {
       "id": "L01",
       "pages": "5",
-      "title_ar": "مقدمات في علم الصرف",
-      "title_en": "Introduction to Ṣarf",
+      "title_ar": "مُقَدِّمَاتٌ فِي عِلْمِ الصَّرْفِ وَالْمِيزَانِ الصَّرْفِيِّ",
+      "title_en": "Introduction to Ṣarf & Mīzān al-Ṣarf",
+      "simple_language_guide": {
+        "title": "Simple language guide",
+        "text": "This course uses easy English wherever possible. Instead of saying technical words such as three-letter or four-letter, we will usually say three-letter verb or four-letter verb. Instead of saying first, second, or third letter, we will say first letter, middle letter, or last letter. When we need the traditional Arabic terms for reference, they will be shown alongside the simple explanation."
+      },
       "topics": [
         "meaning of ṣarf لغويًا واصطلاحًا",
         "divisions of the word",
@@ -52,7 +56,7 @@ const DATA={
           "title_ar": "مِيزَانُ الصَّرْفِ",
           "title_en": "The morphological scale (Mīzān)",
           "source_basis": "Source lesson: mīzān section",
-          "explanation": "The standard scale uses فَاء، عَيْن، لَام as placeholders for the first, second, and third root radicals. Additional letters in a derived form are retained in the scale.",
+          "explanation": "The standard scale uses فَاء، عَيْن، لَام as simple labels for the first, second, and last root letters. Additional letters in a derived form are retained in the scale.",
           "steps": [],
           "examples": [
             "كَتَبَ → فَعَلَ",
@@ -65,17 +69,17 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Mīzān rule",
-          "rule_en": "Place the first, second, and third root radicals against ف، ع، ل. Preserve added letters and their positions in the derived pattern."
+          "rule_en": "Match the first, second, and last root letters with ف، ع، ل. Keep any extra pattern letters in the same places."
         },
         {
           "id": "L01-S04",
           "title_ar": "الْأَصْلِيُّ وَالزَّائِدُ",
           "title_en": "Root and added letters",
           "source_basis": "Source lesson: original/additional letters",
-          "explanation": "Separate the three root radicals from letters added by a pattern. This is essential for recognizing derived forms and their الميزان.",
+          "explanation": "First find the three root letters. Then notice which extra letters the pattern adds. This makes the الميزان easier to recognize.",
           "steps": [
             "Identify the root.",
-            "Match root radicals to ف، ع، ل.",
+            "Match the first, second, and last root letters to ف، ع، ل.",
             "Keep pattern letters such as أ، ت، س as additional letters when the form requires them."
           ],
           "examples": [],
@@ -84,7 +88,7 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Root-letter rule",
-          "rule_en": "Separate the original root radicals from letters added by the pattern. The root carries the lexical base; the pattern supplies the morphological structure."
+          "rule_en": "Separate the three main letters of the word from the extra letters added by its pattern. The three main letters carry the basic meaning; the pattern shows how the word is built."
         },
         {
           "id": "L01-S05",
@@ -120,7 +124,7 @@ const DATA={
       "title_ar": "أوزان الفعل الماضي وتصريفه",
       "title_en": "Past-tense patterns and conjugation",
       "topics": [
-        "three triliteral past patterns",
+        "three three-letter past patterns",
         "past-tense conjugation",
         "attached subject pronouns",
         "exercises"
@@ -129,9 +133,9 @@ const DATA={
         {
           "id": "L02-S01",
           "title_ar": "فَعَلَ",
-          "title_en": "The first triliteral past pattern",
+          "title_en": "The first three-letter past pattern",
           "source_basis": "Source pages 9–10",
-          "explanation": "The book presents فَعَلَ as one of the three basic triliteral past patterns. The exact lexical meaning of an individual Form I verb must be learned from its vocabulary; the pattern itself does not supply one fixed English meaning.",
+          "explanation": "The book presents فَعَلَ as one of the three basic patterns for three-letter verbs. The pattern itself does not give one fixed English meaning. Learn the meaning of each verb with the verb.",
           "steps": [],
           "examples": [
             "كَتَبَ = he wrote",
@@ -139,18 +143,18 @@ const DATA={
           ],
           "notes": [
             "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
-            "The vowel of the middle radical in the past is part of the lexical pattern and does not by itself determine the English meaning."
+            "The vowel on the middle letter in the past is part of the verb pattern. Learn it together with the verb."
           ],
           "supplementary": [],
           "rule_title": "Form I past pattern",
-          "rule_en": "Form I triliteral past is represented by فَعَلَ. Its vowel pattern is part of the lexical form and must be learned with the verb."
+          "rule_en": "The basic three-letter past pattern is فَعَلَ. Its vowel pattern is part of the lexical form and must be learned with the verb."
         },
         {
           "id": "L02-S02",
           "title_ar": "فَعِلَ",
-          "title_en": "The second triliteral past pattern",
+          "title_en": "The second three-letter past pattern",
           "source_basis": "Source pages 9–10",
-          "explanation": "The book presents فَعِلَ as the second basic triliteral past pattern.",
+          "explanation": "The book presents فَعِلَ as the second basic pattern for three-letter verbs.",
           "steps": [],
           "examples": [
             "فَهِمَ = he understood",
@@ -161,14 +165,14 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form I past pattern",
-          "rule_en": "Form I triliteral past is represented by فَعِلَ. The kasrah on the middle radical distinguishes this pattern."
+          "rule_en": "The basic three-letter past pattern is فَعِلَ. The kasrah on the middle letter distinguishes this pattern."
         },
         {
           "id": "L02-S03",
           "title_ar": "فَعُلَ",
-          "title_en": "The third triliteral past pattern",
+          "title_en": "The third three-letter past pattern",
           "source_basis": "Source pages 9–10",
-          "explanation": "The book presents فَعُلَ as the third basic triliteral past pattern.",
+          "explanation": "The book presents فَعُلَ as the third basic pattern for three-letter verbs.",
           "steps": [],
           "examples": [
             "كَرُمَ = he was noble/generous",
@@ -180,7 +184,7 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form I past pattern",
-          "rule_en": "Form I triliteral past is represented by فَعُلَ. The ḍammah on the middle radical distinguishes this pattern."
+          "rule_en": "The basic three-letter past pattern is فَعُلَ. The ḍammah on the middle letter distinguishes this pattern."
         },
         {
           "id": "L02-S04",
@@ -230,7 +234,7 @@ const DATA={
       "id": "L03",
       "pages": "12-14",
       "title_ar": "أوزان الفعل الماضي الرباعي وتصريفه",
-      "title_en": "Quadriliteral past patterns and conjugation",
+      "title_en": "Four-letter past patterns and conjugation",
       "topics": [
         "أفعل",
         "فاعل",
@@ -245,7 +249,7 @@ const DATA={
           "title_ar": "أَفْعَلَ",
           "title_en": "Form IV: أَفْعَلَ",
           "source_basis": "Source pages 12–14",
-          "explanation": "The book introduces the quadriliteral pattern أَفْعَلَ. Its present pattern is يُفْعِلُ. The added initial hamzah is part of the derived pattern.",
+          "explanation": "The book introduces the four-letter pattern أَفْعَلَ. Its present pattern is يُفْعِلُ. The added initial hamzah is part of the derived pattern.",
           "steps": [],
           "examples": [
             "أَكْرَمَ → يُكْرِمُ",
@@ -262,14 +266,14 @@ const DATA={
             }
           ],
           "rule_title": "Form IV past rule",
-          "rule_en": "أَفْعَلَ is built with the prefix أَ and sukūn on the first root radical: أَفْعَلَ."
+          "rule_en": "أَفْعَلَ is built with the prefix أَ and sukūn on the first root letter: أَفْعَلَ."
         },
         {
           "id": "L03-S02",
           "title_ar": "فَاعَلَ",
           "title_en": "Form III: فَاعَلَ",
           "source_basis": "Source pages 12–14",
-          "explanation": "The book presents فَاعَلَ as a quadrilateral-by-count derived pattern with an alif after the first radical. Its present pattern is يُفَاعِلُ.",
+          "explanation": "The book presents فَاعَلَ as a four-letter derived pattern with an alif after the first letter. Its present pattern is يُفَاعِلُ.",
           "steps": [],
           "examples": [
             "قَاتَلَ → يُقَاتِلُ",
@@ -281,14 +285,14 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form III past rule",
-          "rule_en": "فَاعَلَ contains an alif after the first root radical: فَاعَلَ."
+          "rule_en": "فَاعَلَ contains an alif after the first root letter: فَاعَلَ."
         },
         {
           "id": "L03-S03",
           "title_ar": "فَعَّلَ",
           "title_en": "Form II: فَعَّلَ",
           "source_basis": "Source pages 12–14",
-          "explanation": "The doubled middle radical is the defining feature of فَعَّلَ. Its present pattern is يُفَعِّلُ.",
+          "explanation": "The doubled middle letter is the defining feature of فَعَّلَ. Its present pattern is يُفَعِّلُ.",
           "steps": [],
           "examples": [
             "عَلَّمَ → يُعَلِّمُ",
@@ -300,14 +304,14 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form II past rule",
-          "rule_en": "فَعَّلَ doubles the second root radical with shaddah: فَعَّلَ."
+          "rule_en": "فَعَّلَ doubles the second root letter with shaddah: فَعَّلَ."
         },
         {
           "id": "L03-S04",
           "title_ar": "فَعْلَلَ",
-          "title_en": "Quadriliteral base pattern",
+          "title_en": "Four-letter base pattern",
           "source_basis": "Source pages 13–14",
-          "explanation": "The four-root-radical pattern فَعْلَلَ is treated as a genuine four-letter base pattern rather than as a triliteral verb with ordinary derivational suffixes.",
+          "explanation": "The four-root-letter pattern فَعْلَلَ is treated as a genuine four-letter base pattern rather than as a three-letter verb with ordinary derivational suffixes.",
           "steps": [],
           "examples": [
             "زَخْرَفَ → يُزَخْرِفُ",
@@ -317,15 +321,15 @@ const DATA={
             "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
           ],
           "supplementary": [],
-          "rule_title": "Quadriliteral rule",
-          "rule_en": "A true four-radical root is represented by فَعْلَلَ. Its four root consonants occupy ف، ع، ل، ل."
+          "rule_title": "Four-letter rule",
+          "rule_en": "A true four-letter root is represented by فَعْلَلَ. Its four root consonants occupy ف، ع، ل، ل."
         },
         {
           "id": "L03-S05",
           "title_ar": "تَصْرِيفُ الرُّبَاعِيِّ",
-          "title_en": "Conjugating quadriliteral past verbs",
+          "title_en": "Conjugating four-letter past verbs",
           "source_basis": "Source pages 12–14",
-          "explanation": "Once the pattern is identified, apply the same 14-person past-tense framework used for triliteral verbs. The pattern remains intact while the endings change.",
+          "explanation": "Once the pattern is identified, apply the same 14-person past-tense framework used for three-letter verbs. The pattern remains intact while the endings change.",
           "steps": [
             "Identify which of the four patterns the verb belongs to.",
             "Use the pattern as the base.",
@@ -337,8 +341,8 @@ const DATA={
             "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
           ],
           "supplementary": [],
-          "rule_title": "Quadriliteral Māḍī conjugation rule",
-          "rule_en": "Conjugate the four-radical past stem using the same person/number framework, preserving the four-radical pattern and applying the required endings."
+          "rule_title": "Four-letter Māḍī conjugation rule",
+          "rule_en": "Conjugate the four-letter past stem using the same person/number framework, preserving the four-letter pattern and applying the required endings."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -382,7 +386,7 @@ const DATA={
           "title_ar": "اِفْتَعَلَ",
           "title_en": "Form VIII: اِفْتَعَلَ",
           "source_basis": "Source pages 15–18",
-          "explanation": "The pattern contains the additional ت after the first root radical. Its present pattern is يَفْتَعِلُ.",
+          "explanation": "The pattern contains the additional ت after the first root letter. Its present pattern is يَفْتَعِلُ.",
           "steps": [],
           "examples": [
             "اِجْتَمَعَ → يَجْتَمِعُ",
@@ -393,14 +397,14 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form VIII past rule",
-          "rule_en": "اِفْتَعَلَ begins with اِ and inserts ت after the first root radical: اِفْتَعَلَ."
+          "rule_en": "اِفْتَعَلَ begins with اِ and inserts ت after the first root letter: اِفْتَعَلَ."
         },
         {
           "id": "L04-S03",
           "title_ar": "اِفْعَلَّ",
           "title_en": "Form IX: اِفْعَلَّ",
           "source_basis": "Source pages 15–18",
-          "explanation": "The final root radical is doubled. The present is يَفْعَلُّ. This pattern is associated especially with colors and physical qualities in traditional descriptions.",
+          "explanation": "The last root letter is doubled. The present is يَفْعَلُّ. This pattern is associated especially with colors and physical qualities in traditional descriptions.",
           "steps": [],
           "examples": [
             "اِحْمَرَّ → يَحْمَرُّ",
@@ -408,18 +412,18 @@ const DATA={
           ],
           "notes": [
             "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity.",
-            "Do not treat the final shaddah as optional: it represents the doubled final radical."
+            "Do not treat the final shaddah as optional: it represents the doubled final letter."
           ],
           "supplementary": [],
           "rule_title": "Form IX past rule",
-          "rule_en": "اِفْعَلَّ has the Form VIII-like opening and a doubled final radical: اِفْعَلَّ."
+          "rule_en": "اِفْعَلَّ has the Form VIII-like opening and a doubled final letter: اِفْعَلَّ."
         },
         {
           "id": "L04-S04",
           "title_ar": "تَفَعَّلَ",
           "title_en": "Form V: تَفَعَّلَ",
           "source_basis": "Source pages 15–18",
-          "explanation": "The pattern begins with تَ and has a doubled middle radical. Its present pattern is يَتَفَعَّلُ.",
+          "explanation": "The pattern begins with تَ and has a doubled middle letter. Its present pattern is يَتَفَعَّلُ.",
           "steps": [],
           "examples": [
             "تَعَلَّمَ → يَتَعَلَّمُ",
@@ -430,14 +434,14 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form V past rule",
-          "rule_en": "تَفَعَّلَ adds تـ to Form II and retains the doubled second radical."
+          "rule_en": "تَفَعَّلَ adds تـ to Form II and retains the doubled second letter."
         },
         {
           "id": "L04-S05",
           "title_ar": "تَفَاعَلَ",
           "title_en": "Form VI: تَفَاعَلَ",
           "source_basis": "Source pages 15–18",
-          "explanation": "The pattern has initial تَ and an alif after the first radical. Its present is يَتَفَاعَلُ.",
+          "explanation": "The pattern has initial تَ and an alif after the first letter. Its present is يَتَفَاعَلُ.",
           "steps": [],
           "examples": [
             "تَقَاتَلَ → يَتَقَاتَلُ",
@@ -448,14 +452,14 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form VI past rule",
-          "rule_en": "تَفَاعَلَ adds تـ to Form III and retains the alif after the first radical."
+          "rule_en": "تَفَاعَلَ adds تـ to Form III and retains the alif after the first letter."
         },
         {
           "id": "L04-S06",
           "title_ar": "تَفَعْلَلَ",
-          "title_en": "Quadriliteral derived five-letter pattern",
+          "title_en": "Derived five-letter pattern",
           "source_basis": "Source pages 15–18",
-          "explanation": "The pattern adds initial تَ to a four-radical base. Its present is يَتَفَعْلَلُ.",
+          "explanation": "The pattern adds تَ at the beginning of a four-letter base. Its present is يَتَفَعْلَلُ.",
           "steps": [],
           "examples": [
             "تَزَحْلَقَ → يَتَزَحْلَقُ",
@@ -465,8 +469,8 @@ const DATA={
             "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
           ],
           "supplementary": [],
-          "rule_title": "Derived quadriliteral past rule",
-          "rule_en": "The book treats the derived five-letter quadriliteral pattern as تَفَعْلَلَ: تـ followed by the four-radical stem."
+          "rule_title": "Derived five-letter past rule",
+          "rule_en": "The book treats تَفَعْلَلَ as a five-letter pattern: تـ followed by a four-letter base."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -499,7 +503,7 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form X past rule",
-          "rule_en": "اِسْتَفْعَلَ begins with اِسْتَـ and has sukūn on the first root radical: اِسْتَفْعَلَ."
+          "rule_en": "اِسْتَفْعَلَ begins with اِسْتَـ and has sukūn on the first root letter: اِسْتَفْعَلَ."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -511,8 +515,8 @@ const DATA={
       "title_en": "Present-tense patterns and conjugation",
       "topics": [
         "general rule",
-        "six triliteral present-tense patterns",
-        "triliteral conjugation",
+        "six three-letter present-tense patterns",
+        "three-letter conjugation",
         "subject pronouns",
         "exercises"
       ],
@@ -522,7 +526,7 @@ const DATA={
           "title_ar": "الْمُضَارِعُ",
           "title_en": "What the imperfect/present form is",
           "source_basis": "Source pages 21–24",
-          "explanation": "The textbook moves from the past pattern to the present-tense pattern. The first key task is to learn the present-tense vowel of the middle radical for Form I verbs.",
+          "explanation": "The textbook moves from the past pattern to the present-tense pattern. The first key task is to learn the present-tense vowel of the middle letter for Form I verbs.",
           "steps": [
             "Start from the known past verb.",
             "Determine its lexical present pattern.",
@@ -559,7 +563,7 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form I a–u rule",
-          "rule_en": "فَعَلَ → يَفْعُلُ. The middle radical of the Muḍāriʿ carries ḍammah."
+          "rule_en": "فَعَلَ → يَفْعُلُ. The middle letter of the Muḍāriʿ carries ḍammah."
         },
         {
           "id": "L06-S03",
@@ -577,7 +581,7 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form I a–i rule",
-          "rule_en": "فَعَلَ → يَفْعِلُ. The middle radical of the Muḍāriʿ carries kasrah."
+          "rule_en": "فَعَلَ → يَفْعِلُ. The middle letter of the Muḍāriʿ carries kasrah."
         },
         {
           "id": "L06-S04",
@@ -595,14 +599,14 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form I a–a rule",
-          "rule_en": "فَعَلَ → يَفْعَلُ. The middle radical of the Muḍāriʿ carries fatḥah."
+          "rule_en": "فَعَلَ → يَفْعَلُ. The middle letter of the Muḍāriʿ carries fatḥah."
         },
         {
           "id": "L06-S05",
           "title_ar": "فَعِلَ – يَفْعَلُ",
           "title_en": "Form I: i–a present pattern",
           "source_basis": "Source pages 21–23",
-          "explanation": "The book also gives Form I verbs whose past has فَعِلَ and whose present has an a-vowel in the middle radical.",
+          "explanation": "The book also gives Form I verbs whose past has فَعِلَ and whose present has an a-vowel in the middle letter.",
           "steps": [],
           "examples": [
             "فَهِمَ → يَفْهَمُ",
@@ -650,7 +654,7 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form I u–u rule",
-          "rule_en": "فَعُلَ → يَفْعُلُ. The middle radical remains on ḍammah."
+          "rule_en": "فَعُلَ → يَفْعُلُ. The middle letter remains on ḍammah."
         },
         {
           "id": "L06-S08",
@@ -679,7 +683,7 @@ const DATA={
       "id": "L07",
       "pages": "25-27",
       "title_ar": "أوزان المضارع الرباعي",
-      "title_en": "Quadriliteral present tense",
+      "title_en": "Four-letter present tense",
       "topics": [
         "أفعل",
         "فاعل",
@@ -694,7 +698,7 @@ const DATA={
           "title_ar": "أَفْعَلَ – يُفْعِلُ",
           "title_en": "Form IV present",
           "source_basis": "Source pages 25–27",
-          "explanation": "The present of أَفْعَلَ is يُفْعِلُ. The initial hamzah of the past is replaced by the present prefix and the stem has kasrah on the second radical.",
+          "explanation": "The present of أَفْعَلَ is يُفْعِلُ. The initial hamzah of the past is replaced by the present prefix and the stem has kasrah on the second letter.",
           "steps": [],
           "examples": [
             "أَكْرَمَ → يُكْرِمُ",
@@ -705,7 +709,7 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form IV Muḍāriʿ rule",
-          "rule_en": "أَفْعَلَ → يُفْعِلُ. The present prefix replaces the initial past hamzah and the middle radical takes kasrah."
+          "rule_en": "أَفْعَلَ → يُفْعِلُ. The present prefix replaces the initial past hamzah and the middle letter takes kasrah."
         },
         {
           "id": "L07-S02",
@@ -730,7 +734,7 @@ const DATA={
           "title_ar": "فَعَّلَ – يُفَعِّلُ",
           "title_en": "Form II present",
           "source_basis": "Source pages 25–27",
-          "explanation": "The doubled middle radical remains doubled and is kasrah-marked in the standard present pattern.",
+          "explanation": "The doubled middle letter remains doubled and is kasrah-marked in the standard present pattern.",
           "steps": [],
           "examples": [
             "عَلَّمَ → يُعَلِّمُ",
@@ -741,14 +745,14 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form II Muḍāriʿ rule",
-          "rule_en": "فَعَّلَ → يُفَعِّلُ. The middle radical remains doubled and carries kasrah."
+          "rule_en": "فَعَّلَ → يُفَعِّلُ. The middle letter remains doubled and carries kasrah."
         },
         {
           "id": "L07-S04",
           "title_ar": "فَعْلَلَ – يُفَعْلِلُ",
-          "title_en": "Quadriliteral present",
+          "title_en": "Four-letter present",
           "source_basis": "Source pages 25–27",
-          "explanation": "The four-radical pattern becomes يُفَعْلِلُ in the present.",
+          "explanation": "The four-letter pattern changes to يُفَعْلِلُ in the present.",
           "steps": [],
           "examples": [
             "زَخْرَفَ → يُزَخْرِفُ",
@@ -758,8 +762,8 @@ const DATA={
             "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
           ],
           "supplementary": [],
-          "rule_title": "Quadriliteral Muḍāriʿ rule",
-          "rule_en": "فَعْلَلَ → يُفَعْلِلُ. Add the ordinary present prefix and use kasrah on the third radical of the four-radical stem as shown by the pattern."
+          "rule_title": "Four-letter Muḍāriʿ rule",
+          "rule_en": "فَعْلَلَ → يُفَعْلِلُ. Add the ordinary present prefix and use kasrah on the third letter of the four-letter stem as shown by the pattern."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -836,7 +840,7 @@ const DATA={
           "title_ar": "تَفَعَّلَ – يَتَفَعَّلُ",
           "title_en": "Form V present",
           "source_basis": "Source pages 28–31",
-          "explanation": "The initial ت remains and the middle radical remains doubled.",
+          "explanation": "The initial ت remains and the middle letter remains doubled.",
           "steps": [],
           "examples": [
             "تَعَلَّمَ → يَتَعَلَّمُ"
@@ -846,7 +850,7 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form V Muḍāriʿ rule",
-          "rule_en": "تَفَعَّلَ → يَتَفَعَّلُ. The initial ت and doubled middle radical remain."
+          "rule_en": "تَفَعَّلَ → يَتَفَعَّلُ. The initial ت and doubled middle letter remain."
         },
         {
           "id": "L08-S05",
@@ -868,9 +872,9 @@ const DATA={
         {
           "id": "L08-S06",
           "title_ar": "تَفَعْلَلَ – يَتَفَعْلَلُ",
-          "title_en": "Derived quadriliteral present",
+          "title_en": "Derived four-letter present",
           "source_basis": "Source pages 28–31",
-          "explanation": "The initial ت remains before the four-radical stem.",
+          "explanation": "The initial ت remains before the four-letter stem.",
           "steps": [],
           "examples": [
             "تَدَحْرَجَ → يَتَدَحْرَجُ"
@@ -879,7 +883,7 @@ const DATA={
             "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
           ],
           "supplementary": [],
-          "rule_title": "Derived quadriliteral Muḍāriʿ rule",
+          "rule_title": "Derived four-letter Muḍāriʿ rule",
           "rule_en": "تَفَعْلَلَ → يَتَفَعْلَلُ. The initial ت remains as part of the derived pattern."
         }
       ],
@@ -901,7 +905,7 @@ const DATA={
           "title_ar": "اِسْتَفْعَلَ – يَسْتَفْعِلُ",
           "title_en": "Form X present",
           "source_basis": "Source page 32",
-          "explanation": "The book states the present is formed by opening the first stem position appropriately and giving the middle radical the kasrah shown in يَسْتَفْعِلُ.",
+          "explanation": "The book states the present is formed by opening the first stem position appropriately and giving the middle letter the kasrah shown in يَسْتَفْعِلُ.",
           "steps": [],
           "examples": [
             "اِسْتَخْرَجَ → يَسْتَخْرِجُ",
@@ -912,7 +916,7 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Form X Muḍāriʿ rule",
-          "rule_en": "اِسْتَفْعَلَ → يَسْتَفْعِلُ. Replace the past initial alif with the present prefix and give the middle radical kasrah."
+          "rule_en": "اِسْتَفْعَلَ → يَسْتَفْعِلُ. Replace the past initial alif with the present prefix and give the middle letter kasrah."
         }
       ],
       "learning_path_note": "Read this lesson first, then use its pattern/conjugation table and finally complete the cumulative practice."
@@ -924,8 +928,8 @@ const DATA={
       "title_en": "Imperative patterns and conjugation",
       "topics": [
         "general derivation rule",
-        "triliteral imperative",
-        "quadriliteral imperative",
+        "three-letter imperative",
+        "four-letter imperative",
         "five-letter imperative",
         "six-letter imperative",
         "exercises"
@@ -965,12 +969,12 @@ const DATA={
             }
           ],
           "rule_title": "Imperative formation rule",
-          "rule_en": "Start with the 2nd-person Muḍāriʿ. Make it jussive, remove the present prefix تـ, and if the resulting form begins with a consonant cluster, add hamzat al-waṣl. In the Form I patterns taught here, hamzat al-waṣl is pronounced with ḍammah when the Muḍāriʿ middle radical has ḍammah, and with kasrah in the other two basic cases."
+          "rule_en": "Start with the 2nd-person Muḍāriʿ. Make it jussive, remove the present prefix تـ, and if the resulting form begins with a consonant cluster, add hamzat al-waṣl. In the Form I patterns taught here, hamzat al-waṣl is pronounced with ḍammah when the Muḍāriʿ middle letter has ḍammah, and with kasrah in the other two basic cases."
         },
         {
           "id": "L10-S02",
           "title_ar": "أَمْرُ الثُّلَاثِيِّ",
-          "title_en": "Triliteral imperative",
+          "title_en": "Three-letter imperative",
           "source_basis": "Source pages 33–34",
           "explanation": "For Form I, the initial vowel of hamzat al-waṣl depends on the present-tense pattern. The book lays out the three principal imperative patterns corresponding to اُفْعُلْ, اِفْعِلْ and اِفْعَلْ.",
           "steps": [],
@@ -984,15 +988,15 @@ const DATA={
             "The initial alif is أَلِفُ الْوَصْلِ, not a permanent root letter."
           ],
           "supplementary": [],
-          "rule_title": "Triliteral imperative rule",
+          "rule_title": "Three-letter imperative rule",
           "rule_en": "From the 2ms Muḍāriʿ, remove تـ and the jussive ending. Then use اُفْعُلْ for the u-vowel class, اِفْعِلْ for the i-vowel class, and اِفْعَلْ for the a-vowel class."
         },
         {
           "id": "L10-S03",
           "title_ar": "أَمْرُ الرُّبَاعِيِّ",
-          "title_en": "Quadriliteral imperative",
+          "title_en": "Four-letter imperative",
           "source_basis": "Source pages 34–35",
-          "explanation": "For the derived quadriliteral patterns, the textbook gives direct imperative patterns. Form IV is especially important: the non-past is used as the base and the initial imperative hamzah is pronounced with fatḥah.",
+          "explanation": "For the derived four-letter patterns, the textbook gives direct imperative patterns. Form IV is especially important: the non-past is used as the base and the initial imperative hamzah is pronounced with fatḥah.",
           "steps": [],
           "examples": [
             "تُكْرِمُ → أَكْرِمْ",
@@ -1005,8 +1009,8 @@ const DATA={
             "Form IV is a major exception to the simple Form I hamzat-al-waṣl behavior: its imperative begins with a permanent hamzah."
           ],
           "supplementary": [],
-          "rule_title": "Quadriliteral imperative rule",
-          "rule_en": "Derived quadriliteral imperatives are pattern-specific. Form IV is أَفْعِلْ; Forms III and II are فَاعِلْ and فَعِّلْ respectively. These begin without the Form I hamzat-al-waṣl procedure."
+          "rule_title": "Four-letter imperative rule",
+          "rule_en": "Derived four-letter imperatives are pattern-specific. Form IV is أَفْعِلْ; Forms III and II are فَاعِلْ and فَعِّلْ respectively. These begin without the Form I hamzat-al-waṣl procedure."
         },
         {
           "id": "L10-S04",
@@ -1076,8 +1080,8 @@ const DATA={
       "title_ar": "اسم الفاعل",
       "title_en": "Active participle",
       "topics": [
-        "triliteral pattern",
-        "quadriliteral rule",
+        "three-letter pattern",
+        "four-letter rule",
         "five-letter rule",
         "six-letter rule",
         "conjugation/usage exercises"
@@ -1086,9 +1090,9 @@ const DATA={
         {
           "id": "L11-S01",
           "title_ar": "اِسْمُ الْفَاعِلِ مِنَ الثُّلَاثِيِّ",
-          "title_en": "Active participle from triliteral verbs",
+          "title_en": "Active participle from three-letter verbs",
           "source_basis": "Source pages 38–40",
-          "explanation": "The book teaches the standard Form I active-participle pattern فَاعِلٌ for sound triliteral verbs.",
+          "explanation": "The book teaches the standard Form I active-participle pattern فَاعِلٌ for sound three-letter verbs.",
           "steps": [],
           "examples": [
             "كَتَبَ → كَاتِبٌ",
@@ -1100,14 +1104,14 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Active-participle rule: Form I",
-          "rule_en": "For a sound triliteral verb, the active participle is normally فَاعِلٌ: the first radical takes fatḥah, an alif follows it, and the middle radical takes kasrah."
+          "rule_en": "For a sound three-letter verb, the active participle is normally فَاعِلٌ: the first letter takes fatḥah, an alif follows it, and the middle letter takes kasrah."
         },
         {
           "id": "L11-S02",
           "title_ar": "اِسْمُ الْفَاعِلِ مِنَ غَيْرِ الثُّلَاثِيِّ",
           "title_en": "Active participle from derived verbs",
           "source_basis": "Source pages 39–40",
-          "explanation": "For derived verbs, the active participle is based on the present-tense stem with the present prefix replaced by مُـ and kasrah on the letter before the final radical.",
+          "explanation": "For derived verbs, the active participle is based on the present-tense stem with the present prefix replaced by مُـ and kasrah on the letter before the last letter.",
           "steps": [],
           "examples": [
             "يُكْرِمُ → مُكْرِمٌ",
@@ -1156,8 +1160,8 @@ const DATA={
       "title_en": "Passive voice — past tense",
       "topics": [
         "general rule",
-        "triliteral",
-        "quadriliteral",
+        "three-letter",
+        "four-letter",
         "five-letter",
         "six-letter",
         "conjugation",
@@ -1185,11 +1189,11 @@ const DATA={
           "title_ar": "الْمَاضِي الْمَبْنِيُّ لِلْمَجْهُولِ",
           "title_en": "Passive past: Form I",
           "source_basis": "Source pages 42",
-          "explanation": "For sound triliteral Form I verbs, the textbook gives the core passive pattern فُعِلَ.",
+          "explanation": "For sound three-letter Form I verbs, the textbook gives the core passive pattern فُعِلَ.",
           "steps": [
-            "Ḍammah the first radical.",
-            "Kasrah the middle radical.",
-            "Keep the remaining radicals and endings according to the conjugation table."
+            "Ḍammah the first letter.",
+            "Kasrah the middle letter.",
+            "Keep the remaining letters and endings according to the conjugation table."
           ],
           "examples": [
             "كَتَبَ → كُتِبَ",
@@ -1200,7 +1204,7 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Passive Māḍī Form I rule",
-          "rule_en": "For the sound triliteral passive past, use فُعِلَ: ḍammah on the first radical and kasrah on the middle radical."
+          "rule_en": "For the sound three-letter passive past, use فُعِلَ: ḍammah on the first letter and kasrah on the middle letter."
         },
         {
           "id": "L12-S03",
@@ -1250,8 +1254,8 @@ const DATA={
       "title_en": "Passive voice — present tense",
       "topics": [
         "general rule",
-        "triliteral",
-        "quadriliteral",
+        "three-letter",
+        "four-letter",
         "five-letter",
         "six-letter",
         "conjugation",
@@ -1282,7 +1286,7 @@ const DATA={
           "title_ar": "قَاعِدَةُ الْمُضَارِعِ الْمَجْهُولِ",
           "title_en": "General formation rule",
           "source_basis": "Source pages 48–54",
-          "explanation": "The first radical of the present passive is ḍammah-marked, and the pattern-specific internal vowel is changed according to the form.",
+          "explanation": "The first letter of the present passive is ḍammah-marked, and the pattern-specific internal vowel is changed according to the form.",
           "steps": [
             "Identify the active present pattern.",
             "Apply the textbook passive template.",
@@ -1294,7 +1298,7 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "General passive-present rule",
-          "rule_en": "First identify the active present pattern. Then apply the book’s passive template, normally beginning with ḍammah and placing fatḥah on the pre-final radical in the standard sound pattern."
+          "rule_en": "First identify the active present pattern. Then apply the book’s passive template, normally beginning with ḍammah and placing fatḥah on the pre-final letter in the standard sound pattern."
         },
         {
           "id": "L13-S03",
@@ -1323,8 +1327,8 @@ const DATA={
       "title_ar": "اسم المفعول",
       "title_en": "Passive participle",
       "topics": [
-        "triliteral",
-        "quadriliteral",
+        "three-letter",
+        "four-letter",
         "five-letter",
         "six-letter",
         "formation rules",
@@ -1334,9 +1338,9 @@ const DATA={
         {
           "id": "L14-S01",
           "title_ar": "اِسْمُ الْمَفْعُولِ مِنَ الثُّلَاثِيِّ",
-          "title_en": "Passive participle from triliteral verbs",
+          "title_en": "Passive participle from three-letter verbs",
           "source_basis": "Source pages 55–57",
-          "explanation": "The standard Form I passive participle pattern for sound triliteral verbs is مَفْعُولٌ.",
+          "explanation": "The standard Form I passive participle pattern for sound three-letter verbs is مَفْعُولٌ.",
           "steps": [],
           "examples": [
             "كَتَبَ → مَكْتُوبٌ",
@@ -1347,7 +1351,7 @@ const DATA={
           ],
           "supplementary": [],
           "rule_title": "Passive-participle rule: Form I",
-          "rule_en": "For a sound triliteral verb, the passive participle follows مَفْعُولٌ."
+          "rule_en": "For a sound three-letter verb, the passive participle follows مَفْعُولٌ."
         },
         {
           "id": "L14-S02",
@@ -1437,8 +1441,8 @@ const DATA={
       "title_ar": "المصدر",
       "title_en": "Verbal noun / maṣdar",
       "topics": [
-        "triliteral maṣdar",
-        "quadriliteral maṣdar",
+        "three-letter maṣdar",
+        "four-letter maṣdar",
         "five-letter maṣdar rules",
         "six-letter maṣdar",
         "exercises"
@@ -1447,9 +1451,9 @@ const DATA={
         {
           "id": "L16-S01",
           "title_ar": "الْمَصْدَرُ مِنَ الثُّلَاثِيِّ",
-          "title_en": "Triliteral verbal noun",
+          "title_en": "Three-letter verbal noun",
           "source_basis": "Source pages 59–61",
-          "explanation": "The textbook treats the triliteral maṣdar as largely سماعيّ (lexically transmitted), with recognized patterns and examples rather than one universal mechanical rule.",
+          "explanation": "The textbook treats the three-letter maṣdar as largely سماعيّ (lexically transmitted), with recognized patterns and examples rather than one universal mechanical rule.",
           "steps": [],
           "examples": [],
           "notes": [
@@ -1463,9 +1467,9 @@ const DATA={
         {
           "id": "L16-S02",
           "title_ar": "مَصْدَرُ الرُّبَاعِيِّ",
-          "title_en": "Quadriliteral verbal noun",
+          "title_en": "Four-letter verbal noun",
           "source_basis": "Source pages 59–61",
-          "explanation": "Derived quadriliteral patterns have more regular maṣdar formation than basic triliteral verbs.",
+          "explanation": "Derived four-letter patterns have more regular maṣdar formation than basic three-letter verbs.",
           "steps": [],
           "examples": [
             "أَكْرَمَ → إِكْرَامٌ",
@@ -1476,8 +1480,8 @@ const DATA={
             "Textbook rule: this rule is presented as the primary lesson principle; supplementary explanation is only for clarity."
           ],
           "supplementary": [],
-          "rule_title": "Quadriliteral maṣdar rule",
-          "rule_en": "Derived quadriliteral maṣdars follow the pattern-specific templates taught in the book; identify the verb pattern before generating the maṣdar."
+          "rule_title": "Four-letter maṣdar rule",
+          "rule_en": "Derived four-letter maṣdars follow the pattern-specific templates taught in the book; identify the verb pattern before generating the maṣdar."
         },
         {
           "id": "L16-S03",
@@ -1522,17 +1526,17 @@ const DATA={
   "patterns": [
     [
       "فَعَلَ",
-      "Form I — triliteral past",
+      "Form I — three-letter past",
       "مَاضِي"
     ],
     [
       "فَعِلَ",
-      "Form I — triliteral past",
+      "Form I — three-letter past",
       "مَاضِي"
     ],
     [
       "فَعُلَ",
-      "Form I — triliteral past",
+      "Form I — three-letter past",
       "مَاضِي"
     ],
     [
@@ -1552,7 +1556,7 @@ const DATA={
     ],
     [
       "فَعْلَلَ",
-      "Quadriliteral",
+      "Four-letter",
       "مَاضِي"
     ],
     [
@@ -1582,7 +1586,7 @@ const DATA={
     ],
     [
       "تَفَعْلَلَ",
-      "Derived quadriliteral",
+      "Derived four-letter",
       "مَاضِي"
     ],
     [
@@ -11885,19 +11889,19 @@ const DATA={
         "unmarked_non_alif_letters": []
       },
       "source_transcription_verified": true,
-      "meaning_candidate": "to undergo/do the quadriliteral action (pattern exemplar)",
+      "meaning_candidate": "to undergo/do the four-letter action (pattern exemplar)",
       "meaning_external_crosscheck": false,
       "source_type": "source_lexical",
       "lesson": null,
       "expected_answers": {
         "root": "ف ع ل ل",
         "wazn": "تَفَعْلَلَ",
-        "meaning": "to undergo/do the quadriliteral action (pattern exemplar)"
+        "meaning": "to undergo/do the four-letter action (pattern exemplar)"
       },
       "answer_verified": true,
       "root": "ف ع ل ل",
       "wazn": "تَفَعْلَلَ",
-      "meaning": "to undergo/do the quadriliteral action (pattern exemplar)",
+      "meaning": "to undergo/do the four-letter action (pattern exemplar)",
       "dataset_index": 313
     },
     {
@@ -13592,7 +13596,7 @@ const DATA={
       {
         "title": "Quranic Arabic Corpus — Verb Forms",
         "url": "https://corpus.quran.com/documentation/verbforms.jsp",
-        "use": "Supplementary reference for Form I–X and quadriliteral verb-pattern descriptions."
+        "use": "Supplementary reference for Form I–X and four-letter verb-pattern descriptions."
       }
     ],
     "imperative_bridge": "For the imperative, the app teaches the source rule first and then adds a general Arabic-grammar note: the positive imperative is a second-person form derived from the imperfective/jussive stem. This is supplementary context, not a replacement for the textbook rule."
