@@ -122,7 +122,7 @@ const DATA={
       "id": "L02",
       "pages": "8-11",
       "title_ar": "أوزان الفعل الماضي وتصريفه",
-      "title_en": "Past-tense patterns and conjugation",
+      "title_en": "Three-Letter Verb — Past Tense (Māḍī)",
       "topics": [
         "three three-letter past patterns",
         "past-tense conjugation",
@@ -234,7 +234,7 @@ const DATA={
       "id": "L03",
       "pages": "12-14",
       "title_ar": "أوزان الفعل الماضي الرباعي وتصريفه",
-      "title_en": "Four-letter past patterns and conjugation",
+      "title_en": "Four-Letter Verb — Past Tense (Māḍī)",
       "topics": [
         "أفعل",
         "فاعل",
@@ -351,7 +351,7 @@ const DATA={
       "id": "L04",
       "pages": "15-18",
       "title_ar": "أوزان الفعل الماضي الخماسي",
-      "title_en": "Five-letter past patterns",
+      "title_en": "Five-Letter Verb — Past Tense (Māḍī)",
       "topics": [
         "انفعل",
         "افتعل",
@@ -479,7 +479,7 @@ const DATA={
       "id": "L05",
       "pages": "19-20",
       "title_ar": "أوزان الفعل الماضي السداسي",
-      "title_en": "Six-letter past patterns",
+      "title_en": "Six-Letter Verb — Past Tense (Māḍī)",
       "topics": [
         "استفعل",
         "full conjugation",
@@ -512,7 +512,7 @@ const DATA={
       "id": "L06",
       "pages": "21-24",
       "title_ar": "أوزان الفعل المضارع وتصريفه",
-      "title_en": "Present-tense patterns and conjugation",
+      "title_en": "Three-Letter Verb — Muḍāriʿ (Present/Future)",
       "topics": [
         "general rule",
         "six three-letter present-tense patterns",
@@ -683,7 +683,7 @@ const DATA={
       "id": "L07",
       "pages": "25-27",
       "title_ar": "أوزان المضارع الرباعي",
-      "title_en": "Four-letter present tense",
+      "title_en": "Four-Letter Verb — Muḍāriʿ",
       "topics": [
         "أفعل",
         "فاعل",
@@ -772,7 +772,7 @@ const DATA={
       "id": "L08",
       "pages": "28-31",
       "title_ar": "أوزان المضارع الخماسي",
-      "title_en": "Five-letter present tense",
+      "title_en": "Five-Letter Verb — Muḍāriʿ",
       "topics": [
         "انفعل",
         "افتعل",
@@ -893,7 +893,7 @@ const DATA={
       "id": "L09",
       "pages": "32",
       "title_ar": "أوزان المضارع السداسي",
-      "title_en": "Six-letter present tense",
+      "title_en": "Six-Letter Verb — Muḍāriʿ",
       "topics": [
         "استفعل",
         "conjugation",

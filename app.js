@@ -71,29 +71,82 @@ function renderLessons(){
   root.innerHTML=`<div class="section-intro card"><div class="eyebrow">BOOK SEQUENCE</div><h2>Lessons</h2><p>Open one lesson at a time. Each lesson contains clickable sub-lessons. Complete them in order; practice expands only as you learn.</p></div><div class="lesson-list">${DATA.lessons.map((x,i)=>{const done=lessonComplete(x.id), unlocked=allPriorLessonsComplete(x.id);return `<button class="lesson-tile ${done?'completed':''} ${unlocked?'':'locked'}" ${unlocked?'':'disabled'} onclick="openLesson('${x.id}')"><span class="tile-number">${i+1}</span><span class="tile-main"><strong>${esc(x.title_en)}</strong><span>${arabic(x.title_ar,'small-ar')}</span><small>Pages ${esc(x.pages)} · ${(x.sublessons||[]).length} sub-lessons</small></span><span class="tile-status">${done?'✓ Complete':unlocked?'Open →':'🔒 Locked'}</span></button>`}).join('')}</div>`;
 }
 function renderPatterns(){
-  q('#patterns').innerHTML = `<div class="grid">${DATA.patterns.map(p=>card(arabic(p[0],'ar pattern'),`<p>${esc(p[1])}</p><p class="muted">${esc(p[2])}</p>`)).join('')}</div>`;
+  const groups=[
+    ['Form I — three-letter verb',['فَعَلَ','فَعِلَ','فَعُلَ'],'Three basic three-letter past patterns.'],
+    ['Derived three-letter forms — Forms II–IV',['فَعَّلَ','فَاعَلَ','أَفْعَلَ'],'The verb gains additional letters/pattern features while the underlying root remains identifiable.'],
+    ['Derived five-letter forms — Forms V–VI',['تَفَعَّلَ','تَفَاعَلَ'],'Five-letter patterns built from the derived three-letter patterns.'],
+    ['Derived five-letter forms — Forms VII–IX',['اِنْفَعَلَ','اِفْتَعَلَ','اِفْعَلَّ'],'Five-letter patterns with their characteristic prefixes and changes.'],
+    ['Six-letter form — Form X',['اِسْتَفْعَلَ'],'The six-letter pattern introduced in the textbook.'],
+    ['Four-letter verbs',['فَعْلَلَ','تَفَعْلَلَ'],'A true four-letter base and its derived five-letter pattern.']
+  ];
+  q('#patterns').innerHTML=`<div class="section-intro card"><div class="eyebrow">PATTERN MAP</div><h2>Verb Forms at a Glance</h2><p>Use this page as a simple map: first see whether a verb is three, four, five, or six letters; then learn the traditional form number and pattern.</p></div>${groups.map(g=>`<article class="card"><h3>${esc(g[0])}</h3><p class="muted">${esc(g[2])}</p><div class="grid">${g[1].map(pat=>{const p=DATA.patterns.find(x=>x[0]===pat);return p?card(arabic(p[0],'ar pattern'),`<p>${esc(p[1])}</p><p class="muted">${esc(p[2])}</p>`):''}).join('')}</div></article>`).join('')}`;
 }
 
 function learningEntries(){return [...(DATA.verbs||[]),...(DATA.exercise_entries||[])];}
 
+function normalizeArabic(s){
+  return String(s||'').normalize('NFD').replace(/[\u064B-\u065F\u0670\u06D6-\u06ED]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').trim();
+}
+function allVerbRecords(){
+  return [...(DATA.verbs||[]),...(DATA.exercise_entries||[]),...(DATA.additional_practice?.verbs||[])];
+}
+function findVerbRecord(input){
+  const n=normalizeArabic(input);
+  if(!n) return null;
+  return allVerbRecords().find(v=>normalizeArabic(v.ar)===n) || allVerbRecords().find(v=>normalizeArabic(v.past_3ms)===n) || allVerbRecords().find(v=>normalizeArabic(v.present_3ms)===n) || null;
+}
+function fullParadigmHTML(v){
+  const rows=(title,arr)=>arr?.length?`<h4>${title}</h4>${miniTable(arr)}`:'';
+  const amr=v.amr_5_persons||v.expected_answers?.amr_5_persons;
+  return `<details class="verb-paradigm"><summary>View complete Ṣarf</summary>
+    ${rows('Māḍī',v.past_conjugation)}
+    ${rows('Muḍāriʿ',v.present_conjugation)}
+    ${amr?.length?`<h4>Amr</h4><div class="examples">${amr.map((x,i)=>`<div>${arabic(['أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ'][i],'small-ar')} — ${arabic(x,'small-ar')}</div>`).join('')}</div>`:''}
+    ${v.passive_past_3ms||v.expected_answers?.passive_past_3ms?`<h4>Passive Māḍī</h4><div class="examples">${arabic(v.passive_past_3ms||v.expected_answers.passive_past_3ms,'table-ar')}</div>`:''}
+    ${rows('Passive Muḍāriʿ',v.passive_present_conjugation)}
+    ${v.ism_al_faail||v.expected_answers?.ism_al_faail?`<h4>Derived forms</h4><div class="examples"><div>اسم الفاعل — ${arabic(v.ism_al_faail||v.expected_answers.ism_al_faail,'small-ar')}</div>${(v.ism_al_mafool||v.expected_answers?.ism_al_mafool)?`<div>اسم المفعول — ${arabic(v.ism_al_mafool||v.expected_answers.ism_al_mafool,'small-ar')}</div>`:''}${(v.expected_answers?.masdar)?`<div>المصدر — ${arabic(v.expected_answers.masdar,'small-ar')}</div>`:''}</div>`:''}
+  </details>`;
+}
 function renderVerbs(){
   const entries=learningEntries();
-  q('#verbs').innerHTML = `<div class="searchbar"><input id="verbSearch" placeholder="Search Arabic, root, meaning or وزن…"><span>${entries.length} verified entries</span></div><div id="verbGrid" class="grid"></div>`;
+  q('#verbs').innerHTML = `<div class="section-intro card"><div class="eyebrow">VERB DIRECTORY</div><h2>Textbook Verbs</h2><p>Tap any entry to open its complete available Ṣarf reference. The list is separate from Additional Practice.</p></div><div class="searchbar"><input id="verbSearch" placeholder="Search Arabic, root, meaning or وزن…"><span>${entries.length} verified entries</span></div><div id="verbGrid" class="grid"></div>`;
   const draw=()=>{
     const term=q('#verbSearch').value.trim().toLowerCase();
     const list=entries.filter(v=>[v.ar,v.root,v.wazn,v.meaning].join(' ').toLowerCase().includes(term));
-    q('#verbGrid').innerHTML=list.map(v=>card(arabic(v.ar,'ar verb'),`<p><b>Root:</b> ${esc(v.root)}</p><p><b>وزن:</b> ${arabic(v.wazn,'small-ar')}</p><p>${esc(v.meaning)}</p><p class="muted">Source page: ${esc(v.source_page||v.source||v.lesson||'')}</p>${v.source_anomaly?`<p class="muted"><b>Source note:</b> ${esc(v.source_anomaly)}</p>`:''}`)).join('') || '<p>No match.</p>';
+    q('#verbGrid').innerHTML=list.map(v=>card(arabic(v.ar,'ar verb'),`<p><b>Root:</b> ${esc(v.root||'—')}</p><p><b>وزن:</b> ${v.wazn?arabic(v.wazn,'small-ar'):'—'}</p><p>${esc(v.meaning||'')}</p><p class="muted">Source page: ${esc(v.source_page||v.source||v.lesson||'')}</p>${v.source_anomaly?`<p class="muted"><b>Source note:</b> ${esc(v.source_anomaly)}</p>`:''}${fullParadigmHTML(v)}`)).join('') || '<p>No match.</p>';
   };
   q('#verbSearch').addEventListener('input',draw); draw();
 }
 
+function conjugationRows(v,kind){
+  if(kind==='past') return v.past_conjugation||DATA.past_conjugations?.[v.wazn]||[];
+  if(kind==='present') return v.present_conjugation||[];
+  if(kind==='passive_present') return v.passive_present_conjugation||[];
+  return [];
+}
 function renderConjugator(){
-  q('#conjugator').innerHTML=card('Māḍī conjugation',`<p class="muted">The table is locked to the source's 14-slot conjugation order.</p><select id="patSelect">${DATA.patterns.map(p=>`<option value="${esc(p[0])}">${esc(p[0])} — ${esc(p[1])}</option>`).join('')}</select><div id="conjTable"></div>`);
-  const draw=()=>{
-    const p=q('#patSelect').value; const rows=DATA.past_conjugations[p]||[];
-    q('#conjTable').innerHTML='<table><thead><tr><th>Pronoun</th><th>Form</th></tr></thead><tbody>'+rows.map(([pr,f])=>`<tr><td>${arabic(pr,'small-ar')}</td><td>${arabic(f,'ar table-ar')}</td></tr>`).join('')+'</tbody></table>';
+  q('#conjugator').innerHTML=card('Ṣarf Conjugator',`<p class="muted">Enter a verb from the verified app index. Then choose the form you want to inspect. The app does not invent an unverified conjugation for an unknown word.</p><div class="conj-controls"><input id="conjInput" placeholder="Enter a verb, e.g. كَتَبَ" inputmode="text" autocomplete="off"><select id="conjWhat"><option value="everything">Everything available</option><option value="past">Māḍī</option><option value="present">Muḍāriʿ</option><option value="amr">Amr</option><option value="faail">Ism al-Fāʿil</option><option value="mafool">Ism al-Mafʿūl</option><option value="passive_past">Passive Māḍī</option><option value="passive_present">Passive Muḍāriʿ</option><option value="masdar">Maṣdar</option><option value="wazn">Mīzān / وزن</option></select><button class="btn" id="runConj">Show</button></div><div class="conj-hint">Examples: كَتَبَ → Muḍāriʿ, Amr, Ism al-Fāʿil, or Everything.</div><div id="conjResult"></div>`);
+  const run=()=>{
+    const input=q('#conjInput').value.trim(), kind=q('#conjWhat').value, v=findVerbRecord(input), out=q('#conjResult');
+    if(!v){out.innerHTML='<div class="empty-state"><h3>Verb not found in the verified index</h3><p>Try the fully vocalized verb or choose a verb from the Verbs directory. No unverified form will be guessed.</p></div>';return;}
+    const amr=v.amr_5_persons||v.expected_answers?.amr_5_persons||[];
+    const pp=v.passive_past_3ms||v.expected_answers?.passive_past_3ms;
+    const p3=v.passive_present_3ms||v.expected_answers?.passive_present_3ms;
+    let body=`<div class="card"><div class="lesson-header"><div><h3>${arabic(v.ar,'ar verb')}</h3><p>${esc(v.meaning||'')}</p></div><span class="badge">${v.wazn?esc(v.wazn):'verified entry'}</span></div><p><b>Root:</b> ${esc(v.root||'—')}</p>`;
+    const table=(title,rows)=>rows?.length?`<h4>${title}</h4>${miniTable(rows)}`:'';
+    if(kind==='everything') body+=table('Māḍī',v.past_conjugation)+table('Muḍāriʿ',v.present_conjugation)+(amr.length?`<h4>Amr</h4><div class="examples">${amr.map((x,i)=>`<div>${arabic(['أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ'][i],'small-ar')} — ${arabic(x,'small-ar')}</div>`).join('')}</div>`:'')+(pp?`<h4>Passive Māḍī</h4><div class="examples">${arabic(pp,'table-ar')}</div>`:'')+table('Passive Muḍāriʿ',v.passive_present_conjugation)+(v.ism_al_faail?`<h4>Ism al-Fāʿil</h4><div class="examples">${arabic(v.ism_al_faail,'small-ar')}</div>`:'')+(v.ism_al_mafool?`<h4>Ism al-Mafʿūl</h4><div class="examples">${arabic(v.ism_al_mafool,'small-ar')}</div>`:'')+(v.expected_answers?.masdar?`<h4>Maṣdar</h4><div class="examples">${arabic(v.expected_answers.masdar,'small-ar')}</div>`:'');
+    else if(kind==='past') body+=table('Māḍī',v.past_conjugation||DATA.past_conjugations?.[v.wazn]);
+    else if(kind==='present') body+=table('Muḍāriʿ',v.present_conjugation);
+    else if(kind==='amr') body+=amr.length?`<h4>Amr</h4><div class="examples">${amr.map((x,i)=>`<div>${arabic(['أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ'][i],'small-ar')} — ${arabic(x,'small-ar')}</div>`).join('')}</div>`:'<p class="muted">No verified Amr paradigm is stored for this entry.</p>';
+    else if(kind==='faail') body+=v.ism_al_faail?`<h4>Ism al-Fāʿil</h4><div class="examples">${arabic(v.ism_al_faail,'small-ar')}</div>`:'<p class="muted">No verified Ism al-Fāʿil stored.</p>';
+    else if(kind==='mafool') body+=v.ism_al_mafool?`<h4>Ism al-Mafʿūl</h4><div class="examples">${arabic(v.ism_al_mafool,'small-ar')}</div>`:'<p class="muted">No verified Ism al-Mafʿūl stored.</p>';
+    else if(kind==='passive_past') body+=pp?`<h4>Passive Māḍī — هُوَ</h4><div class="examples">${arabic(pp,'table-ar')}</div>`:'<p class="muted">No verified passive Māḍī form stored.</p>';
+    else if(kind==='passive_present') body+=table('Passive Muḍāriʿ',v.passive_present_conjugation);
+    else if(kind==='masdar') body+=v.expected_answers?.masdar?`<h4>Maṣdar</h4><div class="examples">${arabic(v.expected_answers.masdar,'small-ar')}</div>`:'<p class="muted">No verified Maṣdar stored.</p>';
+    else if(kind==='wazn') body+=`<h4>Mīzān / وزن</h4><div class="examples">${arabic(v.wazn||'—','pattern')}</div>`;
+    body+='</div>'; out.innerHTML=body;
   };
-  q('#patSelect').addEventListener('change',draw); draw();
+  q('#runConj').onclick=run; q('#conjInput').addEventListener('keydown',e=>{if(e.key==='Enter')run()}); q('#conjWhat').addEventListener('change',run);
 }
 
 const modes=[
@@ -140,29 +193,27 @@ function startPassiveQuiz(){
 function practiceEntries(){
   const c=learnedCapabilities();
   if(state.fullAccess) return learningEntries();
-  return learningEntries().filter(v=>{
-    const st=v.stage;
-    if(!st || st==='recovered_source_exercise') return c.past;
-    if(st==='مُضَارِع') return c.present;
-    if(st==='فِعْلُ الأَمْر') return c.amr;
-    if(st==='اِسْمُ الفَاعِل') return c.faail;
-    if(st==='المَاضِي المَبْنِيُّ لِلْمَجْهُول') return c.passivePast;
-    if(st==='المُضَارِعُ المَبْنِيُّ لِلْمَجْهُول') return c.passivePresent;
-    if(st==='اِسْمُ المَفْعُول') return c.mafool;
-    if(st==='اِسْمُ التَّفْضِيل') return c.tafdil;
-    if(st==='المَصْدَر') return c.masdar;
-    return false;
-  });
+  return learningEntries().filter(v=>entryUnlocked(v,c));
+}
+
+function learnedPastPatterns(){
+  const c=learnedCapabilities();
+  const ids=[];
+  if(c.past3) ids.push('فَعَلَ','فَعِلَ','فَعُلَ');
+  if(c.past4) ids.push('أَفْعَلَ','فَاعَلَ','فَعَّلَ','فَعْلَلَ');
+  if(c.past5) ids.push('اِنْفَعَلَ','اِفْتَعَلَ','اِفْعَلَّ','تَفَعَّلَ','تَفَاعَلَ','تَفَعْلَلَ');
+  if(c.past6) ids.push('اِسْتَفْعَلَ');
+  return ids;
 }
 function startQuiz(){
   const entries=practiceEntries();
   if(!entries.length){
-    q('#practice').innerHTML=card('Practice',`<div class="empty-state"><div class="big-icon">📘</div><h3>Complete a lesson first</h3><p>Normal practice only tests material you have completed. Finish the Māḍī lessons to begin, or use <b>Unlock All Questions</b> for a full-textbook test.</p><button class="btn" onclick="showTab('lessons')">Go to Lessons</button></div>`); return;
+    q('#practice').innerHTML=card('Practice',`<div class="unlock-panel practice-unlock"><div><strong>🔓 Full-textbook test</strong><p class="muted">No normal questions are unlocked yet. You can still test the entire textbook.</p></div><button class="btn" onclick="toggleFullAccess();startQuiz()">Unlock all questions</button></div><div class="empty-state"><div class="big-icon">📘</div><h3>No normal questions unlocked yet</h3><p>Complete a lesson to begin cumulative practice, or use the button above for a full-textbook test.</p><button class="btn secondary-btn" onclick="showTab('lessons')">Go to Lessons</button></div>`); return;
   }
   const useConj=entries.some(v=>v.expected_answers?.root) && Math.random()<.34;
-  if(useConj && Object.keys(DATA.past_conjugations||{}).length && learnedCapabilities().past){
-    const pattern=DATA.patterns[Math.floor(Math.random()*DATA.patterns.length)][0]; const rows=DATA.past_conjugations[pattern]; const idx=Math.floor(Math.random()*rows.length); const pronoun=rows[idx][0],correct=rows[idx][1];
-    if(Math.random()<.45) renderChoiceQuestion('Past-tense pattern',correct,'Which <strong>وَزْن / مِيزَان</strong> does this form belong to?',pattern,DATA.patterns.map(p=>p[0]),'Māḍī pattern review');
+  if(useConj && Object.keys(DATA.past_conjugations||{}).length && learnedCapabilities().past3){
+    const allowed=learnedPastPatterns(); const pattern=allowed[Math.floor(Math.random()*allowed.length)]; const rows=DATA.past_conjugations[pattern]||[]; const idx=Math.floor(Math.random()*rows.length); const pronoun=rows[idx][0],correct=rows[idx][1];
+    if(Math.random()<.45) renderChoiceQuestion('Past-tense pattern',correct,'Which <strong>وَزْن / مِيزَان</strong> does this form belong to?',pattern,allowed,'Māḍī pattern review');
     else renderChoiceQuestion('Past-tense conjugation',pattern,`Give the <strong>${arabic(pronoun,'small-ar')}</strong> form.`,correct,rows.map(r=>r[1]),'Māḍī conjugation review');
     return;
   }
@@ -212,55 +263,91 @@ function answerQuiz(button,value){
 function learnedCapabilities(){
   const completedIds=new Set(DATA.lessons.filter(x=>lessonComplete(x.id)).map(x=>x.id));
   return {
-    past:['L02','L03','L04','L05'].every(id=>completedIds.has(id)),
-    present:['L06','L07','L08','L09'].every(id=>completedIds.has(id)),
-    amr:completedIds.has('L10'),
-    faail:completedIds.has('L11'),
-    passivePast:completedIds.has('L12'),
-    passivePresent:completedIds.has('L13'),
-    mafool:completedIds.has('L14'),
-    tafdil:completedIds.has('L15'),
-    masdar:completedIds.has('L16')
+    intro: completedIds.has('L01'),
+    past3: completedIds.has('L02'), past4: completedIds.has('L03'), past5: completedIds.has('L04'), past6: completedIds.has('L05'),
+    past: ['L02','L03','L04','L05'].some(id=>completedIds.has(id)),
+    present3: completedIds.has('L06'), present4: completedIds.has('L07'), present5: completedIds.has('L08'), present6: completedIds.has('L09'),
+    present: ['L06','L07','L08','L09'].some(id=>completedIds.has(id)),
+    amr:completedIds.has('L10'), faail:completedIds.has('L11'), passivePast:completedIds.has('L12'), passivePresent:completedIds.has('L13'),
+    mafool:completedIds.has('L14'), tafdil:completedIds.has('L15'), masdar:completedIds.has('L16')
   };
 }
+function entryUnlocked(v,c){
+  const lesson=v.lesson;
+  if(lesson){ return !!c[({L01:'intro',L02:'past3',L03:'past4',L04:'past5',L05:'past6',L06:'present3',L07:'present4',L08:'present5',L09:'present6',L10:'amr',L11:'faail',L12:'passivePast',L13:'passivePresent',L14:'mafool',L15:'tafdil',L16:'masdar'})[lesson]||'past3']; }
+  const st=v.stage;
+  if(!st || st==='recovered_source_exercise') return c.past;
+  if(st==='مُضَارِع') return c.present;
+  if(st==='فِعْلُ الأَمْر') return c.amr;
+  if(st==='اِسْمُ الفَاعِل') return c.faail;
+  if(st==='المَاضِي المَبْنِيُّ لِلْمَجْهُول') return c.passivePast;
+  if(st==='المُضَارِعُ المَبْنِيُّ لِلْمَجْهُول') return c.passivePresent;
+  if(st==='اِسْمُ المَفْعُول') return c.mafool;
+  if(st==='اِسْمُ التَّفْضِيل') return c.tafdil;
+  if(st==='المَصْدَر') return c.masdar;
+  return false;
+}
+
+let additionalQuiz=null;
+function renderAdditionalQuestion(title, shown, questionText, correct, pool, meta){
+  const options=makeOptions(correct,pool); additionalQuiz={correct,answered:false};
+  q('#additional').innerHTML=card('Additional Practice — '+title,`<div class="unlock-panel"><div><strong>🔓 Unlock All Questions</strong><p class="muted">${state.fullAccess?'Full additional-verb bank is unlocked.':'Normal mode follows your completed textbook lessons.'}</p></div><button class="btn ${state.fullAccess?'secondary-btn':''}" onclick="toggleFullAccess();renderAdditional()">${state.fullAccess?'✓ Full bank enabled':'Unlock all questions'}</button></div><div class="quiz-meta"><span>${esc(meta)}</span><span>Score ${state.correct} / ${state.correct+state.wrong}</span></div><div class="question-word">${arabic(shown,'ar quiz-word')}</div><p class="question">${questionText}</p><div class="options" id="additionalOptions">${options.map((o,i)=>`<button class="option" data-i="${i}">${arabic(o,'small-ar')}<span class="mark" aria-hidden="true"></span></button>`).join('')}</div><div id="additionalFeedback" class="quiz-feedback" aria-live="polite"></div><button class="btn next-btn" id="additionalNext">Next question</button><button class="btn secondary-btn" id="backAdditional">← Back to Additional Practice</button>`);
+  q('#additionalNext').onclick=()=>startAdditionalQuiz(title.toLowerCase());
+  q('#backAdditional').onclick=renderAdditional;
+  q('#additionalOptions').querySelectorAll('.option').forEach((b,i)=>b.onclick=()=>answerAdditional(b,options[i]));
+}
+function answerAdditional(button,value){
+  if(!additionalQuiz||additionalQuiz.answered)return; additionalQuiz.answered=true;
+  q('#additionalOptions').querySelectorAll('.option').forEach(b=>b.disabled=true);
+  if(value===additionalQuiz.correct){button.classList.add('correct');button.querySelector('.mark').textContent='✓';q('#additionalFeedback').innerHTML='<span class="feedback-correct">Correct</span>';state.correct++;state.streak++;tone('correct');}
+  else {button.classList.add('wrong');button.querySelector('.mark').textContent='×';const right=[...q('#additionalOptions').querySelectorAll('.option')].find(b=>b.textContent.includes(additionalQuiz.correct));if(right){right.classList.add('correct');right.querySelector('.mark').textContent='✓';}q('#additionalFeedback').innerHTML=`<span class="feedback-wrong">Not quite.</span> ${arabic(additionalQuiz.correct,'small-ar')}`;state.wrong++;state.streak=0;tone('wrong');}
+  save();renderDashboard();
+}
 function renderAdditional(){
- const ap=DATA.additional_practice;
- const c=learnedCapabilities();
- const gate=state.fullAccess?'Full-textbook mode is ON. All additional-practice fields are available.':'Additional Practice follows your completed lessons. Unlock All Questions to test the entire textbook.';
- const levels=[['medium','Medium','Meaning • root • وزن • learned forms'],['hard','Hard','Mixed conjugation within learned material'],['hardest','Hardest','Cumulative mixed review within learned material']];
- q('#additional').innerHTML=card('Additional Practice — Beyond the Textbook',`<p>${esc(ap.source_note)}</p><div class="unlock-panel"><div><strong>🔓 Unlock All Questions</strong><p class="muted">${esc(gate)}</p></div><button class="btn ${state.fullAccess?'secondary-btn':''}" onclick="toggleFullAccess()">${state.fullAccess?'✓ Full textbook enabled':'Unlock all questions'}</button></div><div class="level-buttons">${levels.map(x=>`<button class="btn" onclick="startAdditionalQuiz('${x[0]}')">${x[1]}<span class="muted">${x[2]}</span></button>`).join('')}</div><div class="searchbar"><input id="addSearch" placeholder="Search additional verbs…"><span>${ap.verbs.length} verbs</span></div><div id="addGrid" class="grid"></div>`);
- const draw=()=>{const t=q('#addSearch').value.trim().toLowerCase(); const list=ap.verbs.filter(v=>[v.ar,v.root,v.wazn,v.meaning].join(' ').toLowerCase().includes(t)); q('#addGrid').innerHTML=list.map(v=>`<article class="card"><div class="lesson-header"><div><h3>${arabic(v.ar,'ar verb')}</h3><p class="en-title">${esc(v.meaning)}</p></div><span class="badge">${esc(v.level)}</span></div><p><b>Root:</b> ${esc(v.root)} &nbsp; <b>وزن:</b> ${arabic(v.wazn,'small-ar')}</p><details><summary>Full paradigm</summary><h5>Māḍī</h5>${miniTable(v.past_conjugation)}<h5>Muḍāriʿ</h5>${miniTable(v.present_conjugation)}<h5>Amr</h5><div class="examples">${v.amr_5_persons.map((x,j)=>`<div>${arabic(['أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ'][j],'small-ar')} — ${arabic(x,'small-ar')}</div>`).join('')}</div><h5>Passive Māḍī / 3ms</h5><div class="examples">${arabic(v.passive_past_3ms,'ar table-ar')}</div><h5>Passive Muḍāriʿ</h5>${miniTable(v.passive_present_conjugation)}<h5>Derived nouns</h5><div class="examples"><div>اسم الفاعل — ${arabic(v.ism_al_faail,'small-ar')}</div><div>اسم المفعول — ${arabic(v.ism_al_mafool,'small-ar')}</div></div></details></article>`).join('')||'<p>No match.</p>';};
- q('#addSearch').addEventListener('input',draw); draw();
+ const ap=DATA.additional_practice; const gate=state.fullAccess?'Full additional-verb bank is ON.':'Normal mode follows your completed lessons.';
+ const levels=[['easy','Easy','Meaning • root • وزن • direct forms'],['medium','Medium','Random conjugation slot • pronoun • conversion'],['hard','Hard','Random verb + random pronoun + hidden conjugation slot']];
+ q('#additional').innerHTML=card('Additional Practice — Beyond the Textbook',`<p>${esc(ap.source_note)}</p><div class="unlock-panel"><div><strong>🔓 Unlock All Questions</strong><p class="muted">${esc(gate)}</p></div><button class="btn ${state.fullAccess?'secondary-btn':''}" onclick="toggleFullAccess()">${state.fullAccess?'✓ Full bank enabled':'Unlock all questions'}</button></div><div class="level-buttons">${levels.map(x=>`<button class="btn level-btn" onclick="startAdditionalQuiz('${x[0]}')"><strong>${x[1]}</strong><span class="muted">${x[2]}</span></button>`).join('')}</div><p class="muted">Each level uses a separate question bank. Levels do not mix.</p><div class="searchbar"><input id="addSearch" placeholder="Search additional verbs…"><span>${ap.verbs.length} verbs</span></div><div id="addGrid" class="grid"></div>`);
+ const draw=()=>{const t=q('#addSearch').value.trim().toLowerCase();const list=ap.verbs.filter(v=>[v.ar,v.root,v.wazn,v.meaning].join(' ').toLowerCase().includes(t));q('#addGrid').innerHTML=list.map(v=>`<article class="card"><div class="lesson-header"><div><h3>${arabic(v.ar,'ar verb')}</h3><p class="en-title">${esc(v.meaning)}</p></div><span class="badge">${esc(v.difficulty||'')}</span></div><p><b>Root:</b> ${esc(v.root)} &nbsp; <b>وزن:</b> ${arabic(v.wazn,'small-ar')}</p><p class="muted">Qur'anic reference: ${esc(v.quran_reference||'')}</p></article>`).join('')||'<p>No match.</p>';};
+ q('#addSearch').addEventListener('input',draw);draw();
 }
-function toggleFullAccess(){state.fullAccess=!state.fullAccess;save();renderAdditional();}
-function miniTable(rows){return '<table><thead><tr><th>ضَمِير</th><th>Form</th></tr></thead><tbody>'+rows.map(r=>`<tr><td>${arabic(r[0],'small-ar')}</td><td>${arabic(r[1],'ar table-ar')}</td></tr>`).join('')+'</tbody></table>'}
+function additionalEligible(){return state.fullAccess?DATA.additional_practice.verbs:DATA.additional_practice.verbs.filter(v=>entryUnlocked(v,learnedCapabilities()));}
 function startAdditionalQuiz(level){
- const ap=DATA.additional_practice.verbs;
- const c=learnedCapabilities();
- const eligible=state.fullAccess?ap:ap.filter(v=>{
-   // Additional-practice records contain complete paradigms. Normal mode exposes only fields already learned.
-   return c.past;
- });
- if(!eligible.length){q('#additional').scrollIntoView({behavior:'smooth'});return;}
- const v=eligible[Math.floor(Math.random()*eligible.length)];
- const modesByLevel={medium:['meaning','root','wazn',...(c.present?['present']:[]),...(c.past?['past']:[])],hard:['meaning','root','wazn',...(c.present?['present']:[]),...(c.amr?['amr']:[]),...(c.faail?['faail']:[]),...(c.mafool?['mafool']:[]),...(c.passivePresent?['passive_present']:[]),...(c.passivePast?['passive_past']:[])],hardest:['meaning','root','wazn',...(c.past?['past14']:[]),...(c.present?['present14']:[]),...(c.amr?['amr']:[]),...(c.passivePresent?['passive_present14']:[]),...(c.passivePast?['passive_past']:[]),...(c.faail?['faail']:[]),...(c.mafool?['mafool']:[])]};
- const mode=modesByLevel[level][Math.floor(Math.random()*modesByLevel[level].length)]; let correct,question,options;
- const same=getter=>eligible.map(x=>getter(x)).filter(Boolean);
- if(mode==='meaning'){question='Identify the English meaning.';correct=v.meaning;options=same(x=>x.meaning)}
- else if(mode==='root'){question='Identify the root.';correct=v.root;options=same(x=>x.root)}
- else if(mode==='wazn'){question='Which وَزْن / مِيزَان does this verb belong to?';correct=v.wazn;options=same(x=>x.wazn)}
- else if(mode==='past'){question='Give the هُوَ Māḍī form.';correct=v.past_conjugation?.[0]?.[1]||v.ar;options=same(x=>x.past_conjugation?.[0]?.[1])}
- else if(mode==='present'){question='Give the هُوَ Muḍāriʿ form.';correct=v.present_3ms;options=same(x=>x.present_3ms)}
- else if(mode==='faail'){question='Give اسم الفاعل.';correct=v.ism_al_faail;options=same(x=>x.ism_al_faail)}
- else if(mode==='mafool'){question='Give اسم المفعول.';correct=v.ism_al_mafool;options=same(x=>x.ism_al_mafool)}
- else if(mode==='passive_present'){question='Give the هُوَ passive Muḍāriʿ form.';correct=v.passive_present_3ms;options=same(x=>x.passive_present_3ms)}
- else if(mode==='passive_past'){question='Give the هُوَ passive Māḍī form.';correct=v.passive_past_3ms;options=same(x=>x.passive_past_3ms)}
- else if(mode==='past14'){const r=v.past_conjugation[Math.floor(Math.random()*v.past_conjugation.length)];question=`Give the ${arabic(r[0],'small-ar')} Māḍī form.`;correct=r[1];options=eligible.flatMap(x=>x.past_conjugation.map(y=>y[1]))}
- else if(mode==='present14'){const r=v.present_conjugation[Math.floor(Math.random()*v.present_conjugation.length)];question=`Give the ${arabic(r[0],'small-ar')} Muḍāriʿ form.`;correct=r[1];options=eligible.flatMap(x=>x.present_conjugation.map(y=>y[1]))}
- else if(mode==='amr'){const r=v.amr_5_persons[Math.floor(Math.random()*v.amr_5_persons.length)];question='Give the corresponding فِعْلُ الأَمْر form.';correct=r;options=eligible.flatMap(x=>x.amr_5_persons||[])}
- else if(mode==='passive_present14'){const r=v.passive_present_conjugation[Math.floor(Math.random()*v.passive_present_conjugation.length)];question=`Give the ${arabic(r[0],'small-ar')} passive Muḍāriʿ form.`;correct=r[1];options=eligible.flatMap(x=>x.passive_present_conjugation.map(y=>y[1]))}
- renderChoiceQuestion('Additional Practice — '+level.toUpperCase(),v.ar,question,correct,options,state.fullAccess?'Full-textbook additional practice':'Additional practice within completed syllabus');
+ const eligible=additionalEligible(); if(!eligible.length){renderAdditional();return;}
+ const v=eligible[Math.floor(Math.random()*eligible.length)]; const c=learnedCapabilities(); let correct,question,pool;
+ const same=getter=>eligible.map(getter).filter(Boolean);
+ const pronPast=['هُوَ','هُمَا','هُمْ','هِيَ','هُنَّ','أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ','أَنَا','نَحْنُ'];
+ const pronAmr=['أَنْتَ','أَنْتُمَا','أَنْتُمْ','أَنْتِ','أَنْتُنَّ'];
+ if(level==='easy'){
+   const choices=[['meaning','Identify the English meaning.',v.meaning,x=>x.meaning],['root','Identify the root.',v.root,x=>x.root],['wazn','Which وَزْن / مِيزَان does this verb belong to?',v.wazn,x=>x.wazn]];
+   if(c.present) choices.push(['present','Give the هُوَ Muḍāriʿ form.',v.present_3ms,x=>x.present_3ms]);
+   if(c.faail) choices.push(['faail','Give اسم الفاعل.',v.ism_al_faail,x=>x.ism_al_faail]);
+   if(c.mafool) choices.push(['mafool','Give اسم المفعول.',v.ism_al_mafool,x=>x.ism_al_mafool]);
+   const m=choices[Math.floor(Math.random()*choices.length)];question=m[1];correct=m[2];pool=same(m[3]);
+ } else {
+   const families=[];
+   if(v.past_conjugation?.length && c.past) families.push(['past_conjugation','Māḍī']);
+   if(v.present_conjugation?.length && c.present) families.push(['present_conjugation','Muḍāriʿ']);
+   if(v.amr_5_persons?.length && c.amr) families.push(['amr_5_persons','Amr']);
+   if(level==='hard'){
+     if(v.passive_present_conjugation?.length && c.passivePresent) families.push(['passive_present_conjugation','passive Muḍāriʿ']);
+     if(v.passive_past_3ms && c.passivePast) families.push(['passive_past_3ms','passive Māḍī']);
+   }
+   if(!families.length){question='Identify the English meaning.';correct=v.meaning;pool=same(x=>x.meaning);}
+   else {
+     const f=families[Math.floor(Math.random()*families.length)];
+     if(f[0]==='amr_5_persons'){
+       const i=Math.floor(Math.random()*5);correct=v.amr_5_persons[i];question=`${level==='hard'?'Hard: ':''}Give the ${arabic(pronAmr[i],'small-ar')} Amr form.`;pool=eligible.flatMap(x=>x.amr_5_persons||[]);
+     } else if(f[0].endsWith('_3ms')){
+       correct=v[f[0]];question=`${level==='hard'?'Hard: ':''}Give the هُوَ ${f[1]} form.`;pool=eligible.map(x=>x[f[0]]).filter(Boolean);
+     } else {
+       const rows=v[f[0]];const i=Math.floor(Math.random()*rows.length);correct=rows[i][1];question=`${level==='hard'?'Hard: ':''}Give the ${arabic(rows[i][0],'small-ar')} ${f[1]} form.`;pool=eligible.flatMap(x=>(x[f[0]]||[]).map(r=>r[1]));
+     }
+   }
+ }
+ renderAdditionalQuestion(level.toUpperCase(),v.ar,question,correct,pool,`Additional Practice • ${level.toUpperCase()} • ${eligible.length} eligible verbs`);
 }
+
+function toggleFullAccess(){state.fullAccess=!state.fullAccess;save();renderAdditional();}
 function renderFlash(){startQuiz()}
 function renderAbout(){
  q('#about').innerHTML=`<div class="about-wrap"><article class="card"><div class="eyebrow">ABOUT THIS COURSE</div><h2>الصَّرْفُ لِلْمُبْتَدِئِينَ</h2><p class="about-author" dir="rtl" lang="ar">إعداد: أبو عبد الرحمن نواس بن محمد أنوي الهندي السيلاني</p><p>This app is based on the main Ṣarf textbook uploaded for this project. The book's own sequence, explanations, examples, exercises, and terminology remain the source basis of the curriculum.</p><div class="about-meta"><p><b>Book:</b> الصرف للمبتدئين</p><p><b>Author:</b> أبو عبد الرحمن نواس الهندي السيلاني</p></div></article><article class="card"><h3>مقدمة المؤلف — النص العربي الأصلي</h3><p class="muted">The author's introduction and preface are preserved below in their original Arabic form, as requested. The app does not replace the author's words with an English translation.</p><div class="preface-pages"><figure><img src="./assets/preface/page-02.jpg" alt="صفحة المقدمة الأصلية 2"><figcaption>المقدمة — الصفحة 2</figcaption></figure><figure><img src="./assets/preface/page-03.jpg" alt="صفحة المقدمة الأصلية 3"><figcaption>المقدمة — الصفحة 3</figcaption></figure><figure><img src="./assets/preface/page-04.jpg" alt="صفحة المقدمة الأصلية 4"><figcaption>المقدمة — الصفحة 4</figcaption></figure></div></article><article class="card creator-card"><h3>App created and designed by</h3><p class="creator-name">Abu Saaarah Jaffar</p><p class="muted">Project app creator and designer.</p></article></div>`;
@@ -290,5 +377,5 @@ q('#fontPlus').onclick=()=>setFont(.1); q('#fontMinus').onclick=()=>setFont(-.1)
 
 document.documentElement.style.setProperty('--arabic-scale',state.font);
 renderDashboard();renderLessons();renderPatterns();renderVerbs();renderConjugator();renderVerification();renderAdditional();renderAbout();initSettings();showTab('dashboard');
-window.toggleLesson=toggleLesson; window.startQuiz=startQuiz; window.startAdditionalQuiz=startAdditionalQuiz; window.openLesson=openLesson; window.openSublesson=openSublesson; window.closeLesson=closeLesson; window.markSublessonDone=markSublessonDone; window.toggleFullAccess=toggleFullAccess;
+window.startQuiz=startQuiz; window.startAdditionalQuiz=startAdditionalQuiz; window.openLesson=openLesson; window.openSublesson=openSublesson; window.closeLesson=closeLesson; window.markSublessonDone=markSublessonDone; window.toggleFullAccess=toggleFullAccess; window.answerAdditional=answerAdditional;
 if('serviceWorker' in navigator){navigator.serviceWorker.register('./sw.js').catch(()=>{});}

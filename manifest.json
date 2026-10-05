@@ -5,7 +5,7 @@
   "display":"standalone",
   "background_color":"#f2eee8",
   "theme_color":"#4f443b",
-  "description":"Book-based Arabic Ṣarf learning app with click-based lessons, progressive practice, and cumulative conjugation practice.",
+  "description":"Book-based Arabic Ṣarf learning app with click-based lessons, progressive practice, a multi-mode conjugator, and difficulty-separated additional Q&A.",
   "lang":"en",
   "dir":"ltr",
   "icons":[
