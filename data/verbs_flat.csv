@@ -1,0 +1,934 @@
+﻿sourceNumber,sourcePage,symbol,root,rootType,occurrenceCount,meaning,past,present,amr,active,passive,masdar,example,formsStatus,releaseStatus
+1,56,D1,أثم,hz1,2,of sin,أَثَّمَ,يُؤَثِّمُ,أَثِّمْ,مُؤَثِّم,مُؤَثَّم,تَأْثِيم,تَاْثِيْمٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+2,56,D1,أجل,hz1,3,determined time,أَجَّلَ,يُؤَجِّلُ,أَجِّلْ,مُؤَجِّل,مُؤَجَّل,تَأْجِيل,مُّؤَجَّلًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+3,56,D1,أخر,hz1,15,You postponed us,أَخَّرَ,يُؤَخِّرُ,أَخِّرْ,مُؤَخِّر,مُؤَخَّر,تَأْخِير,اَخَّرْتَنَآ,FORMS_VERIFIED,V10_FORM_COMPLETE
+4,56,D1,أدو,hz1+naqis,5,then he should pay back,أَدَّى,يُؤَدِّي,أَدِّ,مُؤَدٍّ,مُؤَدًّى,تَأْدِيَة,فَلْيُؤَدِّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+5,56,D1,أذن,hz1,5,so he called out,أَذَّنَ,يُؤَذِّنُ,أَذِّنْ,مُؤَذِّن,مُؤَذَّن,تَأْذِين,فَاَذَّنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+6,56,D1,أسس,hz1+doubled,3,established,أَسَّسَ,يُؤَسِّسُ,أَسِّسْ,مُؤَسِّس,مُؤَسَّس,تَأْسِيس,اُسِّسَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+7,56,D1,ألف,hz1,6,then He created love,أَلَّفَ,يُؤَلِّفُ,أَلِّفْ,مُؤَلِّف,مُؤَلَّف,تَأْلِيف,فَاَلَّفَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+8,56,D1,أوب,hz1+ajwaf,1,Repeat praises! (fg),أَوَّبَ,يُؤَوِّبُ,أَوِّبْ,مُؤَوِّب,—,تَأْوِيب,اَوِّبِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+9,56,D1,أول,hz1+ajwaf,17,its interpretation,أَوَّلَ,يُؤَوِّلُ,أَوِّلْ,مُؤَوِّل,مُؤَوَّل,تَأْوِيل,تَاْوِيْلِهٖ,FORMS_VERIFIED,V10_FORM_COMPLETE
+10,56,D1,أيد,hz1+ajwaf,9,and We supported him,أَيَّدَ,يُؤَيِّدُ,أَيِّدْ,مُؤَيِّد,مُؤَيَّد,تَأْيِيد,وَاَيَّدْنٰهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+11,56,D1,بتك,sound,1,so they will surely tear off,بَتَّكَ,يُبَتِّكُ,بَتِّكْ,مُبَتِّك,مُبَتَّك,تَبْتِيك,فَلَيُبَتِّكُنَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+12,56,D1,بتل,sound,1,the devotion,بَتَّلَ,يُبَتِّلُ,بَتِّلْ,مُبَتِّل,مُبَتَّل,تَبْتِيل,تَبْتِيْلًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+13,56,D1,بدل,sound,33,then he changed,بَدَّلَ,يُبَدِّلُ,بَدِّلْ,مُبَدِّل,مُبَدَّل,تَبْدِيل,فَبَدَّلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+14,56,D1,بذر,sound,3,And don't spend lavishly!,بَذَّرَ,يُبَذِّرُ,بَذِّرْ,مُبَذِّر,مُبَذَّر,تَبْذِير,وَلَا تُبَذِّرْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+15,57,D1,برء,hz3,3,I declare (someone) free from guilt,بَرَّأَ,يُبَرِّئُ,بَرِّئْ,مُبَرِّئ,مُبَرَّأ,تَبْرِئَة,اُبَرِّئُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+16,57,D1,برز,sound,2,and will be made manifest (fg),بَرَّزَ,يُبَرِّزُ,بَرِّزْ,مُبَرِّز,مُبَرَّز,تَبْرِيز,وَبُرِّزَتِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+17,57,D1,بشر,sound,47,And give good news!,بَشَّرَ,يُبَشِّرُ,بَشِّرْ,مُبَشِّر,مُبَشَّر,تَبْشِير,وَبَشِّرِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+18,57,D1,بصر,sound,2,source of sight,بَصَّرَ,يُبَصِّرُ,بَصِّرْ,مُبَصِّر,مُبَصَّر,تَبْصِير,تَبْصِرَةً,FORMS_VERIFIED,V10_FORM_COMPLETE
+19,57,D1,بطء,hz3,1,he delays surely,بَطَّأَ,يُبَطِّئُ,بَطِّئْ,مُبَطِّئ,مُبَطَّأً,تَبْطِئَة,لَيُبَطِّئَنَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+20,57,D1,بلغ,sound,6,Convey!,بَلَّغَ,يُبَلِّغُ,بَلِّغْ,مُبَلِّغ,مُبَلَّغ,تَبْلِيغ,بَلِّغْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+21,57,D1,بوء,hz3+ajwaf,7,you appoint,بَوَّأَ,يُبَوِّئُ,بَوِّئْ,مُبَوِّئ,مُبَوَّأ,تَبْوِيئًا,تُبَوِّئُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+22,57,D1,بيت,ajwaf,4,he planned by night,بَيَّتَ,يُبَيِّتُ,بَيِّتْ,مُبَيِّت,مُبَيَّت,تَبْيِيت,بَيَّتَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+23,57,D1,بين,ajwaf,38,he makes clear,بَيَّنَ,يُبَيِّنُ,بَيِّنْ,مُبَيِّن,مُبَيَّن,تَبْيِين,يُبَيِّنْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+24,57,D1,تبب,doubled,1,to ruin,تَبَّبَ,يُتَبِّبُ,تَبِّبْ,مُتَبِّب,مُتَبَّب,تَتْبِيب,تَتْبِيْبٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+25,57,D1,تبر,sound,5,has been destroyed,تَبَّرَ,يُتَبِّرُ,تَبِّرْ,مُتَبِّر,مُتَبَّر,تَتْبِير,مُتَبَّرٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+26,57,D1,ثبت,sound,12,And make (it) firm!,ثَبَّتَ,يُثَبِّتُ,ثَبِّتْ,مُثَبِّت,مُثَبَّت,تَثْبِيت,وَثَبِّتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+27,57,D1,ثبط,sound,1,so He made them lag behind,ثَبَّطَ,يُثَبِّطُ,ثَبِّطْ,مُثَبِّط,مُثَبَّط,تَثْبِيط,فَثَبَّطَهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+28,57,D1,ثرب,sound,1,blame,ثَرَّبَ,يُثَرِّبُ,ثَرِّبْ,مُثَرِّب,مُثَرَّب,تَثْرِيب,تَثْرِيْبَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+29,58,D1,ثوب,ajwaf,1,he has been rewarded,ثَوَّبَ,يُثَوِّبُ,ثَوِّبْ,مُثَوِّب,مُثَوَّب,تَثْوِيب,ثُوِّبَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+30,58,D1,جلو,naqis,2,He will not reveal it,جَلَّى,يُجَلِّي,جَلِّ,مُجَلٍّ,مُجَلَّى,تَجْلِيَة,لَا يُجَلِّيْهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+31,58,D1,جنب,sound,1,and soon he will be saved from it,جَنَّبَ,يُجَنِّبُ,جَنِّبْ,مُجَنِّب,مُجَنَّب,تَجْنِيب,وَسَيُجَنَّبُهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+32,58,D1,جهز,sound,2,he furnished them,جَهَّزَ,يُجَهِّزُ,جَهِّزْ,مُجَهِّز,مُجَهَّز,تَجْهِيز,جَهَّزَهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+33,58,D1,حبب,doubled,1,He has endeared,حَبَّبَ,يُحَبِّبُ,حَبِّبْ,مُحَبِّب,مُحَبَّب,تَحْبِيب,حَبَّبَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+34,58,D1,حدث,sound,3,do you all tell them,حَدَّثَ,يُحَدِّثُ,حَدِّثْ,مُحَدِّث,مُحَدَّث,تَحْدِيث,اَتُحَدِّثُوْنَهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+35,58,D1,حذر,sound,2,and He warns all of you,حَذَّرَ,يُحَذِّرُ,حَذِّرْ,مُحَذِّر,مُحَذَّر,تَحْذِير,وَيُحَذِّرُكُمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+36,58,D1,حرر,doubled,6,liberated,حَرَّرَ,يُحَرِّرُ,حَرِّرْ,مُحَرِّر,مُحَرَّر,تَحْرِير,مُحَرَّرًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+37,58,D1,حرض,sound,2,And you encourage!,حَرَّضَ,يُحَرِّضُ,حَرِّضْ,مُحَرِّض,مُحَرَّض,تَحْرِيض,وَحَرِّضِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+38,58,D1,حرف,sound,4,they distort it,حَرَّفَ,يُحَرِّفُ,حَرِّفْ,مُحَرِّف,مُحَرَّف,تَحْرِيف,يُحَرِّفُوْنَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+39,58,D1,حرق,sound,3,surely we will burn it,حَرَّقَ,يُحَرِّقُ,حَرِّقْ,مُحَرِّق,مُحَرَّق,تَحْرِيق,لَنُحَرِّقَنَّهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+40,58,D1,حرك,sound,1,Don’t move!,حَرَّكَ,يُحَرِّكُ,حَرِّكْ,مُحَرِّك,مُحَرَّك,تَحْرِيك,لَا تُحَرِّكْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+41,58,D1,حرم,sound,44,forbidden,حَرَّمَ,يُحَرِّمُ,حَرِّمْ,مُحَرِّم,مُحَرَّم,تَحْرِيم,مُحَرَّمٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+42,58,D1,حصل,sound,1,and is made apparent,حَصَّلَ,يُحَصِّلُ,حَصِّلْ,مُحَصِّل,مُحَصَّل,تَحْصِيل,وَحُصِّلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+43,59,D1,حصن,sound,1,fortified (fg),حَصَّنَ,يُحَصِّنُ,حَصِّنْ,مُحَصِّن,مُحَصَّن,تَحْصِين,مُحَصَّنَةٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+44,59,D1,حكم,sound,2,they make you judge,حَكَّمَ,يُحَكِّمُ,حَكِّمْ,مُحَكِّم,مُحَكَّم,تَحْكِيم,يُحَكِّمُوْكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+45,59,D1,حلق,sound,1,having shaved,حَلَّقَ,يُحَلِّقُ,حَلِّقْ,مُحَلِّق,مُحَلَّق,تَحْلِيق,مُحَلِّقِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+46,59,D1,حلل,doubled,1,the dissolution,حَلَّلَ,يُحَلِّلُ,حَلِّلْ,مُحَلِّل,مُحَلَّل,تَحْلِيل,تَحِلَّةَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+47,59,D1,حلي,naqis,4,they will be adorned,حَلَّى,يُحَلِّي,حَلِّ,مُحَلٍّ,مُحَلَّى,تَحْلِيَة,يُحَلَّوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+48,59,D1,حمل,sound,5,And don’t lay on us!,حَمَّلَ,يُحَمِّلُ,حَمِّلْ,مُحَمِّل,مُحَمَّل,تَحْمِيل,وَلَا تُحَمِّلْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+49,59,D1,حول,ajwaf,3,to transfer,حَوَّلَ,يُحَوِّلُ,حَوِّلْ,مُحَوِّل,مُحَوَّل,تَحْوِيل,تَحْوِيْلًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+50,59,D1,حيي,ajwaf+naqis+doubled,10,you all have been greeted,حَيَّا,يُحَيِّي,حَىٍّ,مُحَىٍّ,مُحَىًّ,تَحِيَّة,حُيِّيْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+51,59,D1,خسر,sound,1,causes loos,خَسَّرَ,يُخَسِّرُ,خَسِّرْ,مُخَسِّر,مُخَسَّر,تَخْسِير,تَخْسِيْرٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+52,59,D1,خفف,doubled,9,then will not be lightened,خَفَّفَ,يُخَفِّفُ,خَفِّفْ,مُخَفِّف,مُخَفَّف,تَخْفِيف,فَلَا يُخَفَّفُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+53,59,D1,خلد,sound,2,immortal,خَلَّدَ,يُخَلِّدُ,خَلِّدْ,مُخَلِّد,مُخَلَّد,تَخْلِيد,مُخَلَّدُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+54,59,D1,خلف,sound,5,those who remained behind,خَلَّفَ,يُخَلِّفُ,خَلِّفْ,مُخَلِّف,مُخَلَّف,تَخْلِيف,الْمُخَلَّفُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+55,59,D1,خلق,sound,2,formed (fg),خَلَّقَ,يُخَلِّقُ,خَلِّقْ,مُخَلِّق,مُخَلَّق,تَخْلِيق,مُخَلَّقَةٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+56,59,D1,خلو,naqis,1,then (you all) leave!,خَلَّى,يُخَلِّي,خَلِّ,مُخَلٍّ,مُخَلَّى,تَخْلِيَة,فَخَلُّوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+57,60,D1,خوف,ajwaf,5,he frightens,خَوَّفَ,يُخَوِّفُ,خَوِّفْ,مُخَوِّف,مُخَوَّف,تَخْوِيف,يُخَوِّفُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+58,60,D1,خول,ajwaf,3,We bestowed on all of you,خَوَّلَ,يُخَوِّلُ,خَوِّلْ,مُخَوِّل,مُخَوَّل,تَخْوِيل,خَوَّلْنٰكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+59,60,D1,خيل,ajwaf,1,it is imagined,خَيَّلَ,يُخَيِّلُ,خَيِّلْ,مُخَيِّل,مُخَيَّل,تَخْيِيل,يُخَيَّلُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+60,60,D1,دبر,sound,5,He disposes,دَبَّرَ,يُدَبِّرُ,دَبِّرْ,مُدَبِّر,مُدَبَّر,تَدْبِير,يُدَبِّرُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+61,60,D1,دمر,sound,10,and We destroyed,دَمَّرَ,يُدَمِّرُ,دَمِّرْ,مُدَمِّر,مُدَمَّر,تَدْمِير,وَدَمَّرْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+62,60,D1,ذبح,sound,3,they slaughter,ذَبَّحَ,يُذَبِّحُ,ذَبِّحْ,مُذَبِّح,مُذَبَّح,تَذْبِيح,يُذَبِّحُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+63,60,D1,ذكر,sound,28,then (she) will remind,ذَكَّرَ,يُذَكِّرُ,ذَكِّرْ,مُذَكِّر,مُذَكَّر,تَذْكِرَة,فَتُذَكِّرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+64,60,D1,ذكو,naqis,1,you all slaughtered,ذَكَّى,يُذَكِّي,ذَكِّ,مُذَكٍّ,مُذَكَّى,تَذْكِيَة,ذَكَّيْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+65,60,D1,ذلل,doubled,3,"and We made it loyal, obedient",ذَلَّلَ,يُذَلِّلُ,ذَلِّلْ,مُذَلِّل,مُذَلَّل,تَذْلِيل,وَذَلَّلْنٰهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+66,60,D1,ربو,naqis,2,they (duo) brought me up,رَبَّى,يُرَبِّي,رَبِّ,مُرَبٍّ,مُرَبَّى,تَرْبِيَة,رَبَّيٰنِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+67,60,D1,رتل,sound,4,and We have recited it,رَتَّلَ,يُرَتِّلُ,رَتِّلْ,مُرَتِّل,مُرَتَّل,تَرْتِيل,وَرَتَّلْنٰهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+68,60,D1,ركب,sound,1,He assembled you,رَكَّبَ,يُرَكِّبُ,رَكِّبْ,مُرَكِّب,مُرَكَّب,تَرْكِيب,رَكَّبَكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+69,60,D1,زكو,naqis,12,and He purifies them,زَكَّى,يُزَكِّي,زَكِّ,مُزَكٍّ,مُزَكَّى,تَزْكِيَة,وَيُزَكِّيْهِمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+70,60,D1,زوج,ajwaf,5,We married her to you,زَوَّجَ,يُزَوِّجُ,زَوِّجْ,مُزَوِّج,مُزَوَّج,تَزْوِيج,زَوَّجْنٰكَهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+71,61,D1,زيل,ajwaf,1,then We separated,زَيَّلَ,يُزَيِّلُ,زَيِّلْ,مُزَيِّل,مُزَيَّل,تَزْيِيل,فَزَيَّلْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+72,61,D1,زين,ajwaf,26,beautified,زَيَّنَ,يُزَيِّنُ,زَيِّنْ,مُزَيِّن,مُزَيَّن,تَزْيِين,زُيِّنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+73,61,D1,سبح,sound,46,we glorify,سَبَّحَ,يُسَبِّحُ,سَبِّحْ,مُسَبِّح,مُسَبَّح,تَسْبِيح,نُسَبِّحُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+74,61,D1,سجر,sound,2,is flared up (fg),سَجَّرَ,يُسَجِّرُ,سَجِّرْ,مُسَجِّر,مُسَجَّر,تَسْجِير,سُجِّرَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+75,61,D1,سحر,sound,2,those who bewitched,سَحَّرَ,يُسَحِّرُ,سَحِّرْ,مُسَحِّر,مُسَحَّر,تَسْحِير,الْمُسَحَّرِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+76,61,D1,سخر,sound,26,the controlled,سَخَّرَ,يُسَخِّرُ,سَخِّرْ,مُسَخِّر,مُسَخَّر,تَسْخِير,الْمُسَخَّرِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+77,61,D1,سرح,sound,4,to release,سَرَّحَ,يُسَرِّحُ,سَرِّحْ,مُسَرِّح,مُسَرَّح,تَسْرِيح,تَسْرِيْح,FORMS_VERIFIED,V10_FORM_COMPLETE
+78,61,D1,سعر,sound,1,is set ablaze (fg),سَعَّرَ,يُسَعِّرُ,سَعِّرْ,مُسَعِّر,مُسَعَّر,تَسْعِير,سُعِّرَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+79,61,D1,سكر,sound,1,have been dazzled (fg),سَكَّرَ,يُسَكِّرُ,سَكِّرْ,مُسَكِّر,مُسَكَّر,تَسْكِير,سُكِّرَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+80,61,D1,سلط,sound,2,He could have given them power over,سَلَّطَ,يُسَلِّطُ,سَلِّطْ,مُسَلِّط,مُسَلَّط,تَسْلِيط,لَسَلَّطَهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+81,61,D1,سلم,sound,12,free from defect,سَلَّمَ,يُسَلِّمُ,سَلِّمْ,مُسَلِّم,مُسَلَّم,تَسْلِيم,مُسَلَّمَةٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+82,61,D1,سمو,naqis,30,prescribed,سَمَّى,يُسَمِّي,سَمِّ,مُسَمٍّ,مُسَمًّى,تَسْمِيَة,مُسَمًّى,FORMS_VERIFIED,V10_FORM_COMPLETE
+83,61,D1,سند,sound,1,propped up (fg),سَنَّدَ,يُسَنِّدُ,سَنِّدْ,مُسَنِّد,مُسَنَّد,تَسْنِيد,مُسَنَّدَةٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+84,61,D1,سول,ajwaf,4,has enticed (fg),سَوَّلَ,يُسَوِّلُ,سَوِّلْ,مُسَوِّل,مُسَوَّل,تَسْوِيل,سَوَّلَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+85,62,D1,سوم,ajwaf,4,which has been marked,سَوَّمَ,يُسَوِّمُ,سَوِّمْ,مُسَوِّم,مُسَوَّم,تَسْوِيم,الْمُسَوَّمَةِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+86,62,D1,سوي,ajwaf+naqis,13,and He fashioned them,سَوَّى,يُسَوِّي,سَوِّ,مُسَوٍّ,مُسَوًّى,تَسْوِيَة,فَسَوَّىهُنَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+87,62,D1,سير,ajwaf,5,He enables all of you to travel,سَيَّرَ,يُسَيِّرُ,سَيِّرْ,مُسَيِّر,مُسَيَّر,تَسْيِير,يُسَيِّرُكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+88,62,D1,شبه,sound,1,it was made to appear so,شَبَّهَ,يُشَبِّهُ,شَبِّهْ,مُشَبِّه,مُشَبَّه,تَشْبِيه,شُبِّهَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+89,62,D1,شرد,sound,1,Then disperse!,شَرَّدَ,يُشَرِّدُ,شَرِّدْ,مُشَرِّد,مُشَرَّد,تَشْرِيد,فَشَرِّدْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+90,62,D1,شيد,ajwaf,1,"lofty, of imposing heights",شَيَّدَ,يُشَيِّدُ,شَيِّدْ,مُشَيِّد,مُشَيَّد,تَشْيِيد,مُّشَيَّدَةٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+91,62,D1,صبح,sound,1,seized them in the morning,صَبَّحَ,يُصَبِّحُ,صَبِّحْ,مُصَبِّح,مُصَبَّح,تَصْبِيح,صَبَّحَهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+92,62,D1,صدع,sound,1,they will not get headache,صَدَّعَ,يُصَدِّعُ,صَدِّعْ,مُصَدِّع,مُصَدَّع,تَصْدِيع,لَّا يُصَدَّعُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+93,62,D1,صدق,sound,31,one who confirms,صَدَّقَ,يُصَدِّقُ,صَدِّقْ,مُصَدِّق,مُصَدَّق,تَصْدِيق,مُصَدِّقًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+94,62,D1,صدي,naqis,1,and clapping,صَدَّى,يُصَدِّي,صَدِّ,مُصَدٍّ,—,تَصْدِيَة,وَتَصْدِيَةً,FORMS_VERIFIED,V10_FORM_COMPLETE
+95,62,D1,صرف,sound,12,and diverting,صَرَّفَ,يُصَرِّفُ,صَرِّفْ,مُصَرِّف,مُصَرَّف,تَصْرِيف,وَتَصْرِيْفِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+96,62,D1,صعر,sound,1,And don’t turn!,صَعَّرَ,يُصَعِّرُ,صَعِّرْ,مُصَعِّر,مُصَعَّر,تَصْعِير,وَلَا تُصَعِّرْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+97,62,D1,صفو,naqis,1,purified,صَفَّى,يُصَفِّي,صَفِّ,مُصَفٍّ,مُصَفَّى,تَصْفِيَة,مُّصَفَّى,FORMS_VERIFIED,V10_FORM_COMPLETE
+98,62,D1,صلب,sound,4,they will be crucified,صَلَّبَ,يُصَلِّبُ,صَلِّبْ,مُصَلِّب,مُصَلَّب,تَصْلِيب,يُصَلَّبُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+99,63,D1,صلو,naqis,15,he prays,صَلَّى,يُصَلِّي,صَلِّ,مُصَلٍّ,مُصَلَّى,صَلَاة,يُصَلِّىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+100,63,D1,صلي,naqis,2,and entry,صَلَّى,يُصَلِّي,صَلِّ,مُصَلٍّ,مُصَلَّى,تَصْلِيَة,وَّتَصْلِيَةُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+101,63,D1,صور,ajwaf,5,he shapes you all,صَوَّرَ,يُصَوِّرُ,صَوِّر,مُصَوِّر,مُصَوَّر,تَصْوِير,يُصَوِّرُكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+102,63,D1,ضلل,doubled,1,misguidance,ضَلَّلَ,يُضَلِّلُ,ضَلِّلْ,مُضَلِّل,مُضَلَّل,تَضْلِيل,تَضْلِيْلٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+103,63,D1,ضيف,ajwaf,1,they offer both of them hospitality,ضَيَّفَ,يُضَيِّفُ,ضَيِّفْ,مُضَيِّف,مُضَيَّف,تَضْيِيف,يُّضَيِّفُوْهُمَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+104,63,D1,ضيق,ajwaf,1,so withhold you all,ضَيَّقَ,يُضَيِّقُ,ضَيِّق,مُضَيِّق,مُضَيَّق,تَضْيِيق,لِتُضَيِّقُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+105,63,D1,طفف,doubled,1,to those who give less,طَفَّفَ,يُطَفِّفُ,طَفِّفْ,مُطَفِّف,مُطَفَّف,تَطْفِيف,لِّلْمُطَفِّفِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+106,63,D1,طلق,sound,12,and the women who are divorced,طَلَّقَ,يُطَلِّقُ,طَلِّقْ,مُطَلِّق,مُطَلَّق,تَطْلِيق,وَالْمُطَلَّقٰتُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+107,63,D1,طهر,sound,16,you both purify,طَهَّرَ,يُطَهِّرُ,طَهِّرْ,مُطَهِّر,مُطَهَّر,تَطْهِير,طَهِّرَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+108,63,D1,طوع,ajwaf,1,then she persuaded,طَوَّعَ,يُطَوِّعُ,طَوِّعْ,مُطَوِّع,مُطَوَّع,تَطْوِيع,فَطَوَّعَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+109,63,D1,طوق,ajwaf,1,soon they will be shackled,طَوَّقَ,يُطَوِّقُ,طَوِّقْ,مُطَوِّق,مُطَوَّق,تَطْوِيق,سَيُطَوَّقُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+110,63,D1,ظلل,doubled,2,and We shaded,ظَلَّلَ,يُظَلِّلُ,ظَلِّلْ,مُظَلِّل,مُظَلَّل,تَظْلِيل,وَظَلَّلْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+111,63,D1,عبد,sound,1,you have enslaved,عَبَّدَ,يُعَبِّدُ,عَبِّدْ,مُعَبِّد,مُعَبَّد,تَعْبِيد,عَبَّدْتَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+112,63,D1,عجل,sound,5,He makes haste,عَجَّلَ,يُعَجِّلُ,عَجِّلْ,مُعَجِّل,مُعَجَّل,تَعْجِيل,يُعَجِّلُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+113,64,D1,عدد,doubled,1,and he counted and kept it,عَدَّدَ,يُعَدِّدُ,عَدِّدْ,مُعَدِّد,مُعَدَّد,تَعْدِيد,وَّعَدَّدَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+114,64,D1,عذب,sound,49,and He will punish,عَذَّبَ,يُعَذِّبُ,عَذِّبْ,مُعَذِّب,مُعَذَّب,تَعْذِيب,وَيُعَذِّبُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+115,64,D1,عذر,sound,1,those who make excuses,عَذَّرَ,يُعَذِّرُ,عَذِّرْ,مُعَذِّر,—,تَعْذِير,الْمُعَذِّرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+116,64,D1,عرض,sound,1,you all hint,عَرَّضَ,يُعَرِّضُ,عَرِّضْ,مُعَرِّض,مُعَرَّض,تَعْرِيض,عَرَّضْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+117,64,D1,عرف,sound,2,He has made it known,عَرَّفَ,يُعَرِّفُ,عَرِّفْ,مُعَرِّف,مُعَرَّف,تَعْرِيف,عَرَّفَهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+118,64,D1,عزر,sound,3,and you all assist them,عَزَّرَ,يُعَزِّرُ,عَزِّرْ,مُعَزِّر,مُعَزَّر,تَعْزِير,وَعَزَّرْتُمُوْهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+119,64,D1,عزز,doubled,1,so We strengthened,عَزَّزَ,يُعَزِّزُ,عَزِّزْ,مُعَزِّز,مُعَزَّز,تَعْزِيز,فَعَزَّزْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+120,64,D1,عطل,sound,2,abandoned (fg),عَطَّلَ,يُعَطِّلُ,عَطِّلْ,مُعَطِّل,مُعَطَّل,تَعْطِيل,مُّعَطَّلَةٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+121,64,D1,عظم,sound,2,he honors,عَظَّمَ,يُعَظِّمُ,عَظِّمْ,مُعَظِّم,مُعَظَّم,تَعْظِيم,يُّعَظِّمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+122,64,D1,عقب,sound,4,successive (Angels),عَقَّبَ,يُعَقِّبُ,عَقِّبْ,مُعَقِّب,مُعَقَّب,تَعْقِيب,مُعَقِّبٰتٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+123,64,D1,عقد,sound,1,you all contracted,عَقَّدَ,يُعَقِّدُ,عَقِّدْ,مُعَقِّد,مُعَقَّد,تَعْقِيد,عَقَّدْتُّمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+124,64,D1,علق,sound,1,like the suspended one (fg),عَلَّقَ,يُعَلِّقُ,عَلِّقْ,مُعَلِّق,مُعَلَّق,تَعْلِيق,كَالْمُعَلَّقَةِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+125,64,D1,علم,sound,42,and He taught,عَلَّمَ,يُعَلِّمُ,عَلِّمْ,مُعَلِّم,مُعَلَّم,تَعْلِيم,وَعَلَّمَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+126,64,D1,عمر,sound,6,he could be granted a life,عَمَّرَ,يُعَمِّرُ,عَمِّرْ,مُعَمِّر,مُعَمَّر,تَعْمِير,يُعَمَّرُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+127,65,D1,عمي,naqis,1,but it has been blind (fg),عَمَّى,يُعَمِّي,عَمِّ,مُعَمٍّ,مُعَمًّى,تَعْمِيَة,فَعُمِّيَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+128,65,D1,عوق,ajwaf,1,those who hinder,عَوَّقَ,يُعَوِّقُ,عَوِّق,مُعَوِّق,مُعَوَّق,تَعْوِيق,الْمُعَوِّقِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+129,65,D1,غشي,naqis,3,He covers you all,غَشَّى,يُغَشِّي,غَشِّ,مُغَشٍّ,مُغَشَّى,تَغْشِيَة,يُغَشِّيْكُمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+130,65,D1,غلق,sound,1,and she closed,غَلَّقَ,يُغَلِّقُ,غَلِّقْ,مُغَلِّق,مُغَلَّق,تَغْلِيق,وَغَلَّقَتِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+131,65,D1,غير,ajwaf,5,so they will surely change,غَيَّرَ,يُغَيِّرُ,غَيِّرْ,مُغَيِّر,مُغَيَّر,تَغْيِير,فَلَيُغَيِّرُنَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+132,65,D1,فتح,sound,2,will be opened (fg),فَتَّحَ,يُفَتِّحُ,فَتِّحْ,مُفَتِّح,مُفَتَّح,تَفْتِيح,تُفَتَّحُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+133,65,D1,فتر,sound,1,it will not be subsided,فَتَّرَ,يُفَتِّرُ,فَتِّرْ,مُفَتِّر,مُفَتَّر,تَفْتِير,لَا يُفَتَّرُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+134,65,D1,فجر,sound,8,and you cause to gush forth,فَجَّرَ,يُفَجِّرُ,فَجِّرْ,مُفَجِّر,مُفَجَّر,تَفْجِير,فَتُفَجِّرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+135,65,D1,فرط,sound,5,We didn’t neglected,فَرَّطَ,يُفَرِّطُ,فَرِّطْ,مُفَرِّط,مُفَرَّط,تَفْرِيط,مَا فَرَّطْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+136,65,D1,فرق,sound,10,they cause separation,فَرَّقَ,يُفَرِّقُ,فَرِّقْ,مُفَرِّق,مُفَرَّق,تَفْرِيق,يُفَرِّقُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+137,65,D1,فزع,sound,1,fear is removed,فَزَّعَ,يُفَزِّعُ,فَزِّعْ,مُفَزِّع,مُفَزَّع,تَفْزِيع,فُزِّعَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+138,65,D1,فسر,sound,1,explanation,فَسَّرَ,يُفَسِّرُ,فَسِّرْ,مُفَسِّر,مُفَسَّر,تَفْسِير,تَفْسِيْرًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+139,65,D1,فصل,sound,23,We explain in detail,فَصَّلَ,يُفَصِّلُ,فَصِّلْ,مُفَصِّل,مُفَصَّل,تَفْصِيل,نُفَصِّلُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+140,65,D1,فضل,sound,19,I preferred you all,فَضَّلَ,يُفَضِّلُ,فَضِّلْ,مُفَضِّل,مُفَضَّل,تَفْضِيل,فَضَّلْتُكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+141,66,D1,فكر,sound,1,he thought,فَكَّرَ,يُفَكِّرُ,فَكِّرْ,مُفَكِّر,مُفَكَّر,تَفْكِير,فَكَّرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+142,66,D1,فند,sound,1,you all think me weakened in mind,فَنَّدَ,يُفَنِّدُ,فَنِّدْ,مُفَنِّد,مُفَنَّد,تَفْنِيد,تُفَنِّدُوْنِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+143,66,D1,فهم,sound,1,and  We gave understanding of it,فَهَّمَ,يُفَهِّمُ,فَهِّمْ,مُفَهِّم,مُفَهَّم,تَفْهِيم,فَفَهَّمْنٰهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+144,66,D1,فوض,ajwaf,1,and I entrust,فَوَّضَ,يُفَوِّضُ,فَوِّضْ,مُفَوِّض,مُفَوَّض,تَفْوِيض,وَاُفَوِّضُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+145,66,D1,قتل,sound,5,they will be killed,قَتَّلَ,يُقَتِّلُ,قَتِّلْ,مُقَتِّل,مُقَتَّل,تَقْتِيل,يُّقَتَّلُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+146,66,D1,قدر,sound,21,the ordaining,قَدَّرَ,يُقَدِّرُ,قَدِّرْ,مُقَدِّر,مُقَدَّر,تَقْدِير,تَقْدِيْرُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+147,66,D1,قدس,sound,4,and we sanctify,قَدَّسَ,يُقَدِّسُ,قَدِّسْ,مُقَدِّس,مُقَدَّس,تَقْدِيس,وَنُقَدِّسُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+148,66,D1,قدم,sound,27,sent ahead (fg),قَدَّمَ,يُقَدِّمُ,قَدِّمْ,مُقَدِّم,مُقَدَّم,تَقْدِيم,قَدَّمَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+149,66,D1,قرب,sound,13,those who brought near,قَرَّبَ,يُقَرِّبُ,قَرِّبْ,مُقَرِّب,مُقَرَّب,تَقْرِيب,الْمُقَرَّبِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+150,66,D1,قرن,sound,3,bound together,قَرَّنَ,يُقَرِّنُ,قَرِّنْ,مُقَرِّن,مُقَرَّن,تَقْرِين,مُقَرَّنِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+151,66,D1,قسم,sound,1,and those who distribute (fg),قَسَّمَ,يُقَسِّمُ,قَسِّمْ,مُقَسِّم,مُقَسَّم,تَقْسِيم,فَالْمُقَسِّمٰتِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+152,66,D1,قصر,sound,1,and shortened,قَصَّرَ,يُقَصِّرُ,قَصِّرْ,مُقَصِّر,مُقَصَّر,تَقْصِير,وَمُقَصِّرِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+153,66,D1,قطع,sound,12,will be cut off (fg),قَطَّعَ,يُقَطِّعُ,قَطِّعْ,مُقَطِّع,مُقَطَّع,تَقْطِيع,تُقَطَّعَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+154,66,D1,قفو,naqis,4,and We followed up,قَفَّى,يُقَفِّي,قَفِّ,مُقَفٍّ,مُقَفَّى,تَقْفِيَة,وَقَفَّيْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+155,67,D1,قلب,sound,6,and We will turn,قَلَّبَ,يُقَلِّبُ,قَلِّبْ,مُقَلِّب,مُقَلَّب,تَقْلِيب,وَنُقَلِّبُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+156,67,D1,قلل,doubled,1,and He made all of you appear as few,قَلَّلَ,يُقَلِّلُ,قَلِّلْ,مُقَلِّل,مُقَلَّل,تَقْلِيل,وَيُقَلِّلُكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+157,67,D1,قوم,ajwaf,1,mould,قَوَّمَ,يُقَوِّمُ,قَوِّمْ,مُقَوِّم,مُقَوَّم,تَقْوِيم,تَقْوِيْمٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+158,67,D1,قيض,ajwaf,2,and We have destined,قَيَّضَ,يُقَىِّضُ,قَيِّضْ,مُقَيِّض,مُقَيَّض,تَقْيِيض,وَقَيَّضْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+159,67,D1,كبر,sound,5,and that you all magnify,كَبَّرَ,يُكَبِّرُ,كَبِّرْ,مُكَبِّر,مُكَبَّر,تَكْبِير,وَلِتُكَبِّرُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+160,67,D1,كثر,sound,1,so He increased you all,كَثَّرَ,يُكَثِّرُ,كَثِّرْ,مُكَثِّر,مُكَثَّر,تَكْثِير,فَكَثَّرَكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+161,67,D1,كذب,sound,200,and they denied,كَذَّبَ,يُكَذِّبُ,كَذِّبْ,مُكَذِّب,مُكَذَّب,تَكْذِيب,وَكَذَّبُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+162,67,D1,كرم,sound,3,you have honored,كَرَّمَ,يُكَرِّمُ,كَرِّمْ,مُكَرِّم,مُكَرَّم,تَكْرِيم,كَرَّمْتَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+163,67,D1,كره,sound,1,and He has made hateful,كَرَّهَ,يُكَرِّهُ,كَرِّهْ,مُكَرِّه,مُكَرَّه,تَكْرِيه,وَكَرَّهَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+164,67,D1,كفر,sound,14,and He will remove,كَفَّرَ,يُكَفِّرُ,كَفِّرْ,مُكَفِّر,مُكَفَّر,تَكْفِير,وَيُكَفِّرُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+165,67,D1,كفل,sound,1,and he has handed over her,كَفَّلَ,يُكَفِّلُ,كَفِّلْ,مُكَفِّل,مُكَفَّل,تَكْفِيل,وَكَفَّلَهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+166,67,D1,كلب,sound,1,those who train animals to hunt,كَلَّبَ,يُكَلِّبُ,كَلِّبْ,مُكَلِّب,مُكَلَّب,تَكْلِيب,مُكَلِّبِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+167,67,D1,كلف,sound,7,it is not burdened (fg),كَلَّفَ,يُكَلِّفُ,كَلِّفْ,مُكَلِّف,مُكَلَّف,تَكْلِيف,لَا تُكَلَّفُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+168,67,D1,كلم,sound,21,he speaks to us,كَلَّمَ,يُكَلِّمُ,كَلِّمْ,مُكَلِّم,مُكَلَّم,تَكْلِيم,يُكَلِّمُنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+169,68,D1,كور,ajwaf,3,He wraps,كَوَّرَ,يُكَوِّرُ,كَوِّرْ,مُكَوِّر,مُكَوَّر,تَكْوِير,يُكَوِّرُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+170,68,D1,لقي,naqis,6,and they will be represented,لَقَّى,يُلَقِّي,لَقِّ,مُلَقٍّ,مُلَقَّى,تَلْقِيَة,وَيُلَقَّوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+171,68,D1,لوي,ajwaf+naqis,1,they turned aside,لَوَّى,يُلَوِّي,لَوِّ,مُلَوٍّ,مُلَوَّى,تَلْوِيَة,لَوَّوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+172,68,D1,متع,sound,19,then I will grant him enjoyment,مَتَّعَ,يُمَتِّعُ,مَتِّعْ,مُمَتِّع,مُمَتَّع,تَمْتِيع,فَاُمَتِّعُهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+173,68,D1,محص,sound,2,and so that He may purify,مَحَّصَ,يُمَحِّصُ,مَحِّصْ,مُمَحِّص,مُمَحَّص,تَمْحِيص,وَلِيُمَحِّصَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+174,68,D1,مدد,doubled,1,extended,مَدَّدَ,يُمَدِّدُ,مَدِّدْ,مُمَدِّد,مُمَدَّد,تَمْدِيد,مُمَدَّدَةٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+175,68,D1,مرد,sound,1,made smooth,مَرَّدَ,يُمَرِّدُ,مَرِّدْ,مُمَرِّد,مُمَرَّد,تَمْرِيد,مُمَرَّدٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+176,68,D1,مزق,sound,4,you all have disintegrated,مَزَّقَ,يُمَزِّقُ,مَزِّقْ,مُمَزِّق,مُمَزَّق,تَمْزِيق,مُزِّقْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+177,68,D1,مسك,sound,1,they hold fast,مَسَّكَ,يُمَسِّكُ,مَسِّكْ,مُمَسِّك,مُمَسَّك,تَمْسِيك,يُمَسِّكُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+178,68,D1,مكن,sound,13,We established them,مَكَّنَ,يُمَكِّنُ,مَكِّنْ,مُمَكِّن,مُمَكَّن,تَمْكِين,مَّكَّنَّهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+179,68,D1,مني,naqis,2,and surely I will arouse desires in them,مَنَّى,يُمَنِّي,مَنِّ,مُمَنٍّ,مُمَنًّى,تَمْنِيَة,وَلَاُمَنِّيَنَّهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+180,68,D1,مهد,sound,2,and I spread,مَهَّدَ,يُمَهِّدُ,مَهِّدْ,مُمَهِّد,مُمَهَّد,تَمْهِيد,وَّمَهَّدْتُّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+181,68,D1,مهل,sound,2,And allow them respite!,مَهَّلَ,يُمَهِّلُ,مَهِّلْ,مُمَهِّل,مُمَهَّل,تَمْهِيل,وَمَهِّلْهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+182,68,D1,نبء,hz3,46,shall I inform all of you?,نَبَّأَ,يُنَبِّئُ,نَبِّئْ,مُنَبٍّ,مُنَبَّأً,تَنْبِئَة,اَ�نَبِّئُكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+183,69,D1,نجو,naqis,39,We saved you all,نَجَّى,يُنَجِّي,نَجِّ,مُنَجٍّ,مُنَجَّى,تَنْجِيَة,نَجَّيْنٰكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+184,69,D1,نزل,sound,79,we have sent down,نَزَّلَ,يُنَزِّلُ,نَزِّلْ,مُنَزِّل,مُنَزَّل,تَنْزِيل,نَزَّلْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+185,69,D1,نشء,hz3,1,he is brought up,نَشَّأَ,يُنَشِّئُ,نَشِّئْ,مُنَشِّئ,مُنَشَّأ,تَنْشِئَة,يُّنَشَّؤُا,FORMS_VERIFIED,V10_FORM_COMPLETE
+186,69,D1,نشر,sound,1,spread out (fg),نَشَّرَ,يُنَشِّرُ,نَشِّرْ,مُنَشِّر,مُنَشَّر,تَنْشِير,مُّنَشَّرَةً,FORMS_VERIFIED,V10_FORM_COMPLETE
+187,69,D1,نظر,sound,1,So look!,نَظَّرَ,يُنَظِّرُ,نَظِّرْ,مُنَظِّر,مُنَظَّر,تَنْظِير,فَانْظُرْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+188,69,D1,نعم,sound,1,and He favored him,نَعَّمَ,يُنَعِّمُ,نَعِّمْ,مُنَعِّم,مُنَعَّم,تَنْعِيم,وَنَعَّمَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+189,69,D1,نقب,sound,1,so they explored,نَقَّبَ,يُنَقِّبُ,نَقِّبْ,مُنَقِّب,مُنَقَّب,تَنْقِيب,فَنَقَّبُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+190,69,D1,نكر,sound,1,Disguise (pl)!,نَكَّرَ,يُنَكِّرُ,نَكِّرْ,مُنَكِّر,مُنَكَّر,تَنْكِير,نَكِّرُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+191,69,D1,نكس,sound,1,We reverse him,نَكَّسَ,يُنَكِّسُ,نَكِّسْ,مُنَكِّس,مُنَكَّس,تَنْكِيس,نُنَكِّسْهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+192,69,D1,نكل,sound,1,to punish,نَكَّلَ,يُنَكِّلُ,نَكِّلْ,مُنَكِّل,مُنَكَّل,تَنْكِيل,تَنْكِيْلًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+193,69,D1,هدم,sound,1,surely would have been demolished (fg),هَدَّمَ,يُهَدِّمُ,هَدِّمْ,مُهَدِّم,مُهَدَّم,تَهْدِيم,لَهُدِّمَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+194,69,D1,هيء,hz3+ajwaf,2,And facilitate!,هَيَّأَ,يُهَيِّئُ,هَيِّئْ,مُهَيِّئ,مُهَيَّا,تَهْيِئَة,وَّهَيِّئْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+195,69,D1,وجه,mithal,2,i have turned,وَجَّهَ,يُوَجِّهُ,وَجِّهْ,مُوَجِّه,مُوَجَّه,تَوْجِيه,وَجَّهْتُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+196,69,D1,ودع,mithal,1,he hasn’t  forsaken you,وَدَّعَ,يُوَدِّعُ,وَدِّع,مُوَدِّع,مُوَدَّع,تَوْدِيع,مَا وَدَّعَكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+197,70,D1,وصل,mithal,1,we have sent constantly,وَصَّلَ,يُوَصِّلُ,وَصِّلْ,مُوَصِّل,مُوَصَّل,تَوْصِيل,وَصَّلْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+198,70,D1,وصي,mithal+naqis,12,and he enjoined,وَصَّى,يُوَصِّي,وَصِّ,مُوَصٍّ,مُوَصَّى,تَوْصِيَة,وَوَصَّى,FORMS_VERIFIED,V10_FORM_COMPLETE
+199,70,D1,وفق,mithal,3,he will cause reconciliation,وَفَّقَ,يُوَفِّقُ,وَفِّقْ,مُوَفِّق,مُوَفَّق,تَوْفِيق,يُّوَفِّقِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+200,70,D1,وفي,mithal+naqis,19,he will be repaid in full,وَفَّى,يُوَفِّي,وَفِّ,مُوَفٍّ,مُوَفَّى,تَوْفِيَة,يُوَفَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+201,70,D1,وقت,mithal,1,they are gathered at their appointed time (fg),وَقَّتَ,يُوَقِّتُ,وَقِّتْ,مُوَقِّت,مُوَقَّت,تَوْقِيت,اُقِّتَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+202,70,D1,وقر,mithal,1,and you all respect him,وَقَّرَ,يُوَقِّرُ,وَقِّر,مُوَقِّر,مُوَقَّر,تَوْقِير,وَتُوَقِّرُوْهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+203,70,D1,وكد,mithal,1,their confirmation,وَكَّدَ,يُوَكِّدُ,وَكِّدْ,مُؤَكِّد,مُوَكَّد,تَوْكِيد,تَوْكِيْدِهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+204,70,D1,وكل,mithal,2,We have entrusted,وَكَّلَ,يُوَكِّلُ,وَكِّلْ,مُوَكِّل,مُوَكَّل,تَوْكِيل,وَكَّلْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+205,70,D1,ولي,mithal+naqis,31,you all turn,وَلَّى,يُوَلِّي,وَلِّ,مُوَلٍّ,مُوَلَّى,تَوْلِيَة,تُوَلُّوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+206,70,D1,يسر,mithal,11,We have made it easy,يَسَّرَ,يُيَسِّرُ,يَسِّرْ,مُيَسِّر,مُيَسَّر,تَيْسِير,يَسَّرْنٰهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+207,71,D2,أخذ,hz1,9,takes you to task,آخَذَ,يُؤَاخِدُ,آخِذْ,مُؤَاخِذ,مُؤَاخَذ,مُؤَاخَذَة,يُؤَاخِذُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+208,71,D2,أزر,hz1,1,then he strengthened it,آزَرَ,يُؤَازِرُ,آزِرْ,مُؤَازِر,مُؤَازَر,مُؤَازَرَة,فَآزَرَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+209,71,D2,بدر,sound,1,and hastily,بَادَرَ,يُبَادِرُ,بَادِرْ,مُبَادِر,مُبَادَر,مُبَادَرَة,وَّبِدَارًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+210,71,D2,برك,sound,16,blessed,بَارَكَ,يُبَارِكُ,بَارِكْ,مُبَارِك,مُبَارَك,مُبَارَكَة,مُبٰرَكًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+211,71,D2,بشر,sound,2,(you all) have relations with them!,بَاشَرَ,يُبَاشِرُ,بَاشِرْ,مُبَاشِر,مُبَاشَر,مُبَاشَرَة,بَاشِرُوْهُنَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+212,71,D2,بعد,sound,1,Keep distance!,بَاعَدَ,يُبَاعِدُ,بَاعِدْ,مُبَاعِد,مُبَاعَد,مُبَاعَدَة,بٰعِدْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+213,71,D2,بيع,ajwaf,6,you all have contracted,بَايَعَ,يُبَايِعُ,بَايِعْ,مُبَايِع,مُبَايَع,مُبَايَعَة,بَايَعْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+214,71,D2,جدل,sound,25,And don’t argue!,جَادَلَ,يُجَادِلُ,جَادِلْ,مُجَادِل,مُجَادَل,مُجَادَلَة,وَلَا تُجَادِلْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+215,71,D2,جزي,naqis,1,we repay,جَازَى,يُجَازِي,جَازِ,مُجَازٍ,مُجَازًى,مُجَازَاة,نُجٰزِىٓ,FORMS_VERIFIED,V10_FORM_COMPLETE
+216,71,D2,جهد,sound,31,and they strove,جَاهَدَ,يُجَاهِدُ,جَاهِدْ,مُجَاهِد,مُجَاهَد,مُجَاهَدَة,وَجٰهَدُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+217,71,D2,جور,ajwaf,1,they will not remain your neighbors,جَاوَرَ,يُجَاوِرُ,جَاوِرْ,مُجَاوِر,مُجَاوَر,مُجَاوَرَة,لَا يُجَاوِرُوْنَكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+218,71,D2,جوز,ajwaf,4,he crossed it,جَاوَزَ,يُجَاوِزُ,جَاوِزْ,مُجَاوِز,مُجَاوَز,مُجَاوَزَة,جَاوَزَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+219,71,D2,حجج,doubled,12,do you all argue with us?,حَاجَّ,يُحَاجُّ,حَاجِجْ,مُحَاجٌّ,مُحَاجٌّ,مُحَاجّة,اَتُحَآجُّوْنَنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+220,71,D2,حدد,doubled,3,the one who opposes,حَادَدَ,يُحَادِدُ,حَادِدْ,مُحَادٌّ,مُحَادٌّ,مُحَادَّة,مَنْ يُّحَادِدِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+221,72,D2,حرب,sound,2,they are waging war,حَارَبَ,يُحَارِبُ,حَارِبْ,مُحَارِب,مُحَارَب,مُحَارَبَة,يُحَارِبُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+222,72,D2,حسب,sound,42,to take account,حَاسَبَ,يُحَاسِبُ,حَاسِبْ,مُحَاسِب,مُحَاسَب,مُحَاسَبَة,الْحِسَابِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+223,72,D2,حفظ,sound,4,Guard strictly (pl)!,حَافَظَ,يُحَافِظُ,حَافِظْ,مُحَافِظ,مُحَافَظ,مُحَافَظَة,حَافِظُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+224,72,D2,حور,ajwaf,2,he talks with him,حَاوَرَ,يُحَاوِرُ,حَاوِرْ,مُحَاوِر,مُحَاوَر,مُحَاوَرَة,يُحَاوِرُهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+225,72,D2,خدع,sound,2,they are deceiving,خَادَعَ,يُخَادِعُ,خَادِعْ,مُخَادِع,مُخَادَع,مُخَادَعَة,يُخٰدِعُونَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+226,72,D2,خطب,sound,3,And don’t address me!,خَاطَبَ,يُخَاطِبُ,خَاطِبْ,مُخَاطِب,مُخَاطَب,مُخَاطَبَة,وَلَا تُخَاطِبْنِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+227,72,D2,خفت,sound,1,And don’t be silent!,خَافَتَ,يُخَافِتُ,خَافِتْ,مُخَافِت,مُخَافَت,مُخَافَتَة,وَلَا تُخَافِتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+228,72,D2,خلط,sound,1,you all associate with them,خَالَطَ,يُخَالِطُ,خَالِطْ,مُخَالِط,مُخَالَط,مُخَالَطَة,تُخَالِطُوْهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+229,72,D2,خلف,sound,2,I differ from you all,خَالَفَ,يُخَالِفُ,خَالِفْ,مُخَالِف,مُخَالَف,مُخَالَفَة,اُخَالِفَكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+230,72,D2,دفع,sound,1,He defends,دَافَعَ,يُدَافِعُ,دَافِعْ,مُدَافِع,مُدَافَع,مُدَافَعَة,يُدٰفِعُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+231,72,D2,دول,ajwaf,1,We alternate them,دَاوَلَ,يُدَاوِلُ,دَاوِلْ,مُدَاوِل,مُدَاوَل,مُدَاوَلَة,نُدَاوِلُهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+232,72,D2,رءي,hz2+naqis,5,"show off, to be seen",رَاءَى,يُرَابِي,رَاءِ,مُرَاءٍ,مُرَاءًى,رِئَاء/ مُرَاءَاة,رِئَآءَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+233,72,D2,ربط,sound,1,And be constant (pl)!,رَابَطَ,يُرَابِطُ,رَابِطْ,مُرَابِط,مُرَابَط,مُرَابَطَة,وَرَابِطُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+234,72,D2,رعي,naqis,3,Give us concession!,رَاعَى,يُرَاعِي,رَاعِ,مُرَاعٍ,مُرَاعًى,مُرَاعَاة,رَاعِنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+235,73,D2,رغم,sound,1,place of refuge,رَاغَمَ,يُرَاغِمُ,رَاغِمْ,مُرَاغِم,مُرَاغَم,مُرَاغَمَة,مُرٰغَمًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+236,73,D2,رود,ajwaf,8,and she sought to seduce him,رَاوَدَ,يُرَاوِدُ,رَاوِدْ,مُرَاوِد,مُرَاوَد,مُرَاوَدَة,وَرَاوَدَتْهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+237,73,D2,سبق,sound,1,"(You all) Race!, Compete!",سَابَقَ,يُسَابِقُ,سَابِقْ,مُسَابِق,مُسَابَق,مُسَابَقَة,سَابِقُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+238,73,D2,سرع,sound,11,and they hasten,سَارَعَ,يُسَارِعُ,سَارِعْ,مُسَارِع,مُسَارَع,مُسَارَعَة,وَيُسَارِعُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+239,73,D2,سفح,sound,3,not to be lustful,سَافَحَ,يُسَافِحُ,سَافِحْ,مُسَافِح,مُسَافَح,مُسَافَحَة,غَيْرَمُسٰفِحِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+240,73,D2,سقط,sound,1,it will drop (fg),سَاقَطَ,يُسَاقِطُ,سَاقِطْ,مُسَاقِط,مُسَاقَط,مُسَاقَطَة,تُسٰقِطْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+241,73,D2,سهم,sound,1,then he drew lots,سَاهَمَ,يُسَاهِمُ,سَاهِمْ,مُسَاهِم,مُسَاهَم,مُسَاهَمَة,فَسَاهَمَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+242,73,D2,سوي,ajwaf+naqis,1,he (had) leveled,سَاوٰى,يُسَاوِي,سَاوِ,مُسَاوٍ,مُسَاوًى,مُسَاوَاة,سَاوٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+243,73,D2,شرك,sound,1,And be a partner with them!,شَارَكَ,يُشَارِكُ,شَارِكْ,مُشَارِك,مُشَارَك,مُشَارَكَة,وَشَارِكْهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+244,73,D2,شقق,doubled,14,"revolt, betray",شَاقَّ,يُشَاقُّ,شَاقِقْ,مُشَاقٌّ,مُشَاقٌّ,شِقَاق/ مُشَاقَّة,شِقَاقٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+245,73,D2,شور,ajwaf,1,And consult them!,شَاوَرَ,يُشَاوِرُ,شَاوِرْ,مُشَاوِر,مُشَاوَر,مُشَاوَرَة,وَشَاوِرْهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+246,73,D2,صبر,sound,1,And be patient (pl)!,صَابَرَ,يُصَابِرُ,صَابِرْ,مُصَابِر,مُصَابَر,مُصَابَرَة,وَصَابِرُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+247,73,D2,صحب,sound,2,Then don’t keep me as a companion!,صَاحَبَ,يُصَاحِبُ,صَاحِبْ,مُصَاحِب,مُصَاحَب,مُصَاحَبَة,فَلَا تُصٰحِبْنِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+248,73,D2,ضرر,doubled,6,to hurt,ضَارَّ,يُضَارُّ,ضَارِرْ,مُضَارّ,مُضَارّ,ضِرَار/مُضَارَّة,ضِرَارًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+249,74,D2,ضعف,sound,10,so that He multiplies it,ضَاعَفَ,يُضَاعِفُ,ضَاعِفْ,مُضَاعِف,مُضَاعَف,ضِعَاف/مُضَاعَفَة,فَيُضٰعِفَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+250,74,D2,ضهء,hz3,1,they imitate,ضَاهَأَ,يُضَاهِئُ,ضَاهِئْ,مُضَاهِئ,مُضَاهَأ,مُضَاهَأَة,يُضَاهِئُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+251,74,D2,ظهر,sound,6,and they did not support,ظَاهَرَ,يُظَاهِرُ,ظَاهِرْ,مُظَاهِر,مُظَاهَر,مُظَاهَرَة,وَلَمْ يُظَاهِرُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+252,74,D2,عجز,sound,3,those who cause (others) helpless,عَاجَزَ,يُعَاجِزُ,عَاجِزْ,مُعَاجِز,مُعَاجَز,مُعَاجَزَة,مُعٰجِزِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+253,74,D2,عدو,naqis,1,you all have been enemies,عَادٰى,يُعَادِي,عَادِ,مُعَادٍ,مُعَادًى,مُعَادَاة,عَادَيْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+254,74,D2,عشر,sound,1,And you all live with them!,عَاشَرَ,يُعَاشِرُ,عَاشِرْ,مُعَاشِر,مُعَاشَر,مُعَاشَرَة,وَعَاشِرُوْهُنَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+255,74,D2,عقب,sound,6,you all punished,عَاقَبَ,يُعَاقِبُ,عَاقِبْ,مُعَاقِب,مُعَاقَب,مُعَاقَبَة,عَاقَبْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+256,74,D2,عهد,sound,11,"they made commitment, they took oath",عَاهَدَ,يُعَاهِدُ,عَاهِدْ,مُعَاهِد,مُعَاهَد,مُعَاهَدَة,عٰهَدُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+257,74,D2,غدر,sound,2,then We didn't leave behind,غَادَرَ,يُغَادِرُ,غَادِرْ,مُغَادِر,مُغَادَر,مُغَادَرَة,فَلَمْ نُغَادِرْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+258,74,D2,غضب,sound,1,(while) angry,غَاضَبَ,يُغَاضِبُ,غَاضِبْ,مُغَاضِب,مُغَاضَب,مُغَاضَبَة,مُغَاضِبًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+259,74,D2,فدي,naqis,1,you all ransom them,فَادٰى,يُفَادِي,فَادِ,مُفَادٍ,مُفَادًى,مُفَادَاة,تُفٰدُوْهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+260,74,D2,فرق,sound,3,parting,فَارَقَ,يُفَارِقُ,فَارِقْ,مُفَارِق,مُفَارَق,مُفَارَقَة,فِرَاقُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+261,74,D2,قتل,sound,62,And fight (pl)!,قَاتَلَ,يُقَاتِلُ,قَاتِلْ,مُقَاتِل,مُقَاتَل,مُقَاتَلَة,وَقَاتِلُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+262,74,D2,قسم,sound,1,and he swore to both of them,قَاسَمَ,يُقَاسِمُ,قَاسِمْ,مُقَاسِم,مُقَاسَم,مُقَاسَمَة,وَقَاسَمَهُمَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+263,75,D2,كتب,sound,1,Then (you all) give them (the) writing!,كَاتَبَ,يُكَاتِبُ,كَاتِبْ,مُكَاتِب,مُكَاتَب,مُكَاتَبَة,فَكَاتِبُوْهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+264,75,D2,لقي,naqis,35,those who meet face to face,لَاقٰى,يُلَاقِي,لَاقِ,مُلَاقٍ,مُلَاقًى,مُلَاقَاة,مُّلقُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+265,75,D2,مري,naqis,2,So don’t argue!,مَارٰى,يُمَارِي,مَارِ,مُمَارٍ,مُمَارًى,مُمَارَاة,فَلَا تُمَارِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+266,75,D2,نجو,naqis,1,you all whispered,نَاجٰى,يُنَاجِي,نَاجِ,مُنَاجٍ,مُنَاجًى,مُنَاجَاة,نَاجَيْتُمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+267,75,D2,ندو,naqis,48,and to cry,نَادٰى,يُنَادِي,نَادِ,مُنَادٍ,مُنَادًى,نِدَاء/مُنَادَاة,وَنِدَآءً,FORMS_VERIFIED,V10_FORM_COMPLETE
+268,75,D2,نزع,sound,1,so let them not dispute with you,نَازَعَ,يُنَازِعُ,نَازِعْ,مُنَازِع,مُنَازَع,مُنَازَعَة,فَلَا يُنَازِعُنَّكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+269,75,D2,نفق,sound,37,they became hypocrite,نَافَقَ,يُنَافِقُ,نَافِقْ,مُنَافِق,—,مُنَافَقَة,نَافَقُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+270,75,D2,هجر,sound,23,they migrated,هَاجَرَ,يُهَاجِرُ,هَاجِرْ,مُهَاجِر,مُهَاجَر,مُهَاجَرَة,هَاجَرُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+271,75,D2,وثق,mithal,1,He bound you all,وَاثَقَ,يُوَاثِقُ,وَاثِقْ,مُوَاثِق,مُوَاثَق,مُوَاثَقَة,وَاثَقَكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+272,75,D2,وري,mithal+naqis,4,he covers,وَارٰى,يُوَارِي,وَارِ,مُوَارٍ,مُوَارًى,مُوَارَاة,يُوَارِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+273,75,D2,وطء,hz3+mithal,1,so that they adjust,وَاطَأَ,يُوَاطِئُ,وَاطٍ، وَاطِءْ,مُوَاطِئ,مُوَاطَأ,مُوَاطَأَة,لِّيُوَاطِئُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+274,75,D2,وعد,mithal,4,"we appointed, we promised",وَاعَدَ,يُوَاعِدُ,وَاعِدْ,مُوَاعِد,مُوَاعَد,مُوَاعَدَة,وٰعَدْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+275,75,D2,وفق,mithal,1,appropriate,وَافَقَ,يُوَافِقُ,وَافِقْ,مُوَافِق,مُوَافَق,مُوَافَقَة,وِفَاقًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+276,75,D2,وقع,mithal,1,they are to fall in it,وَاقَعَ,يُوَاقِعُ,وَاقِعْ,مُوَاقِع,مُوَاقَع,مُوَاقَعَة,مُّوَاقِعُوْهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+277,76,D3,أتي,hz1+naqis,275,And (you all) give!,آتَى,يُؤْتِي,آتِ,مُؤْتٍ,مُؤْتًى,إِيتَاء,وَآتُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+278,76,D3,أثر,hz1,5,He has preferred you,آثَرَ,يُؤْثِرُ,آثِرْ,مُؤْثِر,مُؤْثَر,إِيثَار,آثَرَكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+279,76,D3,أذن,hz1,2,I warned all of you,آذَنَ,يُؤْذِنُ,آذِنْ,مُؤْذِن,مُؤْذَن,إِيذَان,آذَنْتُكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+280,76,D3,أذي,hz1+naqis,15,and they were harmed,آذَى,يُؤْذِي,آذِ,مُؤْذٍ,مُؤْذًى,إِيذَاء,وَاُوْذُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+281,76,D3,أسف,hz1,1,they angered Us,آسَفَ,يُؤْسِفُ,آسِفْ,مُؤْسِف,مُؤْسَف,إِيسَاف,آسَفُوْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+282,76,D3,ألف,hz1,2,for (the) familiarity,آلَفَ,يُؤْلِفُ,آلِفْ,مُؤْلِف,مُؤْلَف,إِيلَاف,لإيْلفِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+283,76,D3,ألو,hz1+naqis,1,they swear (off),آلَى,يُؤْلِي,آلِ,مُؤْلٍ,مُؤْلًى,إِيلَاء,يُؤْلُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+284,76,D3,أمن,hz1,815,they believe,آمَنَ,يُؤْمِنُ,آمِنْ,مُؤْمِن,مُؤْمَن,إِيمَان,يُؤْمِنُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+285,76,D3,أنس,hz1,5,you all perceived,آنَسَ,يُؤْنِسُ,آنِسْ,مُؤْنِس,مُؤْنَس,إِينَاس,آنَسْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+286,76,D3,أوي,hz1+ajwaf+naqis,9,then He sheltered all of you,آوَى,يُؤْوِي,آوِ,مُؤْوٍ,مُؤْوًى,إِيوَاء,فَآوٰىكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+287,76,D3,بدء,hz3,3,"He initiates, begins",أَبْدَأَ,يُبْدِئُ,أَبْدِئْ,مُبْدِئ,مُبْدَأ,إِبْدَاء,يُبْدِئُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+288,76,D3,بدل,sound,3,would change for both of them,أَبْدَلَ,يُبْدِلُ,أَبْدِلْ,مُبْدِل,مُبْدَل,إِبْدَال,يُبْدِلَهُمَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+289,76,D3,بدو,naqis,14,you all reveal,أَبْدَى,يُبْدِي,أَبْدِ,مُبْدٍ,مُبْدًي,إِبْدَاء,تُبْدُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+290,76,D3,برء,hz3,2,and I cure,أَبْرَأَ,يُبْرِئُ,أَبْرِئْ,مُبْرِئ,مُبْرَأ,إِبْرَاء,وَاُبْرِئُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+291,77,D3,برم,sound,2,have they determined,أَبْرَمَ,يُبْرِمُ,أَبْرِمْ,مُبْرِم,مُبْرَم,إِبْرَام,اَبْرَمُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+292,77,D3,بسل,sound,2,given up to destruction (fg),أَبْسَلَ,يُبْسِلُ,أَبْسِلْ,مُبْسِل,مُبْسَل,إِبْسَال,تُبْسَلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+293,77,D3,بشر,sound,1,And (you all) receive the glad tidings!,أَبْشَرَ,يُبْشِرُ,أَبْشِرْ,مُبْشِر,مُبْشَر,إِبْشَار,وَاَبْشِرُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+294,77,D3,بصر,sound,36,they see,أَبْصَرَ,يُبْصِرُ,أَبْصِرْ,مُبْصِر,مُبْصَر,إِبْصَار,يُبْصِرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+295,77,D3,بطل,sound,9,And don’t (you all) render in vain!,أَبْطَلَ,يُبْطِلُ,أَبْطِلْ,مُبْطِل,مُبْطَل,إِبْطَال,وَلَا تُبْطِلُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+296,77,D3,بعد,sound,1,those who are kept away,أَبْعَدَ,يُبْعِدُ,أَبْعِدْ,مُبْعِد,مُبْعَد,إِبْعَاد,مُبْعَدُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+297,77,D3,بقي,naqis,2,and spared them,أَبْقَى,يُبْقِي,أَبْقِ,مُبْقٍ,مُبْقًى,إِبْقَاء,وَّاَبْقٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+298,77,D3,بكي,naqis,1,and He made (someone) weep,أَبْكٰى,يُبْكِي,أَبْكِ,مُبْكٍ,مُبْكًى,إِبْكَاء,وَاَبْكٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+299,77,D3,بلس,sound,5,those who (were) dumbfounded,أَبْلَسَ,يُبْلِسُ,أَبْلِسْ,مُبْلِس,—,إِبْلَاس,مُبْلِسُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+300,77,D3,بلغ,sound,5,I have conveyed to you all,أَبْلَغَ,يُبْلِغُ,أَبْلِغْ,مُبْلِغ,مُبْلَغ,إِبْلَاغ,اَبْلَغْتُكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+301,77,D3,بلو,naqis,2,you all will certainly be tested,أَبْلَى,يُبْلِي,أَبْلِ,مُبْلٍ,مُبْلًى,إبْلَاء,لَتُبْلَوُنَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+302,77,D3,بين,ajwaf,120,clear,أَبَانَ,يُبِينُ,أَبِنْ,مُبِين,مُبَان,إِبَانَة,مُّبِيْنٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+303,77,D3,تبع,sound,15,they follow,أَتْبَعَ,يُتْبِعُ,أَتْبِعْ,مُتْبِع,مُتْبَع,إِتْبَاع,يُتْبِعُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+304,77,D3,ترف,sound,8,they were given luxury,أَتْرَفَ,يُتْرِفُ,أَتْرِفْ,مُتْرِف,مُتْرَف,إِتْرَاف,اُتْرِفُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+305,78,D3,تقن,sound,1,He perfected,أَتْقَنَ,يُتْقِنُ,أَتْقِنْ,مُتْقِن,مُتْقَن,إِتْقَان,اَتْقَنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+306,78,D3,تمم,doubled,17,and he fulfilled them,أَتَمَّ,يُتِمُّ,أَتْمِمْ,مُتِمّ,مُتَمّ,إِتْمَام,فَاَتَمَّهُنَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+307,78,D3,ثبت,sound,2,that they restrain you,أَثْبَتَ,يُثْبِتُ,أَثْبِتْ,مُثْبِت,مُثْبَت,إِثْبَات,لِيُثْبِتُوْكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+308,78,D3,ثخن,sound,2,he battles strenuously,أَثْخَنَ,يُثْخِنُ,أَثْخِنْ,مُثْخِن,مُثْخَن,إِثْخَان,يُثْخِنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+309,78,D3,ثقل,sound,4,she became heavy,أَثْقَلَ,يُثْقِلُ,أَثْقِلْ,مُثْقِل,مُثْقَل,إِثْقَال,اَثْقَلَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+310,78,D3,ثمر,sound,2,it bore fruit,أَثْمَرَ,يُثْمِرُ,أَثْمِرْ,مُثْمِر,مُثْمَر,إِثْمَار,اَثْمَرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+311,78,D3,ثوب,ajwaf,3,so He repaid you all,أَثَابَ,يُثِيبُ,أَثِبْ,مُثِيب,مُثَاب,إِثَابَة,فَاَثَابَكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+312,78,D3,ثور,ajwaf,4,it ploughs (fg),أَثَارَ,يُثِيرُ,أَثِرْ,مُثِير,مُثَار,إِثَارَة,تُثِيْرُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+313,78,D3,جرم,sound,58,"sinfull, the criminals",أَجْرَمَ,يُجْرِمُ,أَجْرِمْ,مُجْرِم,مُجْرَم,إِجْرَام,الْمُجْرِمِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+314,78,D3,جلب,sound,1,And assault!,أَجْلَبَ,يُجْلِبُ,أَجْلِبْ,مُجْلِب,مُجْلَب,إِجْلَاب,وَاَجْلِبْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+315,78,D3,جمع,sound,4,So you all resolve!,أَجْمَعَ,يُجْمِعُ,أَجْمِعْ,مُجْمِع,مُجْمَع,إِجْمَاع,فَاَجْمِعُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+316,78,D3,جوب,ajwaf,10,I respond,أَجَابَ,يُجِيبُ,أَجِبْ,مُجِيب,مُجَاب,إِجَابَة,اُجِيْبُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+317,78,D3,جور,ajwaf,6,Then grant him protection!,أَجَارَ,يُجِيرُ,أَجِرْ,مُجِير,مُجَار,إِجَارَة,فَاَجِرْهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+318,78,D3,حبب,doubled,64,they love them,أَحَبَّ,يُحِبُّ,أَحْبِبْ,مُحِبّ,مُحَبّ,إِحْبَاب,يُّحِبُّوْنَهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+319,79,D3,حدث,sound,5,I present,أَحْدَثَ,يُحْدِثُ,أَحْدِثْ,مُحْدِث,مُحْدَث,إِحْدَاث,اُحْدِثَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+320,79,D3,حسس,doubled,3,he felt,أَحَسَّ,يُحِسُّ,أَحْسِسْ,مُحِسّ,مُحَسّ,إِحْسَاس,اَحَسَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+321,79,D3,حسن,sound,72,the good-doers,أَحْسَنَ,يُحْسِنُ,أَحْسِنْ,مُحْسِن,مُحْسَن,إِحْسَان,الْمُحْسِنِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+322,79,D3,حصر,sound,2,you all are held back,أَحْصَرَ,يُحْصِرُ,أَحْصِرْ,مُحْصِر,مُحْصَر,إِحْصَار,اُحْصِرْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+323,79,D3,حصن,sound,14,and those women who are married,أَحْصَنَ,يُحْصِنُ,أَحْصِنْ,مُحْصِن,مُحْصَن,إِحْصَان,وَالْمُحْصَنٰتُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+324,79,D3,حصي,naqis,10,you all will (be able to) count them,أَحْصَى,يُحْصِي,أَحْصِ,مُحْصٍ,مُحْصًى,إِحْصَاء,تُحْصُوْهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+325,79,D3,حضر,sound,13,"that which is presented, brought",أَحْضَرَ,يُحْضِرُ,أَحْضِرْ,مُحْضِر,مُحْضَر,إِحْضَار,مُّحْضَرًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+326,79,D3,حفي,naqis,1,and press you all,أَحْفَى,يُحْفِي,أَحْفِ,مُحْفٍ,مُحْفًى,إِحْفَاء,فَيُحْفِكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+327,79,D3,حقق,doubled,4,"to establish the truth, justify",أَحَقَّ,يُحِقُّ,أَحْقِقْ,مُحِقّ,مُحَقّ,إِحْقَاق,يُّحِقَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+328,79,D3,حكم,sound,4,clear,أَحْكَمَ,يُحْكِمُ,أَحْكِمْ,مُحْكِم,مُحْكَم,إِحْكَام,مُّحْكَمٰتٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+329,79,D3,حلل,doubled,21,is permitted,أَحَلَّ,يُحِلُّ,أَحْلِلْ,مُحِلّ,مُحَلّ,إِحْلَال,اُحِلَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+330,79,D3,حوط,ajwaf,28,the one who encompasses,أَحَاطَ,يُحِيطُ,أَحِطْ,مُحِيط,مُحَاط,إِحَاطَة,مُحِيْ�,FORMS_VERIFIED,V10_FORM_COMPLETE
+331,79,D3,حيي,ajwaf+naqis+doubled,53,then He gave life to you all,أَحْيَا,يُحْيِي,أَحْىِ,مُحْىٍ,مُحْيَا,إِحْيَاء,فَاَحْيَاكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+332,79,D3,خبت,sound,3,and they humbled themselves,أَخْبَتَ,يُخْبِتُ,أَخْبِتْ,مُخْبِت,مُخْبَت,إِخْبَات,وَاَخْبَتُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+333,80,D3,خرب,sound,1,they destroy,أَخْرَبَ,يُخْرِبُ,أَخْرِبْ,مُخْرِب,مُخْرَب,إِخْرَاب,يُخْرِبُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+334,80,D3,خرج,sound,113,then brought forth,أَخْرَجَ,يُخْرِجُ,أَخْرِجْ,مُخْرِج,مُخْرَج,إِخْرَاج,فَاَخْرَجَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+335,80,D3,خزي,naqis,13,You insulted him,أَخْزَى,يُخْزِي,أَخْزِ,مُخْزٍ,مُخْزًى,إخْزَاء,اَخْزَيْتَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+336,80,D3,خسر,sound,3,those who cause loss,أَخْسَرَ,يُخْسِرُ,أَخْسِرْ,مُخْسِر,مُخْسَر,إِخْسَار,الْمُخْسِرِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+337,80,D3,خطء,hz3,2,we erred,أَخْطَأَ,يُخْطِئُ,أَخْطِئْ,مُخْطِئ,مُخْطَأ,إِخْطَاء,اَخْطَاْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+338,80,D3,خفي,naqis,18,you all keep it secret,أَخْفَى,يُخْفِي,أَخْفِ,مُخْفٍ,مُخْفًى,إِخْفَاء,تُخْفُوْهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+339,80,D3,خلد,sound,2,adhered,أَخْلَدَ,يُخْلِدُ,أَخْلِدْ,مُخْلِد,مُخْلَد,إِخْلَاد,اَخْلَدَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+340,80,D3,خلص,sound,22,sincere people,أَخْلَصَ,يُخْلِصُ,أَخْلِصْ,مُخْلِص,مُخْلَص,إِخْلَاص,مُخْلِصُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+341,80,D3,خلف,sound,14,and He never go against,أَخْلَفَ,يُخْلِفُ,أَخْلِفْ,مُخْلِف,مُخْلَف,إِخْلَاف,وَلَنْ يُّخْلِفَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+342,80,D3,دبر,sound,13,those who turn back,أَدْبَرَ,يُدْبِرُ,أَدْبِرْ,مُدْبِر,مُدْبَر,إِدْبَار,مُدْبِرِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+343,80,D3,دحض,sound,3,so that they refute,أَدْحَضَ,يُدْحِضُ,أَدْحِضْ,مُدْحِض,مُدْحَض,إِدْحَاض,لِيُدْحِضُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+344,80,D3,دخل,sound,45,and (he) is admitted,أَدْخَلَ,يُدْخِلُ,أَدْخِلْ,مُدْخِل,مُدْخَل,إِدْخَال,وَاُدْخِلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+345,80,D3,درك,sound,7,it will overtakes all of you,أَدْرَكَ,يُدْرِكُ,أَدْرِكْ,مُدْرِك,مُدْرَك,إِدْرَاك,يُدْرِكْكُّمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+346,80,D3,دري,naqis,17,He made it known to you all,أَدْرَى,يُدْرِي,أَدْرِ,مُدْرٍ,مُدْرًى,إِدْرَاء,اَدْرٰىكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+347,81,D3,دلو,naqis,2,and you all present,أَدْلَى,يُدْلِي,أَدْلِ,مُدْلٍ,مُدْلًى,إِدْلَاء,وَتُدْلُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+348,81,D3,دهن,sound,3,indifferent persons,أَدْهَنَ,يُدْهِنُ,أَدْهِنْ,مُدْهِن,مُدْهَن,إِدْهَان,مُّدْهِنُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+349,81,D3,دور,ajwaf,1,you transfer it among yourselves,أَدَارَ,يُدِيرُ,أَدِرْ,مُدِير,مُدَار,إِدَارَة,تُدِيْرُوْنَهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+350,81,D3,ذعن,sound,1,those who are promptly obedient,أَذْعَنَ,يُذْعِنُ,أَذْعِنْ,مُذْعِن,مُذْعَن,إِذْعَان,مُذْعِنِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+351,81,D3,ذلل,doubled,1,and You humiliate,أَذَلَّ,يُذِلُّ,أَذْلِلْ,مُذِلّ,مُذَلّ,إِذْلَال,وَتُذِلُّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+352,81,D3,ذهب,sound,11,He takes you all away,أَذْهَبَ,يُذْهِبُ,أَذْهِبْ,مُذْهِب,مُذْهَب,إِذْهَاب,يُذْهِبْكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+353,81,D3,ذوق,ajwaf,22,and make (someone) taste,أَذَاقَ,يُذِيقُ,أَذِقْ,مُذِيق,مُذَاق,إِذَاقَة,وَيُذِيْقَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+354,81,D3,ذيع,ajwaf,1,they made (something) famous,أَذَاعَ,يُذِيعُ,أَذِعْ,مُذِيع,مُذَاع,إِذَاعَة,اَذَاعُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+355,81,D3,رءي,hz2+naqis,40,and He shows you all,أَرَى,يُرِي,أَرِ,مُرٍ,مُرًى,إِرَاءَ ة,وَيُرِيْكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+356,81,D3,ربو,naqis,2,and He increases,أَرْبَى,يُرْبِي,أَرْبِ,مُرْبٍ,مُرْبًى,إِرْبَاء,وَيُرْبِى,FORMS_VERIFIED,V10_FORM_COMPLETE
+357,81,D3,رجف,sound,1,and those who spread rumors,أَرْجَفَ,يُرْجِفُ,أَرْجِفْ,مُرْجِف,مُرْجَف,إِرْجَاف,وَالْمُرْجِفُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+358,81,D3,رجو,naqis,4,Postpone (the matter of) him!,أَرْجَى,يُرْجِي,أَرْجِ,مُرْجٍ,مُرْجًى,إِرْجَاء,اَرْجِهْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+359,81,D3,ردف,sound,1,those who come one after another,أَرْدَفَ,يُرْدِفُ,أَرْدِفْ,مُرْدِف,مُرْدَف,إِرْدَاف,مُرْدِفِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+360,81,D3,ردي,naqis,3,so that they may ruin them,أَرْدَى,يُرْدِي,أَرْدِ,مُرْدٍ,مُرْدًى,إِرْدَاء,لِيُرْدُوْهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+361,82,D3,رسل,sound,171,We have sent you,أَرْسَلَ,يُرْسِلُ,أَرْسِلْ,مُرْسِل,مُرْسَل,إِرْسَال,اَرْسَلْنٰكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+362,82,D3,رسو,naqis,4,"its anchorage, arrival",أَرْسَى,يُرْسِي,أَرْسِ,مُرْسٍ,مُرْسًى,إِرْسَاء,مُرْسٰىهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+363,82,D3,رشد,sound,1,a guide,أَرْشَدَ,يُرْشِدُ,أَرْشِدْ,مُرْشِد,مُرْشَد,إِرْشَاد,مُّرْشِدًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+364,82,D3,رصد,sound,1,and a station,أَرْصَدَ,يُرْصِدُ,أَرْصِدْ,مُرْصِد,مُرْصَد,إِرْصَاد,وَاِرْصَادًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+365,82,D3,رضع,sound,7,they (fg) nursed you all,أَرْضَعَ,يُرْضِعُ,أَرْضِعْ,مُرْضِع,مُرْضَع,إِرْضَاع,اَرْضَعْنَكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+366,82,D3,رضو,naqis,3,they satisfy you all,أَرْضَى,يُرْضِي,أَرْضِ,مُرْضٍ,مُرْضًى,إِرْضَاء,يُرْضُوْنَكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+367,82,D3,ركس,sound,2,He has returned them,أَرْكَسَ,يُرْكِسُ,أَرْكِسْ,مُرْكِس,مُرْكَس,إِرْكَاس,اَرْكَسَهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+368,82,D3,رهب,sound,1,you all terrify,أَرْهَبَ,يُرْهِبُ,أَرْهِبْ,مُرْهِب,مُرْهَب,إِرْهَاب,تُرْهِبُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+369,82,D3,رهق,sound,3,and don’t put burdon on me!,أَرْهَقَ,يُرْهِقُ,أَرْهِقْ,مُرْهِق,مُرْهَق,إِرْهَاق,وَلَا تُرْهِقْنِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+370,82,D3,روح,ajwaf,1,you all bring them back after grazing in the evening,أَرَاحَ,يُرِيحُ,أَرِحْ,مُرِيح,مُرَاح,إِرَاحَة,تُرِيْحُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+371,82,D3,رود,ajwaf,139,He intended,أَرَادَ,يُرِيدُ,أَرِدْ,مُرِيد,مُرَاد,إِرَادَة,اَرَادَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+372,82,D3,ريب,ajwaf,7,doubter,أَرَابَ,يُرِيبُ,أَرِبْ,مُرِيب,مُرَاب,إِرَابَة,مُرِيْبٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+373,82,D3,زجو,naqis,3,of little value,أَزْجَى,يُزْجِي,أَزْجِ,مُزْجٍ,مُزْجًى,إِزْجَاء,مُزْجٰىةٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+374,82,D3,زلف,sound,4,and We brought near,أَزْلَفَ,يُزْلِفُ,أَزْلِفْ,مُزْلِف,مُزْلَف,إِزْلَاف,وَاَزْلَفْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+375,83,D3,زلق,sound,1,surely they will make you slip,أَزْلَقَ,يُزْلِقُ,أَزْلِقْ,مُزْلِق,مُزْلَق,إِزْلَاق,لَيُزْلِقُوْنَكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+376,83,D3,زلل,doubled,1,then he made both of them slip,أَزَلَّ,يُزِلُّ,أَزْلِلْ,مُزِلّ,مُزَلّ,إِزْلَال,فَاَزَلَّهُمَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+377,83,D3,زيغ,ajwaf,2,Don’t deviate!,أَزَاغَ,يُزِيغُ,أَزِغْ,مُزِيغ,مُزَاغ,إِزَاغَة,لَا تُزِغْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+378,83,D3,سبغ,sound,1,and He amply bestowed,أَسْبَغَ,يُسْبِغُ,أَسْبِغْ,مُسْبِغ,مُسْبَغ,إِسْبَاغ,وَاَسْبَغَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+379,83,D3,سحت,sound,1,that He will destroy all of you,أَسْحَتَ,يُسْحِتُ,أَسْحِتْ,مُسْحِت,مُسْحَت,إِسْحَات,فَيُسْحِتَكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+380,83,D3,سخط,sound,1,he angered,أَسْخَطَ,يُسْخِطُ,أَسْخِطْ,مُسْخِط,مُسْخَط,إِسْخَاط,اَسْخَطَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+381,83,D3,سرر,doubled,20,they conceal,أَسَرَّ,يُسِرُّ,أَسْرِرْ,مُسِرّ,مُسَرّ,إِسْرَار,يُسِرُّوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+382,83,D3,سرف,sound,23,and our excesses,أَسْرَفَ,يُسْرِفُ,أَسْرِفْ,مُسْرِف,مُسْرَف,إِسْرَاف,وَاِسْرَافَنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+383,83,D3,سري,naqis,6,"So travel!, set out!",أَسْرَى,يُسْرِي,أَسْرِ,مُسْرٍ,مُسْرًي,إِسْرَاء,فَاَسْرِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+384,83,D3,سفر,sound,2,it brightened,أَسْفَرَ,يُسْفِرُ,أَسْفِرْ,مُسْفِر,مُسْفَر,إِسْفَار,اَسْفَرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+385,83,D3,سقط,sound,3,you cause to fall,أَسْقَطَ,يُسْقِطُ,أَسْقِطْ,مُسْقِط,مُسْقَط,إِسْقَاط,تُسْقِطَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+386,83,D3,سقي,naqis,8,and We gave it to you all to drink,أَسْقَى,يُسْقِي,أَسْقِ,مُسْقٍ,مُسْقًى,إِسْقَاء,فَاَسْقَيْنٰكُمُوْهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+387,83,D3,سكن,sound,5,and surely We will make you all dwell,أَسْكَنَ,يُسْكِنُ,أَسْكِنْ,مُسْكِن,مُسْكَن,إِسْكَان,وَلَنُسْكِنَنَّكُمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+388,83,D3,سلف,sound,2,it did previously (fg),أَسْلَفَ,يُسْلِفُ,أَسْلِفْ,مُسْلِف,مُسْلَف,إِسْلَاف,اَسْلَفَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+389,84,D3,سلم,sound,72,he submitted,أَسْلَمَ,يُسْلِمُ,أَسْلِمْ,مُسْلِم,مُسْلَم,إِسْلَام,اَسْلَمَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+390,84,D3,سمع,sound,15,he has been heard,أَسْمَعَ,يُسْمِعُ,أَسْمِعْ,مُسْمِع,مُسْمَع,إِسْمَاع,مُسْمَعٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+391,84,D3,سمن,sound,1,it will not nourish,أَسْمَنَ,يُسْمِنُ,أَسْمِنْ,مُسْمِن,مُسْمَن,إِسْمَان,لَا يُسْمِنُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+392,84,D3,سوء,hz3+ajwaf,6,you all did evil,أَسَاءَ,يُسِيءُ,أَسِئْ,مُسِيء,مُسَاء,إِسَاءَة,اَسَاْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+393,84,D3,سوغ,ajwaf,1,he will swallow it,أَسَاغَ,يُسِيغُ,أَسِغْ,مُسِيغ,مُسَاغ,إِسَاغَة,يُسِيْغُهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+394,84,D3,سوم,ajwaf,1,you all pasture your cattle,أَسَامَ,يُسِيمُ,أَسِمْ,مُسِيم,مُسَام,إِسَامَة,تُسِيْمُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+395,84,D3,سيل,ajwaf,1,and We caused to flow,أَسَالَ,يُسِيلُ,أَسِلْ,مُسِيل,مُسَال,إِسَالَة,وَاَسَلْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+396,84,D3,شرب,sound,1,and they were made to drink,أَشْرَبَ,يُشْرِبُ,أَشْرِبْ,مُشْرِب,مُشْرَب,إِشْرَاب,وَاُشْرِبُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+397,84,D3,شرق,sound,4,"at the time of sunrise, during sunrise",أَشْرَقَ,يُشْرِقُ,أَشْرِقْ,مُشْرِق,مُشْرَق,إِشْرَاق,مُشْرِقِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+398,84,D3,شرك,sound,120,they associated partners,أَشْرَكَ,يُشْرِكُ,أَشْرِكْ,مُشْرِك,مُشْرَك,إِشْرَاك,اَشْرَكُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+399,84,D3,شطط,doubled,1,And don’t be unjust!,أَشَطَّ,يُشِطُّ,أَشْطِطْ,مُشِطّ,مُشَطّ,إِشْطَاط,وَلَا تُشْطِطْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+400,84,D3,شعر,sound,2,will make you all perceive,أَشْعَرَ,يُشْعِرُ,أَشْعِرْ,مُشْعِر,مُشْعَر,إِشْعَار,يُشْعِرُكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+401,84,D3,شفق,sound,10,those who are fearful,أَشْفَقَ,يُشْفِقُ,أَشْفِقْ,مُشْفِق,مُشْفَق,إِشْفَاق,مُشْفِقِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+402,84,D3,شمت,sound,1,Then don’t rejoice!,أَشْمَتَ,يُشْمِتُ,أَشْمِتْ,مُشْمِت,مُشْمَت,إِشْمَات,فَلَا تُشْمِتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+403,85,D3,شهد,sound,7,and he makes witness,أَشْهَدَ,يُشْهِدُ,أَشْهِدْ,مُشْهِد,مُشْهَد,إِشْهَاد,وَيُشْهِدُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+404,85,D3,شور,ajwaf,1,then she pointed,أَشَارَ,يُشِيرُ,أَشِر,مُشِير,مُشَار,إِشَارَة,فَاَشَارَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+405,85,D3,صبح,sound,34,then you all became,أَصْبَحَ,يُصْبِحُ,أَصْبِحْ,مُصْبِح,—,إِصْبَاح,فَاَصْبَحْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+406,85,D3,صدر,sound,1,he returns (something),أَصْدَرَ,يُصْدِرُ,أَصْدِرْ,مُصْدِر,مُصْدَر,إِصْدَار,يُصْدِرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+407,85,D3,صرخ,sound,2,(be) your helper,أَصْرَخَ,يُصْرِخُ,أَصْرِخْ,مُصْرِخ,مُصْرَخ,إِصْرَاخ,بِمُصْرِخِكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+408,85,D3,صرر,doubled,4,and they did not insist,أَصَرَّ,يُصِرُّ,أَصِرّ,مُصِرّ,مُصَرّ,إِصْرَار,وَلَمْ يُصِرُّوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+409,85,D3,صعد,sound,1,you all were running uphill,أَصْعَدَ,يُصْعِدُ,أَصْعِدْ,مُصْعِد,مُصْعَد,إِصْعَاد,تُصْعِدُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+410,85,D3,صفو,naqis,2,did He then choose all of you?,أَصْفٰى,يُصْفِي,أَصْفِ,مُصْفٍ,مُصْفًى,إِصْفَاء,اَفَاَصْفٰىكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+411,85,D3,صلح,sound,40,reformers,أَصْلَحَ,يُصْلِحُ,أَصْلِحْ,مُصْلِح,مُصْلَح,إِصْلَاح,مُصْلِحُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+412,85,D3,صلي,naqis,4,We will put him,أَصْلٰى,يُصْلِي,أَصْلِ,مُصْلٍ,مُصْلًى,إِصْلَاء,نُصْلِيْهِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+413,85,D3,صمم,doubled,1,so He made them deaf,أَصَمَّ,يُصِمُّ,أَصْمِمْ,مُصِمّ,مُصَمّ,إِصْمَام,فَاَصَمَّهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+414,85,D3,صوب,ajwaf,75,struck them (fg),أَصَابَ,يُصِيبُ,أَصِبْ,مُصِيب,مُصَاب,إِصَابَة,اَصَابَتْهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+415,85,D3,ضحك,sound,1,He made laugh,أَضْحَكَ,يُضْحِكُ,أَضْحِكْ,مُضْحِك,مُضْحَك,إِضْحَاك,اَضْحَكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+416,85,D3,ضعف,sound,1,those who give manifold,أَضْعَفَ,يُضْعِفُ,أَضْعِفْ,مُضْعِف,مُضْعَف,إِضْعَاف,الْمُضْعِفُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+417,86,D3,ضلل,doubled,67,He lets go astray,أَضَلَّ,يُضِلُّ,أَضْلِلْ,مُضِلّ,مُضَلّ,إِضْلَال,يُضِلُّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+418,86,D3,ضوء,hz3+ajwaf,3,it lighted (fg),أَضَاءَ,يُضِيءُ,أَضِئْ,مُضِيء,مُضَاء,إِضَاءَة,اَضَآءَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+419,86,D3,ضيع,ajwaf,10,to let go waste,أَضَاعَ,يُضِيعُ,أَضِعْ,مُضِيع,مُضَاع,إِضَاعَة,لِيُضِيْعَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+420,86,D3,طعم,sound,16,to feed,أَطْعَمَ,يُطْعِمُ,أَطْعِمْ,مُطْعِم,مُطْعَم,إِطْعَام,اِطْعَامُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+421,86,D3,طغي,naqis,1,I made him transgress,أَطْغٰى,يُطْغِي,أَطْغِ,مُطْغٍ,مُطْغًى,إِطْغَاء,اَطْغَيْتُهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+422,86,D3,طفء,hz3,3,He extinguished it,أَطْفَأَ,يُطْفِئُ,أَطْفِئْ,مُطْفِئ,مُطْفَأ,إِطْفَاء,اَطْفَاَهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+423,86,D3,طلع,sound,1,that He informs you all,أَطْلَعَ,يُطْلِعُ,أَطْلِعْ,مُطْلِع,مُطْلَع,إِطْلَاع,لِيُطْلِعَكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+424,86,D3,طوع,ajwaf,73,and we obeyed,أَطَاعَ,يُطِيعُ,أَطِعْ,مُطِيع,مُطَاع,إِطَاعَة,واَطَعْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+425,86,D3,طوق,ajwaf,1,they can afford it,أَطَاقَ,يُطِيقُ,أَطِق,مُطِيق,مُطَاق,إِطَاقَة,يُطِيْقُوْنَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+426,86,D3,ظفر,sound,1,He gave victory to you all,أَظْفَرَ,يُظْفِرُ,أَظْفِرْ,مُظْفِر,مُظْفَر,إِظْفَار,اَظْفَرَكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+427,86,D3,ظلم,sound,3,it darkened,أَظْلَمَ,يُظْلِمُ,أَظْلِمْ,مُظْلِم,مُظْلَم,إِظْلَام,اَظْلَمَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+428,86,D3,ظهر,sound,8,so that He manifests it,أَظْهَرَ,يُظْهِرُ,أَظْهِرْ,مُظْهِر,مُظْهَر,إِظْهَار,لِيُظْهِرَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+429,86,D3,عتب,sound,1,those who receive favor,أَعْتَبَ,يُعْتِبُ,أَعْتِبْ,مُعْتِب,مُعْتَب,إِعْتَاب,الْمُعْتَبِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+430,86,D3,عتد,sound,14,We have prepared,أَعْتَدَ,يُعْتِدُ,أَعْتِدْ,مُعْتِد,مُعْتَد,إِعْتَاد,اَعْتَدْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+431,87,D3,عثر,sound,1,We made known,أَعْثَرَ,يُعْثِرُ,أَعْثِرْ,مُعْثِر,مُعْثَر,إِعْثَار,اَعْثَرْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+432,87,D3,عجب,sound,11,it pleases you,أَعْجَبَ,يُعْجِبُ,أَعْجِبْ,مُعْجِب,مُعْجَب,إِعْجَاب,يُّعْجِبُكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+433,87,D3,عجز,sound,16,those who overpower others,أَعْجَزَ,يُعْجِزُ,أَعْجِزْ,مُعْجِز,مُعْجَز,إِعْجَاز,مُعْجِزِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+434,87,D3,عجل,sound,1,made you hasten,أَعْجَلَ,يُعْجِلُ,أَعْجِلْ,مُعْجِل,مُعْجَل,إِعْجَال,اَعْجَلَكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+435,87,D3,عدد,doubled,20,is prepared (fg),أَعَدَّ,يُعِدُّ,أَعِدَّ/أَعْدِدْ,مُعِدّ,مُعَدّ,إِعْدَاد,اُعِدَّتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+436,87,D3,عرض,sound,53,those who turn away,أَعْرَضَ,يُعْرِضُ,أَعْرِضْ,مُعْرِض,مُعْرَض,إِعْرَاض,مُعْرِضُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+437,87,D3,عزز,doubled,1,and You honor,أَعَزَّ,يُعِزُّ,أَعِزَّ,مُعِزّ,مُعَزّ,إِعْزَاز,وَتُعِزُّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+438,87,D3,عصر,sound,2,storm,أَعْصَرَ,يُعْصِرُ,أَعْصِرْ,مُعْصِر,مُعْصَر,إِعْصَار,اِعْصَارٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+439,87,D3,عطو,naqis,8,they pay,أَعْطٰى,يُعْطِي,أَعْطِ,مُعْطٍ,مُعْطًى,إِعْطَاء,يُعْطُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+440,87,D3,عظم,sound,1,and He will make great,أَعْظَمَ,يُعْظِمُ,أَعْظِمْ,مُعْظِم,مُعْظَم,إِعْظَام,وَيُعْظِمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+441,87,D3,عقب,sound,1,so he penalized them,أَعْقَبَ,يُعْقِبُ,أَعْقِبْ,مُعْقِب,مُعْقَب,إِعْقَاب,فَاَعْقَبَهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+442,87,D3,علن,sound,12,they disclose,أَعْلَنَ,يُعْلِنُ,أَعْلِنْ,مُعْلِن,مُعْلَن,إِعْلَان,يُعْلِنُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+443,87,D3,عنت,sound,1,surely he (could have) put you all in difficulties,أَعْنَتَ,يُعْنِتُ,أَعْنِتْ,مُعْنِت,مُعْنَت,إِعْنَات,لَاَعْنَتَكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+444,87,D3,عود,ajwaf,18,He repeats it,أَعَادَ,يُعِيدُ,أَعِدْ,مُعِيد,مُعَاد,إِعَادَة,يُعِيْدُهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+445,88,D3,عوذ,ajwaf,1,I seek refuge for her,أَعَاذَ,يُعِيذُ,أَعِذْ,مُعِيذ,مُعَاذ,إِعَاذَة,اُعِيْذُهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+446,88,D3,عون,ajwaf,2,Thus you all assist me!,أَعَانَ,يُعِينُ,أَعِنْ,مُعِين,مُعَان,إِعَانَة,فَاَعِيْنُوْنِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+447,88,D3,غرق,sound,21,and We drowned,أَغْرَقَ,يُغْرِقُ,أَغْرِقْ,مُغْرِق,مُغْرَق,إِغْرَاق,وَاَغْرَقْنَآ,FORMS_VERIFIED,V10_FORM_COMPLETE
+448,88,D3,غرم,sound,1,those who surely laden with debt,أَغْرَمَ,يُغْرِمُ,أَغْرِمْ,مُغْرِم,مُغْرَم,إِغْرَام,لَمُغْرَمُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+449,88,D3,غرو,naqis,2,therefore We excited,أَغْرٰى,يُغْرِي,أَغْرِ,مُغْرٍ,مُغْرًى,إغراء,فَاَغْرَيْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+450,88,D3,غشي,naqis,4,He covers,أَغْشٰى,يُغْشِي,أَغْشِ,مُغْشٍ,مُغْشًى,إغْشَاء,يُغْشِى,FORMS_VERIFIED,V10_FORM_COMPLETE
+451,88,D3,غطش,sound,1,and He darkened,أَغْطَشَ,يُغْطِشُ,أَغْطِشْ,مُغْطِش,مُغْطَش,إِغْطَاش,وَاَغْطَشَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+452,88,D3,غفل,sound,1,We made heedless,أَغْفَلَ,يُغْفِلُ,أَغْفِلْ,مُغْفِل,مُغْفَل,إِغْفَال,اَغْفَلْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+453,88,D3,غمض,sound,1,(you all) close your eyes disdainfully,أَغْمَضَ,يُغْمِضُ,أَغْمِضْ,مُغْمِض,مُغْمَض,إِغْمَاض,تُغْمِضُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+454,88,D3,غني,naqis,30,will avail,أَغْنٰى,يُغْنِي,أَغْنِ,مُغْنٍ,مُغْنًى,إِغْنَاء,تُغْنِىَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+455,88,D3,غوث,ajwaf,1,will be given abundant rain,أَغَاثَ,يُغِيثُ,أَغِثْ,مُغِيث,مُغَاث,إِغَاثَة,يُغَاثُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+456,88,D3,غور,ajwaf,1,and then the chargers (fg),أَغَارَ,يُغِيرُ,أَغِر,مُغِير,مُغَار,إِغَارَة,فَالْمُغِيرٰتِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+457,88,D3,غوي,ajwaf+naqis,8,You have made me astray,أَغْوٰى,يُغْوِي,أَغْوِ,مُغْوٍ,مُغْوًى,إِغْوَاء,اَغْوَيْتَنِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+458,88,D3,فتو,naqis,5,He gives command to all of you,أَفْتٰى,يُفْتِي,أَفْتِ,مُفْتٍ,مُفْتًى,إِفْتَاء,يُفْتِيْكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+459,89,D3,فرط,sound,1,they will be hastened (towards the fire),أَفْرَطَ,يُفْرِطُ,أَفْرِطْ,مُفْرِط,مُفْرَط,إِفْرَاط,مُّفْرَطُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+460,89,D3,فرغ,sound,3,Pour!,أَفْرَغَ,يُفْرِغُ,أَفْرِغْ,مُفْرِغ,مُفْرَغ,إِفْرَاغ,اَفْرِغْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+461,89,D3,فسد,sound,36,Don’t (you all) spread corruption!,أَفْسَدَ,يُفْسِدُ,أَفْسِدْ,مُفْسِد,مُفْسَد,إِفْسَاد,لَا تُفْسِدُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+462,89,D3,فضو,naqis,1,he has reached,أَفْضٰى,يُفْضِي,أَفْضِ,مُفْضٍ,مُفْضًى,إفْضَاء,اَفْضٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+463,89,D3,فلح,sound,40,the successful ones,أَفْلَحَ,يُفْلِحُ,أَفْلِحْ,مُفْلِح,—,إِفْلَاح,الْمُفْلِحُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+464,89,D3,فوق,ajwaf,1,he recovered,أَفَاقَ,يُفِيقُ,أَفِقْ,مُفِيق,مُفَاق,إِفَاقَة,اَفَاقَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+465,89,D3,فيء,hz3+ajwaf,3,"gave, restored",أَفَاءَ,يُفِيءُ,أَفِئْ,مُفِيء,مُفَاء,إِفَاءَة,اَفَآءَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+466,89,D3,فيض,ajwaf,7,you all came back,أَفَاضَ,يُفِيضُ,أَفِضْ,مُفِيض,مُفَاض,إِفَاضَة,اَفَضْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+467,89,D3,قبر,sound,1,and provided a grave for him,أَقْبَرَ,يُقْبِرُ,أَقْبِرْ,مُقْبِر,مُقْبَر,إِقْبَار,فَاَقْبَرَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+468,89,D3,قبل,sound,9,and they approached,أَقْبَلَ,يُقْبِلُ,أَقْبِلْ,مُقْبِل,مُقْبَل,إِقْبَال,وَاَقْبَلُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+469,89,D3,قتر,sound,1,the poor,أَقْتَرَ,يُقْتِرُ,أَقْتِرْ,مُقْتِر,مُقْتَر,إِقْتَار,الْمُقْتِرِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+470,89,D3,قرء,hz3,1,We will make you recite,أَقْرَأَ,يُقْرِئُ,أَقْرِ,مُقْرِئ,مُقْرَأ,إِقْرَاء,سَنُقْرِئُكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+471,89,D3,قرر,doubled,4,you all ratified,أَقَرَّ,يُقِرُّ,أَقْرِرْ,مُقِرّ,مُقَرّ,إِقْرَار,اَقْرَرْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+472,89,D3,قرض,sound,6,he lends,أَقْرَضَ,يُقْرِضُ,أَقْرِضْ,مُقْرِض,مُقْرَض,إِقْرَاض,يُقْرِضُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+473,90,D3,قرن,sound,1,those who subdue (others),أَقْرَنَ,يُقْرِنُ,أَقْرِنْ,مُقْرِن,مُقْرَن,إِقْرَان,مُقْرِنِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+474,90,D3,قسط,sound,6,you all do justice,أَقْسَطَ,يُقْسِطُ,أَقْسِطْ,مُقْسِط,—,إِقْسَاط,تُقْسِطُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+475,90,D3,قسم,sound,20,they swore,أَقْسَمَ,يُقْسِمُ,أَقْسِمْ,مُقْسِم,مُقْسَم,إِقْسَام,اَقْسَمُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+476,90,D3,قصر,sound,1,they cease,أَقْصَرَ,يُقْصِرُ,أَقْصِرْ,مُقْصِر,مُقْصَر,إِقْصَار,يُقْصِرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+477,90,D3,قلع,sound,1,Withhold! (fg),أَقْلَعَ,يُقْلِعُ,أَقْلِعْ,مُقْلِع,مُقْلَع,إِقْلَاع,اَقْلِعِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+478,90,D3,قلل,doubled,1,it carried (fg),أَقَلَّ,يُقِلُّ,أَقْلِلْ,مُقِلّ,مُقَلّ,إِقْلَال,اَقَلَّتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+479,90,D3,قمح,sound,1,those with heads raised up,أَقْمَحَ,يُقْمِحُ,أَقْمِحْ,مُقْمِح,مُقْمَح,إِقْمَاح,مُّقْمَحُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+480,90,D3,قوت,ajwaf,1,one who has supreme power,أَقَاتَ,يُقِيتُ,أَقِتْ,مُقِيت,مُقَات,إِقَاتَة,مُّقِيْتًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+481,90,D3,قوم,ajwaf,71,and they establish,أَقَامَ,يُقِيمُ,أَقِمْ,مُقِيم,مُقَام,إِقَامَة,وَيُقِيْمُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+482,90,D3,قوي,ajwaf+naqis,1,for the wayfarers,أَقْوٰى,يُقْوِي,أَقْوِ,مُقْوٍ,—,إِقْوَاء,لِّلْمُقْوِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+483,90,D3,كبب,doubled,1,the one who is falling,أَكَبَّ,يُكِبُّ,أَكِبَّ,مُكِبّ,مُكَبّ,إِكْبَاب,مُكِبَّا,FORMS_VERIFIED,V10_FORM_COMPLETE
+484,90,D3,كبر,sound,1,they (fg) greatly admired him,أَكْبَرَ,يُكْبِرُ,أَكْبِرْ,مُكْبِر,مُكْبَر,إِكْبَار,اَكْبَرْنَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+485,90,D3,كثر,sound,2,and you (have been) frequent,أَكْثَرَ,يُكْثِرُ,أَكْثِرْ,مُكْثِر,مُكْثَر,إِكْثَار,فَاَكْثَرْتَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+486,90,D3,كدي,naqis,1,and he withheld,أَكْدٰى,يُكْدِي,أَكْدِ,مُكْدٍ,—,إِكْدَاء,وَّاَكْدٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+487,91,D3,كرم,sound,12,Give respect (fg)!,أَكْرَمَ,يُكْرِمُ,أَكْرِمْ,مُكْرِم,مُكْرَم,إِكْرَام,اَكْرِمِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+488,91,D3,كره,sound,7,compulsion,أَكْرَهَ,يُكْرِهُ,أَكْرِهْ,مُكْرِه,مُكْرَه,إِكْرَاه,اِكْرَاهَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+489,91,D3,كفر,sound,1,how ungrateful is he!,أَكْفَرَ,يُكْفِرُ,أَكْفِرْ,مُكْفِر,—,إِكْفَار,مَآ اَكْفَرَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+490,91,D3,كفل,sound,1,Entrust it to me!,أَكْفَلَ,يُكْفِلُ,أَكْفِلْ,مُكْفِل,مُكْفَل,إِكْفَال,اَكْفِلْنِيْهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+491,91,D3,كمل,sound,2,so that you all complete,أَكْمَلَ,يُكْمِلُ,أَكْمِلْ,مُكْمِل,مُكْمَل,إِكْمَال,وَلِتُكْمِلُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+492,91,D3,كنن,doubled,3,you all concealed,أَكَنَّ,يُكِنُّ,أَكْنِنْ,مُكِنّ,مُكَنّ,إِكْنَان,اَكْنَنْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+493,91,D3,لحد,sound,4,they deviate,أَلْحَدَ,يُلْحِدُ,أَلْحِدْ,مُلْحِد,مُلْحَد,إِلْحَاد,يُلْحِدُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+494,91,D3,لحف,sound,1,being covered,أَلْحَفَ,يُلْحِفُ,أَلْحِفْ,مُلْحِف,مُلْحَف,إِلْحَاف,اِلْحَافًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+495,91,D3,لحق,sound,4,And join me!,أَلْحَقَ,يُلْحِقُ,أَلْحِقْ,مُلْحِق,مُلْحَق,إِلْحَاق,وَّاَلْحِقْنِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+496,91,D3,لزم,sound,3,should We compel you all (to accept) it?,أَلْزَمَ,يُلْزِمُ,أَلْزِمْ,مُلْزِم,مُلْزَم,إِلْزَام,اَنُلْزِمُكُمُوْهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+497,91,D3,لفي,naqis,3,we found,أَلْفٰى,يُلْفِي,أَلْفِ,مُلْفٍ,مُلْفًى,إِلْفَاء,اَلْفَيْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+498,91,D3,لقي,naqis,75,And (you all) don’t put!,أَلْقَى,يُلْقِي,أَلْقِ,مُلْقٍ,مُلْقًى,إِلْقَاء,وَلَا تُلْقُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+499,91,D3,لهم,sound,1,then He inspired it,أَلْهَمَ,يُلْهِمُ,أَلْهِمْ,مُلْهِم,مُلْهَم,إِلْهَام,فَاَلْهَمَهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+500,91,D3,لهو,naqis,3,and diverted them,أَلْهٰى,يُلْهِي,أَلْهِ,مُلْهٍ,مُلْهًى,إِلْهَاء,وَيُلْهِهِمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+501,92,D3,لوم,ajwaf,2,blameworthy,أَلَامَ,يُلِيمُ,أَلِمْ,مُلِيم,مُلَام,إِلَامَة,مُلِيْمٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+502,92,D3,لين,ajwaf,1,and We made soft,أَلَانَ,يُلِينُ,أَلِنْ,مُلِين,مُلَان,إِلَانَة,وَاَلَنَّا,FORMS_VERIFIED,V10_FORM_COMPLETE
+503,92,D3,مدد,doubled,11,He reinforces you all,أَمَدَّ,يُمِدُّ,أَمْدِدْ,مُمِدّ,مُمَدّ,إِمْدَاد,يُمِدَّكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+504,92,D3,مسك,sound,21,then to retain,أَمْسَكَ,يُمْسِكُ,أَمْسِكْ,مُمْسِك,مُمْسَك,إِمْسَاك,فَاِمْسَاك,FORMS_VERIFIED,V10_FORM_COMPLETE
+505,92,D3,مسو,naqis,1,you all spend the evening,أَمْسٰى,يُمْسِي,أَمْسِ,مُمْسٍ,—,إِمْسَاء,تُمْسُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+506,92,D3,مطر,sound,8,and We showered,أَمْطَرَ,يُمْطِرُ,أَمْطِرْ,مُمْطِر,مُمْطَر,إِمْطَار,وَاَمْطَرْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+507,92,D3,مكن,sound,1,so He gave power over,أَمْكَنَ,يُمْكِنُ,أَمْكِنْ,مُمْكِن,مُمْكَن,إِمْكَان,فَاَمْكَنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+508,92,D3,ملق,sound,2,poverty,أَمْلَقَ,يُمْلِقُ,أَمْلِقْ,مُمْلِق,مُمْلَق,إِمْلَاق,اِمْلَاقٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+509,92,D3,ملل,doubled,3,and let (him) dictate,أَمَلَّ,يُمِلُّ,أَمْلِلْ,مُمِلٌّ,مُمَلٌّ,إِمْلَال,وَلْيُمْلِلِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+510,92,D3,ملو,naqis,9,we prolong,أَمْلٰى,يُمْلِي,أَمْلِ,مُمْلٍ,مُمْلًى,إِمْلَاء,نُمْلِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+511,92,D3,مهل,sound,1,Give respite to them!,أَمْهَلَ,يُمْهِلُ,أَمْهِلْ,مُمْهِل,مُمْهَل,إِمْهَال,اَمْهِلْهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+512,92,D3,موت,ajwaf,21,He will cause you all to die,أَمَاتَ,يُمِيتُ,أَمِتْ,مُمِيت,مُمَات,إِمَاتَة,يُمِيْتُكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+513,92,D3,نبء,hz3,4,(You all) Inform me (pl)!,أَنْبَأَ,يُنْبِئُ,أَنْبِ,مُنْبِئ,مُنْبَأ,إِنْبَاء,اَنۢبِئُوْنِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+514,92,D3,نبت,sound,16,it grows (fg),أَنْبَتَ,يُنْبِتُ,أَنْبِتْ,مُنْبِت,مُنْبَت,إِنْبَات,تُنۢبِتُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+515,93,D3,نجو,naqis,23,then We saved you all,أَنْجَى,يُنْجِي,أَنْجِ,مُنْجٍ,مُنْجًى,إِنْجَاء,فَاَنْجَيْنٰكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+516,93,D3,نذر,sound,64,whether you warn them,أَنْذَرَ,يُنْذِرُ,أَنْذِرْ,مُنْذِر,مُنْذَر,إِنْذَار,ءَاَنْذَرْتَهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+517,93,D3,نزف,sound,1,and they will not get intoxicated,أَنْزَفَ,يُنْزِفُ,أَنْزِفْ,مُنْزِف,—,إِنْزَاف,وَلَا يُنْزِفُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+518,93,D3,نزل,sound,190,was sent down,أَنْزَلَ,يُنْزِلُ,أَنْزِلْ,مُنْزِل,مُنْزَل,إِنْزَال,اُنْزِلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+519,93,D3,نسي,naqis,7,We cause it to be forgotten,أَنْسٰى,يُنْسِي,أَنْسِ,مُنْسٍ,مُنْسًى,إنساء,نُنْسِهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+520,93,D3,نشء,hz3,23,and We raised,أَنْشَأَ,يُنْشِئُ,أَنْشِئْ,مُنْشِئ,مُنْشَئ,إِنْشَاء,وَاَنْشَاْنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+521,93,D3,نشر,sound,4,they raise (the dead),أَنْشَرَ,يُنْشِرُ,أَنْشِرْ,مُنْشِر,مُنْشَر,إِنْشَار,يُنْشِرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+522,93,D3,نشز,sound,1,We join them,أَنْشَزَ,يُنْشِزُ,أَنْشِزْ,مُنْشِز,مُنْشَز,إِنْشَاز,نُنْشِزُهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+523,93,D3,نصت,sound,2,And pay attention (pl)!,أَنْصَتَ,يُنْصِتُ,أَنْصِتْ,مُنْصِت,مُنْصَت,إِنْصَات,وَاَنْصِتُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+524,93,D3,نطق,sound,2,He made us speak,أَنْطَقَ,يُنْطِقُ,أَنْطِقْ,مُنْطِق,مُنْطَق,إِنْطَاق,اَنْطَقَنَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+525,93,D3,نظر,sound,18,they will be reprieved,أَنْظَرَ,يُنْظِرُ,أَنْظِرْ,مُنْظِر,مُنْظَر,إِنْظَار,يُنْظَرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+526,93,D3,نعم,sound,17,You have bestowed favors,أَنْعَمَ,يُنْعِمُ,أَنْعِمْ,مُنْعِم,مُنْعَم,إِنْعَام,اَنْعَمْتَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+527,93,D3,نغض,sound,1,then they will shake,أَنْغَضَ,يُنْغِضُ,أَنْغِضْ,مُنْغِض,مُنْغَض,إِنْغَاض,فَسَيُنْغِضُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+528,93,D3,نفق,sound,70,they spend,أَنْفَقَ,يُنْفِقُ,أَنْفِقْ,مُنْفِق,مُنْفَق,إِنْفَاق,يُنْفِقُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+529,94,D3,نقذ,sound,4,then He saved you all,أَنْقَذَ,يُنْقِذُ,أَنْقِذْ,مُنْقِذ,مُنْقَذ,إِنْقَاذ,فَاَنْقَذَكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+530,94,D3,نقض,sound,1,he weighed upon,أَنْقَضَ,يُنْقِضُ,أَنْقِضْ,مُنْقِض,مُنْقَض,إِنْقَاض,اَنْقَضَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+531,94,D3,نكح,sound,3,don’t (you all) marry!,أَنْكَحَ,يُنْكِحُ,أَنْكِحْ,مُنْكِح,مُنْكَح,إِنْكَاح,وَلَا تُنْكِحُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+532,94,D3,نكر,sound,25,the wrong,أَنْكَرَ,يُنْكِرُ,أَنْكِرْ,مُنْكِر,مُنْكَر,إِنْكَار,الْمُنْكَرِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+533,94,D3,نوب,ajwaf,18,the one who turns to,أَنَابَ,يُنِيبُ,أَنِبْ,مُنِيب,مُنَاب,إِنَابَة,مُنِيْبٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+534,94,D3,نور,ajwaf,6,the enlightening,أَنَارَ,يُنِيرُ,أَنِرْ,مُنِير,مُنَار,إِنَارَة,الْمُنِيْرِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+535,94,D3,هطع,sound,3,those who racing ahead,أَهْطَعَ,يُهْطِعُ,أَهْطِعْ,مُهْطِع,—,إِهْطَاع,مُهْطِعِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+536,94,D3,هلك,sound,58,and he destroys,أَهْلَكَ,يُهْلِكُ,أَهْلِكْ,مُهْلِك,مُهْلَك,إِهْلَاك,وَيُهْلِكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+537,94,D3,هلل,doubled,4,he has been invoked,أَهَلَّ,يُهِلُّ,أَهْلِلْ,مُهِلّ,مُهَلّ,إِهْلَال,اُهِلَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+538,94,D3,همم,doubled,1,it put them in worry (fg),أَهَمَّ,يُهِمُّ,أَهْمِمْ,مُهِمّ,مُهَمّ,إِهْمَام,اَهَمَّتْهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+539,94,D3,هون,ajwaf,17,humiliating,أَهَانَ,يُهِينُ,أَهِنْ,مُهِين,مُهَان,إِهَانَة,مُهِيْنٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+540,94,D3,وبق,mithal,1,He could destroy them,أَوْبَقَ,يُوبِقُ,أَوْبِقْ,مُوْبِق,مُوبَق,إِيبَاق,يُوْبِقْهُنَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+541,94,D3,وثق,mithal,1,will bind,أَوْثَقَ,يُوثِقُ,أَوْثِقْ,مُوثِق,مُوثَق,إِيثَاق,يُوْثِقُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+542,94,D3,وجس,mithal,3,"and he conceived, felt",أَوْجَسَ,يُوجِسُ,أَوْجِسْ,مُوْجِس,مُوْجَس,إِيجَاس,وَاَوْجَسَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+543,95,D3,وجف,mithal,1,you all made expedition,أَوْجَفَ,يُوجِفُ,أَوْجِفْ,مُوجِف,مُوجَف,إيجَاف,اَوْجَفْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+544,95,D3,وحي,mithal+naqis,72,we reveal it,أَوْحَى,يُوحِي,أَوْحِ,مُوحٍ,مُوحًى,إِيحَاء,نُوْحِيْهِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+545,95,D3,ورث,mithal,12,you all have been made to inherit it,أَوْرَثَ,يُورِثُ,أَوْرِثْ,مُورِث,مُورَث,إِيرَاث,اُوْرِثْتُمُوْهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+546,95,D3,ورد,mithal,1,and will cause them to descend into,أَوْرَدَ,يُورِدُ,أَوْرِدْ,مُورِد,مُورَد,إِيرَاد,فَاَوْرَدَهُمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+547,95,D3,وري,mithal+naqis,2,you all ignite,أَوْرٰى,يُورِي,أَوْرِ,مُورٍ,مُورًى,إِيرَاء,تُوْرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+548,95,D3,وزع,mithal,5,Grant me the power!,أَوْزَعَ,يُوزِعُ,أَوْزِعْ,مُوزِع,مُوزَع,إِيزَاع,اَوْزِعْنِىٓ,FORMS_VERIFIED,V10_FORM_COMPLETE
+549,95,D3,وسع,mithal,2,the wealthy,أَوْسَعَ,يُوسِعُ,أَوْسِعْ,مُوسِع,مُوسَع,إِيسَاع,الْمُوْسِعِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+550,95,D3,وصي,mithal+naqis,6,the testator,أَوْصٰى,يُوصِي,أَوْصِ,مُوصٍ,مُوصًى,إِيصَاء,مُّوْصٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+551,95,D3,وضع,mithal,1,and they would have been active,أَوْضَعَ,يُوضِعُ,أَوْضِعْ,مُوضِع,مُوضَع,إِيضَاع,وَّلَا اَوْضَعُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+552,95,D3,وعد,mithal,1,you all are threatening,أَوْعَدَ,يُوعِدُ,أَوْعِدْ,مُوعِد,مُوعَد,إِيعَاد,تُوْعِدُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+553,95,D3,وعي,mithal+naqis,2,and hoarded,أَوْعٰى,يُوعِي,أَوْعِ,مُوعٍ,مُوعًى,إِيعَاء,فَاَوْعٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+554,95,D3,وفض,mithal,1,they hasten,أَوْفَضَ,يُوفِضُ,أَوْفِضْ,مُوفِض,—,إيفَاض,يُّوْفِضُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+555,95,D3,وفي,mithal+naqis,19,And (you all) fulfill!,أَوْفَى,يُوفِي,أَوْفِ,مُوفٍ,مُوفًى,إِيفَاء,وَاَوْفُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+556,95,D3,وقد,mithal,6,they kindled,أَوْقَدَ,يُوقِدُ,أَوْقِدْ,مُوقِد,مُوقَد,إِيقَاد,اَوْقَدُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+557,96,D3,وقع,mithal,1,cause to fall into,أَوْقَعَ,يُوقِعُ,أَوْقِعْ,مُوقِع,مُوقَع,إِيقَاع,يُوْقِعَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+558,96,D3,ولج,mithal,10,You cause to enter,أَوْلَجَ,يُولِجُ,أَوْلِجْ,مُوْلِج,مُوْلَج,إِيلَاج,تُوْلِجُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+559,96,D3,وهن,mithal,1,one who makes (others) weak,أَوْهَنَ,يُوهِنُ,أَوْهِنْ,مُوهِن,مُوهَن,إِيهَان,مُوْهِنُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+560,96,D3,يقن,mithal,17,"they are certain of, sure, affirm, believe",أَيْقَنَ,يُوقِنُ,أَيْقِنْ,مُوقِن,مُوقَن,إِيقَان,يُوْقِنُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+561,97,D4,أخر,hz1,3,he delayed,تَأَخَّرَ,يَتَأَخَّرُ,تَأَخَّرْ,مُتَأَخِّر,مُتَأَخَّر,تَأَخُّر,تَاَخَّرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+562,97,D4,أذن,hz1,2,he declared,تَأَذَّنَ,يَتَأَذَّنُ,تَأَذَّنْ,مُتَأَذِّن,—,تَأَذُّن,تَاَذَّنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+563,97,D4,بتل,sound,1,And devote yourself!,تَبَتَّلَ,يَتَبَتَّلُ,تَبَتَّلْ,مُتَبَتِّل,مُتَبَتَّل,تَبَتُّل,وَتَبَتَّلْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+564,97,D4,بدل,sound,3,he exchanges,تَبَدَّلَ,يَتَبَدَّلُ,تَبَدَّلْ,مُتَبَدِّل,مُتَبَدَّل,تَبَدُّل,يَتَبَدَّلِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+565,97,D4,برء,hz3,5,he refused to maintain any connection with,تَبَرَّأَ,يَتَبَرَّأُ,تَبَرَّء,مُتَبَرِّئ,مُتَبَرَّأ,تَبَرُّؤ,تَبَرَّاَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+566,97,D4,برج,sound,3,displaying (fg),تَبَرَّجَ,يَتَبَرَّجُ,تَبَرَّجْ,مُتَبَرِّج,—,تَبَرُّج,مُتَبَرِّجٰتٍۢ,FORMS_VERIFIED,V10_FORM_COMPLETE
+567,97,D4,بسم,sound,1,so he smiled,تَبَسَّمَ,يَتَبَسَّمُ,تَبَسَّمْ,مُتَبَسِّم,—,تَبَسُّم,فَتَبَسَّمَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+568,97,D4,بوء,hz3+ajwaf,4,he settled,تَبَوَّأَ,يَتَبَوَّأُ,تَبَوَّء,مَتَبَوِّئ,مُتَبَوَّأ,تَبَوُّؤ,تَبَوَّآ,FORMS_VERIFIED,V10_FORM_COMPLETE
+569,97,D4,بين,ajwaf,18,it became clear,تَبَيَّنَ,يَتَبَيَّنُ,تَبَيَّنْ,مُتَبَيِّن,مُتَبَيَّن,تَبَيُّن,تَبَيَّنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+570,97,D4,جرع,sound,1,he will sip it,تَجَرَّعَ,يَتَجَرَّعُ,تَجَرَّعْ,مُتَجَرِّع,مُتَجَرَّع,تَجَرُّع,يَتَجَرَّعُهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+571,97,D4,جسس,doubled,1,Don’t (you all) spy!,تَجَسَّسَ,يَتَجَسَّسُ,تَجَسَّسْ,مُتَجَسِّس,مُتَجَسَّس,تَجَسُّس,وَّلَا تَجَسَّسُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+572,97,D4,جلو,naqis,2,he revealed (his) glory,تَجَلَّى,يَتَجَلَّى,تَجَلَّ,مُتَجَلٍّ,مُتَجَلَّى,تَجَلٍّ,تَجَلَّى,FORMS_VERIFIED,V10_FORM_COMPLETE
+573,97,D4,جنب,sound,1,and he will avoid it,تَجَنَّبَ,يَتَجَنَّبُ,تَجَنَّبْ,مُتَجَنِّب,مُتَجَنَّب,تَجَنُّب,وَيَتَجَنَّبُهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+574,97,D4,حرف,sound,1,manoeuvring (for battle),تَحَرَّفَ,يَتَحَرَّفُ,تَحَرَّفْ,مُتَحَرِّف,مُتَحَرَّف,تَحَرُّف,مُتَحَرِّفًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+575,98,D4,حسس,doubled,1,So inquire (pl)!,تَحَسَّسَ,يَتَحَسَّسُ,تَحَسَّسْ,مُتَحَسِّس,مُتَحَسَّس,تَحَسُّس,فَتَحَسَّسُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+576,98,D4,حصن,sound,1,chastity,تَحَصَّنَ,يَتَحَصَّنُ,تَحَصَّنْ,مُتَحَصِّن,مُتَحَصَّن,تَحَصُّن,تَحَصُّنًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+577,98,D4,حيز,ajwaf,1,joining,تَحَيَّزَ,يَتَحَيَّزُ,تَحَيَّزْ,مُتَحَيِّز,مُتَحَيَّز,تَحَيُّز,مُتَحَيِّزًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+578,98,D4,خبط,sound,1,he confounds him,تَخَبَّطَ,يَتَخَبَّطُ,تَخَبَّطْ,مُتَخَبِّط,مُتَخَبَّط,تَخَبُّط,يَتَخَبَّطُهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+579,98,D4,خطف,sound,3,might do away with you all,تَخَطَّفَ,يَتَخَطَّفُ,تَخَطَّفْ,مُتَخَطِّف,مُتَخَطَّف,تَخَطُّف,يَّتَخَطَّفَكُمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+580,98,D4,خلف,sound,1,they remain behind,تَخَلَّفَ,يَتَخَلَّفُ,تَخَلَّفْ,مُتَخَلِّف,مُتَخَلَّف,تَخَلُّف,يَّتَخَلَّفُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+581,98,D4,خلو,naqis,1,and became empty (fg),تَخَلَّى,يَتَخَلَّى,تَخَلَّ,مُتَخَلٍّ,مُتَخَلَّى,تَخَلٍّ,وَتَخَلَّتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+582,98,D4,خوف,ajwaf,1,apprehension; a gradual wasting,تَخَوَّفَ,يَتَخَوَّفُ,تَخَوَّفْ,مُتَخَوِّف,مُتَخَوَّف,تَخَوُّف,تَخَوُّفٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+583,98,D4,خير,ajwaf,2,they select,تَخَيَّرَ,يَتَخَيَّرُ,تَخَيَّرْ,مُتَخَيِّر,مُتَخَيَّر,تَخَيُّر,يَتَخَيَّرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+584,98,D4,دبر,sound,4,they ponder,تَدَبَّرَ,يَتَدَبَّرُ,تَدَبَّرْ,مُتَدَبِّر,مُتَدَبَّر,تَدَبُّر,يَتَدَبَّرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+585,98,D4,دثر,sound,1,who covers himself in cloth,اِدَّثَّرَ,يَدَّثِّرُ,اِدَّثِّرْ,مُدَّثِّر,مُدَّثَّر,اِدَّثُّرٌ/اِدِّثَّار,الْمُدَّثِّرُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+586,98,D4,دلو,naqis,1,so he came close,تَدَلَّى,يَتَدَلَّى,تَدَلَّ,مُتَدَلٍّ,مُتَدَلَّى,تَدَلٍّ,فَتَدَلَّى,FORMS_VERIFIED,V10_FORM_COMPLETE
+587,98,D4,ذكر,sound,51,they take lessons,تَذَكَّرَ,يَتَذَكَّرُ,تَذَكَّرْ,مُتَذَكِّر,مُتَذَكَّر,تَذَكُّر,يَتَذَكَّرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+588,98,D4,ربص,sound,17,waiting,تَرَبَّصَ,يَتَرَبَّصُ,تَرَبَّصْ,مُتَرَبِّص,مُتَرَبَّص,تَرَبُّص,تَرَبُّصُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+589,99,D4,ردد,doubled,2,they deviate,تَرَدَّدَ,يَتَرَدَّدُ,تَرَدَّدْ,مُتَرَدِّد,مُتَرَدَّد,تَرَدُّد,يَتَرَدَّدُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+590,99,D4,ردي,naqis,2,and that which has a fatal fall (fg),تَرَدَّى,يَتَرَدَّى,تَرَدَّ,مُتَرَدٍّ,مُتَرَدًّى,تَرَدٍّ,وَالْمُتَرَدِّيَةُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+591,99,D4,رقب,sound,2,he is vigilant,تَرَقَّبَ,يَتَرَقَّبُ,تَرَقَّبْ,مُتَرَقِّب,مُتَرَقَّب,تَرَقُّب,يَّتَرَقَّبُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+592,99,D4,زكو,naqis,8,he purified himself,تَزَكَّا,يَتَزَكَّا,تَزَكَّ,مُتَزَكٍّ,—,تَزَكٍّ,تَزَكَّا,FORMS_VERIFIED,V10_FORM_COMPLETE
+593,99,D4,زمل,sound,1,who wraps himself in cloth,اِزَّمَّلَ,يَزَّمَّلُ,اِزَّمِّلْ,مُزَّمِّل,مُزَّمَّل,اِزِّمَّال,الْمُزَّمِّلُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+594,99,D4,زود,ajwaf,1,And take provision (pl)!,تَزَوَّدَ,يَتَزَوَّدُ,تَزَوَّدْ,مُتَزَوِّد,مُتَزَوَّد,تَزَوُّد,وَتَزَوَّدُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+595,99,D4,زيل,ajwaf,1,they had been apart,تَزَيَّلَ,يَتَزَيَّلُ,تَزَيَّلْ,مُتَزَيِّل,—,تَزَيُّل,تَزَيَّلُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+596,99,D4,زين,ajwaf,1,and is beautified (fg),تَزَيَّنَ,يَتَزَيَّنُ,تَزَيَّنْ,مُتَزَيِّن,—,تَزَيُّن,وَازَّيَّنَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+597,99,D4,سلل,doubled,1,they slip away,تَسَلَّلَ,يَتَسَلَّلُ,تَسَلَّلْ,مُتَسَلِّل,—,تَسَلُّل,يَتَسَلَّلُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+598,99,D4,سمع,sound,1,they may not listen,اِسَّمَّعَ,يَسَّمَّعُ,اِسَّمَعْ,مُسَّمِّع,مُسَّمَّع,اِسَّمُّع,لَا يَسَّمَّعُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+599,99,D4,سن,other,1,didn’t change with time,تَسَنَّهَ,يَتَسَنَّهُ,تَسَنَّهْ,مُتَسَنِّه,—,تَسَنُّه,لَمْ يَتَسَنَّهْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+600,99,D4,سور,ajwaf,1,they climbed over the wall,تَسَوَّرَ,يَتَسَوَّرُ,تَسَوَّرْ,مُتَسَوِّر,مُتَسَوَّر,تَسَوُّر,تَسَوَّرُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+601,99,D4,شقق,doubled,3,it splits,اِشَّقَّقَ,يَشَّقَّقُ,اِشَّقَّقْ,مُشَّقِّق,—,اِشَّقُّق,يَشَّقَّقُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+602,99,D4,صدع,sound,2,they will be divided,اِصَّدَّعَ,يَصَّدَّعُ,اِصَّدَّعْ,مُصَّدِّع,—,اِصَّدُّع,يَصَّدَّعُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+603,100,D4,صدق,sound,11,Remit (you all) as charity,تَصَدَّقَ,يَتَصَدَّقُ,تَصَدَّقْ,مُتَصَدِّق,مُتَصَدَّق,تَصَدُّق,تَصَدَّقُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+604,100,D4,صدي,naqis,1,you give attention,تَصَدَّى,يَتَصَدَّى,تَصَدَّ,مُتَصَدٍّ,مُتَصَدًّى,تَصَدٍّ,تَصَدَّى,FORMS_VERIFIED,V10_FORM_COMPLETE
+605,100,D4,صعد,sound,1,he climbs,اِصَّعَّدَ,يَصَّعَّدُ,اِصَّعَّدْ,مُصَّعِّد,مُصَّعَّد,اِصَّعُّد,يَصَّعَّدُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+606,100,D4,ضرع,sound,7,they humble themselves,تَضَرَّعَ,يَتَضَرَّعُ,تَضَرَّعْ,مُتَضَرِّع,مُتَضَرَّع,تَضَرُّع,يَتَضَرَّعُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+607,100,D4,طهر,sound,7,they are purified (fg),تَطَهَّرَ,يَتَطَهَّرُ,تَطَهَّرْ,مُتَطَهِّر,—,تَطَهُّر,تَطَهَّرْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+608,100,D4,طوع,ajwaf,3,he did voluntarily,تَطَوَّعَ,يَتَطَوَّعُ,تَطَوَّعْ,مُتَطَوِّع,مُتَطَوَّع,تَطَوُّع,تَطَوَّعَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+609,100,D4,طوف,ajwaf,2,he circumambulates,اِطَّوَّفَ,يَطَّوَّفُ,اِطَّوَّفْ,مُطَّوِّف,مُطَّوَّف,اِطَّوُّف,يَّطَّوَّفَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+610,100,D4,طير,ajwaf,3,they ascribe evil omens,اِطَّيَّرَ,يَطَّيَّرُ,اِطَّيَّرْ,مُطَّيِّر,مُطَّيَّر,اِطَّيُّر,يَّطَّيَّرُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+611,100,D4,عجل,sound,1,he hurried,تَعَجَّلَ,يَتَعَجَّلُ,تَعَجَّلْ,مُتَعَجِّل,مُتَعَجَّل,تَعَجُّل,تَعَجَّلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+612,100,D4,عدو,naqis,3,he transgresses,تَعَدَّٰى,يَتَعَدَّى,تَعَدَّ,مُتَعَدٍّ,مُتَعَدَّى,تَعَدٍّ,يَتَعَدَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+613,100,D4,عفف,doubled,1,restraint,تَعَفَّفَ,يَتَعَفَّفُ,تَعَفَّفْ,مُتَعَفِّف,مُتَعَفَّف,تَعَفُّف,التَّعَفُّفِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+614,100,D4,علم,sound,2,but they learn,تَعَلَّمَ,يَتَعَلَّمُ,تَعَلَّمْ,مُتَعَلِّم,مُتَعَلَّم,تَعَلُّم,فَيَتَعَلَّمُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+615,100,D4,عمد,sound,3,intentionally,تَعَمَّدَ,يَتَعَمَّدُ,تَعَمَّدْ,مُتَعَمِّد,مُتَعَمَّد,تَعَمُّد,مُّتَعَمِّدًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+616,100,D4,غشي,naqis,1,he covered her,تَغَشَّى,يَتَغَشَّى,تَغَشَّ,مُتَغَشٍّ,مُتَغَشَّى,تَغَشٍّ,تَغَشَّىهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+617,101,D4,غير,ajwaf,1,it didn’t change,تَغَيَّرَ,يَتَغَيَّرُ,تَغَيَّرْ,مُتَغَيِّر,—,تَغَيُّر,لَمْ يَتَغَيَّرْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+618,101,D4,غيظ,ajwaf,1,raging,تَغَيَّظَ,يَتَغَيَّظُ,تَغَيَّظْ,مُتَغَيِّظ,—,تَغَيُّظ,تَغَيُّظًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+619,101,D4,فجر,sound,1,it gushes forth,تَفَجَّرَ,يَتَفَجَّرُ,تَفَجَّرْ,مُتَفَجِّر,—,تَفَجُّر,يَتَفَجَّرُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+620,101,D4,فرق,sound,10,And don’t (you all) be divided!,تَفَرَّقَ,يَتَفَرَّقُ,تَفَرَّقْ,مُتَفَرِّق,—,تَفَرُّق,وَّلَا تَفَرَّقُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+621,101,D4,فسح,sound,1,Make room (pl)!,تَفَسَّحَ,يَتَفَسَّحُ,تَفَسَّحْ,مُتَفَسِّح,مُتَفَسَّح,تَفَسُّح,تَفَسَّحُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+622,101,D4,فضل,sound,1,he asserts (his) superiority,تَفَضَّلَ,يَتَفَضَّلُ,تَفَضَّلْ,مُتَفَضِّل,مُتَفَضَّل,تَفَضُّل,يَّتَفَضَّلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+623,101,D4,فطر,sound,2,they get torn (fg),تَفَطَّرَ,يَتَفَطَّرُ,تَفَطَّرْ,مُتَفَطِّر,—,تَفَطُّر,يَتَفَطَّرْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+624,101,D4,فقد,sound,1,and he inspected,تَفَقَّدَ,يَتَفَقَّدُ,تَفَقَّدْ,مُتَفَقِّد,مُتَفَقَّد,تَفَقُّد,وَتَفَقَّدَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+625,101,D4,فقه,sound,1,that they may obtain understanding,تَفَقَّهَ,يَتَفَقَّهُ,تَفَقَّهْ,مُتَفَقِّه,مُتَفَقَّه,تَفَقُّه,لِيَتَفَقَّهُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+626,101,D4,فكر,sound,17,you all ponder,تَفَكَّرَ,يَتَفَكَّرُ,تَفَكَّرْ,مُتَفَكِّر,مُتَفَكَّر,تَفَكُّر,تَتَفَكَّرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+627,101,D4,فكه,sound,1,you all wonder,تَفَكَّهَ,يَتَفَكَّهُ,تَفَكَّهْ,مُتَفَكِّه,مُتَفَكَّه,تَفَكُّه,تَفَكَّهُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+628,101,D4,فيء,hz3+ajwaf,1,it inclines,تَفَيَّأَ,يَتَفَيَّأُ,تَفَيَّأْ,مُتَفَيِّئ,مُتَفَيَّأ,تَفَيُّؤ,يَتَفَيَّؤُا,FORMS_VERIFIED,V10_FORM_COMPLETE
+629,101,D4,قبل,sound,10,Accept!,تَقَبَّلَ,يَتَقَبَّلُ,تَقَبَّلْ,مُتَقَبِّل,مُتَقَبَّل,تَقَبُّل,تَقَبَّلْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+630,101,D4,قدم,sound,2,preceded,تَقَدَّمَ,يَتَقَدَّمُ,تَقَدَّمْ,مُتَقَدِّم,مُتَقَدَّم,تَقَدُّم,تَقَدَّمَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+631,102,D4,قطع,sound,5,and is cut off (fg),تَقَطَّعَ,يَتَقَطَّعُ,تَقَطَّعْ,مُتَقَطِّع,مُتَقَطَّع,تَقَطُّع,وَتَقَطَّعَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+632,102,D4,قلب,sound,7,"movement, turn about",تَقَلَّبَ,يَتَقَلَّبُ,تَقَلَّبْ,مُتَقَلِّب,مُتَقَلَّب,تَقَلُّب,تَقَلُّبَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+633,102,D4,قول,ajwaf,2,he has made it up,تَقَوَّلَ,يَتَقَوَّلُ,تَقَوَّلْ,مُتَقَوِّل,مُتَقَوَّل,تَقَوُّل,تَقَوَّلَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+634,102,D4,كبر,sound,9,you be arrogant,تَكَبَّرَ,يَتَكَبَّرُ,تَكَبَّرْ,مُتَكَبِّر,مُتَكَبَّر,تَكَبُّر,تَتَكَبَّرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+635,102,D4,كلف,sound,1,the ones who pretend,تَكَلَّفَ,يَتَكَلَّفُ,تَكَلَّفْ,مُتَكَلِّف,مُتَكَلَّف,تَكَلُّف,الْمُتَكَلِّفِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+636,102,D4,كلم,sound,4,will not speak (fg),تَكَلَّمَ,يَتَكَلَّمُ,تَكَلَّمْ,مُتَكَلِّم,مُتَكَلَّم,تَكَلُّم,لَا تَكَلَّمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+637,102,D4,لبث,sound,1,they hesitated,تَلَبَّثَ,يَتَلَبَّثُ,تَلَبَّثْ,مُتَلَبِّث,مُتَلَبَّث,تَلَبُّث,تَلَبَّثُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+638,102,D4,لطف,sound,1,And let him be soften!,تَلَطَّفَ,يَتَلَطَّفُ,تَلَطَّفْ,مُتَلَطِّف,مُتَلَطَّف,تَلَطُّف,وَلْيَتَّلَطَّفْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+639,102,D4,لظي,naqis,1,blazing (fg),تَلَظَّى,يَتَلَظَّى,تَلَظَّ,مُتَلَظٍّ,—,تَلَظٍّ,تَلَظَّى,FORMS_VERIFIED,V10_FORM_COMPLETE
+640,102,D4,لقي,naqis,5,then he received,تَلَقَّى,يَتَلَقَّى,تَلَقَّ,مُتَلَقٍّ,مُتَلَقَّى,تَلَقٍّ,فَتَلَقَّى,FORMS_VERIFIED,V10_FORM_COMPLETE
+641,102,D4,لهو,naqis,1,you get distracted,تَلَهَّى,يَتَلَهَّى,تَلَهَّ,مُتَلَهٍّ,مُتَلَهَّى,تَلَهٍّ,تَلَهَّى,FORMS_VERIFIED,V10_FORM_COMPLETE
+642,102,D4,متع,sound,11,he took advantage,تَمَتَّعَ,يَتَمَتَّعُ,تَمَتَّعْ,مُتَمَتِّع,مُتَمَتَّع,تَمَتُّع,تَمَتَّعَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+643,102,D4,مثل,sound,1,then he assumed the likeness,تَمَثَّلَ,يَتَمَثَّلُ,تَمَثَّلْ,مُتَمَثِّل,مُتَمَثَّل,تَمَثُّل,فَتَمَثَّلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+644,102,D4,مطو,naqis,1,behaves in an arrogant or aggressive way,تَمَطَّى,يَتَمَطَّى,تَمَطَّ,مُتَمَطٍّ,مُتَمَطَّى,تَمَطٍّ,يَتَمَطَّى,FORMS_VERIFIED,V10_FORM_COMPLETE
+645,103,D4,مني,naqis,7,and they will never wish for it,تَمَنَّى,يَتَمَنَّى,تَمَنَّ,مُتَمَنٍّ,مُتَمَنًّى,تَمَنٍّ,وَلَنْ يَّتَمَنَّوْهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+646,103,D4,ميز,ajwaf,1,it bursts (fg),تَمَيَّزَ,يَتَمَيَّزُ,تَمَيَّزْ,مُتَمَيِّز,مُتَمَيَّز,تَمَيُّز,تَمَيَّزُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+647,103,D4,نزل,sound,7,we descend,تَنَزَّلَ,يَتَنَزَّلُ,تَنَزَّلْ,مُتَنَزِّل,مُتَنَزَّل,تَنَزُّل,نَتَنَزَّلُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+648,103,D4,نفس,sound,1,it breathed,تَنَفَّسَ,يَتَنَفَّسُ,تَنَفَّسْ,مُتَنَفِّس,—,تَنَفُّس,تَنَفَّسَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+649,103,D4,هجد,sound,1,So arise from sleep!,تَهَجَّدَ,يَتَهَجَّدُ,تَهَجَّدْ,مُتَهَجِّد,—,تَهَجُّد,فَتَهَجَّدْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+650,103,D4,وجه,mithal,1,he turned his face,تَوَجَّهَ,يَتَوَجَّهُ,تَوَجَّهْ,مُتَوَجِّه,مُتَوَجَّه,تَوَجُّه,تَوَجَّهَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+651,103,D4,وسم,mithal,1,for those who discern,تَوَسَّمَ,يَتَوَسَّمُ,تَوَسَّمْ,مُتَوَسِّم,مُتَوَسَّم,تَوَسُّم,لِلْمُتَوَسِّمِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+652,103,D4,وفي,mithal+naqis,25,they pass away,تَوَفَّى,يَتَوَفَّى,تَوَفَّ,مُتَوَفٍّ,مُتَوَفَّى,تَوَفٍّ,يُتَوَفَّوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+653,103,D4,وكء,hz3+mithal,1,I lean,تَوَكّأَ,يَتَوَكَّأُ,تَوَكَّأْ,مُتَوَكِّئ,مُتَوَكَّأ,تَوَكُّؤ,اَتَوَكَّؤُا,FORMS_VERIFIED,V10_FORM_COMPLETE
+654,103,D4,وكل,mithal,44,so let him put (his) trust,تَوَكَّلَ,يَتَوَكَّلُ,تَوَكَّلْ,مُتَوَكِّل,مُتَوَكَّل,تَوَكُّل,فَلْيَتَوَكَّلِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+655,103,D4,ولي,mithal+naqis,78,you all turned away,تَوَلَّى,يَتَوَلَّى,تَوَلَّ,مُتَوَلٍّ,مُتَوَلَّى,تَوَلٍّ,تَوَلَّيْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+656,103,D4,يسر,mithal,2,it became easy,تَيَسَّرَ,يَتَيَسَّرُ,تَيَسَّرْ,مُتَيَسِّر,مُتَيَسَّر,تَيَسُّر,تَيَسَّرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+657,103,D4,يمم,mithal+doubled,3,and don’t (you all) aim at! seek!,تَيَمَّمَ,يَتَيَمَّمُ,تَيَمَّمْ,مُتَيَمِّم,مُتَيَمَّم,تَيَمُّم,وَلَا تَيَمَّمُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+658,104,D5,برك,sound,9,he get blessed,تَبَارَكَ,يَتَبَارَكُ,تَبَارَكْ,مُتَبَارِك,مُتَبَارَك,تَبَارُك,تَبٰرَكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+659,104,D5,بيع,ajwaf,1,you all made commercial transaction,تَبَايَعَ,يَتَبَايَعُ,تَبَايَعْ,مُتَبَايِع,—,تَبَايُع,تَبَايَعْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+660,104,D5,تبع,sound,2,two consecutive (things),تَتَابَعَ,يَتَتَابَعُ,تَتَابَعْ,مُتَتَابِع,—,تَتَابُع,مُتَتَابِعَيْنِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+661,104,D5,جنف,sound,1,the one who lives alone,تَجَانَفَ,يَتَجَانَفُ,تَجَانَفْ,مُتَجَانِف,مُتَجَانَف,تَجَانُف,مُتَجَانِفٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+662,104,D5,جوز,ajwaf,1,and we will overlook,تَجَاوَزَ,يَتَجَاوَزُ,تَجَاوَزْ,مُتَجَاوِز,مُتَجَاوَز,تَجَاوُز,وَنَتَجَاوَزُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+663,104,D5,حجج,doubled,1,they will dispute each other,تَحَاجَّ,يَتَحَاجُّ,تَحَاجَجْ,مُتَحَاجٍّ,—,تَحَاجّ,يَتَحَآجُّوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+664,104,D5,حضض,doubled,1,and you all are not inspiring,تَحَاضَّ,يَتَحَاضُّ,تَحَاضَضْ,مُتَحَاضّ,—,تَحَاضّ,وَلَا تَحضُّوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+665,104,D5,حكم,sound,1,they go for judgment,تَحَاكَمَ,يَتَحَاكَمُ,تَحَاكَمْ,مُتَحَاكِم,مُتَحَاكَم,تَحَاكُم,يَّتَحَاكَمُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+666,104,D5,حور,ajwaf,1,the dialogue of both of you,تَحَاوَرَ,يَتَحَاوَرُ,تَحَاوَرْ,مُتَحَاوِر,—,تَحَاوُر,تَحَاوُرَكُمَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+667,104,D5,خصم,sound,1,mutual quarreling,تَخَاصَمَ,يَتَخَاصَمُ,تَخَاصَمْ,مُتَخَاصِم,مُتَخَاصَم,تَخَاصُم,تَخَاصُمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+668,104,D5,خفت,sound,2,they will murmur,تَخَافَتَ,يَتَخَافَتُ,تَخَافَتْ,مُتَخَافِت,—,تَخَافُت,يَتَخَافَتُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+669,104,D5,دين,ajwaf,1,you all contracted with one another,تَدَايَنَ,يَتَدَايَنُ,تَدَايَنْ,مُتَدَايِن,—,تَدَايُن,تَدَايَنْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+670,104,D5,رءي,hz2+naqis,2,came in sight (fg),تَرَاءَى,يَتَرَاءَى,تَرَاءَ,مُتَرَاءٍ,—,تَرَاءٍ,تَرَآءَتِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+671,104,D5,رجع,sound,1,they both return to each other,تَرَاجَعَ,يَتَرَاجَعُ,تَرَاجَعْ,مُتَرَاجِع,مُتَرَاجَع,تَرَاجُع,يَّتَرَاجَعَآ,FORMS_VERIFIED,V10_FORM_COMPLETE
+672,105,D5,رضو,naqis,3,mutual consent,تَرَاضَى,يَتَرَاضَى,تَرَاضَ,مُتَرَاضٍ,—,تَرَاضٍ,تَرَاضٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+673,105,D5,ركب,sound,1,thick clustered,تَرَاكَبَ,يَتَرَاكَبُ,تَرَاكَبْ,مُتَرَاكِب,—,تَرَاكُب,مُتَرَاكِبًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+674,105,D5,زور,ajwaf,1,moves away (fg),تَزَاوَرَ,يَتَزَاوَرُ,تَزَاوَرْ,مُتَزَاوِر,مُتَزَاوَر,تَزَاوُر,تَزٰوَرُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+675,105,D5,سءل,hz2,9,you all ask one another,تَسَاءَلَ,يَتَسَاءَلُ,تَسَاءَلْ,مُتَسَاءِل,مُتَسَاءَل,تَسَاءُل,تَسَآءَلُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+676,105,D5,شبه,sound,10,(things) in resemblance,تَشَابَهَ,يَتَشَابَهُ,تَشَابَهْ,مُتَشَابِه,—,تَشَابُه,مُتَشَابِهًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+677,105,D5,شكس,sound,1,mutual quarreling persons,تَشَاكَسَ,يَتَشَاكَسُ,تَشَاكَسْ,مُتَشَاكِس,—,تَشَاكُس,مُتَشَاكِسُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+678,105,D5,شور,ajwaf,1,and consultation,تَشَاوَرَ,يَتَشَاوَرُ,تَشَاوَرْ,مُتَشَاوِر,—,تَشَاوُر,وَتَشَاوُرٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+679,105,D5,طول,ajwaf,1,and he prolonged,تَطَاوَلَ,يَتَطَاوَلُ,تَطَاوَلْ,مُتَطَاوِل,مُتَطَاوَل,تَطَاوُل,فَتَطَاوَلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+680,105,D5,ظهر,sound,2,you all support one another,تَظَاهَرَ,يَتَظَاهَرُ,تَظَاهَرْ,مُتَظَاهِر,مُتَظَاهَر,تَظَاهُر,تَظٰهَرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+681,105,D5,عرف,sound,2,they will recognize each other,تَعَارَفَ,يَتَعَارَفُ,تَعَارَفْ,مُتَعَارِف,مُتَعَارَف,تَعَارُف,يَتَعَارَفُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+682,105,D5,عسر,sound,1,you all got into mutual confusion,تَعَاسَرَ,يَتَعَاسَرُ,تَعَاسَرْ,مُتَعَاسِر,—,تَعَاسُر,تَعَاسَرْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+683,105,D5,عطو,naqis,1,and he exceeded beyond the limits,تَعَاطٰى,يَتَعَاطٰى,تَعَاطَ,مُتَعَاطٍ,مُتَعَاطًى,تَعَاطٍ,فَتَعَاطٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+684,105,D5,عون,ajwaf,2,And help one another (pl)!,تَعَاوَنَ,يَتَعَاوَنُ,تَعَاوَنْ,مُتَعَاوِن,—,تَعَاوُن,وَتَعَاوَنُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+685,105,D5,غبن,sound,1,to bear the loss,تَغَابَنَ,يَتَغَابَنُ,تَغَابَنْ,مُتَغَابِن,مُتَغَابَن,تَغَابُن,التَّغَابُنِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+686,106,D5,غمز,sound,1,they wink at one another,تَغَامَزَ,يَتَغَامَزُ,تَغَامَزْ,مُتَغَامِز,—,تَغَامُز,يَتَغَامَزُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+687,106,D5,فخر,sound,1,and boasting,تَفَاخَرَ,يَتَفَاخَرُ,تَفَاخَرْ,مُتَفَاخِر,مُتَفَاخَر,تَفَاخُر,وَّتَفَاخُرٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+688,106,D5,فوت,ajwaf,1,difference,تَفَاوَتَ,يَتَفَاوَتُ,تَفَاوَتْ,مُتَفَاوِت,مُتَفَاوَت,تَفَاوُت,تَفٰوُتٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+689,106,D5,قبل,sound,4,facing each other,تَقَابَلَ,يَتَقَابَلُ,تَقَابَلْ,مُتَقَابِل,مُتَقَابَل,تَقَابُل,مُتَقٰبِلِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+690,106,D5,قسم,sound,1,Swear to each other (pl)!,تَقَاسَمَ,يَتَقَاسَمُ,تَقَاسَمْ,مُتَقَاسِم,مُتَقَاسَم,تَقَاسُم,تَقَاسَمُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+691,106,D5,كثر,sound,2,and (competing) for more,تَكَاثَرَ,يَتَكَاثَرُ,تَكَاثَرْ,مُتَكَاثِر,—,تَكَاثُر,وَتَكَاثُرٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+692,106,D5,لقي,naqis,1,the meeting,تَلَاقٰى,يَتَلاقٰى,تَلَاقَ,مُتَلَاقٍ,—,تَلَاقٍ,التَّلَاقِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+693,106,D5,لوم,ajwaf,1,they blame each other,تَلَاوَمَ,يَتَلَاوَمُ,تَلَاوَمْ,مُتَلَاوِم,—,تَلَاوُم,يَّتَلَاوَمُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+694,106,D5,مري,naqis,2,you will have doubt,تَمَارٰى,يَتَمَارٰى,تَمَارَ,مُتَمَارٍ,مُتَمَارًى,تَمَارٍ,تَتَمَارٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+695,106,D5,مسس,doubled,2,they (both) touch each other,تَمَاسَّ,يَتَمَاسُّ,تَمَاسَّ,مُتَمَاسٍّ,—,تَمَاسّ,يَّتَمَآسَّا,FORMS_VERIFIED,V10_FORM_COMPLETE
+696,106,D5,نبز,sound,1,And don’t (you all) call each other!,تَنَابَزَ,يَتَنَابَزُ,تَنَابَزْ,مُتَنَابِز,مُتَنَابَز,تَنَابُز,وَلَا تَنَابَزُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+697,106,D5,نجو,naqis,3,and they whisper each other,تَنَاجٰى,يَتَنَاجٰى,تَنَاجَ,مُتَنَاجٍ,—,تَنَاجٍ,وَيَتَنٰجَوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+698,106,D5,ندو,naqis,1,"the shouting, calling",تَنَادٰى,يَتَنَادٰى,تَنَادَ,مُتَنَادٍ,—,تَنَادٍ,التَّنَادِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+699,106,D5,نزع,sound,7,and you all felt into dispute,تَنَازَعَ,يَتَنَازَعُ,تَنَازَعْ,مُتَنَازِع,مُتَنَازَع,تَنَازُع,وَتَنَازَعْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+700,107,D5,نصر,sound,1,you all are not helping each other,تَنَاصَرَ,يَتَنَاصَرُ,تَنَاصَرْ,مُتَنَاصِر,—,تَنَاصُر,لَا تَنَاصَرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+701,107,D5,نفس,sound,2,he should strive for competition!,تَنَافَسَ,يَتَنَافَسُ,تَنَافَسْ,مُتَنَافِس,مُتَنَافَس,تَنَافُس,فَلْيَتَنَافَسِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+702,107,D5,نهي,naqis,1,they are not forbidding each other,تَنَاهٰى,يَتَنَاهٰى,تَنَاهَ,مُتَنَاهٍ,مُتَنَاهًى,تَنَاهٍ,لَا يَتَنَاهَوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+703,107,D5,نوش,ajwaf,1,to receive,تَنَاوَشَ,يَتَنَاوَشُ,تَنَاوَشْ,مُتَنَاوِش,مُتَنَاوَش,تَنَاوُش,التَّنَاوُشُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+704,107,D5,وري,mithal+naqis,2,he hides himself,تَوَارٰى,يَتَوَارٰى,تَوَارَ,مُتَوَارٍ,مُتَوَارًى,تَوَارٍ,يَتَوَارٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+705,107,D5,وصي,mithal+naqis,1,have they transmitted to each other?,تَوَاصٰى,يَتَوَاصٰى,تَوَاصَ,مُتَوَاصٍ,—,تَوَاصٍ,اَتَوَاصَوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+706,107,D5,وعد,mithal,1,you all made promise together,تَوَاعَدَ,يَتَوَاعَدُ,تَوَاعَد,مُتَوَاعِد,—,تَوَاعُد,تَوَاعَدْتُّمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+707,107,D5,درء,hz3,1,then you all disputed,تَدَارَأَ,يَتَدَارَأُ,تَدَارَأْ,مُتَدَارِئ,—,اِدَّارُءْ,فَادَّرَءْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+708,108,D6,بجس,sound,1,then gushed forth (fg),اِنْبَجَسَ,يَنْبَجِسُ,اِنْبَجِسْ,مُنْبَجِس,مُنْبَجَس,اِنْبِجَاس,فَانۢبَجَسَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+709,108,D6,بعث,sound,2,their being sent forth,اِنْبَعَثَ,يَنْبَعِثُ,اِنْبَعِثْ,مُنْبَعِث,مُنْبَعَث,اِنْبِعَاث,انۢبِعَاثَهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+710,108,D6,بغي,naqis,6,is appropriate,اِنْبَغٰى,يَنْبَغِي,اِنْبَغِ,مُنْبَغٍ,مُنْبَغًى,اِنْبِغَاء,يَنۢبَغِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+711,108,D6,سلخ,sound,2,but he detached apparently,اِنْسَلَخَ,يَنْسَلِخُ,اِنْسَلِخْ,مُنْسَلِخ,مُنْسَلَخ,اِنْسِلَاخ,فَانْسَلَخَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+712,108,D6,شقق,doubled,5,and splits into pieces (fg),اِنْشَقَّ,يَنْشَقُّ,اِنْشَقِقْ,مُنْشَقّ,—,اِنْشِقَاق,وَتَنْشَقُّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+713,108,D6,صرف,sound,1,they turned away,اِنْصَرَفَ,يَنْصَرِفُ,اِنْصَرِفْ,مُنْصَرِف,مُنْصَرَف,اِنْصِرَاف,انْصَرَفُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+714,108,D6,طلق,sound,9,so they both set out,اِنْطَلَقَ,يَنْطَلِقُ,اِنْطَلِقْ,مُنْطَلِق,مُنْطَلَق,اِنْطِلَاق,فَانْطَلَقَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+715,108,D6,فجر,sound,1,then gushed forth (fg),اِنْفَجَرَ,يَنْفَجِرُ,اِنْفَجِرْ,مُنْفَجِر,مُنْفَجَر,اِنْفِجَار,فَانْفَجَرَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+716,108,D6,فصم,sound,1,to return,اِنْفَصَمَ,يَنْفَصِمُ,اِنْفَصِمْ,مُنْفَصِم,—,اِنْفِصَام,انْفِصَامَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+717,108,D6,فضض,doubled,3,they disperse,اِنْفَضَّ,يَنْفَضُّ,اِنْفَضِضْ,مُنْفَضّ,—,اِنْفِضَاض,يَنْفَضُّوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+718,108,D6,فطر,sound,2,that which breaks apart,اِنْفَطَرَ,يَنْفَطِرُ,اِنْفَطِرْ,مُنْفَطِر,—,اِنْفِطَار,مُنْفَطِر,FORMS_VERIFIED,V10_FORM_COMPLETE
+719,108,D6,فكك,doubled,1,those who part or desist from,اِنْفَكَّ,يَنْفَكُّ,اِنْفَكَّ,مُنْفَكّ,—,اِنْفِكَاك,مُنْفَكِّيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+720,108,D6,فلق,sound,1,so it parted,اِنْفَلَقَ,يَنْفَلِقُ,اِنْفَلِقْ,مُنْفَلِق,—,اِنْفِلَاق,فَانْفَلَقَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+721,108,D6,قضض,doubled,1,it collapses,اِنْقَضَّ,يَنْقَضُّ,اِنْقَضِضْ,مُنْقَضّ,مُنْقَضّ,اِنْقِضَاض,يَنْقَضَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+722,109,D6,قعر,sound,1,uprooted,اِنْقَعَرَ,يَنْقَعِرُ,اِنْقَعِرْ,مُنْقَعِر,—,اِنْقِعَار,مُّنْقَعِرٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+723,109,D6,قلب,sound,22,he turns back,اِنْقَلَبَ,يَنْقَلِبُ,اِنْقَلِبْ,مُنْقَلِب,مُنْقَلَب,اِنْقِلَاب,يَنْقَلِبُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+724,109,D6,كدر,sound,1,"fall, lose luster (fg)",اِنْكَدَرَ,يَنْكَدِرُ,اِنْكَدِرْ,مُنْكَدِر,—,اِنْكِدَار,انْكَدَرَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+725,109,D6,خنق,sound,1,and that which is strangled (to death),اِنْخَنَقَ,يَنْخَنِقُ,اِنْخَنِقْ,مُنْخَنِق,—,اِنْخِنَاق,وَالْمُنْخَنِقَةُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+726,109,D6,همر,sound,1,falling down excessively,اِنْهَمَرَ,يَنْهَمِرُ,اِنْهَمِرْ,مُنْهَمِر,—,اِنْهِمَار,مُنْهَمِرٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+727,109,D6,هور,ajwaf,1,so it collapsed,اِنْهَارَ,يَنْهَارُ,اِنْهَرْ,مُنْهَار,—,اِنْهِيَار,فَانْهَارَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+728,110,D7,أخذ,hz1,128,you all made,اِتَّخَذَ,يَتَّخِذُ,اِتَّخِذْ,مُتَّخِذ,مُتَّخَذ,اِتِّخَاذ,اتَّخَذْتُمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+729,110,D7,أفك,hz1,3,and the towns overturned,اِئْتَفَكَ,يَأْتَفِكُ,اِئْتَفِكْ,مُؤْتَفِك,مُؤْتَفَك,اِئْتِفَاك,وَالْمُؤْتَفِكٰتِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+730,110,D7,ألو,hz1+naqis,1,And let him swear not!,ائْتَلٰى,يَأْتَلِي,اِئْتَلِ,مُؤْتَلٍ,مُؤْتَلًى,اِئْتِلَاء,وَلَا يَاْتَلِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+731,110,D7,أمر,hz1,2,they are doing conspiracy,اِئْتَمَرَ,يَأْتَمِرُ,اِئْتَمِرْ,مُؤْتَمِر,مُؤْتَمَر,اِئْتِمَار,يَاْتَمِرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+732,110,D7,أمن,hz1,1,he was entrusted,اِئْتَمَنَ,يَأْتَمِنُ,اِئْتَمِنْ,مُؤْتَمِن,مُؤْتَمَن,اِئْتِمَان,اؤْتُمِنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+733,110,D7,بأس,hz2,2,So don’t be distressed!,اِبْتَأَسَ,يَبْتَئِسُ,اِبْتَئِسْ,مُبْتَئِس,—,اِبْتِئَاس,فَلَا تَبْتَئِسْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+734,110,D7,بدع,sound,1,they innovated,اِبْتَدَعَ,يَبْتَدِعُ,اِبْتَدِعْ,مُبْتَدِع,مُبْتَدَع,اِبْتِدَاع,ابْتَدَعُوْهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+735,110,D7,بغي,naqis,48,And (you all) seek!,اِبْتَغَى,يَبْتَغِي,اِبْتَغِ,مُبْتَغٍ,مُبْتَغًى,اِبْتِغَاء,وَابْتَغُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+736,110,D7,بلو,naqis,10,"He tried, tested",اِبْتَلَى,يَبْتَلِي,اِبْتَلِ,مُبْتَلٍ,مُبْتَلًى,اِبْتِلَاء,ابْتَلٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+737,110,D7,بهل,sound,1,let us pray humbly,اِبْتَهَلَ,يَبْتَهِلُ,اِبْتَهِلْ,مُبْتَهِل,مُبْتَهَل,اِبْتِهَال,نَبْتَهِلْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+738,110,D7,تبع,sound,140,and they followed,اِتَّبَعَ,يَتَّبِعُ,اِتَّبِعْ,مُتَّبِع,مُتَّبَع,اِتِّبَاع,وَاتَّبَعُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+739,110,D7,جبي,naqis,10,He chooses,اِجْتَبٰى,يَجْتَبِي,اِجْتَبِ,مُجْتَبٍ,مُجْتَبًى,اِجْتِبَاء,يَجْتَبِىْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+740,110,D7,جثث,doubled,1,uprooted (fg),اِجْتَثَّ,يَجْتَثُّ,اِجْتَثِثْ,مُجْتَثّ,مُجْتَثّ,اِجْتِثَاث,اُجْتُثَّتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+741,110,D7,جرح,sound,1,they commited,اِجْتَرَحَ,يَجْتَرِحُ,اِجْتَرِحْ,مُجْتَرِح,مُجْتَرَح,اِجْتِرَاح,اجْتَرَحُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+742,111,D7,جمع,sound,3,gathered (fg),اِجْتَمَعَ,يَجْتَمِعُ,اِجْتَمِعْ,مُجْتَمِع,مُجْتَمَع,اِجْتِمَاع,اجْتَمَعَتِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+743,111,D7,جنب,sound,9,you all avoid,اِجْتَنَبَ,يَجْتَنِبُ,اِجْتَنِبْ,مُجْتَنِب,مُجْتَنَب,اِجْتِنَاب,تَجْتَنِبُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+744,111,D7,حرق,sound,1,then it got burnt (fg),اِحْتَرَقَ,يَحْتَرِقُ,اِحْتَرِقْ,مُحْتَرِق,—,اِحْتِرَاق,فَاحْتَرَقَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+745,111,D7,حسب,sound,3,they take into account,اِحْتَسَبَ,يَحْتَسِبُ,اِحْتَسِبْ,مُحْتَسِب,مُحْتَسَب,اِحْتِسَاب,يَحْتَسِبُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+746,111,D7,حضر,sound,1,attended,اِحْتَضَرَ,يَحْتَضِرُ,اِحْتَضِرْ,مُحْتَضِر,مُحْتَضَر,اِحْتِضَار,مُّحْتَضَرٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+747,111,D7,حظر,sound,1,fence builder,اِحْتَظَرَ,يَحْتَظِرُ,اِحْتَظِرْ,مُحْتَظِر,مُحْتَظَر,اِحْتِظَار,الْمُحْتَظِرِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+748,111,D7,حمل,sound,3,he took burden,اِحْتَمَلَ,يَحْتَمِلُ,اِحْتَمِلْ,مُحْتَمِل,مُحْتَمَل,اِحْتِمَال,احْتَمَلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+749,111,D7,حنك,sound,1,I will surely destroy,اِحْتَنَكَ,يَحْتَنِكُ,اِحْتَنِكْ,مُحْتَنِك,مُحْتَنَك,اِحْتِنَاك,لَاَحْتَنِكَنَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+750,111,D7,خصص,doubled,2,He chooses,اِخْتَصَّ,يَخْتَصُّ,اِخْتَصِصْ,مُخْتَصّ,مُخْتَصّ,اِخْتِصَاص,يَخْتَصُّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+751,111,D7,خصم,sound,8,they dispute,اِخْتَصَمَ,يَخْتَصِمُ,اِخْتَصِمْ,مُخْتَصِم,مُخْتَصَم,اِخْتِصَام,يَخْتَصِمُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+752,111,D7,خلط,sound,3,he joined,اِخْتَلَطَ,يَخْتَلِطُ,اِخْتَلِطْ,مُخْتَلِط,مُخْتَلَط,اِخْتِلَاط,اخْتَلَطَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+753,111,D7,خلف,sound,52,they differ,اِخْتَلَفَ,يَخْتَلِفُ,اِخْتَلِفْ,مُخْتَلِف,مُخْتَلَف,اِخْتِلَاف,يَخْتَلِفُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+754,111,D7,خلق,sound,1,faking,اِخْتَلَقَ,يَخْتَلِقُ,اِخْتَلِقْ,مُخْتَلِق,مُخْتَلَق,اِخْتِلَاق,اخْتِلَاقٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+755,111,D7,خون,ajwaf,2,you all deceive,اِخْتَانَ,يَخْتَانُ,اِخْتَنْ,مُخْتَان,مُخْتَان,اِخْتِيَان,تَخْتَانُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+756,112,D7,خير,ajwaf,4,and he chose,اِخْتَارَ,يَخْتَارُ,اِخْتَرْ,مُخْتَار,مُخْتَار,اِخْتِيَار,وَاخْتَارَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+757,112,D7,دخل,sound,1,a place to enter,اِدَّخَلَ,يَدَّخِلُ,اِدَّخِلْ,مُدَّخِل,مُدَّخَل,اِدِّخَال,مُدَّخَلًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+758,112,D7,دعو,naqis,3,they call for,اِدَّعٰى,يَدَّعِي,اِدَّعِ,مُدَّعٍ,مُدَّعًى,اِدِّعَاء,يَدَّعُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+759,112,D7,ذخر,sound,1,you all store,اِدَّخَرَ,يَدَّخِرُ,اِدَّخِرْ,مُدَّخِر,مُدَّخَر,اِدِّخَار,تَدَّخِرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+760,112,D7,ذكر,sound,7,and he remembered,اِدَّكَرَ,يَدَّكِرُ,اِدَّكِرْ,مُدَّكِر,مُدَّكَر,اِدِّكَار,وَادَّكَرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+761,112,D7,ردد,doubled,8,turns away,اِرْتَدَّ,يَرْتَدُّ,اِرْتَدِدْ,مُرْتَدّ,مُرْتَدّ,اِرْتِدَاد,يَّرْتَدِدْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+762,112,D7,رضو,naqis,3,he approved,اِرْتَضٰى,يَرْتَضِي,اِرْتَضِ,مُرْتَضٍ,مُرْتَضًى,اِرْتِضَاء,ارْتَضٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+763,112,D7,رفق,sound,2,a resting place,اِرْتَفَقَ,يَرْتَفِقُ,اِرْتَفِقْ,مُرْتَفِق,مُرْتَفَق,اِرْتِفَاق,مُرْتَفَقًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+764,112,D7,رقب,sound,5,and watch (pl)!,اِرْتَقَبَ,يَرْتَقِبُ,اِرْتَقِبْ,مُرْتَقِب,مُرْتَقَب,اِرْتِقَاب,وَارْتَقِبُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+765,112,D7,رقي,naqis,1,then let them ascend!,اِرْتَقٰى,يَرْتَقِي,اِرْتَقِ,مُرْتَقٍ,مُرْتَقًى,اِرْتِقَاء,فَلْيَرْتَقُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+766,112,D7,ريب,ajwaf,10,you all (have) doubt,اِرْتَابَ,يَرْتَابُ,اِرْتَبْ,مُرْتَاب,مُرْتَاب,اِرْتِيَاب,تَرْتَابُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+767,112,D7,زجر,sound,2,deterrence,اِزْدَجَرَ,يَزْدَجِرُ,اِزْدَجِرْ,مُزْدَجِر,مُزْدَجَر,اِزْدِجَار,مُزْدَجَرٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+768,112,D7,زري,naqis,1,looks down upon (fg),اِزْدَرٰى,يَزْدَرِي,اِزْدَرِ,مُزْدَرٍ,مُزْدَرًى,اِزْدِرَاء,تَزْدَرِىٓ,FORMS_VERIFIED,V10_FORM_COMPLETE
+769,112,D7,زيد,ajwaf,8,so that they may increase,اِزْدَادَ,يَزْدَادُ,اِزْدَدْ,مُزْدَاد,مُزْدَاد,اِزْدِيَاد,لِيَزْدَادُوٓا,FORMS_VERIFIED,V10_FORM_COMPLETE
+770,113,D7,سبق,sound,5,So (you all) compete!,اِسْتَبَقَ,يَسْتَبِقُ,اِسْتَبِقْ,مُسْتَبِق,مُسْتَبَق,اِسْتِبَاق,فَاسْتَبِقُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+771,113,D7,ستر,sound,1,you all cover,اِسْتَتَرَ,يَسْتَتِرُ,اِسْتَتِرْ,مُسْتَتِر,—,اِسْتِتَار,تَسْتَتِرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+772,113,D7,سرق,sound,1,he listened secretly,اِسْتَرَقَ,يَسْتَرِقُ,اِسْتَرِقْ,مُسْتَرِق,مُسْتَرَق,اِسْتِرَاق,اسْتَرَقَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+773,113,D7,سطر,sound,1,written down,اِسْتَطَرَ,يَسْتَطِرُ,اِسْتَطِرْ,مُسْتَطِر,مُسْتَطَر,اِسْتِطَار,مُسْتَطَرٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+774,113,D7,سمع,sound,18,listens (attentively),اِسْتَمَعَ,يَسْتَمِعُ,اِسْتَمِعْ,مُسْتَمِع,مُسْتَمَع,اِسْتِمَاع,يَسْتَمِعُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+775,113,D7,سوي,ajwaf+naqis,35,He turned to,اِسْتَوٰى,يَسْتَوِي,اِسْتَوِ,مُسْتَوٍ,مُسْتَوًى,اِسْتِوَاء,اسْتَوٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+776,113,D7,شبه,sound,1,resembling,اِشْتَبَهَ,يَشْتَبِهُ,اِشْتَبِهْ,مُشْتَبِه,مُشْتَبَه,اِشْتِبَاه,مُشْتَبِهًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+777,113,D7,شدد,doubled,1,it blew furiously (fg),اِشْتَدَّ,يَشْتَدُّ,اِشْتَدِدْ,مُشْتَدّ,مُشْتَدّ,اِشْتِدَاد,اِشْتَدَّتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+778,113,D7,شرك,sound,2,participants,اِشْتَرَكَ,يَشْتَرِكُ,اِشْتَرِكْ,مُشْتَرِك,مُشْتَرَك,اِشْتِرَاك,مُشْتَرِكُونَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+779,113,D7,شري,naqis,21,they bought,اِشْتَرٰى,يَشْتَرِي,اِشْتَرِ,مُشْتَرٍ,مُشْتَرًى,اِشْتِرَاء,اشْتَرَوُا,FORMS_VERIFIED,V10_FORM_COMPLETE
+780,113,D7,شعل,sound,1,it flared,اِشْتَعَلَ,يَشْتَعِلُ,اِشْتَعِلْ,مُشْتَعِل,—,اِشْتِعَال,وَاشْتَعَلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+781,113,D7,شكو,naqis,1,and she directs her complaint,اِشْتَكٰى,يَشْتَكِي,اِشْتَكِ,مُشْتَكٍ,مُشْتَكًى,اِشْتِكَاء,وَتَشْتَكِىٓ,FORMS_VERIFIED,V10_FORM_COMPLETE
+782,113,D7,شمل,sound,2,she wrapped,اِشْتَمَلَ,يَشْتَمِلُ,اِشْتَمِلْ,مُشْتَمِل,مُشْتَمَل,اِشْتِمَال,اشْتَمَلَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+783,113,D7,شهو,naqis,8,they desire,اِشْتَهٰى,يَشْتَهِي,اِشْتَهِ,مُشْتَهٍ,مُشْتَهًى,اِشْتِهَاء,يَشْتَهُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+784,114,D7,صبر,sound,3,And be constant!,اِصْطَبَرَ,يَصْطَبِرُ,اِصْطَبِرْ,مُصْطَبِر,مُصْطَبَر,اِصْطِبَار,وَاصْطَبِرْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+785,114,D7,صرخ,sound,1,they will cry,اِصْطَرَخَ,يَصْطَرِخُ,اِصْطَرِخْ,مُصْطَرِخ,—,اِصْطِرَاخ,يَصْطَرِخُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+786,114,D7,صفو,naqis,13,We chose him,اِصْطَفٰى,يَصْطَفِي,اِصْطَفِ,مُصْطَفٍ,مُصْطَفًى,اِصْطِفَاء,اصْطَفَيْنٰهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+787,114,D7,صلي,naqis,2,you all warm yourselves,اِصْطَلٰى,يَصْطَلِي,اِصْطَلِ,مُصْطَلٍ,مُصْطَلًى,اِصْطِلَاء,تَصْطَلُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+788,114,D7,صنع,sound,1,and I have chosen you,اِصْطَنَعَ,يَصْطَنِعُ,اِصْطَنِعْ,مُصْطَنِع,مُصْطَنَع,اِصْطِنَاع,وَاصْطَنَعْتُكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+789,114,D7,صيد,ajwaf,1,Thus you hunt (pl)!,اِصْطَادَ,يَصْطَادُ,اِصْطَدْ,مُصْطَاد,مُصْطَاد,اِصْطِيَاد,فَاصْطَادُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+790,114,D7,ضرر,doubled,7,I will force him,اِضْطَرَّ,يَضْطَرُّ,اِضْطَرَّ,مُضْطَرّ,مُضْطَرّ,اِضْطِرَار,اَضْطَرُّه,FORMS_VERIFIED,V10_FORM_COMPLETE
+791,114,D7,طلع,sound,8,you get information,اِطَّلَعَ,يَطَّلِعُ,اِطَّلِعْ,مُطَّلِع,مُطَّلَع,اِطِّلَاع,تَطَّلِعُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+792,114,D7,عبر,sound,1,So take a lesson (pl)!,اِعْتَبَرَ,يَعْتَبِرُ,اِعْتَبِرْ,مُعْتَبِر,مُعْتَبَر,اِعْتِبَار,فَاعْتَبِرُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+793,114,D7,عدد,doubled,1,you all count (concerning) it,اِعْتَدَّ,يَعْتَدُّ,اِعْتَدِدْ,مُعْتَدّ,مُعْتَدّ,اِعْتِدَاد,تَعْتَدُّوْنَهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+794,114,D7,عدو,naqis,18,they transgress,اِعْتَدٰى,يَعْتَدِي,اِعْتَدِ,مُعْتَدٍ,مُعْتَدًى,اِعْتِدَاء,يَعْتَدُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+795,114,D7,عذر,sound,5,Don’t (you all) make excuse!,اِعْتَذَرَ,يَعْتَذِرُ,اِعْتَذِرْ,مُعْتَذِر,مُعْتَذَر,اِعْتِذَار,لَا تَعْتَذِرُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+796,114,D7,عرف,sound,3,they have acknowledged,اِعْتَرَفَ,يَعْتَرِفُ,اِعْتَرِفْ,مُعْتَرِف,مُعْتَرَف,اِعْتِرَاف,اعْتَرَفُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+797,114,D7,عرو,naqis,1,have seized you,اِعْتَرٰى,يَعْتَرِي,اِعْتَرِ,مُعْتَرٍ,مُعْتَرًى,اِعْتِرَاء,اعْتَرٰىكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+798,115,D7,عزل,sound,7,So (you all) keep away (from)!,اِعْتَزَلَ,يَعْتَزِلُ,اِعْتَزِلْ,مُعْتَزِل,مُعْتَزَل,اِعْتِزَال,فَاعْتَزِلُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+799,115,D7,عصم,sound,5,he holds firmly,اِعْتَصَمَ,يَعْتَصِمُ,اِعْتَصِمْ,مُعْتَصِم,مُعْتَصَم,اِعْتِصَام,يَعْتَصِمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+800,115,D7,عمر,sound,1,he performed Umrah,اِعْتَمَرَ,يَعْتَمِرُ,اِعْتَمِرْ,مُعْتَمِر,—,اِعْتِمَار,اعْتَمَرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+801,115,D7,غرف,sound,1,took a sip (by hand),اِغْتَرَفَ,يَغْتَرِفُ,اِغْتَرِفْ,مُغْتَرِف,مُغْتَرَف,اِغْتِرَاف,اغْتَرَفَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+802,115,D7,غسل,sound,2,you all take bath,اِغْتَسَلَ,يَغْتَسِلُ,اِغْتَسِلْ,مُغْتَسِل,مُغْتَسَل,اِغْتِسَال,تَغْتَسِلُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+803,115,D7,غيب,ajwaf,1,And let him not backbite!,اِغْتَابَ,يَغْتَابُ,اِغْتَبْ,مُغْتَاب,مُغْتَاب,اِغْتِيَاب,وَلَا يَغْتَبْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+804,115,D7,فدي,naqis,7,she paid ransom,اِفْتَدٰى,يَفْتَدِي,اِفْتَدِ,مُفْتَدٍ,مُفْتَدًى,اِفْتِدَاء,افْتَدَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+805,115,D7,فري,naqis,58,they invent,اِفْتَرَىٰ,يَفْتَرِي,اِفْتَرِ,مُفْتَرٍ,مُفْتَرًى,اِفْتِرَاء,يَفْتَرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+806,115,D7,قبس,sound,1,we may acquire,اِقْتَبَسَ,يَقْتَبِسُ,اِقْتَبِسْ,مُقْتَبِس,مُقْتَبَس,اِقْتِبَاس,نَقْتَبِسْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+807,115,D7,قتل,sound,4,fought each other,اِقْتَتَلَ,يَقْتَتِلُ,اِقْتَتِلْ,مُقْتَتِل,مُقْتَتَل,اِقْتِتَال,اقْتَتَلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+808,115,D7,قحم,sound,2,the one who rushes blindly into,اِقْتَحَمَ,يَقْتَحِمُ,اِقْتَحِمْ,مُقْتَحِم,مُقْتَحَم,اِقْتِحَام,مُّقْتَحِمٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+809,115,D7,قدر,sound,4,all able,اِقْتَدَرَ,يَقْتَدِرُ,اِقْتَدِرْ,مُقْتَدِر,مُقْتَدَر,اِقْتِدَار,مُّقْتَدِرًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+810,115,D7,قدو,naqis,2,Follow him!,اِقْتَدٰى,يَقْتَدِي,اِقْتَدِ,مُقْتَدٍ,مُقْتَدًى,اِقْتِدَاء,اقْتَدِهْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+811,115,D7,قرب,sound,5,came near,اِقْتَرَبَ,يَقْتَرِبُ,اِقْتَرِبْ,مُقْتَرِب,مُقْتَرَب,اِقْتِرَاب,اقْتَرَبَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+812,116,D7,قرف,sound,5,and so that they may commit,اِقْتَرَفَ,يَقْتَرِفُ,اِقْتَرِفْ,مُقْتَرِف,مُقْتَرَف,اِقْتِرَاف,وَلِيَقْتَرِفُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+813,116,D7,قرن,sound,1,companions,اِقْتَرَنَ,يَقْتَرِنُ,اِقْتَرِنْ,مُقْتَرِن,مُقْتَرَن,اِقْتِرَان,مُقْتَرِنِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+814,116,D7,قسم,sound,1,those who distribute,اِقْتَسَمَ,يَقْتَسِمُ,اِقْتَسِمْ,مُقْتَسِم,مُقْتَسَم,اِقْتِسَام,الْمُقْتَسِمِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+815,116,D7,قصد,sound,3,moderate (fg),اِقْتَصَدَ,يَقْتَصِدُ,اِقْتَصِدْ,مُقْتَصِد,مُقْتَصَد,اِقْتِصَاد,مُقْتَصِدَةٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+816,116,D7,كتب,sound,1,he has written it,اِكْتَتَبَ,يَكْتَتِبُ,اِكْتَتِبْ,مُكْتَتِب,مُكْتَتَب,اِكْتِتَاب,اكْتَتَبَهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+817,116,D7,كسب,sound,5,she earned,اِكْتَسَبَ,يَكْتَسِبُ,اِكْتَسِبْ,مُكْتَسِب,مُكْتَسَب,اِكْتِسَاب,اكْتَسَبَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+818,116,D7,كيل,ajwaf,2,we will get a measure,اِكْتَالَ,يَكْتَالُ,اِكْتَلْ,مُكْتَال,مُكْتَال,اِكْتِيَال,نَكْتَلْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+819,116,D7,لحد,sound,2,a refuge,اِلْتَحَدَ,يَلْتَحِدُ,اِلْتَحِدْ,مُلْتَحِد,مُلْتَحَد,اِلْتِحَاد,مُلْتَحَدًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+820,116,D7,لفت,sound,2,And let him not look back!,اِلْتَفَتَ,يَلْتَفِتُ,اِلْتَفِتْ,مُلْتَفِت,مُلْتَفَت,اِلْتِفَات,وَلَا يَلْتَفِتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+821,116,D7,لفف,doubled,1,and is wound (fg),اِلْتَفَّ,يَلْتَفُّ,اِلْتَفِفْ,مُلْتَفّ,مُلْتَفّ,اِلْتِفَاف,وَالْتَفَّتِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+822,116,D7,لقط,sound,2,will pick him,اِلْتَقَطَ,يَلْتَقِطُ,اِلْتَقِطْ,مُلْتَقِط,مُلْتَقَط,اِلْتِقَاط,يَلْتَقِطْهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+823,116,D7,لقم,sound,1,then swallowed him,اِلْتَقَمَ,يَلْتَقِمُ,اِلْتَقِمْ,مُلْتَقِم,مُلْتَقَم,اِلْتِقَام,فَالْتَقَمَهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+824,116,D7,لقي,naqis,7,they both came across mutually (fg),اِلْتَقٰى,يَلْتَقِي,اِلْتَقِ,مُلْتَقٍ,مُلْتَقًى,اِلْتِقَاء,الْتَقَتَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+825,116,D7,لمس,sound,1,And seek (pl)!,اِلْتَمَسَ,يَلْتَمِسُ,اِلْتَمِسْ,مُلْتَمِس,مُلْتَمَس,اِلْتِمَاس,فَالْتَمِسُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+826,117,D7,محن,sound,2,He tested,اِمْتَحَنَ,يَمْتَحِنُ,اِمْتَحِنْ,مُمْتَحِن,مُمْتَحَن,اِمْتِحَان,امْتَحَنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+827,117,D7,مري,naqis,9,the doubters,اِمْتَرَىٰ,يَمْتَرِي,اِمْتَرِ,مُمْتَرٍ,مُمْتَرًى,اِمْتِرَاء,الْمُمْتَرِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+828,117,D7,ملء,hz3,1,you filled (fg),اِمْتَلَأَ,يَمْتَلِئُ,اِمْتَلِئْ,مُمْتَلِئ,مُمْتَلَأ,اِمْتَلَاء,امْتَلَاْتِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+829,117,D7,ميز,ajwaf,1,But (you all) stand apart!,اِمْتَازَ,يَمْتَازُ,اِمْتَزْ,مُمْتَاز,—,اِمْتِيَاز,وَامْتَازُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+830,117,D7,نبذ,sound,2,she withdrew,اِنْتَبَذَ,يَنْتَبِذُ,اِنْتَبِذْ,مُنْتَبِذ,مُنْتَبَذ,اِنْتِبَاذ,انْتَبَذَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+831,117,D7,نثر,sound,1,scatter (fg),اِنْتَثَرَ,يَنْتَثِرُ,اِنْتَثِرْ,مُنْتَثِر,—,اِنْتِثَار,انْتَثَرَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+832,117,D7,نشر,sound,4,you all disperse,اِنْتَشَرَ,يَنْتَشِرُ,اِنْتَشِرْ,مُنْتَشِر,—,اِنْتِشَار,تَنْتَشِرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+833,117,D7,نصر,sound,10,"one who helps himself, avenger",اِنْتَصَرَ,يَنْتَصِرُ,اِنْتَصِرْ,مُنْتَصِر,مُنْتَصَر,اِنْتِصَار,مُنْتَصِرًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+834,117,D7,نظر,sound,14,and wait (pl)!,اِنْتَظَرَ,يَنْتَظِرُ,اِنْتَظِرْ,مُنْتَظِر,مُنْتَظَر,اِنْتِظَار,وَانْتَظِرُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+835,117,D7,نقم,sound,13,revenge,اِنْتَقَمَ,يَنْتَقِمُ,اِنْتَقِمْ,مُنْتَقِم,مُنْتَقَم,اِنْتِقَام,انْتِقَامٍ,FORMS_VERIFIED,V10_FORM_COMPLETE
+836,117,D7,نهي,naqis,20,they ceased,اِنْتَهٰى,يَنْتَهِي,اِنْتَهِ,مُنْتَهٍ,مُنْتَهًى,اِنْتِهَاء,انْتَهَوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+837,117,D7,هدي,naqis,61,guided-ones,اِهْتَدٰى,يَهْتَدِي,اِهْتَدِ,مُهْتَدٍ,مُهْتَدًى,اِهْتِدَاء,مُهْتَدِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+838,117,D7,هزز,doubled,4,it became fresh (fg),اِهْتَزَّ,يَهْتَزُّ,اِهْتَزَّ,مُهْتَزّ,مُهْتَزّ,اِهْتِزَاز,اهْتَزَّتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+839,117,D7,وسق,mithal,1,it became full,اِتَّسَقَ,يَتَّسِقُ,اِتَّسِقْ,مُتَّسِق,—,اِتِّسَاق,اتَّسَقَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+840,118,D7,وقي,mithal+naqis,215,"for those who ward off evil, pious",اِتَّقٰى,يَتَّقِي,اِتَّقِ,مُتَّقٍ,مُتَّقًى,اِتِّقَاء,لِّلْمُتَّقِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+841,118,D7,وكء,hz3+mithal,10,a banquet,اِتَّكَأَ,يَتَّكِئُ,اِتَّكِئْ,مُتَّكِئ,مُتَّكأ,اِتِّكَاء,مُتَّكَاً,FORMS_VERIFIED,V10_FORM_COMPLETE
+842,119,D8,بيض,ajwaf,3,would become white (fg),اِبْيَضَّ,يَبْيَضُّ,اِبْيَضَّ,مُبْيَضّ,—,اِبْيِضَاض,تَبْيَضُّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+843,119,D8,خضر,sound,1,green,اِخْضَرَّ,يَخْضَرُّ,اِخْضَرِرْ,مُخْضَرّ,مُخْضَرّ,اِخضِرَار,مُخْضَرَّةً,FORMS_VERIFIED,V10_FORM_COMPLETE
+844,119,D8,سود,ajwaf,4,and would become black (fg),اِسْوَدَّ,يَسْوَدُّ,اِسْوَدَّ,مُسْوَدّ,مُسْوَدّ,اِسْوِدَاد,وَتَسْوَدُّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+845,120,D9,أجر,hz1,2,Hire him!,اِسْتَأْجَرَ,يَسْتَأْجِرُ,اِسْتَأْجِرْ,مُسْتَأْجِر,مُسْتَأْجَر,اِسْتِئْجَار,اسْتَاْجِرْهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+846,120,D9,أخر,hz1,7,they cannot be late,اِسْتَأْخَرَ,يَسْتَأْخِرُ,اِسْتَأْخِرْ,مُسْتَأْخِر,مُسْتَأْخَر,اِسْتِئْخَار,لَا يَسْتَاْخِرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+847,120,D9,أذن,hz1,12,he ask your permission,اِسْتَأْذَنَ,يَسْتَأْذِنُ,اِسْتَأْذِنْ,مُسْتَأْذِن,مُسْتَأْذَن,اِسْتِئْذَان,يَسْتَاْذِنُكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+848,120,D9,أنس,hz1,2,you all have asked permission,اِسْتَأْنَسَ,يَسْتَأْنِسُ,اِسْتَأْنِسْ,مُسْتَأْنِس,مُسْتَأْنَس,اِسْتِئْنَاس,تَسْتَاْنِسُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+849,120,D9,بدل,sound,4,would you all want to exchange?,اِسْتَبْدَلَ,يَسْتَبْدِلُ,اِسْتَبْدِلْ,مُسْتَبْدِل,مُسْتَبْدَل,اِسْتِبْدَال,اَتَسْتَبْدِلُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+850,120,D9,بشر,sound,8,and they receive good news,اِسْتَبْشَرَ,يَسْتَبْشِرُ,اِسْتَبْشِرْ,مُسْتَبْشِر,مُسْتَبْشَر,اِسْتِبْشَار,وَيَسْتَبْشِرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+851,120,D9,بصر,sound,1,endowed with insight,اِسْتَبْصَرَ,يَسْتَبْصِرُ,اِسْتَبْصِرْ,مُسْتَبْصِر,مُسْتَبْصَر,اِسْتِبْصَار,مُسْتَبْصِرِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+852,120,D9,بين,ajwaf,2,so that becomes manifest (fg),اِسْتَبَانَ,يَسْتَبِينُ,اِسْتَبِنْ,مُسْتَبِين,مُسْتَبَان,اِسْتِبَانَة,وَلِتَسْتَبِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+853,120,D9,ثني,naqis,1,they made no exception,اِسْتَثْنَى,يَسْتَثْنِي,اِسْتَثْنِ,مُسْتَثْنٍ,مُسْتَثْنًى,اِسْتِثْنَاء,وَلَا يَسْتَثْنُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+854,120,D9,جوب,ajwaf,28,So let them respond!,اِسْتَجَابَ,يَسْتَجِيبُ,اِسْتَجِبْ,مُسْتَجِيب,مُسْتَجَاب,اِسْتِجَابَة,فَلْيَسْتَجِيْبُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+855,120,D9,جور,ajwaf,1,he sought protection from you,اِسْتَجَارَ,يَسْتَجِيرُ,اِسْتَجِرْ,مُسْتَجِير,مُسْتَجَار,اِسْتِجَارَة,اسْتَجَارَكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+856,120,D9,حبب,doubled,4,they prefered,اِسْتَحَبَّ,يَسْتَحِبُّ,اِسْتَحِبْ,مُسْتَحِبّ,مُسْتَحَبّ,اِسْتِحْبَاب,اسْتَحَبُّوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+857,120,D9,حسر,sound,1,they tire,اِسْتَحْسَرَ,يَسْتَحْسِرُ,اِسْتَحْسِرْ,مُسْتَحْسِر,—,اِسْتِحْسَار,يَسْتَحْسِرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+858,120,D9,حفظ,sound,1,they were entrusted,اِسْتَحْفَظَ,يَسْتَحْفِظُ,اِسْتَحْفِظْ,مُسْتَحْفِظ,مُسْتَحْفَظ,اِسْتِحْفَاظ,اسْتُحْفِظُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+859,121,D9,حقق,doubled,2,they both deserved,اِسْتَحَقَّ,يَسْتَحِقُّ,اِسْتَحْقِقْ,مُسْتَحِقّ,مُسْتَحَقّ,اِسْتِحْقَاق,اسْتَحَقَّا,FORMS_VERIFIED,V10_FORM_COMPLETE
+860,121,D9,حوذ,ajwaf,2,we get control,اِسْتَحْوَذَ,يَسْتَحْوِذُ,اِسْتَحْوِذْ,مُسْتَحْوِذ,مُسْتَحْوَذ,اِسْتِحْوَاذ,نَسْتَحْوِذْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+861,121,D9,حيي,ajwaf+naqis+doubled,10,he feels shame,اِسْتَحْيَ,يَسْتَحْيِيُ,اِسْتَحِي,مُسْتَحٍ,مُسْتَحْيً,اِسْتِحْيَاء,يَسْتَحْىٖ,FORMS_VERIFIED,V10_FORM_COMPLETE
+862,121,D9,خرج,sound,4,he brought it out,اِسْتَخْرَجَ,يَسْتَخْرِجُ,اِسْتَخْرِجْ,مُسْتَخْرِج,مُسْتَخْرَج,اِسْتِخْرَاج,اسْتَخْرَجَهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+863,121,D9,خفف,doubled,3,you all find it light,اِسْتَخَفَّ,يَسْتَخِفُّ,اِسْتَخْفِفْ,مُسْتَخِفّ,مُسْتَخَفّ,اِسْتِخْفَاف,تَسْتَخِفُّوْنَهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+864,121,D9,خفي,naqis,4,they seek to hide,اِسْتَخْفَى,يَسْتَخْفِي,اِسْتَخْفِ,مُسْتَخْفٍ,مُسْتَخْفًى,اِسْتِخْفَاء,يَسْتَخْفُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+865,121,D9,خلص,sound,1,I will select him,اِسْتَخْلَصَ,يَسْتَخْلِصُ,اِسْتَخْلِصْ,مُسْتَخْلِص,مُسْتَخْلَص,اِسْتِخْلَاص,اَسْتَخْلِصْهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+866,121,D9,خلف,sound,6,and He grants succession,اِسْتَخْلَفَ,يَسْتَخْلِفُ,اِسْتَخْلِفْ,مُسْتَخْلِف,مُسْتَخْلَف,اِسْتِخْلَاف,وَيَسْتَخْلِفْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+867,121,D9,درج,sound,2,We will gradually follow them,اِسْتَدْرَجَ,يَسْتَدْرِجُ,اِسْتَدْرِجْ,مُسْتَدْرِج,مُسْتَدْرَج,اِسْتِدْرَاج,سَنَسْتَدْرِجُهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+868,121,D9,رضع,sound,1,you all ask another women to suckle,اِسْتَرْضَعَ,يَسْتَرْضِعُ,اِسْتَرْضِعْ,مُسْتَرْضِع,مُسْتَرْضَع,اِسْتِرْضَاع,تَسْتَرْضِعُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+869,121,D9,رهب,sound,1,and they terrified them,اِسْتَرْهَبَ,يَسْتَرْهِبُ,اِسْتَرْهِبْ,مُسْتَرْهِب,مُسْتَرْهَب,اِسْتِرْهَاب,وَاسْتَرْهَبُوْهُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+870,121,D9,زلل,doubled,1,made them slip,اِسْتَزَلَّ,يَسْتَزِلُّ,اِسْتَزْلِلْ,مُسْتَزِلّ,مُسْتَزَلّ,اِسْتِزْلَال,اسْتَزَلَّهُمُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+871,121,D9,سخر,sound,1,they mock,اِسْتَسْخَرَ,يَسْتَسْخِرُ,اِسْتَسْخِرْ,مُسْتَسْخِر,مُسْتَسْخَر,اِسْتِسْخَار,يَّسْتَسْخِرُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+872,121,D9,سقي,naqis,2,he asked for water,اِسْتَسْقَى,يَسْتَسْقِي,اِسْتَسْقِ,مُسْتَسْقٍ,مسْتَسْقًى,اِسْتِسْقَاء,اسْتَسْقٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+873,122,D9,سلم,sound,1,those who surrender,اِسْتَسْلَمَ,يَسْتَسْلِمُ,اِسْتَسْلِمْ,مُسْتَسْلِم,مُسْتَسْلَمٌ,اِسْتِسْلَام,مُسْتَسْلِمُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+874,122,D9,شهد,sound,2,And call for evidence (pl)!,اِسْتَشْهَدَ,يَسْتَشْهِدُ,اِسْتَشْهِدْ,مُسْتَشْهِد,مُسْتَشْهَد,اِسْتِشْهَاد,وَاسْتَشْهِدُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+875,122,D9,صرخ,sound,1,he cried out to him,اِسْتَصْرَخَ,يَسْتَصْرِخُ,اِسْتَصْرِخْ,مُسْتَصْرِخ,مُسْتَصْرَخ,اِسْتِصْرَاخ,يَسْتَصْرِخُهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+876,122,D9,ضعف,sound,13,and those who are weak,اِسْتَضْعَفَ,يَسْتَضْعِفُ,اِسْتَضْعِفْ,مُسْتَضْعِف,مُسْتَضْعَف,اِسْتِضْعَاف,وَالْمُسْتَضْعَفِيْن,FORMS_VERIFIED,V10_FORM_COMPLETE
+877,122,D9,طعم,sound,1,they both asked for food,اِسْتَطْعَمَ,يَسْتَطْعِمُ,اِسْتَطْعِمْ,مُسْتَطْعِم,مُسْتَطْعَم,اِسْتِطْعَام,اِسْتَطْعَمَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+878,122,D9,طوع,ajwaf,42,they are able,اِسْتَطَاعَ,يَسْتَطِيعُ,اِسْتَطِعْ,مُسْتَطِيع,مُسْتَطَاع,اِسْتِطَاعَة,اسْتَطَاعُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+879,122,D9,طير,ajwaf,1,widespread,اِسْتَطَارَ,يَسْتَطِيرُ,اِسْتَطِرْ,مُسْتَطِير,مُسْتَطَار,اِسْتِطَارَة,مُسْتَطِيْرًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+880,122,D9,عتب,sound,4,they will be asked to make amends,اِسْتَعْتَبَ,يَسْتَعْتِبُ,اِسْتَعْتِبْ,مُسْتَعْتِب,مُسْتَعْتَب,اِسْتِعْتَاب,يُسْتَعْتَبُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+881,122,D9,عجل,sound,20,you all seek to hasten,اِسْتَعْجَلَ,يَسْتَعْجِلُ,اِسْتَعْجِلْ,مُسْتَعْجِل,مُسْتَعْجَل,اِسْتِعْجَال,تَسْتَعْجِلُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+882,122,D9,عصم,sound,1,but he abstained,اِسْتَعْصَمَ,يَسْتَعْصِمُ,اِسْتَعْصِمْ,مُسْتَعْصِم,مُسْتَعْصَم,اِسْتِعْصَام,فَاسْتَعْصَمَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+883,122,D9,عفف,doubled,3,Then he should refrain!,اِسْتَعَفَّ,يَسْتَعِفُّ,اِسْتَعْفِفْ,مُسْتَعِفّ,—,اِسْتِعْفَاف,فَلْيَسْتَعْفِفْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+884,122,D9,علو,naqis,1,he overcame,اِسْتَعْلٰى,يَسْتَعْلِي,اِسْتَعْلِ,مُسْتَعْلٍ,مُسْتَعْلًى,اِسْتِعْلَاء,اسْتَعْلٰى,FORMS_VERIFIED,V10_FORM_COMPLETE
+885,122,D9,عمر,sound,1,and he settled you all,اِسْتَعْمَرَ,يَسْتَعْمِرُ,اِسْتَعْمِرْ,مُسْتَعْمِر,مُسْتَعْمَر,اِسْتِعْمَار,وَاسْتَعْمَرَكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+886,122,D9,عوذ,ajwaf,4,then Seek refuge!,اِسْتَعَاذَ,يَسْتَعِيذُ,اِسْتَعِذْ,مُسْتَعِيذ,مُسْتَعَاذ,اِسْتِعَاذَة,فَاسْتَعِذْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+887,123,D9,غشي,naqis,2,they cover (themselves),اِسْتَغْشٰى,يَسْتَغْشِي,اِسْتَغْشِ,مُسْتَغْشٍ,مُسْتَغْشًى,اِسْتِغْشَاء,يَسْتَغْشُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+888,123,D9,غفر,sound,42,And (you all) ask forgiveness!,اِسْتَغْفَرَ,يَسْتَغْفِرُ,اِسْتَغْفِرْ,مُسْتَغْفِر,مُسْتَغْفَر,اِسْتِغْفَار,وَاسْتَغْفِرُوا,FORMS_VERIFIED,V10_FORM_COMPLETE
+889,123,D9,غلظ,sound,1,then it became thick,اِسْتَغْلَظَ,يَسْتَغْلِظُ,اِسْتَغْلِظْ,مُسْتَغْلِظ,مُسْتَغْلَظ,اِسْتِغْلَاظ,فَاسْتَغْلَظَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+890,123,D9,غني,naqis,4,and He considered himself free of need,اِسْتَغْنٰى,يَسْتَغْنِي,اِسْتَغْنِ,مُسْتَغْنٍ,مُسْتَغْنًى,اِسْتِغْنَاء,وَّاسْتَغْنَى,FORMS_VERIFIED,V10_FORM_COMPLETE
+891,123,D9,غوث,ajwaf,4,you all are seeking help,اِسْتَغَاثَ,يَسْتَغِيثُ,اِسْتَغِثْ,مُسْتَغِيث,مُسْتَغَاث,اِسْتِغَاثَة,تَسْتَغِيْثُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+892,123,D9,فتح,sound,3,they pray for victory,اِسْتَفْتَحَ,يَسْتَفْتِحُ,اِسْتَفْتِحْ,مُسْتَفْتِح,مُسْتَفْتَح,اِسْتِفْتَاح,يَسْتَفْتِحُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+893,123,D9,فتو,naqis,6,and they seek your order,اِسْتَفْتٰى,يَسْتَفْتِي,اِسْتَفْتِ,مُسْتَفْتٍ,مُسْتَفْتًى,اِسْتِفْتَاء,وَيَسْتَفْتُوْنَكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+894,123,D9,فزز,doubled,3,And incite!,اِسْتَفَزَّ,يَسْتَفِزُّ,اِسْتَفْزِزْ,مُسْتَفِزّ,مُسْتَفَزّ,اِسْتِفْزَاز,وَاسْتَفْزِزْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+895,123,D9,قبل,sound,1,approaching,اِسْتَقْبَلَ,يَسْتَقْبِلُ,اِسْتَقْبِلْ,مُسْتَقْبِل,مُسْتَقْبَل,اِسْتِقْبَال,مُّسْتَقْبِلَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+896,123,D9,قدم,sound,5,and they cannot get ahead,اِسْتَقْدَمَ,يَسْتَقْدِمُ,اِسْتَقْدِمْ,مُسْتَقْدِم,مُسْتَقْدَم,اِسْتِقْدَام,وَلَا يَسْتَقْدِمُوْن,FORMS_VERIFIED,V10_FORM_COMPLETE
+897,123,D9,قرر,doubled,14,a dwelling place,اِسْتَقَرَّ,يَسْتَقِرُّ,اِسْتَقْرِرْ,مُسْتَقِرّ,مُسْتَقَرّ,اِسْتِقْرَار,مُسْتَقَرٌّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+898,123,D9,قسم,sound,1,you all are seeking to divide,اِسْتَقْسَمَ,يَسْتَقْسِمُ,اِسْتَقْسِمْ,مُسْتَقْسِم,مُسْتَقْسَم,اِسْتِقْسَام,تَسْتَقْسِمُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+899,123,D9,كبر,sound,48,and was arrogant,اِسْتَكْبَرَ,يَسْتَكْبِرُ,اِسْتَكْبِرْ,مُسْتَكْبِر,مُسْتَكْبَر,اِسْتِكْبَار,وَاسْتَكْبَرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+900,123,D9,كثر,sound,3,you all have done too much,اِسْتَكْثَرَ,يَسْتَكْثِرُ,اِسْتَكْثِرْ,مُسْتَكْثِر,مُسْتَكْثَر,اِسْتِكْثَار,اسْتَكْثَرْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+901,124,D9,كون,ajwaf,2,they supressed,اسْتَكَانَ,يَسْتَكِينُ,اِسْتَكِنْ,مُسْتَكِين,مُسْتَكَان,اِسْتِكَانَة,اسْتَكَانُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+902,124,D9,متع,sound,6,you all benefited,اِسْتَمْتَعَ,يَسْتَمْتِعُ,اِسْتَمْتِعْ,مُسْتَمْتِع,مُسْتَمْتَع,اِسْتِمْتَاع,اسْتَمْتَعْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+903,124,D9,مرر,doubled,2,that which is continuing,اِسْتَمَرَّ,يَسْتَمِرُّ,اسْتَمِرّ,مُسْتَمِرّ,مُسْتَمَرّ,اِسْتِمْرَار,مُسْتَمِرٌّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+904,124,D9,مسك,sound,4,he held fast,اِسْتَمْسَكَ,يَسْتَمْسِكُ,اِسْتَمْسِكْ,مُسْتَمْسِك,مُسْتَمْسَك,اِسْتِمْسَاك,اسْتَمْسَكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+905,124,D9,نبأ,hz3,1,and they ask you,اِسْتَنْبَأَ,يَسْتَنْبِئُ,اِسْتَنْبِئ,مُسْتَنْبِئ,مُسْتَنْبَأ,اِسْتِنْبَاء,وَيَسْتَنۢبِئُوْنَكَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+906,124,D9,نبط,sound,1,they draw correct conclusion,اِسْتَنْبَطَ,يَسْتَنْبِطُ,اِسْتَنْبِطْ,مُسْتَنْبِط,مُسْتَنْبَط,اِسْتِنْبَاط,يَسْتَنۢبِطُوْنَهٗ,FORMS_VERIFIED,V10_FORM_COMPLETE
+907,124,D9,نسخ,sound,1,we transcribe,اِسْتَنْسَخَ,يَسْتَنْسِخُ,اِسْتَنْسِخْ,مُسْتَنْسِخ,مُسْتَنْسَخ,اِسْتِنْسَاخ,نَسْتَنْسِخُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+908,124,D9,نصر,sound,2,they sought help from you all,اِسْتَنْصَرَ,يَسْتَنْصِرُ,اِسْتَنْصِرْ,مُسْتَنْصِر,مُسْتَنْصَر,اِسْتِنْصَار,اسْتَنْصَرُوْكُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+909,124,D9,نفر,sound,1,escaped (fg),اِسْتَنْفَرَ,يَسْتَنْفِرُ,اِسْتَنْفِرْ,مُسْتَنْفِر,مُسْتَنْفَر,اِسْتِنْفَار,مُّسْتَنْفِرَةٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+910,124,D9,نقذ,sound,1,they couldn’t  take it back,اِسْتَنْقَذَ,يَسْتَنْقِذُ,اِسْتَنْقِذْ,مُسْتَنْقِذ,مُسْتَنْقَذ,اِسْتِنْقَاذ,لَّا يَسْتَنْقِذُوْهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+911,124,D9,نكح,sound,1,wants to marry her,اِسْتَنْكَحَ,يَسْتَنْكِحُ,اِسْتَنْكِحْ,مُسْتَنْكِح,مُسْتَنْكَح,اِسْتِنْكَاح,يَسْتَنْكِحَهَا,FORMS_VERIFIED,V10_FORM_COMPLETE
+912,124,D9,نكف,sound,3,he feels shame,اِسْتَنْكَفَ,يَسْتَنْكِفُ,اِسْتَنْكِفْ,مُسْتَنْكِف,مُسْتَنْكَف,اِسْتِنْكَاف,يَسْتَنْكِفَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+913,124,D9,هوي,ajwaf+naqis,1,"he enticed, instigated him",اِسْتَهْوٰى,يَسْتَهْوِي,اِسْتَهْوِ,مُسْتَهْوٍ,مُسْتَهْوًى,اِسْتِهْوَاء,اسْتَهْوَتْهُ,FORMS_VERIFIED,V10_FORM_COMPLETE
+914,124,D9,ودع,mithal,2,and a resting place,اِسْتَوْدَعَ,يَسْتَوْدِعُ,اِسْتَوْدِعْ,مُسْتَوْدِع,مُسْتَوْدَع,اِسْتِيدَاع,وَّمُسْتَوْدَعٌ,FORMS_VERIFIED,V10_FORM_COMPLETE
+915,125,D9,وفي,mithal+naqis,1,they take in full,اِسْتَوْفٰى,يَسْتَوْفِي,اِسْتَوْفِ,مُسْتَوْفٍ,مُسْتَوْفًى,اِسْتِيفَاء,يَسْتَوْفُوْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+916,125,D9,يءس,hz2+mithal,2,they despaired,اِسْتَيْأَسَ,يَسْتَيْيِسُ,اِسْتَيْئِسْ,مُسْتَيْئِس,مُسْتَيْأس,اِسْتِيْئَاس,اسْتَيْئَسُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+917,125,D9,يسر,mithal,2,obtained with ease,اِسْتَيْسَرَ,يَسْتَيْسِرُ,اِسْتَيْسِرْ,مُسْتَيْسِر,مُسْتَيْسَر,اِسْتِيسَار,اسْتَيْسَرَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+918,125,D10,دهم,sound,1,dark green (two),اِدْهَامَّ,يَدْهَامُّ,اِدْهَامِم,مُدْهَامّ,—,اِدْهِيمَام,مُدْهَآمَّتٰنِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+919,125,D10,شمءز,quad,1,shrink with aversion (fg),اِشْمَأَزَّ,يَشْمَئِزُّ,اِشْمَازِزْ,مُشْمَئِزّ,مُشْمَأزّ,اشْمِئْزَاز,اشْمَأَزَّتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+920,125,D10,طمأن,quad,13,so that (it) gets satisfied,اِطْمَأَنَّ,يَطْمَئِنُّ,اِطْمَئِنَّ,مُطْمَئِنّ,مُطْمَأَنّ,اِطْمِئْنَان,لِيَطْمَئِنَّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+921,125,D10,قشعر,quad,1,shivering with fear (fg),اِقْشَعَرَّ,يَقْشَعِرُّ,اِقْشَعْرِر,مُقْشَعِرّ,مُقْشَعَرّ,اقْشِعْرَار,تَقْشَعِرُّ,FORMS_VERIFIED,V10_FORM_COMPLETE
+922,126,D11,حصحص,quad,1,manifested,حَصْحَصَ,يُحَصْحِصُ,حَصْحِصْ,مُحَصْحِص,—,حَصْحَصَة,حَصْحَصَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+923,126,D11,دمدم,quad,1,so destroyed,دَمْدَمَ,يُدَمْدِمُ,دَمْدِمْ,مُدَمْدِم,مُدَمْدَم,دَمْدَمَة,فَدَمْدَمَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+924,126,D11,بعثر,quad,2,are overturned (fg),بَعْثَرَ,يُبَعْثِرُ,بَعْثِرْ,مُبَعْثِر,مُبَعْثَر,بَعْثَرَة,بُعْثِرَتْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+925,126,D11,ذبذب,quad,1,wavering (people),ذَبْذَبَ,يُذَبْذِبُ,ذَبْذِبْ,مُذَبْذِب,مُذَبْذَب,ذَبْذَبَة,مُذَبْذَبِيْنَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+926,126,D11,زحزح,quad,2,the one which removes him from,زَحْزَحَ,يُزَحْزِحُ,زَحْزِحْ,مُزَحْزِح,مُزَحْزَح,زَحْزَحَة,بِمُزَحْزِحِهٖ,FORMS_VERIFIED,V10_FORM_COMPLETE
+927,126,D11,زلزل,quad,6,and they were shaken,زَلْزَلَ,يُزَلْزِلُ,زَلْزِلْ,مُزَلْزِل,مُزَلْزَل,زَلْزَلَة,وَزُلْزِلُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+928,126,D11,عسعس,quad,1,it departed,عَسْعَسَ,يُعَسْعِسُ,عَسْعِسْ,مُعَسْعِس,—,عَسْعَسَة,عَسْعَسَ,FORMS_VERIFIED,V10_FORM_COMPLETE
+929,126,D11,قنطر,quad,4,stored up (fg),قَنْطَرَ,يُقَنْطِرُ,قَنْطِرْ,مُقَنْطِر,مُقَنْطَر,قَنْطَرَة,الْمُقَنْطَرَةِ,FORMS_VERIFIED,V10_FORM_COMPLETE
+930,126,D11,كبكب,quad,1,then they will be overturned,كَبْكَبَ,يُكَبْكِبُ,كَبْكِبْ,مُكَبْكِب,مُكَبْكَب,كَبْكَبَة,فَكُبْكِبُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
+931,126,D11,هيمن,quad,2,and a guardian,هَيْمَنَ,يُهَيْمِنُ,هَيْمِنْ,مُهَيْمِن,مُهَيْمَن,هَيْمَنَة,وَمُهَيْمِنًا,FORMS_VERIFIED,V10_FORM_COMPLETE
+933,126,D12,ثقل,sound,1,you all cling heavily,اِثَّاقَلَ,يَثَّاقَلُ,اِثَّاقَلْ,مُثَّاقِل,مُثَّاقَل,اِثَّاقُل,اِثَّاقَلْتُمْ,FORMS_VERIFIED,V10_FORM_COMPLETE
+934,126,D12,درك,sound,3,they overtaken one another,اِدَّارَكَ,يَدَّارَكُ,اِدَّارَكْ,مُدَّارِك,—,اِدَّارُك,ادَّارَكُوْا,FORMS_VERIFIED,V10_FORM_COMPLETE
