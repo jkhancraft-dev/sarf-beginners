@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sarf — Beginners v10</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><div><h1>Sarf — Beginners <span>v10</span></h1><p>Qur’anic D-Series • 933 verbs • morphology-first study</p></div><div class="badge">V10 FORM-COMPLETE</div></header>
+<main class="wrap">
+<section class="hero card"><div><h2>Learn the paradigm, then test it.</h2><p>Search roots, inspect six core forms, practise meanings separately, or run additional morphology drills. Arabic matching keeps harakāt intact by default.</p></div><div class="stats"><b id="count">933</b><small>verbs</small><b>5,598</b><small>form cells</small></div></section>
+<section class="toolbar card">
+<div class="searchrow"><input id="search" placeholder="Search Arabic, root, English meaning, number…" autocomplete="off"><select id="form"><option value="">All forms</option><option>D1</option><option>D2</option><option>D3</option><option>D4</option><option>D5</option><option>D6</option><option>D7</option><option>D8</option><option>D9</option><option>D10</option><option>D11</option><option>D12</option></select><label class="check"><input type="checkbox" id="ignoreHarakat"> Ignore harakāt</label></div>
+<div class="tabs"><button class="tab active" data-mode="browse">Browse</button><button class="tab" data-mode="meaning">Verbs &amp; Meanings</button><button class="tab" data-mode="practice">More Practice</button></div>
+</section>
+<section id="browse" class="panel"><div class="panelhead"><h2>Verb list</h2><span id="resultInfo"></span></div><div id="list" class="grid"></div></section>
+<section id="meaning" class="panel hidden"><div class="quiz card"><div class="quizhead"><h2>Verbs &amp; Meanings</h2><span id="meaningScore">0 / 0</span></div><p class="muted">Meaning testing is intentionally separate from morphology practice.</p><div id="meaningPrompt"></div><div class="choices" id="meaningChoices"></div><button class="primary" id="nextMeaning">Next</button></div></section>
+<section id="practice" class="panel hidden"><div class="quiz card"><div class="quizhead"><h2>More Practice</h2><span id="practiceScore">0 / 0</span></div><p class="muted">Identify the missing paradigm item or answer from the displayed forms.</p><div id="practicePrompt"></div><div class="choices" id="practiceChoices"></div><button class="primary" id="nextPractice">Next</button></div></section>
+</main>
+<div id="modal" class="modal hidden"><div class="modalbox"><button class="close" id="close">×</button><div id="detail"></div></div></div>
+<footer>Source dataset: <em>All Verbs of the Qur’an</em>, D1–D12. Source-print text is preserved; release forms use the audited <code>finalForm</code> layer. Counts/English/example metadata remain source-transcribed unless explicitly marked as externally verified.</footer>
+<script src="app.js"></script>
+</body></html>
