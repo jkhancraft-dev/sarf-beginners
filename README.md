@@ -1,4 +1,4 @@
-# Sarf — Beginners v10.1.1
+# Sarf — Beginners v10.2
 
 ## Release overview
 Sarf is a static, GitHub Pages-compatible study tool for the 933-entry D-series verb list from *All Verbs of the Qur’an*.
@@ -28,3 +28,13 @@ Sarf is a static, GitHub Pages-compatible study tool for the 933-entry D-series 
 
 ## GitHub Pages layout
 Upload the *contents* of `Sarf_v10` into the repository root, so `index.html`, `app.js`, `styles.css`, and `data/verbs.json` are top-level/root-relative as expected by GitHub Pages.
+
+
+## V10.2 updates
+- Explicitly prominent passive māḍī and passive muḍāriʿ in conjugation details.
+- Larger morphology labels and Arabic multiple-choice options.
+- Grouped meaning-learning/test section, 30 source-ordered verbs per group; each test is restricted to its selected group.
+- The original V7 package/theme and exact group mapping were not available in the active project files, so V10.2 preserves V10 structure and uses a compatible blue/white theme rather than claiming an exact V7 clone.
+
+## Group allocation note
+The app now exposes Group A–Z and AA–AF (30 verbs per group, with 3 in the final group) in both Browse and Verbs & Meanings. The V7/V6 source package and its historical group allocation were not available in the active project files during this revision, so the group mapping in `data/meaning_groups.json` is a temporary source-order grouping, not a claim that it reproduces V7/V6 exactly. The original verb records and their order are preserved.
