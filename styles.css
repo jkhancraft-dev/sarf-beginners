@@ -85,3 +85,18 @@ button,.tab,.group-btn,.choice{touch-action:manipulation}
  .forms .label{font-size:13px}
  .forms .ar{font-size:20px}
 }
+
+
+/* V10.5 navigation priority and mobile regression refinements */
+.tabs{align-items:center;min-width:0;gap:6px}
+.nav-meta{margin-left:auto;flex:0 0 auto;color:var(--muted);font-size:12px;white-space:nowrap;padding:8px 4px 8px 12px;border-left:1px solid var(--line)}
+.tab{flex:0 0 auto;min-height:42px}
+.searchrow input,.searchrow select{min-width:0;max-width:100%}
+button:disabled{cursor:not-allowed;opacity:.62}
+@media(max-width:650px){
+ .tabs{display:flex;overflow-x:auto;max-width:100%;padding-bottom:8px;scrollbar-width:thin}
+ .nav-meta{margin-left:0;padding-left:10px}
+ .tab{min-height:46px;padding:10px 11px}
+ .textbook-frame{width:100%;max-width:100%}
+ .panel,.toolbar,.card{min-width:0}
+}
