@@ -56,3 +56,12 @@ The app now exposes Group A–Z and AA–AF (30 verbs per group, with 3 in the f
 
 ## Final test report
 See `verification/V10_3_FINAL_TEST_REPORT.md` for checks performed, fixes made, preserved V10 data hashes, scope limits, and the browser-automation limitation.
+
+
+## V10.4 candidate — mobile usability and QA follow-up
+
+- Improved mobile layouts and tap targets across the main app and textbook.
+- Textbook iframe now auto-sizes to reduce nested scrolling and expose the full course page.
+- Lesson list explains sequential unlock requirements and shows lesson completion counts.
+- Quiz answer instructions and Next-question gating clarify the answer/feedback workflow.
+- See `verification/V10_4_RELEASE_QA.md` for what is and is not yet verified.

@@ -44,3 +44,48 @@ function renderBrowseGroups(){const groups=meaningGroups();$('#browseGroupButton
 function switchTab(mode){$$('.tab').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));['browse','meaning','practice','textbook'].forEach(id=>$('#'+id).classList.toggle('hidden',id!==mode));if(mode==='meaning'){renderMeaningGroups();$('#meaningLearn').classList.remove('hidden');$('#meaningPrompt').innerHTML='';$('#meaningChoices').innerHTML='';$('#backToLearn').classList.add('hidden')}if(mode==='practice')newPractice()}
 $('#search').oninput=render;$('#form').onchange=render;$('#ignoreHarakat').onchange=render;$('#close').onclick=()=>$('#modal').classList.add('hidden');$('#modal').onclick=e=>{if(e.target.id==='modal')$('#modal').classList.add('hidden')};$$('.tab').forEach(b=>b.onclick=()=>switchTab(b.dataset.mode));$('#nextMeaning').onclick=()=>{if(meaningQ && meaningMode==='test')newMeaning()};$('#backToLearn').onclick=()=>{meaningMode='learn';$('#meaningLearn').classList.remove('hidden');$('#meaningPrompt').innerHTML='';$('#meaningChoices').innerHTML='';$('#backToLearn').classList.add('hidden');renderMeaningLearn()};$('#nextPractice').onclick=newPractice;
 fetch('data/verbs.json').then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(obj=>{DATA=obj.verbs;$('#count').textContent=DATA.length;renderBrowseGroups();render()}).catch(e=>{$('#count').textContent='!';$('#list').innerHTML=`<p class="error">Could not load data/verbs.json. Check that the data folder is at the repository root.</p>`;console.error(e)});
+
+// V10.4: auto-size the same-origin textbook iframe so the parent page owns scrolling.
+// This avoids a small nested scroll area on phones and reveals the complete lesson list.
+(function setupTextbookFrameSizing(){
+ const frame=$('#textbookFrame');
+ if(!frame) return;
+ let resizeObserver=null, mutationObserver=null, scheduled=false;
+ function scheduleResize(){
+   if(scheduled) return;
+   scheduled=true;
+   requestAnimationFrame(()=>{scheduled=false; resizeFrame();});
+ }
+ function resizeFrame(){
+   try{
+     const doc=frame.contentDocument;
+     if(!doc || !doc.documentElement || !doc.body) return;
+     const nodes=[doc.body,doc.querySelector('main'),doc.querySelector('footer'),...doc.querySelectorAll('.tab:not(.hidden)')].filter(Boolean);
+     const height=Math.max(620,...nodes.map(el=>Math.ceil(el.getBoundingClientRect().bottom + doc.defaultView.scrollY)),doc.body.offsetHeight);
+     frame.style.height=(height+20)+'px';
+   }catch(_e){ /* Cross-origin frames keep the safe CSS fallback. */ }
+ }
+ function observeFrame(){
+   try{
+     const doc=frame.contentDocument;
+     if(!doc) return;
+     if(resizeObserver) resizeObserver.disconnect();
+     if(mutationObserver) mutationObserver.disconnect();
+     if('ResizeObserver' in window){
+       resizeObserver=new ResizeObserver(scheduleResize);
+       [doc.documentElement,doc.body,doc.querySelector('main')].filter(Boolean).forEach(el=>resizeObserver.observe(el));
+     }
+     if('MutationObserver' in window && doc.body){
+       mutationObserver=new MutationObserver(scheduleResize);
+       mutationObserver.observe(doc.body,{subtree:true,childList:true,attributes:true,characterData:false});
+     }
+     if(doc.fonts && doc.fonts.ready) doc.fonts.ready.then(scheduleResize).catch(()=>{});
+     doc.querySelectorAll('img').forEach(img=>{if(!img.complete) img.addEventListener('load',scheduleResize,{once:true});});
+     scheduleResize();
+   }catch(_e){ resizeFrame(); }
+ }
+ frame.addEventListener('load',observeFrame);
+ window.addEventListener('resize',scheduleResize,{passive:true});
+ document.querySelectorAll('.tab[data-mode]').forEach(btn=>btn.addEventListener('click',()=>{if(btn.dataset.mode==='textbook')setTimeout(scheduleResize,80);}));
+ if(frame.contentDocument && frame.contentDocument.readyState==='complete') observeFrame();
+})();
