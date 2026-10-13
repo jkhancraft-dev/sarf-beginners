@@ -147,7 +147,7 @@ function verifiedLexeme(input){
   return Object.values(records).find(v=>normalizeForRegistry(v.canonical)===target)||null;
 }
 function renderConjugator(){
-  q('#conjugator').innerHTML=card('Textbook Verb Conjugator',`<p class="muted">Paradigms shown here are limited to textbook examples with reviewed, verb-specific records. Other textbook entries display only forms actually stored in their source records; the app will not substitute an abstract pattern for a verb's own conjugation.</p><div class="conj-controls"><input id="conjInput" placeholder="Enter a verb, e.g. كَتَبَ" inputmode="text" autocomplete="off"><select id="conjWhat"><option value="everything">Everything verified</option><option value="past">Māḍī</option><option value="present">Muḍāriʿ</option><option value="amr">Amr</option><option value="faail">Ism al-Fāʿil / lexical adjective</option><option value="mafool">Ism al-Mafʿūl</option><option value="passive_past">Passive Māḍī</option><option value="passive_present">Passive Muḍāriʿ</option><option value="masdar">Maṣdar</option><option value="tafdil">Ism al-Tafdīl</option><option value="wazn">Mīzān / وزن</option></select><button class="btn" id="runConj">Show</button></div><div class="conj-hint">Reviewed examples: كَتَبَ، فَرِحَ، كَرُمَ، أَكْرَمَ، كَاتَبَ، عَلَّمَ، بَرْهَنَ، اِنْكَسَرَ، اِشْتَغَلَ، اِحْمَرَّ، تَعَلَّمَ، تَنَاصَرَ، تَدَحْرَجَ، اِسْتَخْرَجَ.</div><div id="conjResult"></div>`);
+  q('#conjugator').innerHTML=card('Textbook Verb Conjugator',`<p class="muted">Reviewed coverage: 14 representative textbook verbs. The selector shows active past, present, imperative, passive forms, participles, maṣdar, Ism al-Tafdīl, and Mīzān where a reviewed/source-supported form exists. Unavailable forms are explicitly explained rather than guessed. Other textbook entries display only forms actually stored in their source records.</p><div class="conj-controls"><input id="conjInput" placeholder="Enter a verb, e.g. كَتَبَ" inputmode="text" autocomplete="off"><select id="conjWhat"><option value="everything">Everything verified</option><option value="past">Māḍī</option><option value="present">Muḍāriʿ</option><option value="amr">Amr</option><option value="faail">Ism al-Fāʿil / lexical adjective</option><option value="mafool">Ism al-Mafʿūl</option><option value="passive_past">Passive Māḍī</option><option value="passive_present">Passive Muḍāriʿ</option><option value="masdar">Maṣdar</option><option value="tafdil">Ism al-Tafdīl</option><option value="wazn">Mīzān / وزن</option></select><button class="btn" id="runConj">Show</button></div><div class="conj-hint">Reviewed examples: كَتَبَ، فَرِحَ، كَرُمَ، أَكْرَمَ، كَاتَبَ، عَلَّمَ، بَرْهَنَ، اِنْكَسَرَ، اِشْتَغَلَ، اِحْمَرَّ، تَعَلَّمَ، تَنَاصَرَ، تَدَحْرَجَ، اِسْتَخْرَجَ.</div><div id="conjResult"></div>`);
   const run=()=>{
     const input=q('#conjInput').value.trim(), kind=q('#conjWhat').value, out=q('#conjResult');
     if(!input){out.innerHTML='<div class="empty-state"><h3>Choose a textbook verb</h3><p>Enter one of the reviewed pattern examples, or choose a verb from the Textbook Verbs directory.</p></div>';return;}
@@ -156,20 +156,20 @@ function renderConjugator(){
     const verified=verifiedLexeme(input) || verifiedLexeme(v.ar);
     const active=verified?.active, passive=verified?.passive, nouns=verified?.nouns;
     const titleVerb=verified?.canonical||v.ar;
-    const rows=(title,arr)=>Array.isArray(arr)&&arr.length?`<h4>${title}</h4>${miniTable(arr)}`:'';
-    const scalar=(title,value,note='')=>value?`<h4>${title}</h4><div class="examples">${arabic(value,'table-ar')}</div>${note?`<p class="muted">${esc(note)}</p>`:''}`:note?`<h4>${title}</h4><p class="muted">${esc(note)}</p>`:'';
+    const rows=(title,arr,note='No reviewed table is stored for this form.')=>Array.isArray(arr)&&arr.length?`<h4>${title}</h4>${miniTable(arr)}`:`<h4>${title}</h4><p class="muted">${esc(note)}</p>`;
+    const scalar=(title,value,note='')=>value?`<h4>${title}</h4><div class="examples">${arabic(value,'table-ar')}</div>${note?`<p class="muted">${esc(note)}</p>`:''}`:note?`<h4>${title}</h4><p class="muted">${esc(note)}</p>`:`<h4>${title}</h4><p class="muted">No reviewed/source-supported form is stored for this entry; no form has been inferred.</p>`;
     let body=`<div class="card"><div class="lesson-header"><div><h3>${arabic(titleVerb,'ar verb')}</h3><p>${esc(verified?.meaning||v.meaning||'')}</p></div><span class="badge">${verified?esc(verified.wazn):esc(v.wazn||'Textbook entry')}</span></div><p><b>Root:</b> ${esc(verified?.root||v.root||'—')}</p>`;
     if(verified){
-      if(kind==='everything'||kind==='past') body+=rows('Māḍī',active.past);
-      if(kind==='everything'||kind==='present') body+=rows('Muḍāriʿ',active.present);
-      if(kind==='everything'||kind==='amr') body+=rows('Amr',active.amr);
-      if(kind==='everything'||kind==='passive_past') body+=rows('Passive Māḍī',passive.past)+(!passive.past?`<p class="muted">${esc(passive.note||'No reviewed passive paradigm is supplied for this lexeme.')}</p>`:'');
-      if(kind==='everything'||kind==='passive_present') body+=rows('Passive Muḍāriʿ',passive.present)+(!passive.present?`<p class="muted">${esc(passive.note||'No reviewed passive paradigm is supplied for this lexeme.')}</p>`:'');
+      if(kind==='everything'||kind==='past') body+=rows('Māḍī',active.past,'No reviewed active-past table is stored.');
+      if(kind==='everything'||kind==='present') body+=rows('Muḍāriʿ',active.present,'No reviewed active-present table is stored.');
+      if(kind==='everything'||kind==='amr') body+=rows('Amr',active.amr,verified.canonical==='اِحْمَرَّ'?'The reviewed Form IX record intentionally omits an ordinary productive imperative.':'No reviewed imperative table is stored for this lexeme.');
+      if(kind==='everything'||kind==='passive_past') body+=rows('Passive Māḍī',passive.past,passive.note||'No reviewed passive-past paradigm is supplied for this lexeme.');
+      if(kind==='everything'||kind==='passive_present') body+=rows('Passive Muḍāriʿ',passive.present,passive.note||'No reviewed passive-present paradigm is supplied for this lexeme.');
       if(kind==='everything'||kind==='faail') body+=scalar(nouns.faail_label||'Ism al-Fāʿil',nouns.faail,nouns.faail_note||'');
       if(kind==='everything'||kind==='mafool') body+=scalar('Ism al-Mafʿūl',nouns.mafool,nouns.mafool_note||'');
       if(kind==='everything'||kind==='masdar') body+=scalar('Maṣdar',nouns.masdar,nouns.masdar_note||'');
-      if(kind==='everything'||kind==='tafdil') body+=scalar('Ism al-Tafdīl',nouns.tafdil,nouns.tafdil_note||'');
-      if(kind==='everything'||kind==='wazn') body+=scalar('Mīzān / وزن',verified.wazn);
+      if(kind==='everything'||kind==='tafdil') body+=scalar('Ism al-Tafdīl',nouns.tafdil,nouns.tafdil_note||'No reviewed direct اسم التفضيل is supplied; use a context-appropriate analytic expression when grammatically required.');
+      if(kind==='everything'||kind==='wazn') body+=scalar('Mīzān / وزن',verified.wazn,'No reviewed وزن is stored for this entry.');
       body+=`<p class="source"><b>Verification status:</b> ${esc(verified.verification?.status||'reviewed')} · <b>Paradigm basis:</b> ${esc(verified.verification?.basis||'')}</p>`;
     }else{
       if(kind==='everything'||kind==='past') body+=rows('Māḍī',v.past_conjugation);
