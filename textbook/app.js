@@ -209,8 +209,8 @@ function passiveEntries(){return (DATA.exercise_entries||[]).filter(v=>v.expecte
 function renderChoiceQuestion(title, shown, questionText, correct, pool, meta='Mixed cumulative review'){
   const options=makeOptions(correct,pool);
   quiz={correct,answered:false};
-  q('#practice').innerHTML=card('Textbook Practice Questions',`<div class="unlock-panel practice-unlock"><div><strong>🔓 Full Textbook Test</strong><p class="muted">${state.fullAccess?'All textbook questions are unlocked.':'Normal mode follows completed textbook lessons only.'}</p></div><button class="btn ${state.fullAccess?'secondary-btn':''}" ${state.fullAccess?'disabled':''} onclick="unlockAllTextbookQuestions();startQuiz()">${state.fullAccess?'✓ All questions unlocked':'Unlock all questions'}</button></div><div class="quiz-meta"><span>${meta}</span><span>Score ${state.correct} / ${state.correct+state.wrong}</span></div><div class="question-word">${arabic(shown,'ar quiz-word')}</div><p class="question">${questionText}</p><p class="quiz-instruction">Choose one answer. Your answer is checked immediately.</p><div class="options">${options.map((o,i)=>`<button class="option" data-i="${i}">${arabic(o,'small-ar')}<span class="mark" aria-hidden="true"></span></button>`).join('')}</div><div id="quizFeedback" class="quiz-feedback" aria-live="polite"></div><button class="btn next-btn" id="nextQuestion" disabled>Next question</button>`);
-  q('#nextQuestion').onclick=startQuiz;
+  q('#practice').innerHTML=card('Textbook Practice Questions',`<div class="unlock-panel practice-unlock"><div><strong>🔓 Full Textbook Test</strong><p class="muted">${state.fullAccess?'All textbook questions are unlocked.':'Normal mode follows completed textbook lessons only.'}</p></div><button class="btn ${state.fullAccess?'secondary-btn':''}" ${state.fullAccess?'disabled':''} onclick="unlockAllTextbookQuestions();startQuiz()">${state.fullAccess?'✓ All questions unlocked':'Unlock all questions'}</button>${state.fullAccess?'<button class="btn secondary-btn" onclick="renderFullTestLevels()">Choose difficulty</button>':''}</div><div class="quiz-meta"><span>${meta}</span><span>Score ${state.correct} / ${state.correct+state.wrong}</span></div><div class="question-word">${arabic(shown,'ar quiz-word')}</div><p class="question">${questionText}</p><p class="quiz-instruction">Choose one answer. Your answer is checked immediately.</p><div class="options">${options.map((o,i)=>`<button class="option" data-i="${i}">${arabic(o,'small-ar')}<span class="mark" aria-hidden="true"></span></button>`).join('')}</div><div id="quizFeedback" class="quiz-feedback" aria-live="polite"></div><button class="btn next-btn" id="nextQuestion" disabled>Next question</button>`);
+  q('#nextQuestion').onclick=()=>startQuiz(state.fullAccess?activeFullTestLevel:undefined);
   q('#practice').querySelectorAll('.option').forEach((b,i)=>b.onclick=()=>answerQuiz(b,options[i]));
 }
 function startCommandQuiz(){
@@ -246,7 +246,69 @@ function learnedPastPatterns(){
   if(c.past6) ids.push('اِسْتَفْعَلَ');
   return ids;
 }
-function startQuiz(){
+let activeFullTestLevel=null;
+function fullTestRegistry(){return Object.values(window.TEXTBOOK_VERIFIED_CONJUGATIONS||{}).filter(v=>v&&v.active&&v.nouns&&v.wazn)}
+function questionFromPool(title, shown, questionText, correct, pool, meta){
+  const valid=[...new Set((pool||[]).filter(x=>typeof x==='string'&&x.trim()))];
+  if(!correct||valid.filter(x=>x!==correct).length<3) return false;
+  renderChoiceQuestion(title,shown,questionText,correct,valid,meta); return true;
+}
+function renderFullTestLevels(){
+  activeFullTestLevel=null;
+  q('#practice').innerHTML=card('Full Textbook Test',`<div class="unlock-panel practice-unlock"><div><strong>Full textbook access enabled</strong><p class="muted">Choose a difficulty. Questions are drawn from textbook lessons, patterns, stored verb data, and reviewed paradigms. Hard questions use only available reviewed forms.</p></div><span class="badge">Full test</span></div><div class="full-test-levels"><button class="btn level-btn easy-level" onclick="startQuiz('easy')"><strong>Easy — أساسيات</strong><span>Very basic questions: word classes, root, وزن, simple past and maṣdar recognition.</span></button><button class="btn level-btn medium-level" onclick="startQuiz('medium')"><strong>Medium — متوسط</strong><span>Pattern formation, examples, past/present/imperative, and derived forms.</span></button><button class="btn level-btn hard-level" onclick="startQuiz('hard')"><strong>Hard — تحدٍّ متقدم</strong><span>Random verb and random paradigm slot, including pronoun, gender, number, active/passive, and derived nouns where reviewed forms exist.</span></button></div><p class="muted">Difficulty stays selected until you return to this level screen. Answers are checked immediately; use “Choose difficulty” to switch levels.</p><button class="btn secondary-btn" onclick="renderFullTestLevels()">Choose difficulty</button>`);
+}
+function chooseQuestionFromRecords(level){
+  const registry=fullTestRegistry(), entries=learningEntries(), ex=DATA.exercise_entries||[];
+  const allEntries=[...entries,...ex];
+  const poolOf=(key)=>ex.map(v=>v.expected_answers?.[key]||v[key]).filter(Boolean);
+  if(level==='easy'){
+    const modes=[];
+    const basic=ex.filter(v=>v.expected_answers?.wazn&&v.wazn);
+    if(basic.length>3) modes.push(()=>{const v=basic[Math.floor(Math.random()*basic.length)];return questionFromPool('Full Textbook Test',v.ar,'Which وَزْن / مِيزَان matches this verb?',v.expected_answers.wazn,basic.map(x=>x.expected_answers?.wazn),'Easy • identify the pattern')});
+    const meanings=ex.filter(v=>v.expected_answers?.meaning&&v.meaning);
+    if(meanings.length>3) modes.push(()=>{const v=meanings[Math.floor(Math.random()*meanings.length)];return questionFromPool('Full Textbook Test',v.ar,'What is the supplied English meaning of this verb?',v.expected_answers.meaning,meanings.map(x=>x.expected_answers?.meaning),'Easy • basic meaning')});
+    const roots=ex.filter(v=>v.expected_answers?.root&&v.root);
+    if(roots.length>3) modes.push(()=>{const v=roots[Math.floor(Math.random()*roots.length)];return questionFromPool('Full Textbook Test',v.ar,'Which root is recorded for this verb?',v.expected_answers.root,roots.map(x=>x.expected_answers?.root),'Easy • identify the root')});
+    if(DATA.past_conjugations){const patterns=Object.keys(DATA.past_conjugations);modes.push(()=>{const pat=patterns[Math.floor(Math.random()*patterns.length)];return questionFromPool('Full Textbook Test',pat,'Which of these is a textbook māḍī وزن?',pat,patterns,'Easy • recognize a past pattern')});}
+    if(registry.length>3) modes.push(()=>{const v=registry[Math.floor(Math.random()*registry.length)];const correct=v.active.past[0][1];return questionFromPool('Full Textbook Test',v.canonical,'Choose the هُوَ (third-person masculine singular) active Māḍī form.',correct,registry.flatMap(x=>x.active.past.map(r=>r[1])),'Easy • basic active past')});
+    const basics=[
+      {q:'In Mīzān al-Ṣarf, what do ف، ع، ل represent?',a:'The first, second, and last root letters',p:['The first, second, and last root letters','The three word classes','Past, present, and command','Masculine, feminine, and dual']},
+      {q:'What is a maṣdar?',a:'A verbal noun',p:['A verbal noun','An imperative command','A passive past-tense verb','A detached pronoun']},
+      {q:'What does فِعْلُ الأَمْر mean?',a:'Imperative / command form',p:['Imperative / command form','Active past tense','Passive present tense','Verbal noun']},
+      {q:'Which term names the active participle?',a:'اسم الفاعل',p:['اسم الفاعل','اسم المفعول','المصدر','فعل الأمر']},
+      {q:'Which term names the passive participle?',a:'اسم المفعول',p:['اسم الفاعل','اسم المفعول','الماضي المعلوم','المضارع المعلوم']},
+      {q:'Which is the usual textbook order for studying a basic verb form?',a:'Identify the root and pattern, then study its forms',p:['Identify the root and pattern, then study its forms','Choose a meaning without checking the form','Study only the passive form','Ignore the pattern and root']},
+      {q:'What is المُضَارِع?',a:'The present/imperfect verb form',p:['The present/imperfect verb form','The active past only','The imperative only','The verbal noun']}
+    ];
+    modes.push(()=>{const item=basics[Math.floor(Math.random()*basics.length)];return questionFromPool('Full Textbook Test','مَبَادِئُ الصَّرْفِ',item.q,item.a,item.p,'Easy • textbook fundamentals')});
+    for(const run of shuffle(modes)){if(run())return true;} return false;
+  }
+  if(level==='medium'){
+    const modes=[];
+    if(registry.length>3) modes.push(()=>{const v=registry[Math.floor(Math.random()*registry.length)];const fam=['past','present','amr'][Math.floor(Math.random()*3)];const rows=v.active[fam]||[];if(!rows.length)return false;const row=rows[Math.floor(Math.random()*rows.length)];const famLabel={past:'active Māḍī',present:'active Muḍāriʿ',amr:'Amr'}[fam];return questionFromPool('Full Textbook Test',v.canonical,`For <b>${esc(v.canonical)}</b>, choose the ${esc(row[0])} form in ${famLabel}.`,row[1],registry.flatMap(x=>(x.active[fam]||[]).map(r=>r[1])),`Medium • ${famLabel}`)});
+    const patterns=Object.keys(DATA.past_conjugations||{});if(patterns.length>3)modes.push(()=>{const pat=patterns[Math.floor(Math.random()*patterns.length)];const v=ex.find(x=>x.expected_answers?.wazn===pat)||ex[Math.floor(Math.random()*ex.length)];return questionFromPool('Full Textbook Test',v.ar,`Which وزن is associated with this textbook verb?`,v.expected_answers?.wazn||v.wazn,ex.map(x=>x.expected_answers?.wazn||x.wazn), 'Medium • connect verb and pattern')});
+    if(registry.length>3)modes.push(()=>{const v=registry[Math.floor(Math.random()*registry.length)];const k=['faail','mafool','masdar'][Math.floor(Math.random()*3)];const value=v.nouns[k];if(!value)return false;const label={faail:'اسم الفاعل',mafool:'اسم المفعول',masdar:'المصدر'}[k];return questionFromPool('Full Textbook Test',v.canonical,`Choose the reviewed ${label} for this verb.`,value,registry.map(x=>x.nouns[k]),`Medium • ${label}`)});
+    for(const run of shuffle(modes)){if(run())return true;} return false;
+  }
+  if(level==='hard'){
+    const modes=[];
+    const families=[['active','past','Māḍī — المبني للمعلوم'],['active','present','Muḍāriʿ — المبني للمعلوم'],['active','amr','Amr — الأمر'],['passive','past','Māḍī — المبني للمجهول'],['passive','present','Muḍāriʿ — المبني للمجهول']];
+    for(const v of registry){for(const [side,key,label] of families){const rows=(v[side]||{})[key];if(Array.isArray(rows)&&rows.length)modes.push(()=>{const row=rows[Math.floor(Math.random()*rows.length)];let pronoun=row[0];if(key==='amr'&&pronoun.includes('وَالْمُؤَنَّثَتَيْنِ'))pronoun=pronoun.replace('لِلْمُذَكَّرَيْنِ وَالْمُؤَنَّثَتَيْنِ',Math.random()<.5?'لِلْمُذَكَّرَيْنِ':'لِلْمُؤَنَّثَتَيْنِ');return questionFromPool('Full Textbook Test',v.canonical,`For <b>${esc(v.canonical)}</b>, give the <b>${esc(pronoun)}</b> form in <b>${label}</b>. The question specifies the intended person, gender, and number.`,row[1],registry.flatMap(x=>((x[side]||{})[key]||[]).map(r=>r[1])),`Hard • ${label} • explicit pronoun`)});}}
+    for(const v of registry){for(const key of ['faail','mafool']){const base=v.nouns[key];if(!base||!/[ًٌٍ]$/.test(base))continue;const stem=base.replace(/[ًٌٍ]$/,'');const variants=[['masculine singular',base],['feminine singular',stem+'َةٌ'],['masculine dual (nominative)',stem+'َانِ'],['feminine dual (nominative)',stem+'َتَانِ'],['masculine sound plural (nominative)',stem+'ُونَ'],['feminine sound plural',stem+'َاتٌ']];for(const [number,correct] of variants)modes.push(()=>{const label=key==='faail'?'اسم الفاعل':'اسم المفعول';const nounPool=registry.map(x=>x.nouns[key]).filter(Boolean).flatMap(b=>{if(!/[ًٌٍ]$/.test(b))return [b];const st=b.replace(/[ًٌٍ]$/,'');return [b,st+'َةٌ',st+'َانِ',st+'َتَانِ',st+'ُونَ',st+'َاتٌ']});return questionFromPool('Full Textbook Test',v.canonical,`For <b>${esc(v.canonical)}</b>, select the <b>${number}</b> form of ${label}.`,correct,nounPool,`Hard • ${label} • gender/number`)});}}
+    for(const v of registry){for(const key of ['faail','mafool','masdar']){const correct=v.nouns[key];if(!correct)continue;modes.push(()=>questionFromPool('Full Textbook Test',v.canonical,`For <b>${esc(v.canonical)}</b>, choose the recorded ${key==='faail'?'اسم الفاعل':key==='mafool'?'اسم المفعول':'المصدر'}.`,correct,registry.map(x=>x.nouns[key]),`Hard • derived noun`));}}
+    for(const run of shuffle(modes)){if(run())return true;} return false;
+  }
+  return false;
+}
+function startFullTestQuestion(level){
+  activeFullTestLevel=level;
+  if(!chooseQuestionFromRecords(level)){
+    renderFullTestLevels();
+    const p=q('#practice');const msg=document.createElement('p');msg.className='muted';msg.textContent='There are not enough reviewed, distinct answers for this question type yet. Choose another level; unsupported forms are not guessed.';p.appendChild(msg);
+  }
+}
+function startQuiz(level){
+  if(state.fullAccess){if(!level){renderFullTestLevels();return;}startFullTestQuestion(level);return;}
   const entries=practiceEntries();
   if(!entries.length){
     q('#practice').innerHTML=card('Textbook Practice Questions',`<div class="unlock-panel practice-unlock"><div><strong>🔓 Full Textbook Test</strong><p class="muted">No normal questions are unlocked yet. You can still test the entire textbook.</p></div><button class="btn" onclick="unlockAllTextbookQuestions();startQuiz()">Unlock all questions</button></div><div class="empty-state"><div class="big-icon">📘</div><h3>No normal questions unlocked yet</h3><p>Complete a lesson to begin cumulative practice, or use the button above for a full-textbook test.</p><button class="btn secondary-btn" onclick="showTab('lessons')">Go to Lessons</button></div>`); return;

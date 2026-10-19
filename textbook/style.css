@@ -86,3 +86,10 @@ button{min-height:42px;touch-action:manipulation}
 
 .quiz-instruction{text-align:center;color:var(--muted);font-size:.9rem;margin:-.35rem 0 .8rem}.next-btn:disabled{opacity:.45;cursor:not-allowed;transform:none}.locked-help{color:#6b7280;font-style:italic}.lesson-tile .locked-help{font-size:.78rem;line-height:1.4}
 @media(max-width:650px){.quiz-instruction{font-size:.86rem}.lesson-tile .locked-help{font-size:.76rem}}
+
+/* V10.5: full-textbook difficulty selector and mobile-friendly controls */
+.full-test-levels{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0}
+.full-test-levels .level-btn{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:8px;text-align:left;white-space:normal;min-height:118px;padding:16px;line-height:1.45}
+.full-test-levels .level-btn strong{font-size:1.05rem}
+.full-test-levels .level-btn span{font-weight:400;white-space:normal;color:var(--muted)}
+@media(max-width:650px){.full-test-levels{grid-template-columns:minmax(0,1fr);gap:10px}.full-test-levels .level-btn{min-height:0;width:100%;padding:14px}.practice-unlock{align-items:flex-start;flex-wrap:wrap}.practice-unlock .btn{min-height:44px}}
