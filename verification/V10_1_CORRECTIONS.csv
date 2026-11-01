@@ -1,0 +1,32 @@
+﻿sourceNumber,field,originalSourceValue,releaseValue,note
+50,amr,حَىٍّ,حَيِّ,Corrected malformed weak/geminate imperative; standard Form-II command is حَيِّ.
+101,amr,صَوِّر,صَوِّرْ,Restored the missing final sukūn on a regular Form-II imperative.
+104,amr,ضَيِّق,ضَيِّقْ,Restored the missing final sukūn on a regular Form-II imperative.
+128,amr,عَوِّق,عَوِّقْ,Restored the missing final sukūn on a regular Form-II imperative.
+196,amr,وَدِّع,وَدِّعْ,Restored the missing final sukūn on a regular Form-II imperative.
+202,amr,وَقِّر,وَقِّرْ,Restored the missing final sukūn on a regular Form-II imperative.
+273,amr,وَاطٍ، وَاطِءْ,وَاطِئْ,Removed an ambiguous comma-separated source string; retained the standard imperative وَاطِئْ for the practice bank.
+331,amr,أَحْىِ,أَحْيِ,Corrected malformed weak imperative to the Form-IV command أَحْيِ.
+404,amr,أَشِر,أَشِرْ,Restored the missing final sukūn on the Form-IV imperative.
+408,amr,أَصِرّ,أَصِرَّ,Restored the final fatḥa on the geminate Form-IV imperative.
+425,amr,أَطِق,أَطِقْ,Restored the missing final sukūn on the Form-IV hollow-verb imperative.
+435,amr,أَعِدَّ/أَعْدِدْ,أَعِدَّ,Replaced a slash-separated pair of alternatives with the standard Form-IV imperative أَعِدَّ.
+456,amr,أَغِر,أَغِرْ,Restored the missing final sukūn on the Form-IV imperative.
+470,amr,أَقْرِ,أَقْرِئْ,Restored the final hamza and sukūn in the Form-IV imperative of the hamzated-final root قرء.
+513,amr,أَنْبِ,أَنْبِئْ,Restored the final hamza and sukūn in the Form-IV imperative of the hamzated-final root نبء.
+565,amr,تَبَرَّء,تَبَرَّأْ,Corrected final hamza seating and restored the imperative sukūn.
+568,amr,تَبَوَّء,تَبَوَّأْ,Corrected final hamza seating and restored the imperative sukūn.
+706,amr,تَوَاعَد,تَوَاعَدْ,Restored the missing final sukūn on the Form-VI imperative.
+861,past,اِسْتَحْيَ,اِسْتَحْيَا,Restored the final alif in the weak Form-X perfect.
+861,present,يَسْتَحْيِيُ,يَسْتَحْيِي,Removed an incorrect explicit ḍamma from the final weak yāʾ.
+861,amr,اِسْتَحِي,اِسْتَحْيِ,"Corrected the weak Form-X imperative, including the middle sukūn and final kasra."
+903,amr,اسْتَمِرّ,اِسْتَمِرَّ,Restored the final fatḥa on the geminate Form-X imperative.
+905,amr,اِسْتَنْبِئ,اِسْتَنْبِئْ,Restored the missing sukūn on the final hamza of the Form-X imperative.
+918,amr,اِدْهَامِم,اِدْهَامِمْ,Restored the final sukūn on a lexically attested imperative variant.
+921,amr,اِقْشَعْرِر,اِقْشَعِرَّ,Selected a dictionary-attested imperative variant for the quadriliteral intensive verb.
+50,active,مُحَىٍّ,مُحَيٍّ,Corrected a malformed defective active-participle spelling.
+50,passive,مُحَىًّ,مُحَيًّى,Corrected a malformed defective passive-participle spelling.
+289,passive,مُبْدًی,مُبْدًى,Corrected the weak-ending spelling of the Form-IV passive participle.
+331,active,مُحْىٍ,مُحْيٍ,Corrected the weak-ending spelling of the Form-IV active participle.
+331,passive,مُحْيَا,مُحْيًى,Corrected the weak-ending spelling of the Form-IV passive participle.
+861,passive,مُسْتَحْيً,مُسْتَحْيًى,Restored the missing final weak letter in the Form-X passive participle.
