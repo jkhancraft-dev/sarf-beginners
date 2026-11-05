@@ -7,9 +7,9 @@ const CORE_ASSETS=[
  './textbook/','./textbook/index.html','./textbook/style.css','./textbook/app.js',
  './textbook/data.js','./textbook/qa.js','./textbook/qa_additional.js',
  './textbook/verified_conjugations.js','./textbook/conjugation_database.js',
- './textbook/manifest.json','./textbook/sw.js','./textbook/icons/icon-192.png','./textbook/icons/icon-512.png',
- './textbook/assets/preface/page-01.jpg','./textbook/assets/preface/page-02.jpg',
- './textbook/assets/preface/page-03.jpg','./textbook/assets/preface/page-04.jpg'
+ './textbook/manifest.json','./textbook/sw.js',
+'./textbook/assets/preface/page-01.jpg','./textbook/assets/preface/page-02.jpg',
+'./textbook/assets/preface/page-03.jpg'
 ];
 self.addEventListener('install',event=>event.waitUntil((async()=>{
  const cache=await caches.open(CACHE_NAME);
