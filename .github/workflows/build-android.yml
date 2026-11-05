@@ -1,3 +1,4 @@
+
 name: Build Sarf Beginners Android APK
 
 on:
@@ -13,10 +14,13 @@ on:
       - 'conjugation_core.js'
       - 'conjugation_data.json'
       - 'conjugation_database.json'
+      - 'manifest.json'
+      - 'sw.js'
+      - 'icons/**'
       - 'data/**'
       - 'textbook/**'
-      - 'icon/**'
       - 'package.json'
+      - 'package-lock.json'
       - 'capacitor.config.json'
       - '.github/workflows/build-android.yml'
 
@@ -26,6 +30,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out Sarf Beginners
         uses: actions/checkout@v4
@@ -42,7 +47,9 @@ jobs:
           java-version: '21'
 
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools'
 
       - name: Install Android SDK packages
         run: |
@@ -90,3 +97,4 @@ jobs:
           path: android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 14
+          
