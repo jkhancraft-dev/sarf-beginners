@@ -1,0 +1,8 @@
+{
+  "appId": "com.jkhancraft.sarfbeginners",
+  "appName": "Sarf Beginners",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
