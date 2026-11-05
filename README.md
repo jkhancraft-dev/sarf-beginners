@@ -84,3 +84,13 @@ See `verification/V10_3_FINAL_TEST_REPORT.md` for checks performed, fixes made, 
 - Unsupported forms are not generated or guessed. Verbs with only partial source coverage clearly show that limitation and still support root/wazan/meaning questions.
 - New data/core/UI files: `conjugation_data.json`, `conjugation_core.js`, `conjugation.js`; mobile-responsive CSS and version/cache updated to V10.6.
 - See `verification/V10_6_CONJUGATION_OF_VERBS_QA.md` for local QA and the remaining mobile/browser release gate.
+
+## V10.7 correction package
+
+V10.7 corrects the Ism al-Fāʿil / Ism al-Mafʿūl noun-class inflection bug found during user testing, starts the quiz and scrolls to it when a verb is selected, and adds a **Back to verb list** action. See `RELEASE_NOTES.md` and `verification/v10_7_noun_type_navigation_test.js`.
+
+## V10.7 provisional 287-verb conjugation directory
+- Added `conjugation_database.json`, a shared database directory keyed to all 287 textbook inventory entries.
+- The Conjugation of Verbs section displays the available 14-pronoun active/passive finite tables and five imperative addressee forms for each selected verb, plus stored nominal forms.
+- The generated finite forms are also exposed through the existing conjugation quiz fact bank.
+- This is a provisional study release. Forms generated where source facts were absent use pattern-based fallbacks and are **not lexically verified**. See `PROVISIONAL_CONJUGATION_DATABASE.md`.
