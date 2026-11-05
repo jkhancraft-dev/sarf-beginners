@@ -6,7 +6,7 @@ const CORE_ASSETS=[
  './icons/icon-192.png','./icons/icon-512.png',
  './textbook/','./textbook/index.html','./textbook/style.css','./textbook/app.js',
  './textbook/data.js','./textbook/qa.js','./textbook/qa_additional.js',
- './textbook/verified_conjugations.js','./textbook/conjugation_database.js',
+'./textbook/verified_conjugations.js',
  './textbook/manifest.json','./textbook/sw.js',
 './textbook/assets/preface/page-01.jpg','./textbook/assets/preface/page-02.jpg',
 './textbook/assets/preface/page-03.jpg'
