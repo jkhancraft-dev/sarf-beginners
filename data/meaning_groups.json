@@ -1,0 +1,7792 @@
+{
+  "version": "10.2",
+  "totalVerbs": 933,
+  "groupSize": 30,
+  "groupingNote": "Temporary source-order grouping because the prior V7/V6 group allocation file was not available in the active files. Replace this mapping with the historical allocation when V7/V6 package is supplied.",
+  "groups": [
+    {
+      "group": "A",
+      "groupNumber": 1,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 1,
+          "symbol": "D1",
+          "root": "أثم",
+          "past": "أَثَّمَ",
+          "meaning": "of sin"
+        },
+        {
+          "sourceNumber": 2,
+          "symbol": "D1",
+          "root": "أجل",
+          "past": "أَجَّلَ",
+          "meaning": "determined time"
+        },
+        {
+          "sourceNumber": 3,
+          "symbol": "D1",
+          "root": "أخر",
+          "past": "أَخَّرَ",
+          "meaning": "You postponed us"
+        },
+        {
+          "sourceNumber": 4,
+          "symbol": "D1",
+          "root": "أدو",
+          "past": "أَدَّى",
+          "meaning": "then he should pay back"
+        },
+        {
+          "sourceNumber": 5,
+          "symbol": "D1",
+          "root": "أذن",
+          "past": "أَذَّنَ",
+          "meaning": "so he called out"
+        },
+        {
+          "sourceNumber": 6,
+          "symbol": "D1",
+          "root": "أسس",
+          "past": "أَسَّسَ",
+          "meaning": "established"
+        },
+        {
+          "sourceNumber": 7,
+          "symbol": "D1",
+          "root": "ألف",
+          "past": "أَلَّفَ",
+          "meaning": "then He created love"
+        },
+        {
+          "sourceNumber": 8,
+          "symbol": "D1",
+          "root": "أوب",
+          "past": "أَوَّبَ",
+          "meaning": "Repeat praises! (fg)"
+        },
+        {
+          "sourceNumber": 9,
+          "symbol": "D1",
+          "root": "أول",
+          "past": "أَوَّلَ",
+          "meaning": "its interpretation"
+        },
+        {
+          "sourceNumber": 10,
+          "symbol": "D1",
+          "root": "أيد",
+          "past": "أَيَّدَ",
+          "meaning": "and We supported him"
+        },
+        {
+          "sourceNumber": 11,
+          "symbol": "D1",
+          "root": "بتك",
+          "past": "بَتَّكَ",
+          "meaning": "so they will surely tear off"
+        },
+        {
+          "sourceNumber": 12,
+          "symbol": "D1",
+          "root": "بتل",
+          "past": "بَتَّلَ",
+          "meaning": "the devotion"
+        },
+        {
+          "sourceNumber": 13,
+          "symbol": "D1",
+          "root": "بدل",
+          "past": "بَدَّلَ",
+          "meaning": "then he changed"
+        },
+        {
+          "sourceNumber": 14,
+          "symbol": "D1",
+          "root": "بذر",
+          "past": "بَذَّرَ",
+          "meaning": "And don't spend lavishly!"
+        },
+        {
+          "sourceNumber": 15,
+          "symbol": "D1",
+          "root": "برء",
+          "past": "بَرَّأَ",
+          "meaning": "I declare (someone) free from guilt"
+        },
+        {
+          "sourceNumber": 16,
+          "symbol": "D1",
+          "root": "برز",
+          "past": "بَرَّزَ",
+          "meaning": "and will be made manifest (fg)"
+        },
+        {
+          "sourceNumber": 17,
+          "symbol": "D1",
+          "root": "بشر",
+          "past": "بَشَّرَ",
+          "meaning": "And give good news!"
+        },
+        {
+          "sourceNumber": 18,
+          "symbol": "D1",
+          "root": "بصر",
+          "past": "بَصَّرَ",
+          "meaning": "source of sight"
+        },
+        {
+          "sourceNumber": 19,
+          "symbol": "D1",
+          "root": "بطء",
+          "past": "بَطَّأَ",
+          "meaning": "he delays surely"
+        },
+        {
+          "sourceNumber": 20,
+          "symbol": "D1",
+          "root": "بلغ",
+          "past": "بَلَّغَ",
+          "meaning": "Convey!"
+        },
+        {
+          "sourceNumber": 21,
+          "symbol": "D1",
+          "root": "بوء",
+          "past": "بَوَّأَ",
+          "meaning": "you appoint"
+        },
+        {
+          "sourceNumber": 22,
+          "symbol": "D1",
+          "root": "بيت",
+          "past": "بَيَّتَ",
+          "meaning": "he planned by night"
+        },
+        {
+          "sourceNumber": 23,
+          "symbol": "D1",
+          "root": "بين",
+          "past": "بَيَّنَ",
+          "meaning": "he makes clear"
+        },
+        {
+          "sourceNumber": 24,
+          "symbol": "D1",
+          "root": "تبب",
+          "past": "تَبَّبَ",
+          "meaning": "to ruin"
+        },
+        {
+          "sourceNumber": 25,
+          "symbol": "D1",
+          "root": "تبر",
+          "past": "تَبَّرَ",
+          "meaning": "has been destroyed"
+        },
+        {
+          "sourceNumber": 26,
+          "symbol": "D1",
+          "root": "ثبت",
+          "past": "ثَبَّتَ",
+          "meaning": "And make (it) firm!"
+        },
+        {
+          "sourceNumber": 27,
+          "symbol": "D1",
+          "root": "ثبط",
+          "past": "ثَبَّطَ",
+          "meaning": "so He made them lag behind"
+        },
+        {
+          "sourceNumber": 28,
+          "symbol": "D1",
+          "root": "ثرب",
+          "past": "ثَرَّبَ",
+          "meaning": "blame"
+        },
+        {
+          "sourceNumber": 29,
+          "symbol": "D1",
+          "root": "ثوب",
+          "past": "ثَوَّبَ",
+          "meaning": "he has been rewarded"
+        },
+        {
+          "sourceNumber": 30,
+          "symbol": "D1",
+          "root": "جلو",
+          "past": "جَلَّى",
+          "meaning": "He will not reveal it"
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "groupNumber": 2,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 31,
+          "symbol": "D1",
+          "root": "جنب",
+          "past": "جَنَّبَ",
+          "meaning": "and soon he will be saved from it"
+        },
+        {
+          "sourceNumber": 32,
+          "symbol": "D1",
+          "root": "جهز",
+          "past": "جَهَّزَ",
+          "meaning": "he furnished them"
+        },
+        {
+          "sourceNumber": 33,
+          "symbol": "D1",
+          "root": "حبب",
+          "past": "حَبَّبَ",
+          "meaning": "He has endeared"
+        },
+        {
+          "sourceNumber": 34,
+          "symbol": "D1",
+          "root": "حدث",
+          "past": "حَدَّثَ",
+          "meaning": "do you all tell them"
+        },
+        {
+          "sourceNumber": 35,
+          "symbol": "D1",
+          "root": "حذر",
+          "past": "حَذَّرَ",
+          "meaning": "and He warns all of you"
+        },
+        {
+          "sourceNumber": 36,
+          "symbol": "D1",
+          "root": "حرر",
+          "past": "حَرَّرَ",
+          "meaning": "liberated"
+        },
+        {
+          "sourceNumber": 37,
+          "symbol": "D1",
+          "root": "حرض",
+          "past": "حَرَّضَ",
+          "meaning": "And you encourage!"
+        },
+        {
+          "sourceNumber": 38,
+          "symbol": "D1",
+          "root": "حرف",
+          "past": "حَرَّفَ",
+          "meaning": "they distort it"
+        },
+        {
+          "sourceNumber": 39,
+          "symbol": "D1",
+          "root": "حرق",
+          "past": "حَرَّقَ",
+          "meaning": "surely we will burn it"
+        },
+        {
+          "sourceNumber": 40,
+          "symbol": "D1",
+          "root": "حرك",
+          "past": "حَرَّكَ",
+          "meaning": "Don’t move!"
+        },
+        {
+          "sourceNumber": 41,
+          "symbol": "D1",
+          "root": "حرم",
+          "past": "حَرَّمَ",
+          "meaning": "forbidden"
+        },
+        {
+          "sourceNumber": 42,
+          "symbol": "D1",
+          "root": "حصل",
+          "past": "حَصَّلَ",
+          "meaning": "and is made apparent"
+        },
+        {
+          "sourceNumber": 43,
+          "symbol": "D1",
+          "root": "حصن",
+          "past": "حَصَّنَ",
+          "meaning": "fortified (fg)"
+        },
+        {
+          "sourceNumber": 44,
+          "symbol": "D1",
+          "root": "حكم",
+          "past": "حَكَّمَ",
+          "meaning": "they make you judge"
+        },
+        {
+          "sourceNumber": 45,
+          "symbol": "D1",
+          "root": "حلق",
+          "past": "حَلَّقَ",
+          "meaning": "having shaved"
+        },
+        {
+          "sourceNumber": 46,
+          "symbol": "D1",
+          "root": "حلل",
+          "past": "حَلَّلَ",
+          "meaning": "the dissolution"
+        },
+        {
+          "sourceNumber": 47,
+          "symbol": "D1",
+          "root": "حلي",
+          "past": "حَلَّى",
+          "meaning": "they will be adorned"
+        },
+        {
+          "sourceNumber": 48,
+          "symbol": "D1",
+          "root": "حمل",
+          "past": "حَمَّلَ",
+          "meaning": "And don’t lay on us!"
+        },
+        {
+          "sourceNumber": 49,
+          "symbol": "D1",
+          "root": "حول",
+          "past": "حَوَّلَ",
+          "meaning": "to transfer"
+        },
+        {
+          "sourceNumber": 50,
+          "symbol": "D1",
+          "root": "حيي",
+          "past": "حَيَّا",
+          "meaning": "you all have been greeted"
+        },
+        {
+          "sourceNumber": 51,
+          "symbol": "D1",
+          "root": "خسر",
+          "past": "خَسَّرَ",
+          "meaning": "causes loos"
+        },
+        {
+          "sourceNumber": 52,
+          "symbol": "D1",
+          "root": "خفف",
+          "past": "خَفَّفَ",
+          "meaning": "then will not be lightened"
+        },
+        {
+          "sourceNumber": 53,
+          "symbol": "D1",
+          "root": "خلد",
+          "past": "خَلَّدَ",
+          "meaning": "immortal"
+        },
+        {
+          "sourceNumber": 54,
+          "symbol": "D1",
+          "root": "خلف",
+          "past": "خَلَّفَ",
+          "meaning": "those who remained behind"
+        },
+        {
+          "sourceNumber": 55,
+          "symbol": "D1",
+          "root": "خلق",
+          "past": "خَلَّقَ",
+          "meaning": "formed (fg)"
+        },
+        {
+          "sourceNumber": 56,
+          "symbol": "D1",
+          "root": "خلو",
+          "past": "خَلَّى",
+          "meaning": "then (you all) leave!"
+        },
+        {
+          "sourceNumber": 57,
+          "symbol": "D1",
+          "root": "خوف",
+          "past": "خَوَّفَ",
+          "meaning": "he frightens"
+        },
+        {
+          "sourceNumber": 58,
+          "symbol": "D1",
+          "root": "خول",
+          "past": "خَوَّلَ",
+          "meaning": "We bestowed on all of you"
+        },
+        {
+          "sourceNumber": 59,
+          "symbol": "D1",
+          "root": "خيل",
+          "past": "خَيَّلَ",
+          "meaning": "it is imagined"
+        },
+        {
+          "sourceNumber": 60,
+          "symbol": "D1",
+          "root": "دبر",
+          "past": "دَبَّرَ",
+          "meaning": "He disposes"
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "groupNumber": 3,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 61,
+          "symbol": "D1",
+          "root": "دمر",
+          "past": "دَمَّرَ",
+          "meaning": "and We destroyed"
+        },
+        {
+          "sourceNumber": 62,
+          "symbol": "D1",
+          "root": "ذبح",
+          "past": "ذَبَّحَ",
+          "meaning": "they slaughter"
+        },
+        {
+          "sourceNumber": 63,
+          "symbol": "D1",
+          "root": "ذكر",
+          "past": "ذَكَّرَ",
+          "meaning": "then (she) will remind"
+        },
+        {
+          "sourceNumber": 64,
+          "symbol": "D1",
+          "root": "ذكو",
+          "past": "ذَكَّى",
+          "meaning": "you all slaughtered"
+        },
+        {
+          "sourceNumber": 65,
+          "symbol": "D1",
+          "root": "ذلل",
+          "past": "ذَلَّلَ",
+          "meaning": "and We made it loyal, obedient"
+        },
+        {
+          "sourceNumber": 66,
+          "symbol": "D1",
+          "root": "ربو",
+          "past": "رَبَّى",
+          "meaning": "they (duo) brought me up"
+        },
+        {
+          "sourceNumber": 67,
+          "symbol": "D1",
+          "root": "رتل",
+          "past": "رَتَّلَ",
+          "meaning": "and We have recited it"
+        },
+        {
+          "sourceNumber": 68,
+          "symbol": "D1",
+          "root": "ركب",
+          "past": "رَكَّبَ",
+          "meaning": "He assembled you"
+        },
+        {
+          "sourceNumber": 69,
+          "symbol": "D1",
+          "root": "زكو",
+          "past": "زَكَّى",
+          "meaning": "and He purifies them"
+        },
+        {
+          "sourceNumber": 70,
+          "symbol": "D1",
+          "root": "زوج",
+          "past": "زَوَّجَ",
+          "meaning": "We married her to you"
+        },
+        {
+          "sourceNumber": 71,
+          "symbol": "D1",
+          "root": "زيل",
+          "past": "زَيَّلَ",
+          "meaning": "then We separated"
+        },
+        {
+          "sourceNumber": 72,
+          "symbol": "D1",
+          "root": "زين",
+          "past": "زَيَّنَ",
+          "meaning": "beautified"
+        },
+        {
+          "sourceNumber": 73,
+          "symbol": "D1",
+          "root": "سبح",
+          "past": "سَبَّحَ",
+          "meaning": "we glorify"
+        },
+        {
+          "sourceNumber": 74,
+          "symbol": "D1",
+          "root": "سجر",
+          "past": "سَجَّرَ",
+          "meaning": "is flared up (fg)"
+        },
+        {
+          "sourceNumber": 75,
+          "symbol": "D1",
+          "root": "سحر",
+          "past": "سَحَّرَ",
+          "meaning": "those who bewitched"
+        },
+        {
+          "sourceNumber": 76,
+          "symbol": "D1",
+          "root": "سخر",
+          "past": "سَخَّرَ",
+          "meaning": "the controlled"
+        },
+        {
+          "sourceNumber": 77,
+          "symbol": "D1",
+          "root": "سرح",
+          "past": "سَرَّحَ",
+          "meaning": "to release"
+        },
+        {
+          "sourceNumber": 78,
+          "symbol": "D1",
+          "root": "سعر",
+          "past": "سَعَّرَ",
+          "meaning": "is set ablaze (fg)"
+        },
+        {
+          "sourceNumber": 79,
+          "symbol": "D1",
+          "root": "سكر",
+          "past": "سَكَّرَ",
+          "meaning": "have been dazzled (fg)"
+        },
+        {
+          "sourceNumber": 80,
+          "symbol": "D1",
+          "root": "سلط",
+          "past": "سَلَّطَ",
+          "meaning": "He could have given them power over"
+        },
+        {
+          "sourceNumber": 81,
+          "symbol": "D1",
+          "root": "سلم",
+          "past": "سَلَّمَ",
+          "meaning": "free from defect"
+        },
+        {
+          "sourceNumber": 82,
+          "symbol": "D1",
+          "root": "سمو",
+          "past": "سَمَّى",
+          "meaning": "prescribed"
+        },
+        {
+          "sourceNumber": 83,
+          "symbol": "D1",
+          "root": "سند",
+          "past": "سَنَّدَ",
+          "meaning": "propped up (fg)"
+        },
+        {
+          "sourceNumber": 84,
+          "symbol": "D1",
+          "root": "سول",
+          "past": "سَوَّلَ",
+          "meaning": "has enticed (fg)"
+        },
+        {
+          "sourceNumber": 85,
+          "symbol": "D1",
+          "root": "سوم",
+          "past": "سَوَّمَ",
+          "meaning": "which has been marked"
+        },
+        {
+          "sourceNumber": 86,
+          "symbol": "D1",
+          "root": "سوي",
+          "past": "سَوَّى",
+          "meaning": "and He fashioned them"
+        },
+        {
+          "sourceNumber": 87,
+          "symbol": "D1",
+          "root": "سير",
+          "past": "سَيَّرَ",
+          "meaning": "He enables all of you to travel"
+        },
+        {
+          "sourceNumber": 88,
+          "symbol": "D1",
+          "root": "شبه",
+          "past": "شَبَّهَ",
+          "meaning": "it was made to appear so"
+        },
+        {
+          "sourceNumber": 89,
+          "symbol": "D1",
+          "root": "شرد",
+          "past": "شَرَّدَ",
+          "meaning": "Then disperse!"
+        },
+        {
+          "sourceNumber": 90,
+          "symbol": "D1",
+          "root": "شيد",
+          "past": "شَيَّدَ",
+          "meaning": "lofty, of imposing heights"
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "groupNumber": 4,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 91,
+          "symbol": "D1",
+          "root": "صبح",
+          "past": "صَبَّحَ",
+          "meaning": "seized them in the morning"
+        },
+        {
+          "sourceNumber": 92,
+          "symbol": "D1",
+          "root": "صدع",
+          "past": "صَدَّعَ",
+          "meaning": "they will not get headache"
+        },
+        {
+          "sourceNumber": 93,
+          "symbol": "D1",
+          "root": "صدق",
+          "past": "صَدَّقَ",
+          "meaning": "one who confirms"
+        },
+        {
+          "sourceNumber": 94,
+          "symbol": "D1",
+          "root": "صدي",
+          "past": "صَدَّى",
+          "meaning": "and clapping"
+        },
+        {
+          "sourceNumber": 95,
+          "symbol": "D1",
+          "root": "صرف",
+          "past": "صَرَّفَ",
+          "meaning": "and diverting"
+        },
+        {
+          "sourceNumber": 96,
+          "symbol": "D1",
+          "root": "صعر",
+          "past": "صَعَّرَ",
+          "meaning": "And don’t turn!"
+        },
+        {
+          "sourceNumber": 97,
+          "symbol": "D1",
+          "root": "صفو",
+          "past": "صَفَّى",
+          "meaning": "purified"
+        },
+        {
+          "sourceNumber": 98,
+          "symbol": "D1",
+          "root": "صلب",
+          "past": "صَلَّبَ",
+          "meaning": "they will be crucified"
+        },
+        {
+          "sourceNumber": 99,
+          "symbol": "D1",
+          "root": "صلو",
+          "past": "صَلَّى",
+          "meaning": "he prays"
+        },
+        {
+          "sourceNumber": 100,
+          "symbol": "D1",
+          "root": "صلي",
+          "past": "صَلَّى",
+          "meaning": "and entry"
+        },
+        {
+          "sourceNumber": 101,
+          "symbol": "D1",
+          "root": "صور",
+          "past": "صَوَّرَ",
+          "meaning": "he shapes you all"
+        },
+        {
+          "sourceNumber": 102,
+          "symbol": "D1",
+          "root": "ضلل",
+          "past": "ضَلَّلَ",
+          "meaning": "misguidance"
+        },
+        {
+          "sourceNumber": 103,
+          "symbol": "D1",
+          "root": "ضيف",
+          "past": "ضَيَّفَ",
+          "meaning": "they offer both of them hospitality"
+        },
+        {
+          "sourceNumber": 104,
+          "symbol": "D1",
+          "root": "ضيق",
+          "past": "ضَيَّقَ",
+          "meaning": "so withhold you all"
+        },
+        {
+          "sourceNumber": 105,
+          "symbol": "D1",
+          "root": "طفف",
+          "past": "طَفَّفَ",
+          "meaning": "to those who give less"
+        },
+        {
+          "sourceNumber": 106,
+          "symbol": "D1",
+          "root": "طلق",
+          "past": "طَلَّقَ",
+          "meaning": "and the women who are divorced"
+        },
+        {
+          "sourceNumber": 107,
+          "symbol": "D1",
+          "root": "طهر",
+          "past": "طَهَّرَ",
+          "meaning": "you both purify"
+        },
+        {
+          "sourceNumber": 108,
+          "symbol": "D1",
+          "root": "طوع",
+          "past": "طَوَّعَ",
+          "meaning": "then she persuaded"
+        },
+        {
+          "sourceNumber": 109,
+          "symbol": "D1",
+          "root": "طوق",
+          "past": "طَوَّقَ",
+          "meaning": "soon they will be shackled"
+        },
+        {
+          "sourceNumber": 110,
+          "symbol": "D1",
+          "root": "ظلل",
+          "past": "ظَلَّلَ",
+          "meaning": "and We shaded"
+        },
+        {
+          "sourceNumber": 111,
+          "symbol": "D1",
+          "root": "عبد",
+          "past": "عَبَّدَ",
+          "meaning": "you have enslaved"
+        },
+        {
+          "sourceNumber": 112,
+          "symbol": "D1",
+          "root": "عجل",
+          "past": "عَجَّلَ",
+          "meaning": "He makes haste"
+        },
+        {
+          "sourceNumber": 113,
+          "symbol": "D1",
+          "root": "عدد",
+          "past": "عَدَّدَ",
+          "meaning": "and he counted and kept it"
+        },
+        {
+          "sourceNumber": 114,
+          "symbol": "D1",
+          "root": "عذب",
+          "past": "عَذَّبَ",
+          "meaning": "and He will punish"
+        },
+        {
+          "sourceNumber": 115,
+          "symbol": "D1",
+          "root": "عذر",
+          "past": "عَذَّرَ",
+          "meaning": "those who make excuses"
+        },
+        {
+          "sourceNumber": 116,
+          "symbol": "D1",
+          "root": "عرض",
+          "past": "عَرَّضَ",
+          "meaning": "you all hint"
+        },
+        {
+          "sourceNumber": 117,
+          "symbol": "D1",
+          "root": "عرف",
+          "past": "عَرَّفَ",
+          "meaning": "He has made it known"
+        },
+        {
+          "sourceNumber": 118,
+          "symbol": "D1",
+          "root": "عزر",
+          "past": "عَزَّرَ",
+          "meaning": "and you all assist them"
+        },
+        {
+          "sourceNumber": 119,
+          "symbol": "D1",
+          "root": "عزز",
+          "past": "عَزَّزَ",
+          "meaning": "so We strengthened"
+        },
+        {
+          "sourceNumber": 120,
+          "symbol": "D1",
+          "root": "عطل",
+          "past": "عَطَّلَ",
+          "meaning": "abandoned (fg)"
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "groupNumber": 5,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 121,
+          "symbol": "D1",
+          "root": "عظم",
+          "past": "عَظَّمَ",
+          "meaning": "he honors"
+        },
+        {
+          "sourceNumber": 122,
+          "symbol": "D1",
+          "root": "عقب",
+          "past": "عَقَّبَ",
+          "meaning": "successive (Angels)"
+        },
+        {
+          "sourceNumber": 123,
+          "symbol": "D1",
+          "root": "عقد",
+          "past": "عَقَّدَ",
+          "meaning": "you all contracted"
+        },
+        {
+          "sourceNumber": 124,
+          "symbol": "D1",
+          "root": "علق",
+          "past": "عَلَّقَ",
+          "meaning": "like the suspended one (fg)"
+        },
+        {
+          "sourceNumber": 125,
+          "symbol": "D1",
+          "root": "علم",
+          "past": "عَلَّمَ",
+          "meaning": "and He taught"
+        },
+        {
+          "sourceNumber": 126,
+          "symbol": "D1",
+          "root": "عمر",
+          "past": "عَمَّرَ",
+          "meaning": "he could be granted a life"
+        },
+        {
+          "sourceNumber": 127,
+          "symbol": "D1",
+          "root": "عمي",
+          "past": "عَمَّى",
+          "meaning": "but it has been blind (fg)"
+        },
+        {
+          "sourceNumber": 128,
+          "symbol": "D1",
+          "root": "عوق",
+          "past": "عَوَّقَ",
+          "meaning": "those who hinder"
+        },
+        {
+          "sourceNumber": 129,
+          "symbol": "D1",
+          "root": "غشي",
+          "past": "غَشَّى",
+          "meaning": "He covers you all"
+        },
+        {
+          "sourceNumber": 130,
+          "symbol": "D1",
+          "root": "غلق",
+          "past": "غَلَّقَ",
+          "meaning": "and she closed"
+        },
+        {
+          "sourceNumber": 131,
+          "symbol": "D1",
+          "root": "غير",
+          "past": "غَيَّرَ",
+          "meaning": "so they will surely change"
+        },
+        {
+          "sourceNumber": 132,
+          "symbol": "D1",
+          "root": "فتح",
+          "past": "فَتَّحَ",
+          "meaning": "will be opened (fg)"
+        },
+        {
+          "sourceNumber": 133,
+          "symbol": "D1",
+          "root": "فتر",
+          "past": "فَتَّرَ",
+          "meaning": "it will not be subsided"
+        },
+        {
+          "sourceNumber": 134,
+          "symbol": "D1",
+          "root": "فجر",
+          "past": "فَجَّرَ",
+          "meaning": "and you cause to gush forth"
+        },
+        {
+          "sourceNumber": 135,
+          "symbol": "D1",
+          "root": "فرط",
+          "past": "فَرَّطَ",
+          "meaning": "We didn’t neglected"
+        },
+        {
+          "sourceNumber": 136,
+          "symbol": "D1",
+          "root": "فرق",
+          "past": "فَرَّقَ",
+          "meaning": "they cause separation"
+        },
+        {
+          "sourceNumber": 137,
+          "symbol": "D1",
+          "root": "فزع",
+          "past": "فَزَّعَ",
+          "meaning": "fear is removed"
+        },
+        {
+          "sourceNumber": 138,
+          "symbol": "D1",
+          "root": "فسر",
+          "past": "فَسَّرَ",
+          "meaning": "explanation"
+        },
+        {
+          "sourceNumber": 139,
+          "symbol": "D1",
+          "root": "فصل",
+          "past": "فَصَّلَ",
+          "meaning": "We explain in detail"
+        },
+        {
+          "sourceNumber": 140,
+          "symbol": "D1",
+          "root": "فضل",
+          "past": "فَضَّلَ",
+          "meaning": "I preferred you all"
+        },
+        {
+          "sourceNumber": 141,
+          "symbol": "D1",
+          "root": "فكر",
+          "past": "فَكَّرَ",
+          "meaning": "he thought"
+        },
+        {
+          "sourceNumber": 142,
+          "symbol": "D1",
+          "root": "فند",
+          "past": "فَنَّدَ",
+          "meaning": "you all think me weakened in mind"
+        },
+        {
+          "sourceNumber": 143,
+          "symbol": "D1",
+          "root": "فهم",
+          "past": "فَهَّمَ",
+          "meaning": "and  We gave understanding of it"
+        },
+        {
+          "sourceNumber": 144,
+          "symbol": "D1",
+          "root": "فوض",
+          "past": "فَوَّضَ",
+          "meaning": "and I entrust"
+        },
+        {
+          "sourceNumber": 145,
+          "symbol": "D1",
+          "root": "قتل",
+          "past": "قَتَّلَ",
+          "meaning": "they will be killed"
+        },
+        {
+          "sourceNumber": 146,
+          "symbol": "D1",
+          "root": "قدر",
+          "past": "قَدَّرَ",
+          "meaning": "the ordaining"
+        },
+        {
+          "sourceNumber": 147,
+          "symbol": "D1",
+          "root": "قدس",
+          "past": "قَدَّسَ",
+          "meaning": "and we sanctify"
+        },
+        {
+          "sourceNumber": 148,
+          "symbol": "D1",
+          "root": "قدم",
+          "past": "قَدَّمَ",
+          "meaning": "sent ahead (fg)"
+        },
+        {
+          "sourceNumber": 149,
+          "symbol": "D1",
+          "root": "قرب",
+          "past": "قَرَّبَ",
+          "meaning": "those who brought near"
+        },
+        {
+          "sourceNumber": 150,
+          "symbol": "D1",
+          "root": "قرن",
+          "past": "قَرَّنَ",
+          "meaning": "bound together"
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "groupNumber": 6,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 151,
+          "symbol": "D1",
+          "root": "قسم",
+          "past": "قَسَّمَ",
+          "meaning": "and those who distribute (fg)"
+        },
+        {
+          "sourceNumber": 152,
+          "symbol": "D1",
+          "root": "قصر",
+          "past": "قَصَّرَ",
+          "meaning": "and shortened"
+        },
+        {
+          "sourceNumber": 153,
+          "symbol": "D1",
+          "root": "قطع",
+          "past": "قَطَّعَ",
+          "meaning": "will be cut off (fg)"
+        },
+        {
+          "sourceNumber": 154,
+          "symbol": "D1",
+          "root": "قفو",
+          "past": "قَفَّى",
+          "meaning": "and We followed up"
+        },
+        {
+          "sourceNumber": 155,
+          "symbol": "D1",
+          "root": "قلب",
+          "past": "قَلَّبَ",
+          "meaning": "and We will turn"
+        },
+        {
+          "sourceNumber": 156,
+          "symbol": "D1",
+          "root": "قلل",
+          "past": "قَلَّلَ",
+          "meaning": "and He made all of you appear as few"
+        },
+        {
+          "sourceNumber": 157,
+          "symbol": "D1",
+          "root": "قوم",
+          "past": "قَوَّمَ",
+          "meaning": "mould"
+        },
+        {
+          "sourceNumber": 158,
+          "symbol": "D1",
+          "root": "قيض",
+          "past": "قَيَّضَ",
+          "meaning": "and We have destined"
+        },
+        {
+          "sourceNumber": 159,
+          "symbol": "D1",
+          "root": "كبر",
+          "past": "كَبَّرَ",
+          "meaning": "and that you all magnify"
+        },
+        {
+          "sourceNumber": 160,
+          "symbol": "D1",
+          "root": "كثر",
+          "past": "كَثَّرَ",
+          "meaning": "so He increased you all"
+        },
+        {
+          "sourceNumber": 161,
+          "symbol": "D1",
+          "root": "كذب",
+          "past": "كَذَّبَ",
+          "meaning": "and they denied"
+        },
+        {
+          "sourceNumber": 162,
+          "symbol": "D1",
+          "root": "كرم",
+          "past": "كَرَّمَ",
+          "meaning": "you have honored"
+        },
+        {
+          "sourceNumber": 163,
+          "symbol": "D1",
+          "root": "كره",
+          "past": "كَرَّهَ",
+          "meaning": "and He has made hateful"
+        },
+        {
+          "sourceNumber": 164,
+          "symbol": "D1",
+          "root": "كفر",
+          "past": "كَفَّرَ",
+          "meaning": "and He will remove"
+        },
+        {
+          "sourceNumber": 165,
+          "symbol": "D1",
+          "root": "كفل",
+          "past": "كَفَّلَ",
+          "meaning": "and he has handed over her"
+        },
+        {
+          "sourceNumber": 166,
+          "symbol": "D1",
+          "root": "كلب",
+          "past": "كَلَّبَ",
+          "meaning": "those who train animals to hunt"
+        },
+        {
+          "sourceNumber": 167,
+          "symbol": "D1",
+          "root": "كلف",
+          "past": "كَلَّفَ",
+          "meaning": "it is not burdened (fg)"
+        },
+        {
+          "sourceNumber": 168,
+          "symbol": "D1",
+          "root": "كلم",
+          "past": "كَلَّمَ",
+          "meaning": "he speaks to us"
+        },
+        {
+          "sourceNumber": 169,
+          "symbol": "D1",
+          "root": "كور",
+          "past": "كَوَّرَ",
+          "meaning": "He wraps"
+        },
+        {
+          "sourceNumber": 170,
+          "symbol": "D1",
+          "root": "لقي",
+          "past": "لَقَّى",
+          "meaning": "and they will be represented"
+        },
+        {
+          "sourceNumber": 171,
+          "symbol": "D1",
+          "root": "لوي",
+          "past": "لَوَّى",
+          "meaning": "they turned aside"
+        },
+        {
+          "sourceNumber": 172,
+          "symbol": "D1",
+          "root": "متع",
+          "past": "مَتَّعَ",
+          "meaning": "then I will grant him enjoyment"
+        },
+        {
+          "sourceNumber": 173,
+          "symbol": "D1",
+          "root": "محص",
+          "past": "مَحَّصَ",
+          "meaning": "and so that He may purify"
+        },
+        {
+          "sourceNumber": 174,
+          "symbol": "D1",
+          "root": "مدد",
+          "past": "مَدَّدَ",
+          "meaning": "extended"
+        },
+        {
+          "sourceNumber": 175,
+          "symbol": "D1",
+          "root": "مرد",
+          "past": "مَرَّدَ",
+          "meaning": "made smooth"
+        },
+        {
+          "sourceNumber": 176,
+          "symbol": "D1",
+          "root": "مزق",
+          "past": "مَزَّقَ",
+          "meaning": "you all have disintegrated"
+        },
+        {
+          "sourceNumber": 177,
+          "symbol": "D1",
+          "root": "مسك",
+          "past": "مَسَّكَ",
+          "meaning": "they hold fast"
+        },
+        {
+          "sourceNumber": 178,
+          "symbol": "D1",
+          "root": "مكن",
+          "past": "مَكَّنَ",
+          "meaning": "We established them"
+        },
+        {
+          "sourceNumber": 179,
+          "symbol": "D1",
+          "root": "مني",
+          "past": "مَنَّى",
+          "meaning": "and surely I will arouse desires in them"
+        },
+        {
+          "sourceNumber": 180,
+          "symbol": "D1",
+          "root": "مهد",
+          "past": "مَهَّدَ",
+          "meaning": "and I spread"
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "groupNumber": 7,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 181,
+          "symbol": "D1",
+          "root": "مهل",
+          "past": "مَهَّلَ",
+          "meaning": "And allow them respite!"
+        },
+        {
+          "sourceNumber": 182,
+          "symbol": "D1",
+          "root": "نبء",
+          "past": "نَبَّأَ",
+          "meaning": "shall I inform all of you?"
+        },
+        {
+          "sourceNumber": 183,
+          "symbol": "D1",
+          "root": "نجو",
+          "past": "نَجَّى",
+          "meaning": "We saved you all"
+        },
+        {
+          "sourceNumber": 184,
+          "symbol": "D1",
+          "root": "نزل",
+          "past": "نَزَّلَ",
+          "meaning": "we have sent down"
+        },
+        {
+          "sourceNumber": 185,
+          "symbol": "D1",
+          "root": "نشء",
+          "past": "نَشَّأَ",
+          "meaning": "he is brought up"
+        },
+        {
+          "sourceNumber": 186,
+          "symbol": "D1",
+          "root": "نشر",
+          "past": "نَشَّرَ",
+          "meaning": "spread out (fg)"
+        },
+        {
+          "sourceNumber": 187,
+          "symbol": "D1",
+          "root": "نظر",
+          "past": "نَظَّرَ",
+          "meaning": "So look!"
+        },
+        {
+          "sourceNumber": 188,
+          "symbol": "D1",
+          "root": "نعم",
+          "past": "نَعَّمَ",
+          "meaning": "and He favored him"
+        },
+        {
+          "sourceNumber": 189,
+          "symbol": "D1",
+          "root": "نقب",
+          "past": "نَقَّبَ",
+          "meaning": "so they explored"
+        },
+        {
+          "sourceNumber": 190,
+          "symbol": "D1",
+          "root": "نكر",
+          "past": "نَكَّرَ",
+          "meaning": "Disguise (pl)!"
+        },
+        {
+          "sourceNumber": 191,
+          "symbol": "D1",
+          "root": "نكس",
+          "past": "نَكَّسَ",
+          "meaning": "We reverse him"
+        },
+        {
+          "sourceNumber": 192,
+          "symbol": "D1",
+          "root": "نكل",
+          "past": "نَكَّلَ",
+          "meaning": "to punish"
+        },
+        {
+          "sourceNumber": 193,
+          "symbol": "D1",
+          "root": "هدم",
+          "past": "هَدَّمَ",
+          "meaning": "surely would have been demolished (fg)"
+        },
+        {
+          "sourceNumber": 194,
+          "symbol": "D1",
+          "root": "هيء",
+          "past": "هَيَّأَ",
+          "meaning": "And facilitate!"
+        },
+        {
+          "sourceNumber": 195,
+          "symbol": "D1",
+          "root": "وجه",
+          "past": "وَجَّهَ",
+          "meaning": "i have turned"
+        },
+        {
+          "sourceNumber": 196,
+          "symbol": "D1",
+          "root": "ودع",
+          "past": "وَدَّعَ",
+          "meaning": "he hasn’t  forsaken you"
+        },
+        {
+          "sourceNumber": 197,
+          "symbol": "D1",
+          "root": "وصل",
+          "past": "وَصَّلَ",
+          "meaning": "we have sent constantly"
+        },
+        {
+          "sourceNumber": 198,
+          "symbol": "D1",
+          "root": "وصي",
+          "past": "وَصَّى",
+          "meaning": "and he enjoined"
+        },
+        {
+          "sourceNumber": 199,
+          "symbol": "D1",
+          "root": "وفق",
+          "past": "وَفَّقَ",
+          "meaning": "he will cause reconciliation"
+        },
+        {
+          "sourceNumber": 200,
+          "symbol": "D1",
+          "root": "وفي",
+          "past": "وَفَّى",
+          "meaning": "he will be repaid in full"
+        },
+        {
+          "sourceNumber": 201,
+          "symbol": "D1",
+          "root": "وقت",
+          "past": "وَقَّتَ",
+          "meaning": "they are gathered at their appointed time (fg)"
+        },
+        {
+          "sourceNumber": 202,
+          "symbol": "D1",
+          "root": "وقر",
+          "past": "وَقَّرَ",
+          "meaning": "and you all respect him"
+        },
+        {
+          "sourceNumber": 203,
+          "symbol": "D1",
+          "root": "وكد",
+          "past": "وَكَّدَ",
+          "meaning": "their confirmation"
+        },
+        {
+          "sourceNumber": 204,
+          "symbol": "D1",
+          "root": "وكل",
+          "past": "وَكَّلَ",
+          "meaning": "We have entrusted"
+        },
+        {
+          "sourceNumber": 205,
+          "symbol": "D1",
+          "root": "ولي",
+          "past": "وَلَّى",
+          "meaning": "you all turn"
+        },
+        {
+          "sourceNumber": 206,
+          "symbol": "D1",
+          "root": "يسر",
+          "past": "يَسَّرَ",
+          "meaning": "We have made it easy"
+        },
+        {
+          "sourceNumber": 207,
+          "symbol": "D2",
+          "root": "أخذ",
+          "past": "آخَذَ",
+          "meaning": "takes you to task"
+        },
+        {
+          "sourceNumber": 208,
+          "symbol": "D2",
+          "root": "أزر",
+          "past": "آزَرَ",
+          "meaning": "then he strengthened it"
+        },
+        {
+          "sourceNumber": 209,
+          "symbol": "D2",
+          "root": "بدر",
+          "past": "بَادَرَ",
+          "meaning": "and hastily"
+        },
+        {
+          "sourceNumber": 210,
+          "symbol": "D2",
+          "root": "برك",
+          "past": "بَارَكَ",
+          "meaning": "blessed"
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "groupNumber": 8,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 211,
+          "symbol": "D2",
+          "root": "بشر",
+          "past": "بَاشَرَ",
+          "meaning": "(you all) have relations with them!"
+        },
+        {
+          "sourceNumber": 212,
+          "symbol": "D2",
+          "root": "بعد",
+          "past": "بَاعَدَ",
+          "meaning": "Keep distance!"
+        },
+        {
+          "sourceNumber": 213,
+          "symbol": "D2",
+          "root": "بيع",
+          "past": "بَايَعَ",
+          "meaning": "you all have contracted"
+        },
+        {
+          "sourceNumber": 214,
+          "symbol": "D2",
+          "root": "جدل",
+          "past": "جَادَلَ",
+          "meaning": "And don’t argue!"
+        },
+        {
+          "sourceNumber": 215,
+          "symbol": "D2",
+          "root": "جزي",
+          "past": "جَازَى",
+          "meaning": "we repay"
+        },
+        {
+          "sourceNumber": 216,
+          "symbol": "D2",
+          "root": "جهد",
+          "past": "جَاهَدَ",
+          "meaning": "and they strove"
+        },
+        {
+          "sourceNumber": 217,
+          "symbol": "D2",
+          "root": "جور",
+          "past": "جَاوَرَ",
+          "meaning": "they will not remain your neighbors"
+        },
+        {
+          "sourceNumber": 218,
+          "symbol": "D2",
+          "root": "جوز",
+          "past": "جَاوَزَ",
+          "meaning": "he crossed it"
+        },
+        {
+          "sourceNumber": 219,
+          "symbol": "D2",
+          "root": "حجج",
+          "past": "حَاجَّ",
+          "meaning": "do you all argue with us?"
+        },
+        {
+          "sourceNumber": 220,
+          "symbol": "D2",
+          "root": "حدد",
+          "past": "حَادَدَ",
+          "meaning": "the one who opposes"
+        },
+        {
+          "sourceNumber": 221,
+          "symbol": "D2",
+          "root": "حرب",
+          "past": "حَارَبَ",
+          "meaning": "they are waging war"
+        },
+        {
+          "sourceNumber": 222,
+          "symbol": "D2",
+          "root": "حسب",
+          "past": "حَاسَبَ",
+          "meaning": "to take account"
+        },
+        {
+          "sourceNumber": 223,
+          "symbol": "D2",
+          "root": "حفظ",
+          "past": "حَافَظَ",
+          "meaning": "Guard strictly (pl)!"
+        },
+        {
+          "sourceNumber": 224,
+          "symbol": "D2",
+          "root": "حور",
+          "past": "حَاوَرَ",
+          "meaning": "he talks with him"
+        },
+        {
+          "sourceNumber": 225,
+          "symbol": "D2",
+          "root": "خدع",
+          "past": "خَادَعَ",
+          "meaning": "they are deceiving"
+        },
+        {
+          "sourceNumber": 226,
+          "symbol": "D2",
+          "root": "خطب",
+          "past": "خَاطَبَ",
+          "meaning": "And don’t address me!"
+        },
+        {
+          "sourceNumber": 227,
+          "symbol": "D2",
+          "root": "خفت",
+          "past": "خَافَتَ",
+          "meaning": "And don’t be silent!"
+        },
+        {
+          "sourceNumber": 228,
+          "symbol": "D2",
+          "root": "خلط",
+          "past": "خَالَطَ",
+          "meaning": "you all associate with them"
+        },
+        {
+          "sourceNumber": 229,
+          "symbol": "D2",
+          "root": "خلف",
+          "past": "خَالَفَ",
+          "meaning": "I differ from you all"
+        },
+        {
+          "sourceNumber": 230,
+          "symbol": "D2",
+          "root": "دفع",
+          "past": "دَافَعَ",
+          "meaning": "He defends"
+        },
+        {
+          "sourceNumber": 231,
+          "symbol": "D2",
+          "root": "دول",
+          "past": "دَاوَلَ",
+          "meaning": "We alternate them"
+        },
+        {
+          "sourceNumber": 232,
+          "symbol": "D2",
+          "root": "رءي",
+          "past": "رَاءَى",
+          "meaning": "show off, to be seen"
+        },
+        {
+          "sourceNumber": 233,
+          "symbol": "D2",
+          "root": "ربط",
+          "past": "رَابَطَ",
+          "meaning": "And be constant (pl)!"
+        },
+        {
+          "sourceNumber": 234,
+          "symbol": "D2",
+          "root": "رعي",
+          "past": "رَاعَى",
+          "meaning": "Give us concession!"
+        },
+        {
+          "sourceNumber": 235,
+          "symbol": "D2",
+          "root": "رغم",
+          "past": "رَاغَمَ",
+          "meaning": "place of refuge"
+        },
+        {
+          "sourceNumber": 236,
+          "symbol": "D2",
+          "root": "رود",
+          "past": "رَاوَدَ",
+          "meaning": "and she sought to seduce him"
+        },
+        {
+          "sourceNumber": 237,
+          "symbol": "D2",
+          "root": "سبق",
+          "past": "سَابَقَ",
+          "meaning": "(You all) Race!, Compete!"
+        },
+        {
+          "sourceNumber": 238,
+          "symbol": "D2",
+          "root": "سرع",
+          "past": "سَارَعَ",
+          "meaning": "and they hasten"
+        },
+        {
+          "sourceNumber": 239,
+          "symbol": "D2",
+          "root": "سفح",
+          "past": "سَافَحَ",
+          "meaning": "not to be lustful"
+        },
+        {
+          "sourceNumber": 240,
+          "symbol": "D2",
+          "root": "سقط",
+          "past": "سَاقَطَ",
+          "meaning": "it will drop (fg)"
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "groupNumber": 9,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 241,
+          "symbol": "D2",
+          "root": "سهم",
+          "past": "سَاهَمَ",
+          "meaning": "then he drew lots"
+        },
+        {
+          "sourceNumber": 242,
+          "symbol": "D2",
+          "root": "سوي",
+          "past": "سَاوٰى",
+          "meaning": "he (had) leveled"
+        },
+        {
+          "sourceNumber": 243,
+          "symbol": "D2",
+          "root": "شرك",
+          "past": "شَارَكَ",
+          "meaning": "And be a partner with them!"
+        },
+        {
+          "sourceNumber": 244,
+          "symbol": "D2",
+          "root": "شقق",
+          "past": "شَاقَّ",
+          "meaning": "revolt, betray"
+        },
+        {
+          "sourceNumber": 245,
+          "symbol": "D2",
+          "root": "شور",
+          "past": "شَاوَرَ",
+          "meaning": "And consult them!"
+        },
+        {
+          "sourceNumber": 246,
+          "symbol": "D2",
+          "root": "صبر",
+          "past": "صَابَرَ",
+          "meaning": "And be patient (pl)!"
+        },
+        {
+          "sourceNumber": 247,
+          "symbol": "D2",
+          "root": "صحب",
+          "past": "صَاحَبَ",
+          "meaning": "Then don’t keep me as a companion!"
+        },
+        {
+          "sourceNumber": 248,
+          "symbol": "D2",
+          "root": "ضرر",
+          "past": "ضَارَّ",
+          "meaning": "to hurt"
+        },
+        {
+          "sourceNumber": 249,
+          "symbol": "D2",
+          "root": "ضعف",
+          "past": "ضَاعَفَ",
+          "meaning": "so that He multiplies it"
+        },
+        {
+          "sourceNumber": 250,
+          "symbol": "D2",
+          "root": "ضهء",
+          "past": "ضَاهَأَ",
+          "meaning": "they imitate"
+        },
+        {
+          "sourceNumber": 251,
+          "symbol": "D2",
+          "root": "ظهر",
+          "past": "ظَاهَرَ",
+          "meaning": "and they did not support"
+        },
+        {
+          "sourceNumber": 252,
+          "symbol": "D2",
+          "root": "عجز",
+          "past": "عَاجَزَ",
+          "meaning": "those who cause (others) helpless"
+        },
+        {
+          "sourceNumber": 253,
+          "symbol": "D2",
+          "root": "عدو",
+          "past": "عَادٰى",
+          "meaning": "you all have been enemies"
+        },
+        {
+          "sourceNumber": 254,
+          "symbol": "D2",
+          "root": "عشر",
+          "past": "عَاشَرَ",
+          "meaning": "And you all live with them!"
+        },
+        {
+          "sourceNumber": 255,
+          "symbol": "D2",
+          "root": "عقب",
+          "past": "عَاقَبَ",
+          "meaning": "you all punished"
+        },
+        {
+          "sourceNumber": 256,
+          "symbol": "D2",
+          "root": "عهد",
+          "past": "عَاهَدَ",
+          "meaning": "they made commitment, they took oath"
+        },
+        {
+          "sourceNumber": 257,
+          "symbol": "D2",
+          "root": "غدر",
+          "past": "غَادَرَ",
+          "meaning": "then We didn't leave behind"
+        },
+        {
+          "sourceNumber": 258,
+          "symbol": "D2",
+          "root": "غضب",
+          "past": "غَاضَبَ",
+          "meaning": "(while) angry"
+        },
+        {
+          "sourceNumber": 259,
+          "symbol": "D2",
+          "root": "فدي",
+          "past": "فَادٰى",
+          "meaning": "you all ransom them"
+        },
+        {
+          "sourceNumber": 260,
+          "symbol": "D2",
+          "root": "فرق",
+          "past": "فَارَقَ",
+          "meaning": "parting"
+        },
+        {
+          "sourceNumber": 261,
+          "symbol": "D2",
+          "root": "قتل",
+          "past": "قَاتَلَ",
+          "meaning": "And fight (pl)!"
+        },
+        {
+          "sourceNumber": 262,
+          "symbol": "D2",
+          "root": "قسم",
+          "past": "قَاسَمَ",
+          "meaning": "and he swore to both of them"
+        },
+        {
+          "sourceNumber": 263,
+          "symbol": "D2",
+          "root": "كتب",
+          "past": "كَاتَبَ",
+          "meaning": "Then (you all) give them (the) writing!"
+        },
+        {
+          "sourceNumber": 264,
+          "symbol": "D2",
+          "root": "لقي",
+          "past": "لَاقٰى",
+          "meaning": "those who meet face to face"
+        },
+        {
+          "sourceNumber": 265,
+          "symbol": "D2",
+          "root": "مري",
+          "past": "مَارٰى",
+          "meaning": "So don’t argue!"
+        },
+        {
+          "sourceNumber": 266,
+          "symbol": "D2",
+          "root": "نجو",
+          "past": "نَاجٰى",
+          "meaning": "you all whispered"
+        },
+        {
+          "sourceNumber": 267,
+          "symbol": "D2",
+          "root": "ندو",
+          "past": "نَادٰى",
+          "meaning": "and to cry"
+        },
+        {
+          "sourceNumber": 268,
+          "symbol": "D2",
+          "root": "نزع",
+          "past": "نَازَعَ",
+          "meaning": "so let them not dispute with you"
+        },
+        {
+          "sourceNumber": 269,
+          "symbol": "D2",
+          "root": "نفق",
+          "past": "نَافَقَ",
+          "meaning": "they became hypocrite"
+        },
+        {
+          "sourceNumber": 270,
+          "symbol": "D2",
+          "root": "هجر",
+          "past": "هَاجَرَ",
+          "meaning": "they migrated"
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "groupNumber": 10,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 271,
+          "symbol": "D2",
+          "root": "وثق",
+          "past": "وَاثَقَ",
+          "meaning": "He bound you all"
+        },
+        {
+          "sourceNumber": 272,
+          "symbol": "D2",
+          "root": "وري",
+          "past": "وَارٰى",
+          "meaning": "he covers"
+        },
+        {
+          "sourceNumber": 273,
+          "symbol": "D2",
+          "root": "وطء",
+          "past": "وَاطَأَ",
+          "meaning": "so that they adjust"
+        },
+        {
+          "sourceNumber": 274,
+          "symbol": "D2",
+          "root": "وعد",
+          "past": "وَاعَدَ",
+          "meaning": "we appointed, we promised"
+        },
+        {
+          "sourceNumber": 275,
+          "symbol": "D2",
+          "root": "وفق",
+          "past": "وَافَقَ",
+          "meaning": "appropriate"
+        },
+        {
+          "sourceNumber": 276,
+          "symbol": "D2",
+          "root": "وقع",
+          "past": "وَاقَعَ",
+          "meaning": "they are to fall in it"
+        },
+        {
+          "sourceNumber": 277,
+          "symbol": "D3",
+          "root": "أتي",
+          "past": "آتَى",
+          "meaning": "And (you all) give!"
+        },
+        {
+          "sourceNumber": 278,
+          "symbol": "D3",
+          "root": "أثر",
+          "past": "آثَرَ",
+          "meaning": "He has preferred you"
+        },
+        {
+          "sourceNumber": 279,
+          "symbol": "D3",
+          "root": "أذن",
+          "past": "آذَنَ",
+          "meaning": "I warned all of you"
+        },
+        {
+          "sourceNumber": 280,
+          "symbol": "D3",
+          "root": "أذي",
+          "past": "آذَى",
+          "meaning": "and they were harmed"
+        },
+        {
+          "sourceNumber": 281,
+          "symbol": "D3",
+          "root": "أسف",
+          "past": "آسَفَ",
+          "meaning": "they angered Us"
+        },
+        {
+          "sourceNumber": 282,
+          "symbol": "D3",
+          "root": "ألف",
+          "past": "آلَفَ",
+          "meaning": "for (the) familiarity"
+        },
+        {
+          "sourceNumber": 283,
+          "symbol": "D3",
+          "root": "ألو",
+          "past": "آلَى",
+          "meaning": "they swear (off)"
+        },
+        {
+          "sourceNumber": 284,
+          "symbol": "D3",
+          "root": "أمن",
+          "past": "آمَنَ",
+          "meaning": "they believe"
+        },
+        {
+          "sourceNumber": 285,
+          "symbol": "D3",
+          "root": "أنس",
+          "past": "آنَسَ",
+          "meaning": "you all perceived"
+        },
+        {
+          "sourceNumber": 286,
+          "symbol": "D3",
+          "root": "أوي",
+          "past": "آوَى",
+          "meaning": "then He sheltered all of you"
+        },
+        {
+          "sourceNumber": 287,
+          "symbol": "D3",
+          "root": "بدء",
+          "past": "أَبْدَأَ",
+          "meaning": "He initiates, begins"
+        },
+        {
+          "sourceNumber": 288,
+          "symbol": "D3",
+          "root": "بدل",
+          "past": "أَبْدَلَ",
+          "meaning": "would change for both of them"
+        },
+        {
+          "sourceNumber": 289,
+          "symbol": "D3",
+          "root": "بدو",
+          "past": "أَبْدَى",
+          "meaning": "you all reveal"
+        },
+        {
+          "sourceNumber": 290,
+          "symbol": "D3",
+          "root": "برء",
+          "past": "أَبْرَأَ",
+          "meaning": "and I cure"
+        },
+        {
+          "sourceNumber": 291,
+          "symbol": "D3",
+          "root": "برم",
+          "past": "أَبْرَمَ",
+          "meaning": "have they determined"
+        },
+        {
+          "sourceNumber": 292,
+          "symbol": "D3",
+          "root": "بسل",
+          "past": "أَبْسَلَ",
+          "meaning": "given up to destruction (fg)"
+        },
+        {
+          "sourceNumber": 293,
+          "symbol": "D3",
+          "root": "بشر",
+          "past": "أَبْشَرَ",
+          "meaning": "And (you all) receive the glad tidings!"
+        },
+        {
+          "sourceNumber": 294,
+          "symbol": "D3",
+          "root": "بصر",
+          "past": "أَبْصَرَ",
+          "meaning": "they see"
+        },
+        {
+          "sourceNumber": 295,
+          "symbol": "D3",
+          "root": "بطل",
+          "past": "أَبْطَلَ",
+          "meaning": "And don’t (you all) render in vain!"
+        },
+        {
+          "sourceNumber": 296,
+          "symbol": "D3",
+          "root": "بعد",
+          "past": "أَبْعَدَ",
+          "meaning": "those who are kept away"
+        },
+        {
+          "sourceNumber": 297,
+          "symbol": "D3",
+          "root": "بقي",
+          "past": "أَبْقَى",
+          "meaning": "and spared them"
+        },
+        {
+          "sourceNumber": 298,
+          "symbol": "D3",
+          "root": "بكي",
+          "past": "أَبْكٰى",
+          "meaning": "and He made (someone) weep"
+        },
+        {
+          "sourceNumber": 299,
+          "symbol": "D3",
+          "root": "بلس",
+          "past": "أَبْلَسَ",
+          "meaning": "those who (were) dumbfounded"
+        },
+        {
+          "sourceNumber": 300,
+          "symbol": "D3",
+          "root": "بلغ",
+          "past": "أَبْلَغَ",
+          "meaning": "I have conveyed to you all"
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "groupNumber": 11,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 301,
+          "symbol": "D3",
+          "root": "بلو",
+          "past": "أَبْلَى",
+          "meaning": "you all will certainly be tested"
+        },
+        {
+          "sourceNumber": 302,
+          "symbol": "D3",
+          "root": "بين",
+          "past": "أَبَانَ",
+          "meaning": "clear"
+        },
+        {
+          "sourceNumber": 303,
+          "symbol": "D3",
+          "root": "تبع",
+          "past": "أَتْبَعَ",
+          "meaning": "they follow"
+        },
+        {
+          "sourceNumber": 304,
+          "symbol": "D3",
+          "root": "ترف",
+          "past": "أَتْرَفَ",
+          "meaning": "they were given luxury"
+        },
+        {
+          "sourceNumber": 305,
+          "symbol": "D3",
+          "root": "تقن",
+          "past": "أَتْقَنَ",
+          "meaning": "He perfected"
+        },
+        {
+          "sourceNumber": 306,
+          "symbol": "D3",
+          "root": "تمم",
+          "past": "أَتَمَّ",
+          "meaning": "and he fulfilled them"
+        },
+        {
+          "sourceNumber": 307,
+          "symbol": "D3",
+          "root": "ثبت",
+          "past": "أَثْبَتَ",
+          "meaning": "that they restrain you"
+        },
+        {
+          "sourceNumber": 308,
+          "symbol": "D3",
+          "root": "ثخن",
+          "past": "أَثْخَنَ",
+          "meaning": "he battles strenuously"
+        },
+        {
+          "sourceNumber": 309,
+          "symbol": "D3",
+          "root": "ثقل",
+          "past": "أَثْقَلَ",
+          "meaning": "she became heavy"
+        },
+        {
+          "sourceNumber": 310,
+          "symbol": "D3",
+          "root": "ثمر",
+          "past": "أَثْمَرَ",
+          "meaning": "it bore fruit"
+        },
+        {
+          "sourceNumber": 311,
+          "symbol": "D3",
+          "root": "ثوب",
+          "past": "أَثَابَ",
+          "meaning": "so He repaid you all"
+        },
+        {
+          "sourceNumber": 312,
+          "symbol": "D3",
+          "root": "ثور",
+          "past": "أَثَارَ",
+          "meaning": "it ploughs (fg)"
+        },
+        {
+          "sourceNumber": 313,
+          "symbol": "D3",
+          "root": "جرم",
+          "past": "أَجْرَمَ",
+          "meaning": "sinfull, the criminals"
+        },
+        {
+          "sourceNumber": 314,
+          "symbol": "D3",
+          "root": "جلب",
+          "past": "أَجْلَبَ",
+          "meaning": "And assault!"
+        },
+        {
+          "sourceNumber": 315,
+          "symbol": "D3",
+          "root": "جمع",
+          "past": "أَجْمَعَ",
+          "meaning": "So you all resolve!"
+        },
+        {
+          "sourceNumber": 316,
+          "symbol": "D3",
+          "root": "جوب",
+          "past": "أَجَابَ",
+          "meaning": "I respond"
+        },
+        {
+          "sourceNumber": 317,
+          "symbol": "D3",
+          "root": "جور",
+          "past": "أَجَارَ",
+          "meaning": "Then grant him protection!"
+        },
+        {
+          "sourceNumber": 318,
+          "symbol": "D3",
+          "root": "حبب",
+          "past": "أَحَبَّ",
+          "meaning": "they love them"
+        },
+        {
+          "sourceNumber": 319,
+          "symbol": "D3",
+          "root": "حدث",
+          "past": "أَحْدَثَ",
+          "meaning": "I present"
+        },
+        {
+          "sourceNumber": 320,
+          "symbol": "D3",
+          "root": "حسس",
+          "past": "أَحَسَّ",
+          "meaning": "he felt"
+        },
+        {
+          "sourceNumber": 321,
+          "symbol": "D3",
+          "root": "حسن",
+          "past": "أَحْسَنَ",
+          "meaning": "the good-doers"
+        },
+        {
+          "sourceNumber": 322,
+          "symbol": "D3",
+          "root": "حصر",
+          "past": "أَحْصَرَ",
+          "meaning": "you all are held back"
+        },
+        {
+          "sourceNumber": 323,
+          "symbol": "D3",
+          "root": "حصن",
+          "past": "أَحْصَنَ",
+          "meaning": "and those women who are married"
+        },
+        {
+          "sourceNumber": 324,
+          "symbol": "D3",
+          "root": "حصي",
+          "past": "أَحْصَى",
+          "meaning": "you all will (be able to) count them"
+        },
+        {
+          "sourceNumber": 325,
+          "symbol": "D3",
+          "root": "حضر",
+          "past": "أَحْضَرَ",
+          "meaning": "that which is presented, brought"
+        },
+        {
+          "sourceNumber": 326,
+          "symbol": "D3",
+          "root": "حفي",
+          "past": "أَحْفَى",
+          "meaning": "and press you all"
+        },
+        {
+          "sourceNumber": 327,
+          "symbol": "D3",
+          "root": "حقق",
+          "past": "أَحَقَّ",
+          "meaning": "to establish the truth, justify"
+        },
+        {
+          "sourceNumber": 328,
+          "symbol": "D3",
+          "root": "حكم",
+          "past": "أَحْكَمَ",
+          "meaning": "clear"
+        },
+        {
+          "sourceNumber": 329,
+          "symbol": "D3",
+          "root": "حلل",
+          "past": "أَحَلَّ",
+          "meaning": "is permitted"
+        },
+        {
+          "sourceNumber": 330,
+          "symbol": "D3",
+          "root": "حوط",
+          "past": "أَحَاطَ",
+          "meaning": "the one who encompasses"
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "groupNumber": 12,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 331,
+          "symbol": "D3",
+          "root": "حيي",
+          "past": "أَحْيَا",
+          "meaning": "then He gave life to you all"
+        },
+        {
+          "sourceNumber": 332,
+          "symbol": "D3",
+          "root": "خبت",
+          "past": "أَخْبَتَ",
+          "meaning": "and they humbled themselves"
+        },
+        {
+          "sourceNumber": 333,
+          "symbol": "D3",
+          "root": "خرب",
+          "past": "أَخْرَبَ",
+          "meaning": "they destroy"
+        },
+        {
+          "sourceNumber": 334,
+          "symbol": "D3",
+          "root": "خرج",
+          "past": "أَخْرَجَ",
+          "meaning": "then brought forth"
+        },
+        {
+          "sourceNumber": 335,
+          "symbol": "D3",
+          "root": "خزي",
+          "past": "أَخْزَى",
+          "meaning": "You insulted him"
+        },
+        {
+          "sourceNumber": 336,
+          "symbol": "D3",
+          "root": "خسر",
+          "past": "أَخْسَرَ",
+          "meaning": "those who cause loss"
+        },
+        {
+          "sourceNumber": 337,
+          "symbol": "D3",
+          "root": "خطء",
+          "past": "أَخْطَأَ",
+          "meaning": "we erred"
+        },
+        {
+          "sourceNumber": 338,
+          "symbol": "D3",
+          "root": "خفي",
+          "past": "أَخْفَى",
+          "meaning": "you all keep it secret"
+        },
+        {
+          "sourceNumber": 339,
+          "symbol": "D3",
+          "root": "خلد",
+          "past": "أَخْلَدَ",
+          "meaning": "adhered"
+        },
+        {
+          "sourceNumber": 340,
+          "symbol": "D3",
+          "root": "خلص",
+          "past": "أَخْلَصَ",
+          "meaning": "sincere people"
+        },
+        {
+          "sourceNumber": 341,
+          "symbol": "D3",
+          "root": "خلف",
+          "past": "أَخْلَفَ",
+          "meaning": "and He never go against"
+        },
+        {
+          "sourceNumber": 342,
+          "symbol": "D3",
+          "root": "دبر",
+          "past": "أَدْبَرَ",
+          "meaning": "those who turn back"
+        },
+        {
+          "sourceNumber": 343,
+          "symbol": "D3",
+          "root": "دحض",
+          "past": "أَدْحَضَ",
+          "meaning": "so that they refute"
+        },
+        {
+          "sourceNumber": 344,
+          "symbol": "D3",
+          "root": "دخل",
+          "past": "أَدْخَلَ",
+          "meaning": "and (he) is admitted"
+        },
+        {
+          "sourceNumber": 345,
+          "symbol": "D3",
+          "root": "درك",
+          "past": "أَدْرَكَ",
+          "meaning": "it will overtakes all of you"
+        },
+        {
+          "sourceNumber": 346,
+          "symbol": "D3",
+          "root": "دري",
+          "past": "أَدْرَى",
+          "meaning": "He made it known to you all"
+        },
+        {
+          "sourceNumber": 347,
+          "symbol": "D3",
+          "root": "دلو",
+          "past": "أَدْلَى",
+          "meaning": "and you all present"
+        },
+        {
+          "sourceNumber": 348,
+          "symbol": "D3",
+          "root": "دهن",
+          "past": "أَدْهَنَ",
+          "meaning": "indifferent persons"
+        },
+        {
+          "sourceNumber": 349,
+          "symbol": "D3",
+          "root": "دور",
+          "past": "أَدَارَ",
+          "meaning": "you transfer it among yourselves"
+        },
+        {
+          "sourceNumber": 350,
+          "symbol": "D3",
+          "root": "ذعن",
+          "past": "أَذْعَنَ",
+          "meaning": "those who are promptly obedient"
+        },
+        {
+          "sourceNumber": 351,
+          "symbol": "D3",
+          "root": "ذلل",
+          "past": "أَذَلَّ",
+          "meaning": "and You humiliate"
+        },
+        {
+          "sourceNumber": 352,
+          "symbol": "D3",
+          "root": "ذهب",
+          "past": "أَذْهَبَ",
+          "meaning": "He takes you all away"
+        },
+        {
+          "sourceNumber": 353,
+          "symbol": "D3",
+          "root": "ذوق",
+          "past": "أَذَاقَ",
+          "meaning": "and make (someone) taste"
+        },
+        {
+          "sourceNumber": 354,
+          "symbol": "D3",
+          "root": "ذيع",
+          "past": "أَذَاعَ",
+          "meaning": "they made (something) famous"
+        },
+        {
+          "sourceNumber": 355,
+          "symbol": "D3",
+          "root": "رءي",
+          "past": "أَرَى",
+          "meaning": "and He shows you all"
+        },
+        {
+          "sourceNumber": 356,
+          "symbol": "D3",
+          "root": "ربو",
+          "past": "أَرْبَى",
+          "meaning": "and He increases"
+        },
+        {
+          "sourceNumber": 357,
+          "symbol": "D3",
+          "root": "رجف",
+          "past": "أَرْجَفَ",
+          "meaning": "and those who spread rumors"
+        },
+        {
+          "sourceNumber": 358,
+          "symbol": "D3",
+          "root": "رجو",
+          "past": "أَرْجَى",
+          "meaning": "Postpone (the matter of) him!"
+        },
+        {
+          "sourceNumber": 359,
+          "symbol": "D3",
+          "root": "ردف",
+          "past": "أَرْدَفَ",
+          "meaning": "those who come one after another"
+        },
+        {
+          "sourceNumber": 360,
+          "symbol": "D3",
+          "root": "ردي",
+          "past": "أَرْدَى",
+          "meaning": "so that they may ruin them"
+        }
+      ]
+    },
+    {
+      "group": "M",
+      "groupNumber": 13,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 361,
+          "symbol": "D3",
+          "root": "رسل",
+          "past": "أَرْسَلَ",
+          "meaning": "We have sent you"
+        },
+        {
+          "sourceNumber": 362,
+          "symbol": "D3",
+          "root": "رسو",
+          "past": "أَرْسَى",
+          "meaning": "its anchorage, arrival"
+        },
+        {
+          "sourceNumber": 363,
+          "symbol": "D3",
+          "root": "رشد",
+          "past": "أَرْشَدَ",
+          "meaning": "a guide"
+        },
+        {
+          "sourceNumber": 364,
+          "symbol": "D3",
+          "root": "رصد",
+          "past": "أَرْصَدَ",
+          "meaning": "and a station"
+        },
+        {
+          "sourceNumber": 365,
+          "symbol": "D3",
+          "root": "رضع",
+          "past": "أَرْضَعَ",
+          "meaning": "they (fg) nursed you all"
+        },
+        {
+          "sourceNumber": 366,
+          "symbol": "D3",
+          "root": "رضو",
+          "past": "أَرْضَى",
+          "meaning": "they satisfy you all"
+        },
+        {
+          "sourceNumber": 367,
+          "symbol": "D3",
+          "root": "ركس",
+          "past": "أَرْكَسَ",
+          "meaning": "He has returned them"
+        },
+        {
+          "sourceNumber": 368,
+          "symbol": "D3",
+          "root": "رهب",
+          "past": "أَرْهَبَ",
+          "meaning": "you all terrify"
+        },
+        {
+          "sourceNumber": 369,
+          "symbol": "D3",
+          "root": "رهق",
+          "past": "أَرْهَقَ",
+          "meaning": "and don’t put burdon on me!"
+        },
+        {
+          "sourceNumber": 370,
+          "symbol": "D3",
+          "root": "روح",
+          "past": "أَرَاحَ",
+          "meaning": "you all bring them back after grazing in the evening"
+        },
+        {
+          "sourceNumber": 371,
+          "symbol": "D3",
+          "root": "رود",
+          "past": "أَرَادَ",
+          "meaning": "He intended"
+        },
+        {
+          "sourceNumber": 372,
+          "symbol": "D3",
+          "root": "ريب",
+          "past": "أَرَابَ",
+          "meaning": "doubter"
+        },
+        {
+          "sourceNumber": 373,
+          "symbol": "D3",
+          "root": "زجو",
+          "past": "أَزْجَى",
+          "meaning": "of little value"
+        },
+        {
+          "sourceNumber": 374,
+          "symbol": "D3",
+          "root": "زلف",
+          "past": "أَزْلَفَ",
+          "meaning": "and We brought near"
+        },
+        {
+          "sourceNumber": 375,
+          "symbol": "D3",
+          "root": "زلق",
+          "past": "أَزْلَقَ",
+          "meaning": "surely they will make you slip"
+        },
+        {
+          "sourceNumber": 376,
+          "symbol": "D3",
+          "root": "زلل",
+          "past": "أَزَلَّ",
+          "meaning": "then he made both of them slip"
+        },
+        {
+          "sourceNumber": 377,
+          "symbol": "D3",
+          "root": "زيغ",
+          "past": "أَزَاغَ",
+          "meaning": "Don’t deviate!"
+        },
+        {
+          "sourceNumber": 378,
+          "symbol": "D3",
+          "root": "سبغ",
+          "past": "أَسْبَغَ",
+          "meaning": "and He amply bestowed"
+        },
+        {
+          "sourceNumber": 379,
+          "symbol": "D3",
+          "root": "سحت",
+          "past": "أَسْحَتَ",
+          "meaning": "that He will destroy all of you"
+        },
+        {
+          "sourceNumber": 380,
+          "symbol": "D3",
+          "root": "سخط",
+          "past": "أَسْخَطَ",
+          "meaning": "he angered"
+        },
+        {
+          "sourceNumber": 381,
+          "symbol": "D3",
+          "root": "سرر",
+          "past": "أَسَرَّ",
+          "meaning": "they conceal"
+        },
+        {
+          "sourceNumber": 382,
+          "symbol": "D3",
+          "root": "سرف",
+          "past": "أَسْرَفَ",
+          "meaning": "and our excesses"
+        },
+        {
+          "sourceNumber": 383,
+          "symbol": "D3",
+          "root": "سري",
+          "past": "أَسْرَى",
+          "meaning": "So travel!, set out!"
+        },
+        {
+          "sourceNumber": 384,
+          "symbol": "D3",
+          "root": "سفر",
+          "past": "أَسْفَرَ",
+          "meaning": "it brightened"
+        },
+        {
+          "sourceNumber": 385,
+          "symbol": "D3",
+          "root": "سقط",
+          "past": "أَسْقَطَ",
+          "meaning": "you cause to fall"
+        },
+        {
+          "sourceNumber": 386,
+          "symbol": "D3",
+          "root": "سقي",
+          "past": "أَسْقَى",
+          "meaning": "and We gave it to you all to drink"
+        },
+        {
+          "sourceNumber": 387,
+          "symbol": "D3",
+          "root": "سكن",
+          "past": "أَسْكَنَ",
+          "meaning": "and surely We will make you all dwell"
+        },
+        {
+          "sourceNumber": 388,
+          "symbol": "D3",
+          "root": "سلف",
+          "past": "أَسْلَفَ",
+          "meaning": "it did previously (fg)"
+        },
+        {
+          "sourceNumber": 389,
+          "symbol": "D3",
+          "root": "سلم",
+          "past": "أَسْلَمَ",
+          "meaning": "he submitted"
+        },
+        {
+          "sourceNumber": 390,
+          "symbol": "D3",
+          "root": "سمع",
+          "past": "أَسْمَعَ",
+          "meaning": "he has been heard"
+        }
+      ]
+    },
+    {
+      "group": "N",
+      "groupNumber": 14,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 391,
+          "symbol": "D3",
+          "root": "سمن",
+          "past": "أَسْمَنَ",
+          "meaning": "it will not nourish"
+        },
+        {
+          "sourceNumber": 392,
+          "symbol": "D3",
+          "root": "سوء",
+          "past": "أَسَاءَ",
+          "meaning": "you all did evil"
+        },
+        {
+          "sourceNumber": 393,
+          "symbol": "D3",
+          "root": "سوغ",
+          "past": "أَسَاغَ",
+          "meaning": "he will swallow it"
+        },
+        {
+          "sourceNumber": 394,
+          "symbol": "D3",
+          "root": "سوم",
+          "past": "أَسَامَ",
+          "meaning": "you all pasture your cattle"
+        },
+        {
+          "sourceNumber": 395,
+          "symbol": "D3",
+          "root": "سيل",
+          "past": "أَسَالَ",
+          "meaning": "and We caused to flow"
+        },
+        {
+          "sourceNumber": 396,
+          "symbol": "D3",
+          "root": "شرب",
+          "past": "أَشْرَبَ",
+          "meaning": "and they were made to drink"
+        },
+        {
+          "sourceNumber": 397,
+          "symbol": "D3",
+          "root": "شرق",
+          "past": "أَشْرَقَ",
+          "meaning": "at the time of sunrise, during sunrise"
+        },
+        {
+          "sourceNumber": 398,
+          "symbol": "D3",
+          "root": "شرك",
+          "past": "أَشْرَكَ",
+          "meaning": "they associated partners"
+        },
+        {
+          "sourceNumber": 399,
+          "symbol": "D3",
+          "root": "شطط",
+          "past": "أَشَطَّ",
+          "meaning": "And don’t be unjust!"
+        },
+        {
+          "sourceNumber": 400,
+          "symbol": "D3",
+          "root": "شعر",
+          "past": "أَشْعَرَ",
+          "meaning": "will make you all perceive"
+        },
+        {
+          "sourceNumber": 401,
+          "symbol": "D3",
+          "root": "شفق",
+          "past": "أَشْفَقَ",
+          "meaning": "those who are fearful"
+        },
+        {
+          "sourceNumber": 402,
+          "symbol": "D3",
+          "root": "شمت",
+          "past": "أَشْمَتَ",
+          "meaning": "Then don’t rejoice!"
+        },
+        {
+          "sourceNumber": 403,
+          "symbol": "D3",
+          "root": "شهد",
+          "past": "أَشْهَدَ",
+          "meaning": "and he makes witness"
+        },
+        {
+          "sourceNumber": 404,
+          "symbol": "D3",
+          "root": "شور",
+          "past": "أَشَارَ",
+          "meaning": "then she pointed"
+        },
+        {
+          "sourceNumber": 405,
+          "symbol": "D3",
+          "root": "صبح",
+          "past": "أَصْبَحَ",
+          "meaning": "then you all became"
+        },
+        {
+          "sourceNumber": 406,
+          "symbol": "D3",
+          "root": "صدر",
+          "past": "أَصْدَرَ",
+          "meaning": "he returns (something)"
+        },
+        {
+          "sourceNumber": 407,
+          "symbol": "D3",
+          "root": "صرخ",
+          "past": "أَصْرَخَ",
+          "meaning": "(be) your helper"
+        },
+        {
+          "sourceNumber": 408,
+          "symbol": "D3",
+          "root": "صرر",
+          "past": "أَصَرَّ",
+          "meaning": "and they did not insist"
+        },
+        {
+          "sourceNumber": 409,
+          "symbol": "D3",
+          "root": "صعد",
+          "past": "أَصْعَدَ",
+          "meaning": "you all were running uphill"
+        },
+        {
+          "sourceNumber": 410,
+          "symbol": "D3",
+          "root": "صفو",
+          "past": "أَصْفٰى",
+          "meaning": "did He then choose all of you?"
+        },
+        {
+          "sourceNumber": 411,
+          "symbol": "D3",
+          "root": "صلح",
+          "past": "أَصْلَحَ",
+          "meaning": "reformers"
+        },
+        {
+          "sourceNumber": 412,
+          "symbol": "D3",
+          "root": "صلي",
+          "past": "أَصْلٰى",
+          "meaning": "We will put him"
+        },
+        {
+          "sourceNumber": 413,
+          "symbol": "D3",
+          "root": "صمم",
+          "past": "أَصَمَّ",
+          "meaning": "so He made them deaf"
+        },
+        {
+          "sourceNumber": 414,
+          "symbol": "D3",
+          "root": "صوب",
+          "past": "أَصَابَ",
+          "meaning": "struck them (fg)"
+        },
+        {
+          "sourceNumber": 415,
+          "symbol": "D3",
+          "root": "ضحك",
+          "past": "أَضْحَكَ",
+          "meaning": "He made laugh"
+        },
+        {
+          "sourceNumber": 416,
+          "symbol": "D3",
+          "root": "ضعف",
+          "past": "أَضْعَفَ",
+          "meaning": "those who give manifold"
+        },
+        {
+          "sourceNumber": 417,
+          "symbol": "D3",
+          "root": "ضلل",
+          "past": "أَضَلَّ",
+          "meaning": "He lets go astray"
+        },
+        {
+          "sourceNumber": 418,
+          "symbol": "D3",
+          "root": "ضوء",
+          "past": "أَضَاءَ",
+          "meaning": "it lighted (fg)"
+        },
+        {
+          "sourceNumber": 419,
+          "symbol": "D3",
+          "root": "ضيع",
+          "past": "أَضَاعَ",
+          "meaning": "to let go waste"
+        },
+        {
+          "sourceNumber": 420,
+          "symbol": "D3",
+          "root": "طعم",
+          "past": "أَطْعَمَ",
+          "meaning": "to feed"
+        }
+      ]
+    },
+    {
+      "group": "O",
+      "groupNumber": 15,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        443,
+        444,
+        445,
+        446,
+        447,
+        448,
+        449,
+        450
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 421,
+          "symbol": "D3",
+          "root": "طغي",
+          "past": "أَطْغٰى",
+          "meaning": "I made him transgress"
+        },
+        {
+          "sourceNumber": 422,
+          "symbol": "D3",
+          "root": "طفء",
+          "past": "أَطْفَأَ",
+          "meaning": "He extinguished it"
+        },
+        {
+          "sourceNumber": 423,
+          "symbol": "D3",
+          "root": "طلع",
+          "past": "أَطْلَعَ",
+          "meaning": "that He informs you all"
+        },
+        {
+          "sourceNumber": 424,
+          "symbol": "D3",
+          "root": "طوع",
+          "past": "أَطَاعَ",
+          "meaning": "and we obeyed"
+        },
+        {
+          "sourceNumber": 425,
+          "symbol": "D3",
+          "root": "طوق",
+          "past": "أَطَاقَ",
+          "meaning": "they can afford it"
+        },
+        {
+          "sourceNumber": 426,
+          "symbol": "D3",
+          "root": "ظفر",
+          "past": "أَظْفَرَ",
+          "meaning": "He gave victory to you all"
+        },
+        {
+          "sourceNumber": 427,
+          "symbol": "D3",
+          "root": "ظلم",
+          "past": "أَظْلَمَ",
+          "meaning": "it darkened"
+        },
+        {
+          "sourceNumber": 428,
+          "symbol": "D3",
+          "root": "ظهر",
+          "past": "أَظْهَرَ",
+          "meaning": "so that He manifests it"
+        },
+        {
+          "sourceNumber": 429,
+          "symbol": "D3",
+          "root": "عتب",
+          "past": "أَعْتَبَ",
+          "meaning": "those who receive favor"
+        },
+        {
+          "sourceNumber": 430,
+          "symbol": "D3",
+          "root": "عتد",
+          "past": "أَعْتَدَ",
+          "meaning": "We have prepared"
+        },
+        {
+          "sourceNumber": 431,
+          "symbol": "D3",
+          "root": "عثر",
+          "past": "أَعْثَرَ",
+          "meaning": "We made known"
+        },
+        {
+          "sourceNumber": 432,
+          "symbol": "D3",
+          "root": "عجب",
+          "past": "أَعْجَبَ",
+          "meaning": "it pleases you"
+        },
+        {
+          "sourceNumber": 433,
+          "symbol": "D3",
+          "root": "عجز",
+          "past": "أَعْجَزَ",
+          "meaning": "those who overpower others"
+        },
+        {
+          "sourceNumber": 434,
+          "symbol": "D3",
+          "root": "عجل",
+          "past": "أَعْجَلَ",
+          "meaning": "made you hasten"
+        },
+        {
+          "sourceNumber": 435,
+          "symbol": "D3",
+          "root": "عدد",
+          "past": "أَعَدَّ",
+          "meaning": "is prepared (fg)"
+        },
+        {
+          "sourceNumber": 436,
+          "symbol": "D3",
+          "root": "عرض",
+          "past": "أَعْرَضَ",
+          "meaning": "those who turn away"
+        },
+        {
+          "sourceNumber": 437,
+          "symbol": "D3",
+          "root": "عزز",
+          "past": "أَعَزَّ",
+          "meaning": "and You honor"
+        },
+        {
+          "sourceNumber": 438,
+          "symbol": "D3",
+          "root": "عصر",
+          "past": "أَعْصَرَ",
+          "meaning": "storm"
+        },
+        {
+          "sourceNumber": 439,
+          "symbol": "D3",
+          "root": "عطو",
+          "past": "أَعْطٰى",
+          "meaning": "they pay"
+        },
+        {
+          "sourceNumber": 440,
+          "symbol": "D3",
+          "root": "عظم",
+          "past": "أَعْظَمَ",
+          "meaning": "and He will make great"
+        },
+        {
+          "sourceNumber": 441,
+          "symbol": "D3",
+          "root": "عقب",
+          "past": "أَعْقَبَ",
+          "meaning": "so he penalized them"
+        },
+        {
+          "sourceNumber": 442,
+          "symbol": "D3",
+          "root": "علن",
+          "past": "أَعْلَنَ",
+          "meaning": "they disclose"
+        },
+        {
+          "sourceNumber": 443,
+          "symbol": "D3",
+          "root": "عنت",
+          "past": "أَعْنَتَ",
+          "meaning": "surely he (could have) put you all in difficulties"
+        },
+        {
+          "sourceNumber": 444,
+          "symbol": "D3",
+          "root": "عود",
+          "past": "أَعَادَ",
+          "meaning": "He repeats it"
+        },
+        {
+          "sourceNumber": 445,
+          "symbol": "D3",
+          "root": "عوذ",
+          "past": "أَعَاذَ",
+          "meaning": "I seek refuge for her"
+        },
+        {
+          "sourceNumber": 446,
+          "symbol": "D3",
+          "root": "عون",
+          "past": "أَعَانَ",
+          "meaning": "Thus you all assist me!"
+        },
+        {
+          "sourceNumber": 447,
+          "symbol": "D3",
+          "root": "غرق",
+          "past": "أَغْرَقَ",
+          "meaning": "and We drowned"
+        },
+        {
+          "sourceNumber": 448,
+          "symbol": "D3",
+          "root": "غرم",
+          "past": "أَغْرَمَ",
+          "meaning": "those who surely laden with debt"
+        },
+        {
+          "sourceNumber": 449,
+          "symbol": "D3",
+          "root": "غرو",
+          "past": "أَغْرٰى",
+          "meaning": "therefore We excited"
+        },
+        {
+          "sourceNumber": 450,
+          "symbol": "D3",
+          "root": "غشي",
+          "past": "أَغْشٰى",
+          "meaning": "He covers"
+        }
+      ]
+    },
+    {
+      "group": "P",
+      "groupNumber": 16,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        451,
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458,
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476,
+        477,
+        478,
+        479,
+        480
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 451,
+          "symbol": "D3",
+          "root": "غطش",
+          "past": "أَغْطَشَ",
+          "meaning": "and He darkened"
+        },
+        {
+          "sourceNumber": 452,
+          "symbol": "D3",
+          "root": "غفل",
+          "past": "أَغْفَلَ",
+          "meaning": "We made heedless"
+        },
+        {
+          "sourceNumber": 453,
+          "symbol": "D3",
+          "root": "غمض",
+          "past": "أَغْمَضَ",
+          "meaning": "(you all) close your eyes disdainfully"
+        },
+        {
+          "sourceNumber": 454,
+          "symbol": "D3",
+          "root": "غني",
+          "past": "أَغْنٰى",
+          "meaning": "will avail"
+        },
+        {
+          "sourceNumber": 455,
+          "symbol": "D3",
+          "root": "غوث",
+          "past": "أَغَاثَ",
+          "meaning": "will be given abundant rain"
+        },
+        {
+          "sourceNumber": 456,
+          "symbol": "D3",
+          "root": "غور",
+          "past": "أَغَارَ",
+          "meaning": "and then the chargers (fg)"
+        },
+        {
+          "sourceNumber": 457,
+          "symbol": "D3",
+          "root": "غوي",
+          "past": "أَغْوٰى",
+          "meaning": "You have made me astray"
+        },
+        {
+          "sourceNumber": 458,
+          "symbol": "D3",
+          "root": "فتو",
+          "past": "أَفْتٰى",
+          "meaning": "He gives command to all of you"
+        },
+        {
+          "sourceNumber": 459,
+          "symbol": "D3",
+          "root": "فرط",
+          "past": "أَفْرَطَ",
+          "meaning": "they will be hastened (towards the fire)"
+        },
+        {
+          "sourceNumber": 460,
+          "symbol": "D3",
+          "root": "فرغ",
+          "past": "أَفْرَغَ",
+          "meaning": "Pour!"
+        },
+        {
+          "sourceNumber": 461,
+          "symbol": "D3",
+          "root": "فسد",
+          "past": "أَفْسَدَ",
+          "meaning": "Don’t (you all) spread corruption!"
+        },
+        {
+          "sourceNumber": 462,
+          "symbol": "D3",
+          "root": "فضو",
+          "past": "أَفْضٰى",
+          "meaning": "he has reached"
+        },
+        {
+          "sourceNumber": 463,
+          "symbol": "D3",
+          "root": "فلح",
+          "past": "أَفْلَحَ",
+          "meaning": "the successful ones"
+        },
+        {
+          "sourceNumber": 464,
+          "symbol": "D3",
+          "root": "فوق",
+          "past": "أَفَاقَ",
+          "meaning": "he recovered"
+        },
+        {
+          "sourceNumber": 465,
+          "symbol": "D3",
+          "root": "فيء",
+          "past": "أَفَاءَ",
+          "meaning": "gave, restored"
+        },
+        {
+          "sourceNumber": 466,
+          "symbol": "D3",
+          "root": "فيض",
+          "past": "أَفَاضَ",
+          "meaning": "you all came back"
+        },
+        {
+          "sourceNumber": 467,
+          "symbol": "D3",
+          "root": "قبر",
+          "past": "أَقْبَرَ",
+          "meaning": "and provided a grave for him"
+        },
+        {
+          "sourceNumber": 468,
+          "symbol": "D3",
+          "root": "قبل",
+          "past": "أَقْبَلَ",
+          "meaning": "and they approached"
+        },
+        {
+          "sourceNumber": 469,
+          "symbol": "D3",
+          "root": "قتر",
+          "past": "أَقْتَرَ",
+          "meaning": "the poor"
+        },
+        {
+          "sourceNumber": 470,
+          "symbol": "D3",
+          "root": "قرء",
+          "past": "أَقْرَأَ",
+          "meaning": "We will make you recite"
+        },
+        {
+          "sourceNumber": 471,
+          "symbol": "D3",
+          "root": "قرر",
+          "past": "أَقَرَّ",
+          "meaning": "you all ratified"
+        },
+        {
+          "sourceNumber": 472,
+          "symbol": "D3",
+          "root": "قرض",
+          "past": "أَقْرَضَ",
+          "meaning": "he lends"
+        },
+        {
+          "sourceNumber": 473,
+          "symbol": "D3",
+          "root": "قرن",
+          "past": "أَقْرَنَ",
+          "meaning": "those who subdue (others)"
+        },
+        {
+          "sourceNumber": 474,
+          "symbol": "D3",
+          "root": "قسط",
+          "past": "أَقْسَطَ",
+          "meaning": "you all do justice"
+        },
+        {
+          "sourceNumber": 475,
+          "symbol": "D3",
+          "root": "قسم",
+          "past": "أَقْسَمَ",
+          "meaning": "they swore"
+        },
+        {
+          "sourceNumber": 476,
+          "symbol": "D3",
+          "root": "قصر",
+          "past": "أَقْصَرَ",
+          "meaning": "they cease"
+        },
+        {
+          "sourceNumber": 477,
+          "symbol": "D3",
+          "root": "قلع",
+          "past": "أَقْلَعَ",
+          "meaning": "Withhold! (fg)"
+        },
+        {
+          "sourceNumber": 478,
+          "symbol": "D3",
+          "root": "قلل",
+          "past": "أَقَلَّ",
+          "meaning": "it carried (fg)"
+        },
+        {
+          "sourceNumber": 479,
+          "symbol": "D3",
+          "root": "قمح",
+          "past": "أَقْمَحَ",
+          "meaning": "those with heads raised up"
+        },
+        {
+          "sourceNumber": 480,
+          "symbol": "D3",
+          "root": "قوت",
+          "past": "أَقَاتَ",
+          "meaning": "one who has supreme power"
+        }
+      ]
+    },
+    {
+      "group": "Q",
+      "groupNumber": 17,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493,
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500,
+        501,
+        502,
+        503,
+        504,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 481,
+          "symbol": "D3",
+          "root": "قوم",
+          "past": "أَقَامَ",
+          "meaning": "and they establish"
+        },
+        {
+          "sourceNumber": 482,
+          "symbol": "D3",
+          "root": "قوي",
+          "past": "أَقْوٰى",
+          "meaning": "for the wayfarers"
+        },
+        {
+          "sourceNumber": 483,
+          "symbol": "D3",
+          "root": "كبب",
+          "past": "أَكَبَّ",
+          "meaning": "the one who is falling"
+        },
+        {
+          "sourceNumber": 484,
+          "symbol": "D3",
+          "root": "كبر",
+          "past": "أَكْبَرَ",
+          "meaning": "they (fg) greatly admired him"
+        },
+        {
+          "sourceNumber": 485,
+          "symbol": "D3",
+          "root": "كثر",
+          "past": "أَكْثَرَ",
+          "meaning": "and you (have been) frequent"
+        },
+        {
+          "sourceNumber": 486,
+          "symbol": "D3",
+          "root": "كدي",
+          "past": "أَكْدٰى",
+          "meaning": "and he withheld"
+        },
+        {
+          "sourceNumber": 487,
+          "symbol": "D3",
+          "root": "كرم",
+          "past": "أَكْرَمَ",
+          "meaning": "Give respect (fg)!"
+        },
+        {
+          "sourceNumber": 488,
+          "symbol": "D3",
+          "root": "كره",
+          "past": "أَكْرَهَ",
+          "meaning": "compulsion"
+        },
+        {
+          "sourceNumber": 489,
+          "symbol": "D3",
+          "root": "كفر",
+          "past": "أَكْفَرَ",
+          "meaning": "how ungrateful is he!"
+        },
+        {
+          "sourceNumber": 490,
+          "symbol": "D3",
+          "root": "كفل",
+          "past": "أَكْفَلَ",
+          "meaning": "Entrust it to me!"
+        },
+        {
+          "sourceNumber": 491,
+          "symbol": "D3",
+          "root": "كمل",
+          "past": "أَكْمَلَ",
+          "meaning": "so that you all complete"
+        },
+        {
+          "sourceNumber": 492,
+          "symbol": "D3",
+          "root": "كنن",
+          "past": "أَكَنَّ",
+          "meaning": "you all concealed"
+        },
+        {
+          "sourceNumber": 493,
+          "symbol": "D3",
+          "root": "لحد",
+          "past": "أَلْحَدَ",
+          "meaning": "they deviate"
+        },
+        {
+          "sourceNumber": 494,
+          "symbol": "D3",
+          "root": "لحف",
+          "past": "أَلْحَفَ",
+          "meaning": "being covered"
+        },
+        {
+          "sourceNumber": 495,
+          "symbol": "D3",
+          "root": "لحق",
+          "past": "أَلْحَقَ",
+          "meaning": "And join me!"
+        },
+        {
+          "sourceNumber": 496,
+          "symbol": "D3",
+          "root": "لزم",
+          "past": "أَلْزَمَ",
+          "meaning": "should We compel you all (to accept) it?"
+        },
+        {
+          "sourceNumber": 497,
+          "symbol": "D3",
+          "root": "لفي",
+          "past": "أَلْفٰى",
+          "meaning": "we found"
+        },
+        {
+          "sourceNumber": 498,
+          "symbol": "D3",
+          "root": "لقي",
+          "past": "أَلْقَى",
+          "meaning": "And (you all) don’t put!"
+        },
+        {
+          "sourceNumber": 499,
+          "symbol": "D3",
+          "root": "لهم",
+          "past": "أَلْهَمَ",
+          "meaning": "then He inspired it"
+        },
+        {
+          "sourceNumber": 500,
+          "symbol": "D3",
+          "root": "لهو",
+          "past": "أَلْهٰى",
+          "meaning": "and diverted them"
+        },
+        {
+          "sourceNumber": 501,
+          "symbol": "D3",
+          "root": "لوم",
+          "past": "أَلَامَ",
+          "meaning": "blameworthy"
+        },
+        {
+          "sourceNumber": 502,
+          "symbol": "D3",
+          "root": "لين",
+          "past": "أَلَانَ",
+          "meaning": "and We made soft"
+        },
+        {
+          "sourceNumber": 503,
+          "symbol": "D3",
+          "root": "مدد",
+          "past": "أَمَدَّ",
+          "meaning": "He reinforces you all"
+        },
+        {
+          "sourceNumber": 504,
+          "symbol": "D3",
+          "root": "مسك",
+          "past": "أَمْسَكَ",
+          "meaning": "then to retain"
+        },
+        {
+          "sourceNumber": 505,
+          "symbol": "D3",
+          "root": "مسو",
+          "past": "أَمْسٰى",
+          "meaning": "you all spend the evening"
+        },
+        {
+          "sourceNumber": 506,
+          "symbol": "D3",
+          "root": "مطر",
+          "past": "أَمْطَرَ",
+          "meaning": "and We showered"
+        },
+        {
+          "sourceNumber": 507,
+          "symbol": "D3",
+          "root": "مكن",
+          "past": "أَمْكَنَ",
+          "meaning": "so He gave power over"
+        },
+        {
+          "sourceNumber": 508,
+          "symbol": "D3",
+          "root": "ملق",
+          "past": "أَمْلَقَ",
+          "meaning": "poverty"
+        },
+        {
+          "sourceNumber": 509,
+          "symbol": "D3",
+          "root": "ملل",
+          "past": "أَمَلَّ",
+          "meaning": "and let (him) dictate"
+        },
+        {
+          "sourceNumber": 510,
+          "symbol": "D3",
+          "root": "ملو",
+          "past": "أَمْلٰى",
+          "meaning": "we prolong"
+        }
+      ]
+    },
+    {
+      "group": "R",
+      "groupNumber": 18,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        531,
+        532,
+        533,
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 511,
+          "symbol": "D3",
+          "root": "مهل",
+          "past": "أَمْهَلَ",
+          "meaning": "Give respite to them!"
+        },
+        {
+          "sourceNumber": 512,
+          "symbol": "D3",
+          "root": "موت",
+          "past": "أَمَاتَ",
+          "meaning": "He will cause you all to die"
+        },
+        {
+          "sourceNumber": 513,
+          "symbol": "D3",
+          "root": "نبء",
+          "past": "أَنْبَأَ",
+          "meaning": "(You all) Inform me (pl)!"
+        },
+        {
+          "sourceNumber": 514,
+          "symbol": "D3",
+          "root": "نبت",
+          "past": "أَنْبَتَ",
+          "meaning": "it grows (fg)"
+        },
+        {
+          "sourceNumber": 515,
+          "symbol": "D3",
+          "root": "نجو",
+          "past": "أَنْجَى",
+          "meaning": "then We saved you all"
+        },
+        {
+          "sourceNumber": 516,
+          "symbol": "D3",
+          "root": "نذر",
+          "past": "أَنْذَرَ",
+          "meaning": "whether you warn them"
+        },
+        {
+          "sourceNumber": 517,
+          "symbol": "D3",
+          "root": "نزف",
+          "past": "أَنْزَفَ",
+          "meaning": "and they will not get intoxicated"
+        },
+        {
+          "sourceNumber": 518,
+          "symbol": "D3",
+          "root": "نزل",
+          "past": "أَنْزَلَ",
+          "meaning": "was sent down"
+        },
+        {
+          "sourceNumber": 519,
+          "symbol": "D3",
+          "root": "نسي",
+          "past": "أَنْسٰى",
+          "meaning": "We cause it to be forgotten"
+        },
+        {
+          "sourceNumber": 520,
+          "symbol": "D3",
+          "root": "نشء",
+          "past": "أَنْشَأَ",
+          "meaning": "and We raised"
+        },
+        {
+          "sourceNumber": 521,
+          "symbol": "D3",
+          "root": "نشر",
+          "past": "أَنْشَرَ",
+          "meaning": "they raise (the dead)"
+        },
+        {
+          "sourceNumber": 522,
+          "symbol": "D3",
+          "root": "نشز",
+          "past": "أَنْشَزَ",
+          "meaning": "We join them"
+        },
+        {
+          "sourceNumber": 523,
+          "symbol": "D3",
+          "root": "نصت",
+          "past": "أَنْصَتَ",
+          "meaning": "And pay attention (pl)!"
+        },
+        {
+          "sourceNumber": 524,
+          "symbol": "D3",
+          "root": "نطق",
+          "past": "أَنْطَقَ",
+          "meaning": "He made us speak"
+        },
+        {
+          "sourceNumber": 525,
+          "symbol": "D3",
+          "root": "نظر",
+          "past": "أَنْظَرَ",
+          "meaning": "they will be reprieved"
+        },
+        {
+          "sourceNumber": 526,
+          "symbol": "D3",
+          "root": "نعم",
+          "past": "أَنْعَمَ",
+          "meaning": "You have bestowed favors"
+        },
+        {
+          "sourceNumber": 527,
+          "symbol": "D3",
+          "root": "نغض",
+          "past": "أَنْغَضَ",
+          "meaning": "then they will shake"
+        },
+        {
+          "sourceNumber": 528,
+          "symbol": "D3",
+          "root": "نفق",
+          "past": "أَنْفَقَ",
+          "meaning": "they spend"
+        },
+        {
+          "sourceNumber": 529,
+          "symbol": "D3",
+          "root": "نقذ",
+          "past": "أَنْقَذَ",
+          "meaning": "then He saved you all"
+        },
+        {
+          "sourceNumber": 530,
+          "symbol": "D3",
+          "root": "نقض",
+          "past": "أَنْقَضَ",
+          "meaning": "he weighed upon"
+        },
+        {
+          "sourceNumber": 531,
+          "symbol": "D3",
+          "root": "نكح",
+          "past": "أَنْكَحَ",
+          "meaning": "don’t (you all) marry!"
+        },
+        {
+          "sourceNumber": 532,
+          "symbol": "D3",
+          "root": "نكر",
+          "past": "أَنْكَرَ",
+          "meaning": "the wrong"
+        },
+        {
+          "sourceNumber": 533,
+          "symbol": "D3",
+          "root": "نوب",
+          "past": "أَنَابَ",
+          "meaning": "the one who turns to"
+        },
+        {
+          "sourceNumber": 534,
+          "symbol": "D3",
+          "root": "نور",
+          "past": "أَنَارَ",
+          "meaning": "the enlightening"
+        },
+        {
+          "sourceNumber": 535,
+          "symbol": "D3",
+          "root": "هطع",
+          "past": "أَهْطَعَ",
+          "meaning": "those who racing ahead"
+        },
+        {
+          "sourceNumber": 536,
+          "symbol": "D3",
+          "root": "هلك",
+          "past": "أَهْلَكَ",
+          "meaning": "and he destroys"
+        },
+        {
+          "sourceNumber": 537,
+          "symbol": "D3",
+          "root": "هلل",
+          "past": "أَهَلَّ",
+          "meaning": "he has been invoked"
+        },
+        {
+          "sourceNumber": 538,
+          "symbol": "D3",
+          "root": "همم",
+          "past": "أَهَمَّ",
+          "meaning": "it put them in worry (fg)"
+        },
+        {
+          "sourceNumber": 539,
+          "symbol": "D3",
+          "root": "هون",
+          "past": "أَهَانَ",
+          "meaning": "humiliating"
+        },
+        {
+          "sourceNumber": 540,
+          "symbol": "D3",
+          "root": "وبق",
+          "past": "أَوْبَقَ",
+          "meaning": "He could destroy them"
+        }
+      ]
+    },
+    {
+      "group": "S",
+      "groupNumber": 19,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        541,
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 541,
+          "symbol": "D3",
+          "root": "وثق",
+          "past": "أَوْثَقَ",
+          "meaning": "will bind"
+        },
+        {
+          "sourceNumber": 542,
+          "symbol": "D3",
+          "root": "وجس",
+          "past": "أَوْجَسَ",
+          "meaning": "and he conceived, felt"
+        },
+        {
+          "sourceNumber": 543,
+          "symbol": "D3",
+          "root": "وجف",
+          "past": "أَوْجَفَ",
+          "meaning": "you all made expedition"
+        },
+        {
+          "sourceNumber": 544,
+          "symbol": "D3",
+          "root": "وحي",
+          "past": "أَوْحَى",
+          "meaning": "we reveal it"
+        },
+        {
+          "sourceNumber": 545,
+          "symbol": "D3",
+          "root": "ورث",
+          "past": "أَوْرَثَ",
+          "meaning": "you all have been made to inherit it"
+        },
+        {
+          "sourceNumber": 546,
+          "symbol": "D3",
+          "root": "ورد",
+          "past": "أَوْرَدَ",
+          "meaning": "and will cause them to descend into"
+        },
+        {
+          "sourceNumber": 547,
+          "symbol": "D3",
+          "root": "وري",
+          "past": "أَوْرٰى",
+          "meaning": "you all ignite"
+        },
+        {
+          "sourceNumber": 548,
+          "symbol": "D3",
+          "root": "وزع",
+          "past": "أَوْزَعَ",
+          "meaning": "Grant me the power!"
+        },
+        {
+          "sourceNumber": 549,
+          "symbol": "D3",
+          "root": "وسع",
+          "past": "أَوْسَعَ",
+          "meaning": "the wealthy"
+        },
+        {
+          "sourceNumber": 550,
+          "symbol": "D3",
+          "root": "وصي",
+          "past": "أَوْصٰى",
+          "meaning": "the testator"
+        },
+        {
+          "sourceNumber": 551,
+          "symbol": "D3",
+          "root": "وضع",
+          "past": "أَوْضَعَ",
+          "meaning": "and they would have been active"
+        },
+        {
+          "sourceNumber": 552,
+          "symbol": "D3",
+          "root": "وعد",
+          "past": "أَوْعَدَ",
+          "meaning": "you all are threatening"
+        },
+        {
+          "sourceNumber": 553,
+          "symbol": "D3",
+          "root": "وعي",
+          "past": "أَوْعٰى",
+          "meaning": "and hoarded"
+        },
+        {
+          "sourceNumber": 554,
+          "symbol": "D3",
+          "root": "وفض",
+          "past": "أَوْفَضَ",
+          "meaning": "they hasten"
+        },
+        {
+          "sourceNumber": 555,
+          "symbol": "D3",
+          "root": "وفي",
+          "past": "أَوْفَى",
+          "meaning": "And (you all) fulfill!"
+        },
+        {
+          "sourceNumber": 556,
+          "symbol": "D3",
+          "root": "وقد",
+          "past": "أَوْقَدَ",
+          "meaning": "they kindled"
+        },
+        {
+          "sourceNumber": 557,
+          "symbol": "D3",
+          "root": "وقع",
+          "past": "أَوْقَعَ",
+          "meaning": "cause to fall into"
+        },
+        {
+          "sourceNumber": 558,
+          "symbol": "D3",
+          "root": "ولج",
+          "past": "أَوْلَجَ",
+          "meaning": "You cause to enter"
+        },
+        {
+          "sourceNumber": 559,
+          "symbol": "D3",
+          "root": "وهن",
+          "past": "أَوْهَنَ",
+          "meaning": "one who makes (others) weak"
+        },
+        {
+          "sourceNumber": 560,
+          "symbol": "D3",
+          "root": "يقن",
+          "past": "أَيْقَنَ",
+          "meaning": "they are certain of, sure, affirm, believe"
+        },
+        {
+          "sourceNumber": 561,
+          "symbol": "D4",
+          "root": "أخر",
+          "past": "تَأَخَّرَ",
+          "meaning": "he delayed"
+        },
+        {
+          "sourceNumber": 562,
+          "symbol": "D4",
+          "root": "أذن",
+          "past": "تَأَذَّنَ",
+          "meaning": "he declared"
+        },
+        {
+          "sourceNumber": 563,
+          "symbol": "D4",
+          "root": "بتل",
+          "past": "تَبَتَّلَ",
+          "meaning": "And devote yourself!"
+        },
+        {
+          "sourceNumber": 564,
+          "symbol": "D4",
+          "root": "بدل",
+          "past": "تَبَدَّلَ",
+          "meaning": "he exchanges"
+        },
+        {
+          "sourceNumber": 565,
+          "symbol": "D4",
+          "root": "برء",
+          "past": "تَبَرَّأَ",
+          "meaning": "he refused to maintain any connection with"
+        },
+        {
+          "sourceNumber": 566,
+          "symbol": "D4",
+          "root": "برج",
+          "past": "تَبَرَّجَ",
+          "meaning": "displaying (fg)"
+        },
+        {
+          "sourceNumber": 567,
+          "symbol": "D4",
+          "root": "بسم",
+          "past": "تَبَسَّمَ",
+          "meaning": "so he smiled"
+        },
+        {
+          "sourceNumber": 568,
+          "symbol": "D4",
+          "root": "بوء",
+          "past": "تَبَوَّأَ",
+          "meaning": "he settled"
+        },
+        {
+          "sourceNumber": 569,
+          "symbol": "D4",
+          "root": "بين",
+          "past": "تَبَيَّنَ",
+          "meaning": "it became clear"
+        },
+        {
+          "sourceNumber": 570,
+          "symbol": "D4",
+          "root": "جرع",
+          "past": "تَجَرَّعَ",
+          "meaning": "he will sip it"
+        }
+      ]
+    },
+    {
+      "group": "T",
+      "groupNumber": 20,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        571,
+        572,
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588,
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598,
+        599,
+        600
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 571,
+          "symbol": "D4",
+          "root": "جسس",
+          "past": "تَجَسَّسَ",
+          "meaning": "Don’t (you all) spy!"
+        },
+        {
+          "sourceNumber": 572,
+          "symbol": "D4",
+          "root": "جلو",
+          "past": "تَجَلَّى",
+          "meaning": "he revealed (his) glory"
+        },
+        {
+          "sourceNumber": 573,
+          "symbol": "D4",
+          "root": "جنب",
+          "past": "تَجَنَّبَ",
+          "meaning": "and he will avoid it"
+        },
+        {
+          "sourceNumber": 574,
+          "symbol": "D4",
+          "root": "حرف",
+          "past": "تَحَرَّفَ",
+          "meaning": "manoeuvring (for battle)"
+        },
+        {
+          "sourceNumber": 575,
+          "symbol": "D4",
+          "root": "حسس",
+          "past": "تَحَسَّسَ",
+          "meaning": "So inquire (pl)!"
+        },
+        {
+          "sourceNumber": 576,
+          "symbol": "D4",
+          "root": "حصن",
+          "past": "تَحَصَّنَ",
+          "meaning": "chastity"
+        },
+        {
+          "sourceNumber": 577,
+          "symbol": "D4",
+          "root": "حيز",
+          "past": "تَحَيَّزَ",
+          "meaning": "joining"
+        },
+        {
+          "sourceNumber": 578,
+          "symbol": "D4",
+          "root": "خبط",
+          "past": "تَخَبَّطَ",
+          "meaning": "he confounds him"
+        },
+        {
+          "sourceNumber": 579,
+          "symbol": "D4",
+          "root": "خطف",
+          "past": "تَخَطَّفَ",
+          "meaning": "might do away with you all"
+        },
+        {
+          "sourceNumber": 580,
+          "symbol": "D4",
+          "root": "خلف",
+          "past": "تَخَلَّفَ",
+          "meaning": "they remain behind"
+        },
+        {
+          "sourceNumber": 581,
+          "symbol": "D4",
+          "root": "خلو",
+          "past": "تَخَلَّى",
+          "meaning": "and became empty (fg)"
+        },
+        {
+          "sourceNumber": 582,
+          "symbol": "D4",
+          "root": "خوف",
+          "past": "تَخَوَّفَ",
+          "meaning": "apprehension; a gradual wasting"
+        },
+        {
+          "sourceNumber": 583,
+          "symbol": "D4",
+          "root": "خير",
+          "past": "تَخَيَّرَ",
+          "meaning": "they select"
+        },
+        {
+          "sourceNumber": 584,
+          "symbol": "D4",
+          "root": "دبر",
+          "past": "تَدَبَّرَ",
+          "meaning": "they ponder"
+        },
+        {
+          "sourceNumber": 585,
+          "symbol": "D4",
+          "root": "دثر",
+          "past": "اِدَّثَّرَ",
+          "meaning": "who covers himself in cloth"
+        },
+        {
+          "sourceNumber": 586,
+          "symbol": "D4",
+          "root": "دلو",
+          "past": "تَدَلَّى",
+          "meaning": "so he came close"
+        },
+        {
+          "sourceNumber": 587,
+          "symbol": "D4",
+          "root": "ذكر",
+          "past": "تَذَكَّرَ",
+          "meaning": "they take lessons"
+        },
+        {
+          "sourceNumber": 588,
+          "symbol": "D4",
+          "root": "ربص",
+          "past": "تَرَبَّصَ",
+          "meaning": "waiting"
+        },
+        {
+          "sourceNumber": 589,
+          "symbol": "D4",
+          "root": "ردد",
+          "past": "تَرَدَّدَ",
+          "meaning": "they deviate"
+        },
+        {
+          "sourceNumber": 590,
+          "symbol": "D4",
+          "root": "ردي",
+          "past": "تَرَدَّى",
+          "meaning": "and that which has a fatal fall (fg)"
+        },
+        {
+          "sourceNumber": 591,
+          "symbol": "D4",
+          "root": "رقب",
+          "past": "تَرَقَّبَ",
+          "meaning": "he is vigilant"
+        },
+        {
+          "sourceNumber": 592,
+          "symbol": "D4",
+          "root": "زكو",
+          "past": "تَزَكَّا",
+          "meaning": "he purified himself"
+        },
+        {
+          "sourceNumber": 593,
+          "symbol": "D4",
+          "root": "زمل",
+          "past": "اِزَّمَّلَ",
+          "meaning": "who wraps himself in cloth"
+        },
+        {
+          "sourceNumber": 594,
+          "symbol": "D4",
+          "root": "زود",
+          "past": "تَزَوَّدَ",
+          "meaning": "And take provision (pl)!"
+        },
+        {
+          "sourceNumber": 595,
+          "symbol": "D4",
+          "root": "زيل",
+          "past": "تَزَيَّلَ",
+          "meaning": "they had been apart"
+        },
+        {
+          "sourceNumber": 596,
+          "symbol": "D4",
+          "root": "زين",
+          "past": "تَزَيَّنَ",
+          "meaning": "and is beautified (fg)"
+        },
+        {
+          "sourceNumber": 597,
+          "symbol": "D4",
+          "root": "سلل",
+          "past": "تَسَلَّلَ",
+          "meaning": "they slip away"
+        },
+        {
+          "sourceNumber": 598,
+          "symbol": "D4",
+          "root": "سمع",
+          "past": "اِسَّمَّعَ",
+          "meaning": "they may not listen"
+        },
+        {
+          "sourceNumber": 599,
+          "symbol": "D4",
+          "root": "سن",
+          "past": "تَسَنَّهَ",
+          "meaning": "didn’t change with time"
+        },
+        {
+          "sourceNumber": 600,
+          "symbol": "D4",
+          "root": "سور",
+          "past": "تَسَوَّرَ",
+          "meaning": "they climbed over the wall"
+        }
+      ]
+    },
+    {
+      "group": "U",
+      "groupNumber": 21,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 601,
+          "symbol": "D4",
+          "root": "شقق",
+          "past": "اِشَّقَّقَ",
+          "meaning": "it splits"
+        },
+        {
+          "sourceNumber": 602,
+          "symbol": "D4",
+          "root": "صدع",
+          "past": "اِصَّدَّعَ",
+          "meaning": "they will be divided"
+        },
+        {
+          "sourceNumber": 603,
+          "symbol": "D4",
+          "root": "صدق",
+          "past": "تَصَدَّقَ",
+          "meaning": "Remit (you all) as charity"
+        },
+        {
+          "sourceNumber": 604,
+          "symbol": "D4",
+          "root": "صدي",
+          "past": "تَصَدَّى",
+          "meaning": "you give attention"
+        },
+        {
+          "sourceNumber": 605,
+          "symbol": "D4",
+          "root": "صعد",
+          "past": "اِصَّعَّدَ",
+          "meaning": "he climbs"
+        },
+        {
+          "sourceNumber": 606,
+          "symbol": "D4",
+          "root": "ضرع",
+          "past": "تَضَرَّعَ",
+          "meaning": "they humble themselves"
+        },
+        {
+          "sourceNumber": 607,
+          "symbol": "D4",
+          "root": "طهر",
+          "past": "تَطَهَّرَ",
+          "meaning": "they are purified (fg)"
+        },
+        {
+          "sourceNumber": 608,
+          "symbol": "D4",
+          "root": "طوع",
+          "past": "تَطَوَّعَ",
+          "meaning": "he did voluntarily"
+        },
+        {
+          "sourceNumber": 609,
+          "symbol": "D4",
+          "root": "طوف",
+          "past": "اِطَّوَّفَ",
+          "meaning": "he circumambulates"
+        },
+        {
+          "sourceNumber": 610,
+          "symbol": "D4",
+          "root": "طير",
+          "past": "اِطَّيَّرَ",
+          "meaning": "they ascribe evil omens"
+        },
+        {
+          "sourceNumber": 611,
+          "symbol": "D4",
+          "root": "عجل",
+          "past": "تَعَجَّلَ",
+          "meaning": "he hurried"
+        },
+        {
+          "sourceNumber": 612,
+          "symbol": "D4",
+          "root": "عدو",
+          "past": "تَعَدَّٰى",
+          "meaning": "he transgresses"
+        },
+        {
+          "sourceNumber": 613,
+          "symbol": "D4",
+          "root": "عفف",
+          "past": "تَعَفَّفَ",
+          "meaning": "restraint"
+        },
+        {
+          "sourceNumber": 614,
+          "symbol": "D4",
+          "root": "علم",
+          "past": "تَعَلَّمَ",
+          "meaning": "but they learn"
+        },
+        {
+          "sourceNumber": 615,
+          "symbol": "D4",
+          "root": "عمد",
+          "past": "تَعَمَّدَ",
+          "meaning": "intentionally"
+        },
+        {
+          "sourceNumber": 616,
+          "symbol": "D4",
+          "root": "غشي",
+          "past": "تَغَشَّى",
+          "meaning": "he covered her"
+        },
+        {
+          "sourceNumber": 617,
+          "symbol": "D4",
+          "root": "غير",
+          "past": "تَغَيَّرَ",
+          "meaning": "it didn’t change"
+        },
+        {
+          "sourceNumber": 618,
+          "symbol": "D4",
+          "root": "غيظ",
+          "past": "تَغَيَّظَ",
+          "meaning": "raging"
+        },
+        {
+          "sourceNumber": 619,
+          "symbol": "D4",
+          "root": "فجر",
+          "past": "تَفَجَّرَ",
+          "meaning": "it gushes forth"
+        },
+        {
+          "sourceNumber": 620,
+          "symbol": "D4",
+          "root": "فرق",
+          "past": "تَفَرَّقَ",
+          "meaning": "And don’t (you all) be divided!"
+        },
+        {
+          "sourceNumber": 621,
+          "symbol": "D4",
+          "root": "فسح",
+          "past": "تَفَسَّحَ",
+          "meaning": "Make room (pl)!"
+        },
+        {
+          "sourceNumber": 622,
+          "symbol": "D4",
+          "root": "فضل",
+          "past": "تَفَضَّلَ",
+          "meaning": "he asserts (his) superiority"
+        },
+        {
+          "sourceNumber": 623,
+          "symbol": "D4",
+          "root": "فطر",
+          "past": "تَفَطَّرَ",
+          "meaning": "they get torn (fg)"
+        },
+        {
+          "sourceNumber": 624,
+          "symbol": "D4",
+          "root": "فقد",
+          "past": "تَفَقَّدَ",
+          "meaning": "and he inspected"
+        },
+        {
+          "sourceNumber": 625,
+          "symbol": "D4",
+          "root": "فقه",
+          "past": "تَفَقَّهَ",
+          "meaning": "that they may obtain understanding"
+        },
+        {
+          "sourceNumber": 626,
+          "symbol": "D4",
+          "root": "فكر",
+          "past": "تَفَكَّرَ",
+          "meaning": "you all ponder"
+        },
+        {
+          "sourceNumber": 627,
+          "symbol": "D4",
+          "root": "فكه",
+          "past": "تَفَكَّهَ",
+          "meaning": "you all wonder"
+        },
+        {
+          "sourceNumber": 628,
+          "symbol": "D4",
+          "root": "فيء",
+          "past": "تَفَيَّأَ",
+          "meaning": "it inclines"
+        },
+        {
+          "sourceNumber": 629,
+          "symbol": "D4",
+          "root": "قبل",
+          "past": "تَقَبَّلَ",
+          "meaning": "Accept!"
+        },
+        {
+          "sourceNumber": 630,
+          "symbol": "D4",
+          "root": "قدم",
+          "past": "تَقَدَّمَ",
+          "meaning": "preceded"
+        }
+      ]
+    },
+    {
+      "group": "V",
+      "groupNumber": 22,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        656,
+        657,
+        658,
+        659,
+        660
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 631,
+          "symbol": "D4",
+          "root": "قطع",
+          "past": "تَقَطَّعَ",
+          "meaning": "and is cut off (fg)"
+        },
+        {
+          "sourceNumber": 632,
+          "symbol": "D4",
+          "root": "قلب",
+          "past": "تَقَلَّبَ",
+          "meaning": "movement, turn about"
+        },
+        {
+          "sourceNumber": 633,
+          "symbol": "D4",
+          "root": "قول",
+          "past": "تَقَوَّلَ",
+          "meaning": "he has made it up"
+        },
+        {
+          "sourceNumber": 634,
+          "symbol": "D4",
+          "root": "كبر",
+          "past": "تَكَبَّرَ",
+          "meaning": "you be arrogant"
+        },
+        {
+          "sourceNumber": 635,
+          "symbol": "D4",
+          "root": "كلف",
+          "past": "تَكَلَّفَ",
+          "meaning": "the ones who pretend"
+        },
+        {
+          "sourceNumber": 636,
+          "symbol": "D4",
+          "root": "كلم",
+          "past": "تَكَلَّمَ",
+          "meaning": "will not speak (fg)"
+        },
+        {
+          "sourceNumber": 637,
+          "symbol": "D4",
+          "root": "لبث",
+          "past": "تَلَبَّثَ",
+          "meaning": "they hesitated"
+        },
+        {
+          "sourceNumber": 638,
+          "symbol": "D4",
+          "root": "لطف",
+          "past": "تَلَطَّفَ",
+          "meaning": "And let him be soften!"
+        },
+        {
+          "sourceNumber": 639,
+          "symbol": "D4",
+          "root": "لظي",
+          "past": "تَلَظَّى",
+          "meaning": "blazing (fg)"
+        },
+        {
+          "sourceNumber": 640,
+          "symbol": "D4",
+          "root": "لقي",
+          "past": "تَلَقَّى",
+          "meaning": "then he received"
+        },
+        {
+          "sourceNumber": 641,
+          "symbol": "D4",
+          "root": "لهو",
+          "past": "تَلَهَّى",
+          "meaning": "you get distracted"
+        },
+        {
+          "sourceNumber": 642,
+          "symbol": "D4",
+          "root": "متع",
+          "past": "تَمَتَّعَ",
+          "meaning": "he took advantage"
+        },
+        {
+          "sourceNumber": 643,
+          "symbol": "D4",
+          "root": "مثل",
+          "past": "تَمَثَّلَ",
+          "meaning": "then he assumed the likeness"
+        },
+        {
+          "sourceNumber": 644,
+          "symbol": "D4",
+          "root": "مطو",
+          "past": "تَمَطَّى",
+          "meaning": "behaves in an arrogant or aggressive way"
+        },
+        {
+          "sourceNumber": 645,
+          "symbol": "D4",
+          "root": "مني",
+          "past": "تَمَنَّى",
+          "meaning": "and they will never wish for it"
+        },
+        {
+          "sourceNumber": 646,
+          "symbol": "D4",
+          "root": "ميز",
+          "past": "تَمَيَّزَ",
+          "meaning": "it bursts (fg)"
+        },
+        {
+          "sourceNumber": 647,
+          "symbol": "D4",
+          "root": "نزل",
+          "past": "تَنَزَّلَ",
+          "meaning": "we descend"
+        },
+        {
+          "sourceNumber": 648,
+          "symbol": "D4",
+          "root": "نفس",
+          "past": "تَنَفَّسَ",
+          "meaning": "it breathed"
+        },
+        {
+          "sourceNumber": 649,
+          "symbol": "D4",
+          "root": "هجد",
+          "past": "تَهَجَّدَ",
+          "meaning": "So arise from sleep!"
+        },
+        {
+          "sourceNumber": 650,
+          "symbol": "D4",
+          "root": "وجه",
+          "past": "تَوَجَّهَ",
+          "meaning": "he turned his face"
+        },
+        {
+          "sourceNumber": 651,
+          "symbol": "D4",
+          "root": "وسم",
+          "past": "تَوَسَّمَ",
+          "meaning": "for those who discern"
+        },
+        {
+          "sourceNumber": 652,
+          "symbol": "D4",
+          "root": "وفي",
+          "past": "تَوَفَّى",
+          "meaning": "they pass away"
+        },
+        {
+          "sourceNumber": 653,
+          "symbol": "D4",
+          "root": "وكء",
+          "past": "تَوَكّأَ",
+          "meaning": "I lean"
+        },
+        {
+          "sourceNumber": 654,
+          "symbol": "D4",
+          "root": "وكل",
+          "past": "تَوَكَّلَ",
+          "meaning": "so let him put (his) trust"
+        },
+        {
+          "sourceNumber": 655,
+          "symbol": "D4",
+          "root": "ولي",
+          "past": "تَوَلَّى",
+          "meaning": "you all turned away"
+        },
+        {
+          "sourceNumber": 656,
+          "symbol": "D4",
+          "root": "يسر",
+          "past": "تَيَسَّرَ",
+          "meaning": "it became easy"
+        },
+        {
+          "sourceNumber": 657,
+          "symbol": "D4",
+          "root": "يمم",
+          "past": "تَيَمَّمَ",
+          "meaning": "and don’t (you all) aim at! seek!"
+        },
+        {
+          "sourceNumber": 658,
+          "symbol": "D5",
+          "root": "برك",
+          "past": "تَبَارَكَ",
+          "meaning": "he get blessed"
+        },
+        {
+          "sourceNumber": 659,
+          "symbol": "D5",
+          "root": "بيع",
+          "past": "تَبَايَعَ",
+          "meaning": "you all made commercial transaction"
+        },
+        {
+          "sourceNumber": 660,
+          "symbol": "D5",
+          "root": "تبع",
+          "past": "تَتَابَعَ",
+          "meaning": "two consecutive (things)"
+        }
+      ]
+    },
+    {
+      "group": "W",
+      "groupNumber": 23,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        661,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        688,
+        689,
+        690
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 661,
+          "symbol": "D5",
+          "root": "جنف",
+          "past": "تَجَانَفَ",
+          "meaning": "the one who lives alone"
+        },
+        {
+          "sourceNumber": 662,
+          "symbol": "D5",
+          "root": "جوز",
+          "past": "تَجَاوَزَ",
+          "meaning": "and we will overlook"
+        },
+        {
+          "sourceNumber": 663,
+          "symbol": "D5",
+          "root": "حجج",
+          "past": "تَحَاجَّ",
+          "meaning": "they will dispute each other"
+        },
+        {
+          "sourceNumber": 664,
+          "symbol": "D5",
+          "root": "حضض",
+          "past": "تَحَاضَّ",
+          "meaning": "and you all are not inspiring"
+        },
+        {
+          "sourceNumber": 665,
+          "symbol": "D5",
+          "root": "حكم",
+          "past": "تَحَاكَمَ",
+          "meaning": "they go for judgment"
+        },
+        {
+          "sourceNumber": 666,
+          "symbol": "D5",
+          "root": "حور",
+          "past": "تَحَاوَرَ",
+          "meaning": "the dialogue of both of you"
+        },
+        {
+          "sourceNumber": 667,
+          "symbol": "D5",
+          "root": "خصم",
+          "past": "تَخَاصَمَ",
+          "meaning": "mutual quarreling"
+        },
+        {
+          "sourceNumber": 668,
+          "symbol": "D5",
+          "root": "خفت",
+          "past": "تَخَافَتَ",
+          "meaning": "they will murmur"
+        },
+        {
+          "sourceNumber": 669,
+          "symbol": "D5",
+          "root": "دين",
+          "past": "تَدَايَنَ",
+          "meaning": "you all contracted with one another"
+        },
+        {
+          "sourceNumber": 670,
+          "symbol": "D5",
+          "root": "رءي",
+          "past": "تَرَاءَى",
+          "meaning": "came in sight (fg)"
+        },
+        {
+          "sourceNumber": 671,
+          "symbol": "D5",
+          "root": "رجع",
+          "past": "تَرَاجَعَ",
+          "meaning": "they both return to each other"
+        },
+        {
+          "sourceNumber": 672,
+          "symbol": "D5",
+          "root": "رضو",
+          "past": "تَرَاضَى",
+          "meaning": "mutual consent"
+        },
+        {
+          "sourceNumber": 673,
+          "symbol": "D5",
+          "root": "ركب",
+          "past": "تَرَاكَبَ",
+          "meaning": "thick clustered"
+        },
+        {
+          "sourceNumber": 674,
+          "symbol": "D5",
+          "root": "زور",
+          "past": "تَزَاوَرَ",
+          "meaning": "moves away (fg)"
+        },
+        {
+          "sourceNumber": 675,
+          "symbol": "D5",
+          "root": "سءل",
+          "past": "تَسَاءَلَ",
+          "meaning": "you all ask one another"
+        },
+        {
+          "sourceNumber": 676,
+          "symbol": "D5",
+          "root": "شبه",
+          "past": "تَشَابَهَ",
+          "meaning": "(things) in resemblance"
+        },
+        {
+          "sourceNumber": 677,
+          "symbol": "D5",
+          "root": "شكس",
+          "past": "تَشَاكَسَ",
+          "meaning": "mutual quarreling persons"
+        },
+        {
+          "sourceNumber": 678,
+          "symbol": "D5",
+          "root": "شور",
+          "past": "تَشَاوَرَ",
+          "meaning": "and consultation"
+        },
+        {
+          "sourceNumber": 679,
+          "symbol": "D5",
+          "root": "طول",
+          "past": "تَطَاوَلَ",
+          "meaning": "and he prolonged"
+        },
+        {
+          "sourceNumber": 680,
+          "symbol": "D5",
+          "root": "ظهر",
+          "past": "تَظَاهَرَ",
+          "meaning": "you all support one another"
+        },
+        {
+          "sourceNumber": 681,
+          "symbol": "D5",
+          "root": "عرف",
+          "past": "تَعَارَفَ",
+          "meaning": "they will recognize each other"
+        },
+        {
+          "sourceNumber": 682,
+          "symbol": "D5",
+          "root": "عسر",
+          "past": "تَعَاسَرَ",
+          "meaning": "you all got into mutual confusion"
+        },
+        {
+          "sourceNumber": 683,
+          "symbol": "D5",
+          "root": "عطو",
+          "past": "تَعَاطٰى",
+          "meaning": "and he exceeded beyond the limits"
+        },
+        {
+          "sourceNumber": 684,
+          "symbol": "D5",
+          "root": "عون",
+          "past": "تَعَاوَنَ",
+          "meaning": "And help one another (pl)!"
+        },
+        {
+          "sourceNumber": 685,
+          "symbol": "D5",
+          "root": "غبن",
+          "past": "تَغَابَنَ",
+          "meaning": "to bear the loss"
+        },
+        {
+          "sourceNumber": 686,
+          "symbol": "D5",
+          "root": "غمز",
+          "past": "تَغَامَزَ",
+          "meaning": "they wink at one another"
+        },
+        {
+          "sourceNumber": 687,
+          "symbol": "D5",
+          "root": "فخر",
+          "past": "تَفَاخَرَ",
+          "meaning": "and boasting"
+        },
+        {
+          "sourceNumber": 688,
+          "symbol": "D5",
+          "root": "فوت",
+          "past": "تَفَاوَتَ",
+          "meaning": "difference"
+        },
+        {
+          "sourceNumber": 689,
+          "symbol": "D5",
+          "root": "قبل",
+          "past": "تَقَابَلَ",
+          "meaning": "facing each other"
+        },
+        {
+          "sourceNumber": 690,
+          "symbol": "D5",
+          "root": "قسم",
+          "past": "تَقَاسَمَ",
+          "meaning": "Swear to each other (pl)!"
+        }
+      ]
+    },
+    {
+      "group": "X",
+      "groupNumber": 24,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        691,
+        692,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709,
+        710,
+        711,
+        712,
+        713,
+        714,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 691,
+          "symbol": "D5",
+          "root": "كثر",
+          "past": "تَكَاثَرَ",
+          "meaning": "and (competing) for more"
+        },
+        {
+          "sourceNumber": 692,
+          "symbol": "D5",
+          "root": "لقي",
+          "past": "تَلَاقٰى",
+          "meaning": "the meeting"
+        },
+        {
+          "sourceNumber": 693,
+          "symbol": "D5",
+          "root": "لوم",
+          "past": "تَلَاوَمَ",
+          "meaning": "they blame each other"
+        },
+        {
+          "sourceNumber": 694,
+          "symbol": "D5",
+          "root": "مري",
+          "past": "تَمَارٰى",
+          "meaning": "you will have doubt"
+        },
+        {
+          "sourceNumber": 695,
+          "symbol": "D5",
+          "root": "مسس",
+          "past": "تَمَاسَّ",
+          "meaning": "they (both) touch each other"
+        },
+        {
+          "sourceNumber": 696,
+          "symbol": "D5",
+          "root": "نبز",
+          "past": "تَنَابَزَ",
+          "meaning": "And don’t (you all) call each other!"
+        },
+        {
+          "sourceNumber": 697,
+          "symbol": "D5",
+          "root": "نجو",
+          "past": "تَنَاجٰى",
+          "meaning": "and they whisper each other"
+        },
+        {
+          "sourceNumber": 698,
+          "symbol": "D5",
+          "root": "ندو",
+          "past": "تَنَادٰى",
+          "meaning": "the shouting, calling"
+        },
+        {
+          "sourceNumber": 699,
+          "symbol": "D5",
+          "root": "نزع",
+          "past": "تَنَازَعَ",
+          "meaning": "and you all felt into dispute"
+        },
+        {
+          "sourceNumber": 700,
+          "symbol": "D5",
+          "root": "نصر",
+          "past": "تَنَاصَرَ",
+          "meaning": "you all are not helping each other"
+        },
+        {
+          "sourceNumber": 701,
+          "symbol": "D5",
+          "root": "نفس",
+          "past": "تَنَافَسَ",
+          "meaning": "he should strive for competition!"
+        },
+        {
+          "sourceNumber": 702,
+          "symbol": "D5",
+          "root": "نهي",
+          "past": "تَنَاهٰى",
+          "meaning": "they are not forbidding each other"
+        },
+        {
+          "sourceNumber": 703,
+          "symbol": "D5",
+          "root": "نوش",
+          "past": "تَنَاوَشَ",
+          "meaning": "to receive"
+        },
+        {
+          "sourceNumber": 704,
+          "symbol": "D5",
+          "root": "وري",
+          "past": "تَوَارٰى",
+          "meaning": "he hides himself"
+        },
+        {
+          "sourceNumber": 705,
+          "symbol": "D5",
+          "root": "وصي",
+          "past": "تَوَاصٰى",
+          "meaning": "have they transmitted to each other?"
+        },
+        {
+          "sourceNumber": 706,
+          "symbol": "D5",
+          "root": "وعد",
+          "past": "تَوَاعَدَ",
+          "meaning": "you all made promise together"
+        },
+        {
+          "sourceNumber": 707,
+          "symbol": "D5",
+          "root": "درء",
+          "past": "تَدَارَأَ",
+          "meaning": "then you all disputed"
+        },
+        {
+          "sourceNumber": 708,
+          "symbol": "D6",
+          "root": "بجس",
+          "past": "اِنْبَجَسَ",
+          "meaning": "then gushed forth (fg)"
+        },
+        {
+          "sourceNumber": 709,
+          "symbol": "D6",
+          "root": "بعث",
+          "past": "اِنْبَعَثَ",
+          "meaning": "their being sent forth"
+        },
+        {
+          "sourceNumber": 710,
+          "symbol": "D6",
+          "root": "بغي",
+          "past": "اِنْبَغٰى",
+          "meaning": "is appropriate"
+        },
+        {
+          "sourceNumber": 711,
+          "symbol": "D6",
+          "root": "سلخ",
+          "past": "اِنْسَلَخَ",
+          "meaning": "but he detached apparently"
+        },
+        {
+          "sourceNumber": 712,
+          "symbol": "D6",
+          "root": "شقق",
+          "past": "اِنْشَقَّ",
+          "meaning": "and splits into pieces (fg)"
+        },
+        {
+          "sourceNumber": 713,
+          "symbol": "D6",
+          "root": "صرف",
+          "past": "اِنْصَرَفَ",
+          "meaning": "they turned away"
+        },
+        {
+          "sourceNumber": 714,
+          "symbol": "D6",
+          "root": "طلق",
+          "past": "اِنْطَلَقَ",
+          "meaning": "so they both set out"
+        },
+        {
+          "sourceNumber": 715,
+          "symbol": "D6",
+          "root": "فجر",
+          "past": "اِنْفَجَرَ",
+          "meaning": "then gushed forth (fg)"
+        },
+        {
+          "sourceNumber": 716,
+          "symbol": "D6",
+          "root": "فصم",
+          "past": "اِنْفَصَمَ",
+          "meaning": "to return"
+        },
+        {
+          "sourceNumber": 717,
+          "symbol": "D6",
+          "root": "فضض",
+          "past": "اِنْفَضَّ",
+          "meaning": "they disperse"
+        },
+        {
+          "sourceNumber": 718,
+          "symbol": "D6",
+          "root": "فطر",
+          "past": "اِنْفَطَرَ",
+          "meaning": "that which breaks apart"
+        },
+        {
+          "sourceNumber": 719,
+          "symbol": "D6",
+          "root": "فكك",
+          "past": "اِنْفَكَّ",
+          "meaning": "those who part or desist from"
+        },
+        {
+          "sourceNumber": 720,
+          "symbol": "D6",
+          "root": "فلق",
+          "past": "اِنْفَلَقَ",
+          "meaning": "so it parted"
+        }
+      ]
+    },
+    {
+      "group": "Y",
+      "groupNumber": 25,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        721,
+        722,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        729,
+        730,
+        731,
+        732,
+        733,
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741,
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 721,
+          "symbol": "D6",
+          "root": "قضض",
+          "past": "اِنْقَضَّ",
+          "meaning": "it collapses"
+        },
+        {
+          "sourceNumber": 722,
+          "symbol": "D6",
+          "root": "قعر",
+          "past": "اِنْقَعَرَ",
+          "meaning": "uprooted"
+        },
+        {
+          "sourceNumber": 723,
+          "symbol": "D6",
+          "root": "قلب",
+          "past": "اِنْقَلَبَ",
+          "meaning": "he turns back"
+        },
+        {
+          "sourceNumber": 724,
+          "symbol": "D6",
+          "root": "كدر",
+          "past": "اِنْكَدَرَ",
+          "meaning": "fall, lose luster (fg)"
+        },
+        {
+          "sourceNumber": 725,
+          "symbol": "D6",
+          "root": "خنق",
+          "past": "اِنْخَنَقَ",
+          "meaning": "and that which is strangled (to death)"
+        },
+        {
+          "sourceNumber": 726,
+          "symbol": "D6",
+          "root": "همر",
+          "past": "اِنْهَمَرَ",
+          "meaning": "falling down excessively"
+        },
+        {
+          "sourceNumber": 727,
+          "symbol": "D6",
+          "root": "هور",
+          "past": "اِنْهَارَ",
+          "meaning": "so it collapsed"
+        },
+        {
+          "sourceNumber": 728,
+          "symbol": "D7",
+          "root": "أخذ",
+          "past": "اِتَّخَذَ",
+          "meaning": "you all made"
+        },
+        {
+          "sourceNumber": 729,
+          "symbol": "D7",
+          "root": "أفك",
+          "past": "اِئْتَفَكَ",
+          "meaning": "and the towns overturned"
+        },
+        {
+          "sourceNumber": 730,
+          "symbol": "D7",
+          "root": "ألو",
+          "past": "ائْتَلٰى",
+          "meaning": "And let him swear not!"
+        },
+        {
+          "sourceNumber": 731,
+          "symbol": "D7",
+          "root": "أمر",
+          "past": "اِئْتَمَرَ",
+          "meaning": "they are doing conspiracy"
+        },
+        {
+          "sourceNumber": 732,
+          "symbol": "D7",
+          "root": "أمن",
+          "past": "اِئْتَمَنَ",
+          "meaning": "he was entrusted"
+        },
+        {
+          "sourceNumber": 733,
+          "symbol": "D7",
+          "root": "بأس",
+          "past": "اِبْتَأَسَ",
+          "meaning": "So don’t be distressed!"
+        },
+        {
+          "sourceNumber": 734,
+          "symbol": "D7",
+          "root": "بدع",
+          "past": "اِبْتَدَعَ",
+          "meaning": "they innovated"
+        },
+        {
+          "sourceNumber": 735,
+          "symbol": "D7",
+          "root": "بغي",
+          "past": "اِبْتَغَى",
+          "meaning": "And (you all) seek!"
+        },
+        {
+          "sourceNumber": 736,
+          "symbol": "D7",
+          "root": "بلو",
+          "past": "اِبْتَلَى",
+          "meaning": "He tried, tested"
+        },
+        {
+          "sourceNumber": 737,
+          "symbol": "D7",
+          "root": "بهل",
+          "past": "اِبْتَهَلَ",
+          "meaning": "let us pray humbly"
+        },
+        {
+          "sourceNumber": 738,
+          "symbol": "D7",
+          "root": "تبع",
+          "past": "اِتَّبَعَ",
+          "meaning": "and they followed"
+        },
+        {
+          "sourceNumber": 739,
+          "symbol": "D7",
+          "root": "جبي",
+          "past": "اِجْتَبٰى",
+          "meaning": "He chooses"
+        },
+        {
+          "sourceNumber": 740,
+          "symbol": "D7",
+          "root": "جثث",
+          "past": "اِجْتَثَّ",
+          "meaning": "uprooted (fg)"
+        },
+        {
+          "sourceNumber": 741,
+          "symbol": "D7",
+          "root": "جرح",
+          "past": "اِجْتَرَحَ",
+          "meaning": "they commited"
+        },
+        {
+          "sourceNumber": 742,
+          "symbol": "D7",
+          "root": "جمع",
+          "past": "اِجْتَمَعَ",
+          "meaning": "gathered (fg)"
+        },
+        {
+          "sourceNumber": 743,
+          "symbol": "D7",
+          "root": "جنب",
+          "past": "اِجْتَنَبَ",
+          "meaning": "you all avoid"
+        },
+        {
+          "sourceNumber": 744,
+          "symbol": "D7",
+          "root": "حرق",
+          "past": "اِحْتَرَقَ",
+          "meaning": "then it got burnt (fg)"
+        },
+        {
+          "sourceNumber": 745,
+          "symbol": "D7",
+          "root": "حسب",
+          "past": "اِحْتَسَبَ",
+          "meaning": "they take into account"
+        },
+        {
+          "sourceNumber": 746,
+          "symbol": "D7",
+          "root": "حضر",
+          "past": "اِحْتَضَرَ",
+          "meaning": "attended"
+        },
+        {
+          "sourceNumber": 747,
+          "symbol": "D7",
+          "root": "حظر",
+          "past": "اِحْتَظَرَ",
+          "meaning": "fence builder"
+        },
+        {
+          "sourceNumber": 748,
+          "symbol": "D7",
+          "root": "حمل",
+          "past": "اِحْتَمَلَ",
+          "meaning": "he took burden"
+        },
+        {
+          "sourceNumber": 749,
+          "symbol": "D7",
+          "root": "حنك",
+          "past": "اِحْتَنَكَ",
+          "meaning": "I will surely destroy"
+        },
+        {
+          "sourceNumber": 750,
+          "symbol": "D7",
+          "root": "خصص",
+          "past": "اِخْتَصَّ",
+          "meaning": "He chooses"
+        }
+      ]
+    },
+    {
+      "group": "Z",
+      "groupNumber": 26,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        751,
+        752,
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778,
+        779,
+        780
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 751,
+          "symbol": "D7",
+          "root": "خصم",
+          "past": "اِخْتَصَمَ",
+          "meaning": "they dispute"
+        },
+        {
+          "sourceNumber": 752,
+          "symbol": "D7",
+          "root": "خلط",
+          "past": "اِخْتَلَطَ",
+          "meaning": "he joined"
+        },
+        {
+          "sourceNumber": 753,
+          "symbol": "D7",
+          "root": "خلف",
+          "past": "اِخْتَلَفَ",
+          "meaning": "they differ"
+        },
+        {
+          "sourceNumber": 754,
+          "symbol": "D7",
+          "root": "خلق",
+          "past": "اِخْتَلَقَ",
+          "meaning": "faking"
+        },
+        {
+          "sourceNumber": 755,
+          "symbol": "D7",
+          "root": "خون",
+          "past": "اِخْتَانَ",
+          "meaning": "you all deceive"
+        },
+        {
+          "sourceNumber": 756,
+          "symbol": "D7",
+          "root": "خير",
+          "past": "اِخْتَارَ",
+          "meaning": "and he chose"
+        },
+        {
+          "sourceNumber": 757,
+          "symbol": "D7",
+          "root": "دخل",
+          "past": "اِدَّخَلَ",
+          "meaning": "a place to enter"
+        },
+        {
+          "sourceNumber": 758,
+          "symbol": "D7",
+          "root": "دعو",
+          "past": "اِدَّعٰى",
+          "meaning": "they call for"
+        },
+        {
+          "sourceNumber": 759,
+          "symbol": "D7",
+          "root": "ذخر",
+          "past": "اِدَّخَرَ",
+          "meaning": "you all store"
+        },
+        {
+          "sourceNumber": 760,
+          "symbol": "D7",
+          "root": "ذكر",
+          "past": "اِدَّكَرَ",
+          "meaning": "and he remembered"
+        },
+        {
+          "sourceNumber": 761,
+          "symbol": "D7",
+          "root": "ردد",
+          "past": "اِرْتَدَّ",
+          "meaning": "turns away"
+        },
+        {
+          "sourceNumber": 762,
+          "symbol": "D7",
+          "root": "رضو",
+          "past": "اِرْتَضٰى",
+          "meaning": "he approved"
+        },
+        {
+          "sourceNumber": 763,
+          "symbol": "D7",
+          "root": "رفق",
+          "past": "اِرْتَفَقَ",
+          "meaning": "a resting place"
+        },
+        {
+          "sourceNumber": 764,
+          "symbol": "D7",
+          "root": "رقب",
+          "past": "اِرْتَقَبَ",
+          "meaning": "and watch (pl)!"
+        },
+        {
+          "sourceNumber": 765,
+          "symbol": "D7",
+          "root": "رقي",
+          "past": "اِرْتَقٰى",
+          "meaning": "then let them ascend!"
+        },
+        {
+          "sourceNumber": 766,
+          "symbol": "D7",
+          "root": "ريب",
+          "past": "اِرْتَابَ",
+          "meaning": "you all (have) doubt"
+        },
+        {
+          "sourceNumber": 767,
+          "symbol": "D7",
+          "root": "زجر",
+          "past": "اِزْدَجَرَ",
+          "meaning": "deterrence"
+        },
+        {
+          "sourceNumber": 768,
+          "symbol": "D7",
+          "root": "زري",
+          "past": "اِزْدَرٰى",
+          "meaning": "looks down upon (fg)"
+        },
+        {
+          "sourceNumber": 769,
+          "symbol": "D7",
+          "root": "زيد",
+          "past": "اِزْدَادَ",
+          "meaning": "so that they may increase"
+        },
+        {
+          "sourceNumber": 770,
+          "symbol": "D7",
+          "root": "سبق",
+          "past": "اِسْتَبَقَ",
+          "meaning": "So (you all) compete!"
+        },
+        {
+          "sourceNumber": 771,
+          "symbol": "D7",
+          "root": "ستر",
+          "past": "اِسْتَتَرَ",
+          "meaning": "you all cover"
+        },
+        {
+          "sourceNumber": 772,
+          "symbol": "D7",
+          "root": "سرق",
+          "past": "اِسْتَرَقَ",
+          "meaning": "he listened secretly"
+        },
+        {
+          "sourceNumber": 773,
+          "symbol": "D7",
+          "root": "سطر",
+          "past": "اِسْتَطَرَ",
+          "meaning": "written down"
+        },
+        {
+          "sourceNumber": 774,
+          "symbol": "D7",
+          "root": "سمع",
+          "past": "اِسْتَمَعَ",
+          "meaning": "listens (attentively)"
+        },
+        {
+          "sourceNumber": 775,
+          "symbol": "D7",
+          "root": "سوي",
+          "past": "اِسْتَوٰى",
+          "meaning": "He turned to"
+        },
+        {
+          "sourceNumber": 776,
+          "symbol": "D7",
+          "root": "شبه",
+          "past": "اِشْتَبَهَ",
+          "meaning": "resembling"
+        },
+        {
+          "sourceNumber": 777,
+          "symbol": "D7",
+          "root": "شدد",
+          "past": "اِشْتَدَّ",
+          "meaning": "it blew furiously (fg)"
+        },
+        {
+          "sourceNumber": 778,
+          "symbol": "D7",
+          "root": "شرك",
+          "past": "اِشْتَرَكَ",
+          "meaning": "participants"
+        },
+        {
+          "sourceNumber": 779,
+          "symbol": "D7",
+          "root": "شري",
+          "past": "اِشْتَرٰى",
+          "meaning": "they bought"
+        },
+        {
+          "sourceNumber": 780,
+          "symbol": "D7",
+          "root": "شعل",
+          "past": "اِشْتَعَلَ",
+          "meaning": "it flared"
+        }
+      ]
+    },
+    {
+      "group": "AA",
+      "groupNumber": 27,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        781,
+        782,
+        783,
+        784,
+        785,
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794,
+        795,
+        796,
+        797,
+        798,
+        799,
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 781,
+          "symbol": "D7",
+          "root": "شكو",
+          "past": "اِشْتَكٰى",
+          "meaning": "and she directs her complaint"
+        },
+        {
+          "sourceNumber": 782,
+          "symbol": "D7",
+          "root": "شمل",
+          "past": "اِشْتَمَلَ",
+          "meaning": "she wrapped"
+        },
+        {
+          "sourceNumber": 783,
+          "symbol": "D7",
+          "root": "شهو",
+          "past": "اِشْتَهٰى",
+          "meaning": "they desire"
+        },
+        {
+          "sourceNumber": 784,
+          "symbol": "D7",
+          "root": "صبر",
+          "past": "اِصْطَبَرَ",
+          "meaning": "And be constant!"
+        },
+        {
+          "sourceNumber": 785,
+          "symbol": "D7",
+          "root": "صرخ",
+          "past": "اِصْطَرَخَ",
+          "meaning": "they will cry"
+        },
+        {
+          "sourceNumber": 786,
+          "symbol": "D7",
+          "root": "صفو",
+          "past": "اِصْطَفٰى",
+          "meaning": "We chose him"
+        },
+        {
+          "sourceNumber": 787,
+          "symbol": "D7",
+          "root": "صلي",
+          "past": "اِصْطَلٰى",
+          "meaning": "you all warm yourselves"
+        },
+        {
+          "sourceNumber": 788,
+          "symbol": "D7",
+          "root": "صنع",
+          "past": "اِصْطَنَعَ",
+          "meaning": "and I have chosen you"
+        },
+        {
+          "sourceNumber": 789,
+          "symbol": "D7",
+          "root": "صيد",
+          "past": "اِصْطَادَ",
+          "meaning": "Thus you hunt (pl)!"
+        },
+        {
+          "sourceNumber": 790,
+          "symbol": "D7",
+          "root": "ضرر",
+          "past": "اِضْطَرَّ",
+          "meaning": "I will force him"
+        },
+        {
+          "sourceNumber": 791,
+          "symbol": "D7",
+          "root": "طلع",
+          "past": "اِطَّلَعَ",
+          "meaning": "you get information"
+        },
+        {
+          "sourceNumber": 792,
+          "symbol": "D7",
+          "root": "عبر",
+          "past": "اِعْتَبَرَ",
+          "meaning": "So take a lesson (pl)!"
+        },
+        {
+          "sourceNumber": 793,
+          "symbol": "D7",
+          "root": "عدد",
+          "past": "اِعْتَدَّ",
+          "meaning": "you all count (concerning) it"
+        },
+        {
+          "sourceNumber": 794,
+          "symbol": "D7",
+          "root": "عدو",
+          "past": "اِعْتَدٰى",
+          "meaning": "they transgress"
+        },
+        {
+          "sourceNumber": 795,
+          "symbol": "D7",
+          "root": "عذر",
+          "past": "اِعْتَذَرَ",
+          "meaning": "Don’t (you all) make excuse!"
+        },
+        {
+          "sourceNumber": 796,
+          "symbol": "D7",
+          "root": "عرف",
+          "past": "اِعْتَرَفَ",
+          "meaning": "they have acknowledged"
+        },
+        {
+          "sourceNumber": 797,
+          "symbol": "D7",
+          "root": "عرو",
+          "past": "اِعْتَرٰى",
+          "meaning": "have seized you"
+        },
+        {
+          "sourceNumber": 798,
+          "symbol": "D7",
+          "root": "عزل",
+          "past": "اِعْتَزَلَ",
+          "meaning": "So (you all) keep away (from)!"
+        },
+        {
+          "sourceNumber": 799,
+          "symbol": "D7",
+          "root": "عصم",
+          "past": "اِعْتَصَمَ",
+          "meaning": "he holds firmly"
+        },
+        {
+          "sourceNumber": 800,
+          "symbol": "D7",
+          "root": "عمر",
+          "past": "اِعْتَمَرَ",
+          "meaning": "he performed Umrah"
+        },
+        {
+          "sourceNumber": 801,
+          "symbol": "D7",
+          "root": "غرف",
+          "past": "اِغْتَرَفَ",
+          "meaning": "took a sip (by hand)"
+        },
+        {
+          "sourceNumber": 802,
+          "symbol": "D7",
+          "root": "غسل",
+          "past": "اِغْتَسَلَ",
+          "meaning": "you all take bath"
+        },
+        {
+          "sourceNumber": 803,
+          "symbol": "D7",
+          "root": "غيب",
+          "past": "اِغْتَابَ",
+          "meaning": "And let him not backbite!"
+        },
+        {
+          "sourceNumber": 804,
+          "symbol": "D7",
+          "root": "فدي",
+          "past": "اِفْتَدٰى",
+          "meaning": "she paid ransom"
+        },
+        {
+          "sourceNumber": 805,
+          "symbol": "D7",
+          "root": "فري",
+          "past": "اِفْتَرَىٰ",
+          "meaning": "they invent"
+        },
+        {
+          "sourceNumber": 806,
+          "symbol": "D7",
+          "root": "قبس",
+          "past": "اِقْتَبَسَ",
+          "meaning": "we may acquire"
+        },
+        {
+          "sourceNumber": 807,
+          "symbol": "D7",
+          "root": "قتل",
+          "past": "اِقْتَتَلَ",
+          "meaning": "fought each other"
+        },
+        {
+          "sourceNumber": 808,
+          "symbol": "D7",
+          "root": "قحم",
+          "past": "اِقْتَحَمَ",
+          "meaning": "the one who rushes blindly into"
+        },
+        {
+          "sourceNumber": 809,
+          "symbol": "D7",
+          "root": "قدر",
+          "past": "اِقْتَدَرَ",
+          "meaning": "all able"
+        },
+        {
+          "sourceNumber": 810,
+          "symbol": "D7",
+          "root": "قدو",
+          "past": "اِقْتَدٰى",
+          "meaning": "Follow him!"
+        }
+      ]
+    },
+    {
+      "group": "AB",
+      "groupNumber": 28,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        811,
+        812,
+        813,
+        814,
+        815,
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 811,
+          "symbol": "D7",
+          "root": "قرب",
+          "past": "اِقْتَرَبَ",
+          "meaning": "came near"
+        },
+        {
+          "sourceNumber": 812,
+          "symbol": "D7",
+          "root": "قرف",
+          "past": "اِقْتَرَفَ",
+          "meaning": "and so that they may commit"
+        },
+        {
+          "sourceNumber": 813,
+          "symbol": "D7",
+          "root": "قرن",
+          "past": "اِقْتَرَنَ",
+          "meaning": "companions"
+        },
+        {
+          "sourceNumber": 814,
+          "symbol": "D7",
+          "root": "قسم",
+          "past": "اِقْتَسَمَ",
+          "meaning": "those who distribute"
+        },
+        {
+          "sourceNumber": 815,
+          "symbol": "D7",
+          "root": "قصد",
+          "past": "اِقْتَصَدَ",
+          "meaning": "moderate (fg)"
+        },
+        {
+          "sourceNumber": 816,
+          "symbol": "D7",
+          "root": "كتب",
+          "past": "اِكْتَتَبَ",
+          "meaning": "he has written it"
+        },
+        {
+          "sourceNumber": 817,
+          "symbol": "D7",
+          "root": "كسب",
+          "past": "اِكْتَسَبَ",
+          "meaning": "she earned"
+        },
+        {
+          "sourceNumber": 818,
+          "symbol": "D7",
+          "root": "كيل",
+          "past": "اِكْتَالَ",
+          "meaning": "we will get a measure"
+        },
+        {
+          "sourceNumber": 819,
+          "symbol": "D7",
+          "root": "لحد",
+          "past": "اِلْتَحَدَ",
+          "meaning": "a refuge"
+        },
+        {
+          "sourceNumber": 820,
+          "symbol": "D7",
+          "root": "لفت",
+          "past": "اِلْتَفَتَ",
+          "meaning": "And let him not look back!"
+        },
+        {
+          "sourceNumber": 821,
+          "symbol": "D7",
+          "root": "لفف",
+          "past": "اِلْتَفَّ",
+          "meaning": "and is wound (fg)"
+        },
+        {
+          "sourceNumber": 822,
+          "symbol": "D7",
+          "root": "لقط",
+          "past": "اِلْتَقَطَ",
+          "meaning": "will pick him"
+        },
+        {
+          "sourceNumber": 823,
+          "symbol": "D7",
+          "root": "لقم",
+          "past": "اِلْتَقَمَ",
+          "meaning": "then swallowed him"
+        },
+        {
+          "sourceNumber": 824,
+          "symbol": "D7",
+          "root": "لقي",
+          "past": "اِلْتَقٰى",
+          "meaning": "they both came across mutually (fg)"
+        },
+        {
+          "sourceNumber": 825,
+          "symbol": "D7",
+          "root": "لمس",
+          "past": "اِلْتَمَسَ",
+          "meaning": "And seek (pl)!"
+        },
+        {
+          "sourceNumber": 826,
+          "symbol": "D7",
+          "root": "محن",
+          "past": "اِمْتَحَنَ",
+          "meaning": "He tested"
+        },
+        {
+          "sourceNumber": 827,
+          "symbol": "D7",
+          "root": "مري",
+          "past": "اِمْتَرَىٰ",
+          "meaning": "the doubters"
+        },
+        {
+          "sourceNumber": 828,
+          "symbol": "D7",
+          "root": "ملء",
+          "past": "اِمْتَلَأَ",
+          "meaning": "you filled (fg)"
+        },
+        {
+          "sourceNumber": 829,
+          "symbol": "D7",
+          "root": "ميز",
+          "past": "اِمْتَازَ",
+          "meaning": "But (you all) stand apart!"
+        },
+        {
+          "sourceNumber": 830,
+          "symbol": "D7",
+          "root": "نبذ",
+          "past": "اِنْتَبَذَ",
+          "meaning": "she withdrew"
+        },
+        {
+          "sourceNumber": 831,
+          "symbol": "D7",
+          "root": "نثر",
+          "past": "اِنْتَثَرَ",
+          "meaning": "scatter (fg)"
+        },
+        {
+          "sourceNumber": 832,
+          "symbol": "D7",
+          "root": "نشر",
+          "past": "اِنْتَشَرَ",
+          "meaning": "you all disperse"
+        },
+        {
+          "sourceNumber": 833,
+          "symbol": "D7",
+          "root": "نصر",
+          "past": "اِنْتَصَرَ",
+          "meaning": "one who helps himself, avenger"
+        },
+        {
+          "sourceNumber": 834,
+          "symbol": "D7",
+          "root": "نظر",
+          "past": "اِنْتَظَرَ",
+          "meaning": "and wait (pl)!"
+        },
+        {
+          "sourceNumber": 835,
+          "symbol": "D7",
+          "root": "نقم",
+          "past": "اِنْتَقَمَ",
+          "meaning": "revenge"
+        },
+        {
+          "sourceNumber": 836,
+          "symbol": "D7",
+          "root": "نهي",
+          "past": "اِنْتَهٰى",
+          "meaning": "they ceased"
+        },
+        {
+          "sourceNumber": 837,
+          "symbol": "D7",
+          "root": "هدي",
+          "past": "اِهْتَدٰى",
+          "meaning": "guided-ones"
+        },
+        {
+          "sourceNumber": 838,
+          "symbol": "D7",
+          "root": "هزز",
+          "past": "اِهْتَزَّ",
+          "meaning": "it became fresh (fg)"
+        },
+        {
+          "sourceNumber": 839,
+          "symbol": "D7",
+          "root": "وسق",
+          "past": "اِتَّسَقَ",
+          "meaning": "it became full"
+        },
+        {
+          "sourceNumber": 840,
+          "symbol": "D7",
+          "root": "وقي",
+          "past": "اِتَّقٰى",
+          "meaning": "for those who ward off evil, pious"
+        }
+      ]
+    },
+    {
+      "group": "AC",
+      "groupNumber": 29,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        841,
+        842,
+        843,
+        844,
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857,
+        858,
+        859,
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866,
+        867,
+        868,
+        869,
+        870
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 841,
+          "symbol": "D7",
+          "root": "وكء",
+          "past": "اِتَّكَأَ",
+          "meaning": "a banquet"
+        },
+        {
+          "sourceNumber": 842,
+          "symbol": "D8",
+          "root": "بيض",
+          "past": "اِبْيَضَّ",
+          "meaning": "would become white (fg)"
+        },
+        {
+          "sourceNumber": 843,
+          "symbol": "D8",
+          "root": "خضر",
+          "past": "اِخْضَرَّ",
+          "meaning": "green"
+        },
+        {
+          "sourceNumber": 844,
+          "symbol": "D8",
+          "root": "سود",
+          "past": "اِسْوَدَّ",
+          "meaning": "and would become black (fg)"
+        },
+        {
+          "sourceNumber": 845,
+          "symbol": "D9",
+          "root": "أجر",
+          "past": "اِسْتَأْجَرَ",
+          "meaning": "Hire him!"
+        },
+        {
+          "sourceNumber": 846,
+          "symbol": "D9",
+          "root": "أخر",
+          "past": "اِسْتَأْخَرَ",
+          "meaning": "they cannot be late"
+        },
+        {
+          "sourceNumber": 847,
+          "symbol": "D9",
+          "root": "أذن",
+          "past": "اِسْتَأْذَنَ",
+          "meaning": "he ask your permission"
+        },
+        {
+          "sourceNumber": 848,
+          "symbol": "D9",
+          "root": "أنس",
+          "past": "اِسْتَأْنَسَ",
+          "meaning": "you all have asked permission"
+        },
+        {
+          "sourceNumber": 849,
+          "symbol": "D9",
+          "root": "بدل",
+          "past": "اِسْتَبْدَلَ",
+          "meaning": "would you all want to exchange?"
+        },
+        {
+          "sourceNumber": 850,
+          "symbol": "D9",
+          "root": "بشر",
+          "past": "اِسْتَبْشَرَ",
+          "meaning": "and they receive good news"
+        },
+        {
+          "sourceNumber": 851,
+          "symbol": "D9",
+          "root": "بصر",
+          "past": "اِسْتَبْصَرَ",
+          "meaning": "endowed with insight"
+        },
+        {
+          "sourceNumber": 852,
+          "symbol": "D9",
+          "root": "بين",
+          "past": "اِسْتَبَانَ",
+          "meaning": "so that becomes manifest (fg)"
+        },
+        {
+          "sourceNumber": 853,
+          "symbol": "D9",
+          "root": "ثني",
+          "past": "اِسْتَثْنَى",
+          "meaning": "they made no exception"
+        },
+        {
+          "sourceNumber": 854,
+          "symbol": "D9",
+          "root": "جوب",
+          "past": "اِسْتَجَابَ",
+          "meaning": "So let them respond!"
+        },
+        {
+          "sourceNumber": 855,
+          "symbol": "D9",
+          "root": "جور",
+          "past": "اِسْتَجَارَ",
+          "meaning": "he sought protection from you"
+        },
+        {
+          "sourceNumber": 856,
+          "symbol": "D9",
+          "root": "حبب",
+          "past": "اِسْتَحَبَّ",
+          "meaning": "they prefered"
+        },
+        {
+          "sourceNumber": 857,
+          "symbol": "D9",
+          "root": "حسر",
+          "past": "اِسْتَحْسَرَ",
+          "meaning": "they tire"
+        },
+        {
+          "sourceNumber": 858,
+          "symbol": "D9",
+          "root": "حفظ",
+          "past": "اِسْتَحْفَظَ",
+          "meaning": "they were entrusted"
+        },
+        {
+          "sourceNumber": 859,
+          "symbol": "D9",
+          "root": "حقق",
+          "past": "اِسْتَحَقَّ",
+          "meaning": "they both deserved"
+        },
+        {
+          "sourceNumber": 860,
+          "symbol": "D9",
+          "root": "حوذ",
+          "past": "اِسْتَحْوَذَ",
+          "meaning": "we get control"
+        },
+        {
+          "sourceNumber": 861,
+          "symbol": "D9",
+          "root": "حيي",
+          "past": "اِسْتَحْيَا",
+          "meaning": "he feels shame"
+        },
+        {
+          "sourceNumber": 862,
+          "symbol": "D9",
+          "root": "خرج",
+          "past": "اِسْتَخْرَجَ",
+          "meaning": "he brought it out"
+        },
+        {
+          "sourceNumber": 863,
+          "symbol": "D9",
+          "root": "خفف",
+          "past": "اِسْتَخَفَّ",
+          "meaning": "you all find it light"
+        },
+        {
+          "sourceNumber": 864,
+          "symbol": "D9",
+          "root": "خفي",
+          "past": "اِسْتَخْفَى",
+          "meaning": "they seek to hide"
+        },
+        {
+          "sourceNumber": 865,
+          "symbol": "D9",
+          "root": "خلص",
+          "past": "اِسْتَخْلَصَ",
+          "meaning": "I will select him"
+        },
+        {
+          "sourceNumber": 866,
+          "symbol": "D9",
+          "root": "خلف",
+          "past": "اِسْتَخْلَفَ",
+          "meaning": "and He grants succession"
+        },
+        {
+          "sourceNumber": 867,
+          "symbol": "D9",
+          "root": "درج",
+          "past": "اِسْتَدْرَجَ",
+          "meaning": "We will gradually follow them"
+        },
+        {
+          "sourceNumber": 868,
+          "symbol": "D9",
+          "root": "رضع",
+          "past": "اِسْتَرْضَعَ",
+          "meaning": "you all ask another women to suckle"
+        },
+        {
+          "sourceNumber": 869,
+          "symbol": "D9",
+          "root": "رهب",
+          "past": "اِسْتَرْهَبَ",
+          "meaning": "and they terrified them"
+        },
+        {
+          "sourceNumber": 870,
+          "symbol": "D9",
+          "root": "زلل",
+          "past": "اِسْتَزَلَّ",
+          "meaning": "made them slip"
+        }
+      ]
+    },
+    {
+      "group": "AD",
+      "groupNumber": 30,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        871,
+        872,
+        873,
+        874,
+        875,
+        876,
+        877,
+        878,
+        879,
+        880,
+        881,
+        882,
+        883,
+        884,
+        885,
+        886,
+        887,
+        888,
+        889,
+        890,
+        891,
+        892,
+        893,
+        894,
+        895,
+        896,
+        897,
+        898,
+        899,
+        900
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 871,
+          "symbol": "D9",
+          "root": "سخر",
+          "past": "اِسْتَسْخَرَ",
+          "meaning": "they mock"
+        },
+        {
+          "sourceNumber": 872,
+          "symbol": "D9",
+          "root": "سقي",
+          "past": "اِسْتَسْقَى",
+          "meaning": "he asked for water"
+        },
+        {
+          "sourceNumber": 873,
+          "symbol": "D9",
+          "root": "سلم",
+          "past": "اِسْتَسْلَمَ",
+          "meaning": "those who surrender"
+        },
+        {
+          "sourceNumber": 874,
+          "symbol": "D9",
+          "root": "شهد",
+          "past": "اِسْتَشْهَدَ",
+          "meaning": "And call for evidence (pl)!"
+        },
+        {
+          "sourceNumber": 875,
+          "symbol": "D9",
+          "root": "صرخ",
+          "past": "اِسْتَصْرَخَ",
+          "meaning": "he cried out to him"
+        },
+        {
+          "sourceNumber": 876,
+          "symbol": "D9",
+          "root": "ضعف",
+          "past": "اِسْتَضْعَفَ",
+          "meaning": "and those who are weak"
+        },
+        {
+          "sourceNumber": 877,
+          "symbol": "D9",
+          "root": "طعم",
+          "past": "اِسْتَطْعَمَ",
+          "meaning": "they both asked for food"
+        },
+        {
+          "sourceNumber": 878,
+          "symbol": "D9",
+          "root": "طوع",
+          "past": "اِسْتَطَاعَ",
+          "meaning": "they are able"
+        },
+        {
+          "sourceNumber": 879,
+          "symbol": "D9",
+          "root": "طير",
+          "past": "اِسْتَطَارَ",
+          "meaning": "widespread"
+        },
+        {
+          "sourceNumber": 880,
+          "symbol": "D9",
+          "root": "عتب",
+          "past": "اِسْتَعْتَبَ",
+          "meaning": "they will be asked to make amends"
+        },
+        {
+          "sourceNumber": 881,
+          "symbol": "D9",
+          "root": "عجل",
+          "past": "اِسْتَعْجَلَ",
+          "meaning": "you all seek to hasten"
+        },
+        {
+          "sourceNumber": 882,
+          "symbol": "D9",
+          "root": "عصم",
+          "past": "اِسْتَعْصَمَ",
+          "meaning": "but he abstained"
+        },
+        {
+          "sourceNumber": 883,
+          "symbol": "D9",
+          "root": "عفف",
+          "past": "اِسْتَعَفَّ",
+          "meaning": "Then he should refrain!"
+        },
+        {
+          "sourceNumber": 884,
+          "symbol": "D9",
+          "root": "علو",
+          "past": "اِسْتَعْلٰى",
+          "meaning": "he overcame"
+        },
+        {
+          "sourceNumber": 885,
+          "symbol": "D9",
+          "root": "عمر",
+          "past": "اِسْتَعْمَرَ",
+          "meaning": "and he settled you all"
+        },
+        {
+          "sourceNumber": 886,
+          "symbol": "D9",
+          "root": "عوذ",
+          "past": "اِسْتَعَاذَ",
+          "meaning": "then Seek refuge!"
+        },
+        {
+          "sourceNumber": 887,
+          "symbol": "D9",
+          "root": "غشي",
+          "past": "اِسْتَغْشٰى",
+          "meaning": "they cover (themselves)"
+        },
+        {
+          "sourceNumber": 888,
+          "symbol": "D9",
+          "root": "غفر",
+          "past": "اِسْتَغْفَرَ",
+          "meaning": "And (you all) ask forgiveness!"
+        },
+        {
+          "sourceNumber": 889,
+          "symbol": "D9",
+          "root": "غلظ",
+          "past": "اِسْتَغْلَظَ",
+          "meaning": "then it became thick"
+        },
+        {
+          "sourceNumber": 890,
+          "symbol": "D9",
+          "root": "غني",
+          "past": "اِسْتَغْنٰى",
+          "meaning": "and He considered himself free of need"
+        },
+        {
+          "sourceNumber": 891,
+          "symbol": "D9",
+          "root": "غوث",
+          "past": "اِسْتَغَاثَ",
+          "meaning": "you all are seeking help"
+        },
+        {
+          "sourceNumber": 892,
+          "symbol": "D9",
+          "root": "فتح",
+          "past": "اِسْتَفْتَحَ",
+          "meaning": "they pray for victory"
+        },
+        {
+          "sourceNumber": 893,
+          "symbol": "D9",
+          "root": "فتو",
+          "past": "اِسْتَفْتٰى",
+          "meaning": "and they seek your order"
+        },
+        {
+          "sourceNumber": 894,
+          "symbol": "D9",
+          "root": "فزز",
+          "past": "اِسْتَفَزَّ",
+          "meaning": "And incite!"
+        },
+        {
+          "sourceNumber": 895,
+          "symbol": "D9",
+          "root": "قبل",
+          "past": "اِسْتَقْبَلَ",
+          "meaning": "approaching"
+        },
+        {
+          "sourceNumber": 896,
+          "symbol": "D9",
+          "root": "قدم",
+          "past": "اِسْتَقْدَمَ",
+          "meaning": "and they cannot get ahead"
+        },
+        {
+          "sourceNumber": 897,
+          "symbol": "D9",
+          "root": "قرر",
+          "past": "اِسْتَقَرَّ",
+          "meaning": "a dwelling place"
+        },
+        {
+          "sourceNumber": 898,
+          "symbol": "D9",
+          "root": "قسم",
+          "past": "اِسْتَقْسَمَ",
+          "meaning": "you all are seeking to divide"
+        },
+        {
+          "sourceNumber": 899,
+          "symbol": "D9",
+          "root": "كبر",
+          "past": "اِسْتَكْبَرَ",
+          "meaning": "and was arrogant"
+        },
+        {
+          "sourceNumber": 900,
+          "symbol": "D9",
+          "root": "كثر",
+          "past": "اِسْتَكْثَرَ",
+          "meaning": "you all have done too much"
+        }
+      ]
+    },
+    {
+      "group": "AE",
+      "groupNumber": 31,
+      "count": 30,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        901,
+        902,
+        903,
+        904,
+        905,
+        906,
+        907,
+        908,
+        909,
+        910,
+        911,
+        912,
+        913,
+        914,
+        915,
+        916,
+        917,
+        918,
+        919,
+        920,
+        921,
+        922,
+        923,
+        924,
+        925,
+        926,
+        927,
+        928,
+        929,
+        930
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 901,
+          "symbol": "D9",
+          "root": "كون",
+          "past": "اسْتَكَانَ",
+          "meaning": "they supressed"
+        },
+        {
+          "sourceNumber": 902,
+          "symbol": "D9",
+          "root": "متع",
+          "past": "اِسْتَمْتَعَ",
+          "meaning": "you all benefited"
+        },
+        {
+          "sourceNumber": 903,
+          "symbol": "D9",
+          "root": "مرر",
+          "past": "اِسْتَمَرَّ",
+          "meaning": "that which is continuing"
+        },
+        {
+          "sourceNumber": 904,
+          "symbol": "D9",
+          "root": "مسك",
+          "past": "اِسْتَمْسَكَ",
+          "meaning": "he held fast"
+        },
+        {
+          "sourceNumber": 905,
+          "symbol": "D9",
+          "root": "نبأ",
+          "past": "اِسْتَنْبَأَ",
+          "meaning": "and they ask you"
+        },
+        {
+          "sourceNumber": 906,
+          "symbol": "D9",
+          "root": "نبط",
+          "past": "اِسْتَنْبَطَ",
+          "meaning": "they draw correct conclusion"
+        },
+        {
+          "sourceNumber": 907,
+          "symbol": "D9",
+          "root": "نسخ",
+          "past": "اِسْتَنْسَخَ",
+          "meaning": "we transcribe"
+        },
+        {
+          "sourceNumber": 908,
+          "symbol": "D9",
+          "root": "نصر",
+          "past": "اِسْتَنْصَرَ",
+          "meaning": "they sought help from you all"
+        },
+        {
+          "sourceNumber": 909,
+          "symbol": "D9",
+          "root": "نفر",
+          "past": "اِسْتَنْفَرَ",
+          "meaning": "escaped (fg)"
+        },
+        {
+          "sourceNumber": 910,
+          "symbol": "D9",
+          "root": "نقذ",
+          "past": "اِسْتَنْقَذَ",
+          "meaning": "they couldn’t  take it back"
+        },
+        {
+          "sourceNumber": 911,
+          "symbol": "D9",
+          "root": "نكح",
+          "past": "اِسْتَنْكَحَ",
+          "meaning": "wants to marry her"
+        },
+        {
+          "sourceNumber": 912,
+          "symbol": "D9",
+          "root": "نكف",
+          "past": "اِسْتَنْكَفَ",
+          "meaning": "he feels shame"
+        },
+        {
+          "sourceNumber": 913,
+          "symbol": "D9",
+          "root": "هوي",
+          "past": "اِسْتَهْوٰى",
+          "meaning": "he enticed, instigated him"
+        },
+        {
+          "sourceNumber": 914,
+          "symbol": "D9",
+          "root": "ودع",
+          "past": "اِسْتَوْدَعَ",
+          "meaning": "and a resting place"
+        },
+        {
+          "sourceNumber": 915,
+          "symbol": "D9",
+          "root": "وفي",
+          "past": "اِسْتَوْفٰى",
+          "meaning": "they take in full"
+        },
+        {
+          "sourceNumber": 916,
+          "symbol": "D9",
+          "root": "يءس",
+          "past": "اِسْتَيْأَسَ",
+          "meaning": "they despaired"
+        },
+        {
+          "sourceNumber": 917,
+          "symbol": "D9",
+          "root": "يسر",
+          "past": "اِسْتَيْسَرَ",
+          "meaning": "obtained with ease"
+        },
+        {
+          "sourceNumber": 918,
+          "symbol": "D10",
+          "root": "دهم",
+          "past": "اِدْهَامَّ",
+          "meaning": "dark green (two)"
+        },
+        {
+          "sourceNumber": 919,
+          "symbol": "D10",
+          "root": "شمءز",
+          "past": "اِشْمَأَزَّ",
+          "meaning": "shrink with aversion (fg)"
+        },
+        {
+          "sourceNumber": 920,
+          "symbol": "D10",
+          "root": "طمأن",
+          "past": "اِطْمَأَنَّ",
+          "meaning": "so that (it) gets satisfied"
+        },
+        {
+          "sourceNumber": 921,
+          "symbol": "D10",
+          "root": "قشعر",
+          "past": "اِقْشَعَرَّ",
+          "meaning": "shivering with fear (fg)"
+        },
+        {
+          "sourceNumber": 922,
+          "symbol": "D11",
+          "root": "حصحص",
+          "past": "حَصْحَصَ",
+          "meaning": "manifested"
+        },
+        {
+          "sourceNumber": 923,
+          "symbol": "D11",
+          "root": "دمدم",
+          "past": "دَمْدَمَ",
+          "meaning": "so destroyed"
+        },
+        {
+          "sourceNumber": 924,
+          "symbol": "D11",
+          "root": "بعثر",
+          "past": "بَعْثَرَ",
+          "meaning": "are overturned (fg)"
+        },
+        {
+          "sourceNumber": 925,
+          "symbol": "D11",
+          "root": "ذبذب",
+          "past": "ذَبْذَبَ",
+          "meaning": "wavering (people)"
+        },
+        {
+          "sourceNumber": 926,
+          "symbol": "D11",
+          "root": "زحزح",
+          "past": "زَحْزَحَ",
+          "meaning": "the one which removes him from"
+        },
+        {
+          "sourceNumber": 927,
+          "symbol": "D11",
+          "root": "زلزل",
+          "past": "زَلْزَلَ",
+          "meaning": "and they were shaken"
+        },
+        {
+          "sourceNumber": 928,
+          "symbol": "D11",
+          "root": "عسعس",
+          "past": "عَسْعَسَ",
+          "meaning": "it departed"
+        },
+        {
+          "sourceNumber": 929,
+          "symbol": "D11",
+          "root": "قنطر",
+          "past": "قَنْطَرَ",
+          "meaning": "stored up (fg)"
+        },
+        {
+          "sourceNumber": 930,
+          "symbol": "D11",
+          "root": "كبكب",
+          "past": "كَبْكَبَ",
+          "meaning": "then they will be overturned"
+        }
+      ]
+    },
+    {
+      "group": "AF",
+      "groupNumber": 32,
+      "count": 3,
+      "sourceOrder": "sequential DATA order; not recovered from V7/V6 mapping",
+      "sourceNumbers": [
+        931,
+        933,
+        934
+      ],
+      "verbs": [
+        {
+          "sourceNumber": 931,
+          "symbol": "D11",
+          "root": "هيمن",
+          "past": "هَيْمَنَ",
+          "meaning": "and a guardian"
+        },
+        {
+          "sourceNumber": 933,
+          "symbol": "D12",
+          "root": "ثقل",
+          "past": "اِثَّاقَلَ",
+          "meaning": "you all cling heavily"
+        },
+        {
+          "sourceNumber": 934,
+          "symbol": "D12",
+          "root": "درك",
+          "past": "اِدَّارَكَ",
+          "meaning": "they overtaken one another"
+        }
+      ]
+    }
+  ]
+}
