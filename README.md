@@ -1,4 +1,4 @@
-# Sarf — Beginners v10.6
+# Sarf — Beginners v11.0
 
 ## Release overview
 Sarf is a static, GitHub Pages-compatible study tool for the 933-entry D-series verb list from *All Verbs of the Qur’an*.
@@ -94,3 +94,11 @@ V10.7 corrects the Ism al-Fāʿil / Ism al-Mafʿūl noun-class inflection bug fo
 - The Conjugation of Verbs section displays the available 14-pronoun active/passive finite tables and five imperative addressee forms for each selected verb, plus stored nominal forms.
 - The generated finite forms are also exposed through the existing conjugation quiz fact bank.
 - This is a provisional study release. Forms generated where source facts were absent use pattern-based fallbacks and are **not lexically verified**. See `PROVISIONAL_CONJUGATION_DATABASE.md`.
+
+
+## V11.0 — offline quick conjugator and Android table fit
+- Added a separate **Conjugate a verb** panel to the textbook conjugator. Enter a verb, select its وزن (including the three Form I vowel patterns), and press **OK**.
+- Lookup uses the bundled 287-entry conjugation database; unsupported verb/وزن combinations are reported rather than guessed. The database remains provisional and is not a claim of complete lexical coverage.
+- Compact two-column pronoun/form tables on mobile so both columns remain visible without horizontal scrolling; Arabic conjugation text is slightly smaller while preserving readability.
+- Added a root-level PWA manifest, app icons, and service worker that precaches the main app, datasets, textbook course, conjugation databases, and preface images for offline use after the first successful load.
+- Updated release labels and both service-worker cache versions.

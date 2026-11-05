@@ -1,17 +1,24 @@
-# V10.7 — Conjugation quiz corrections
+# Sarf Beginners V11.0 — offline conjugator and Android layout
 
-- Selecting any verb in Conjugation of Verbs now starts its quiz and smoothly scrolls to the quiz area.
-- Quiz navigation now includes **Back to verb list**, returning to the selected category and wazan/list area.
-- Fixed noun inflection generation so Ism al-Fāʿil and Ism al-Mafʿūl keep separate source stems and type labels. For example, for كَتَبَ: Ism al-Fāʿil dual is كَاتِبَانِ and Ism al-Mafʿūl dual is مَكْتُوبَانِ.
-- Added regression tests for all six generated gender/number forms for both participle classes, and for noun-type labels across the verb catalog.
-- Updated conjugation dataset version and service-worker cache key.
+- Connected Textbook Verbs “View complete Ṣarf” to the shared provisional 287-verb conjugation database.
+- Displays 14-pronoun active past/present and passive past/present tables where available, five imperative forms, and stored lexical forms.
+- Kept reviewed textbook paradigms available; provisional records are explicitly labelled.
+- Added an explicit OK button to the textbook verb conjugator (Enter key still submits).
+- Added a bundled 933-verb data fallback so Browse, Verbs & Meanings, and More Practice populate even when JSON fetch is unavailable.
+- Restored automatic rendering of learning groups and practice questions on dataset initialization.
 
-## QA scope
+Lexical verification remains a separate future task; generated records are provisional.
 
-Node syntax and automated dataset/quiz checks are run on this candidate. The automated tests do not certify a live browser viewport or actual Android device; those remain separate acceptance tests before publishing.
+## V10.9 deployment consistency fix
+- Corrected the landing-page document title and visible header from stale V10.6 to V10.9.
+- Updated the navigation release label from V10.8 to V10.9.
+- Bumped the textbook service-worker cache name to force clients to refresh the textbook app shell and provisional conjugation database.
+- No morphology records or learning content were changed.
 
-## V10.7 — Provisional 287-verb conjugation directory
-- Added shared `conjugation_database.json` containing 287 textbook verb records and 14-pronoun finite paradigms.
-- Added per-verb conjugation tables to the Conjugation of Verbs study view.
-- Added generated finite forms to the existing mixed ṣarf quiz bank.
-- Provisional data is visibly labelled and remains subject to later lexical verification.
+
+## V11.0 — offline conjugator and Android layout
+- Added a standalone input-based quick conjugator inside the Textbook Verb Conjugator. It accepts a typed Arabic lemma, a selected وزن (Form I vocalic classes, Forms II–X, and quadriliteral Form I), and an OK action.
+- The quick conjugator reads the local 287-record paradigm database. It does not algorithmically invent paradigms for unlisted verbs; unsupported inputs return an explicit no-match message.
+- Reduced conjugation table typography slightly and fixed pronoun/form columns to fit the phone width without horizontal scrolling in the textbook and shared conjugation directory.
+- Added root PWA manifest, app icons, and root-scope offline service worker. Main data, app files, textbook files, conjugation registries, and textbook page images are precached. First visit still requires internet so the cache can be populated.
+- Bumped textbook service-worker cache and updated all visible release labels to V11.0.
